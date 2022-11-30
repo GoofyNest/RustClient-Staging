@@ -2,7 +2,7 @@ internal struct GetLeaderboardRecordCountOptionsInternal : ISettable<GetLeaderbo
 {
 
 internal struct GetLeaderboardRecordCountOptionsInternal : ISettable<GetLeaderboardRecordCountOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref GetLeaderboardRecordCountOptions other) { }

@@ -1,6 +1,6 @@
 public class DragReceiver : MonoBehaviour, IDropHandler, IEventSystemHandler // TypeDefIndex: 12779
 {
-public DragReceiver.TriggerEvent onEndDrag;
+	public DragReceiver.TriggerEvent onEndDrag;
 
 
 	public void OnDrop(PointerEventData eventData) { }

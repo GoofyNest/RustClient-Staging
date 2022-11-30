@@ -1,6 +1,6 @@
 public enum CheckFileSignature // TypeDefIndex: 5157
 {
-public int value__;
+	public int value__;
 	public const CheckFileSignature InvalidSignature = 0;
 	public const CheckFileSignature ValidSignature = 1;
 	public const CheckFileSignature FileNotFound = 2;
@@ -11,8 +11,8 @@ public int value__;
 
 internal struct CheckFileSignature_t : ICallbackData // TypeDefIndex: 5339
 {
-internal CheckFileSignature CheckFileSignature;
-public static int _datasize;
+	internal CheckFileSignature CheckFileSignature;
+	public static int _datasize;
 
 	public int DataSize { get; }
 	public CallbackType CallbackType { get; }

@@ -29,10 +29,10 @@ public static class WaterLevel // TypeDefIndex: 11805
 
 public struct WaterLevel.WaterInfo // TypeDefIndex: 11806
 {
-public bool isValid;
-public float currentDepth;
-public float overallDepth;
-public float surfaceLevel;
+	public bool isValid;
+	public float currentDepth;
+	public float overallDepth;
+	public float surfaceLevel;
 
 }
 

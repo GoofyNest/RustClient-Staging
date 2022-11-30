@@ -2,8 +2,8 @@ internal sealed class DepthOfFieldRenderer : PostProcessEffectRenderer<DepthOfFi
 {
 	private const int k_NumEyes = 2;
 	private const int k_NumCoCHistoryTextures = 2;
-private readonly RenderTexture[][] m_CoCHistoryTextures;
-private int[] m_HistoryPingPong;
+	private readonly RenderTexture[][] m_CoCHistoryTextures;
+	private int[] m_HistoryPingPong;
 	private const float k_FilmHeight = 0,024;
 
 
@@ -25,7 +25,7 @@ private int[] m_HistoryPingPong;
 
 private enum DepthOfFieldRenderer.Pass // TypeDefIndex: 13588
 {
-public int value__;
+	public int value__;
 	public const DepthOfFieldRenderer.Pass CoCCalculation = 0;
 	public const DepthOfFieldRenderer.Pass CoCTemporalFilter = 1;
 	public const DepthOfFieldRenderer.Pass DownsampleAndPrefilter = 2;

@@ -8,7 +8,7 @@ public class GenerateRailBranching : ProceduralComponent // TypeDefIndex: 12242
 	public const float RandomScale = 1;
 	public const float MeshOffset = 0;
 	public const float TerrainOffset = -0,125;
-private static Quaternion rot90;
+	private static Quaternion rot90;
 	private const int MaxDepth = 250000;
 
 
@@ -26,12 +26,12 @@ private static Quaternion rot90;
 
 private sealed class GenerateRailBranching.<>c__DisplayClass11_0 // TypeDefIndex: 12243
 {
-public PathList rail;
+	public PathList rail;
 
 
 	public void .ctor() { }
 
-internal float <Process>
+	internal float <Process>
 
 }
 

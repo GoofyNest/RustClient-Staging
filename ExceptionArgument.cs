@@ -1,6 +1,6 @@
 internal enum ExceptionArgument // TypeDefIndex: 309
 {
-public int value__;
+	public int value__;
 	public const ExceptionArgument obj = 0;
 	public const ExceptionArgument dictionary = 1;
 	public const ExceptionArgument dictionaryCreationThreshold = 2;
@@ -34,7 +34,7 @@ public int value__;
 
 internal enum ExceptionArgument // TypeDefIndex: 6903
 {
-public int value__;
+	public int value__;
 	public const ExceptionArgument length = 0;
 	public const ExceptionArgument start = 1;
 	public const ExceptionArgument minimumBufferSize = 2;
@@ -55,7 +55,7 @@ public int value__;
 
 internal enum ExceptionArgument // TypeDefIndex: 7126
 {
-public int value__;
+	public int value__;
 	public const ExceptionArgument task = 0;
 	public const ExceptionArgument source = 1;
 	public const ExceptionArgument state = 2;

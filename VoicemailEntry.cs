@@ -1,10 +1,10 @@
 public class VoicemailEntry : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6426
 {
-public bool ShouldPool;
-private bool _disposed;
-public uint audioId;
-public string userName;
-public long timestamp;
+	public bool ShouldPool;
+	private bool _disposed;
+	public uint audioId;
+	public string userName;
+	public long timestamp;
 
 
 	public static void ResetToPool(VoicemailEntry instance) { }
@@ -63,14 +63,14 @@ public long timestamp;
 
 public class VoicemailEntry : MonoBehaviour // TypeDefIndex: 12676
 {
-public GameObject PlayingRoot;
-public RustText DisplayName;
-public RustIcon PlayIcon;
-public RustSlider ProgressSlider;
-private bool playingState;
-private uint cachedId;
-private VoicemailDialog parentDialog;
-private float lastTime;
+	public GameObject PlayingRoot;
+	public RustText DisplayName;
+	public RustIcon PlayIcon;
+	public RustSlider ProgressSlider;
+	private bool playingState;
+	private uint cachedId;
+	private VoicemailDialog parentDialog;
+	private float lastTime;
 
 
 	public void Populate(VoicemailEntry entry, VoicemailDialog dialog) { }

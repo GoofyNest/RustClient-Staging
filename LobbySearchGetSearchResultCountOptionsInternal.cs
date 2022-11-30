@@ -2,7 +2,7 @@ internal struct LobbySearchGetSearchResultCountOptionsInternal : ISettable<Lobby
 {
 
 internal struct LobbySearchGetSearchResultCountOptionsInternal : ISettable<LobbySearchGetSearchResultCountOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref LobbySearchGetSearchResultCountOptions other) { }

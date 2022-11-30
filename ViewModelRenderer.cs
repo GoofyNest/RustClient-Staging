@@ -1,10 +1,10 @@
 public class ViewModelRenderer : MonoBehaviour // TypeDefIndex: 13256
 {
-public List<Texture2D> cachedTextureRefs;
-public List<ViewModelDrawEvent> opaqueEvents;
-public List<ViewModelDrawEvent> transparentEvents;
-public Matrix4x4 prevModelMatrix;
-private Renderer viewModelRenderer;
+	public List<Texture2D> cachedTextureRefs;
+	public List<ViewModelDrawEvent> opaqueEvents;
+	public List<ViewModelDrawEvent> transparentEvents;
+	public Matrix4x4 prevModelMatrix;
+	private Renderer viewModelRenderer;
 
 
 	private void OnEnable() { }
@@ -15,8 +15,8 @@ private Renderer viewModelRenderer;
 
 	public void RemoveDrawEvents() { }
 
-[ContextMenu]
-[ButtonAttribute]
+	[ContextMenu]
+	[ButtonAttribute]
 	public void CacheReferences() { }
 
 	private void CacheTextures() { }
@@ -37,18 +37,18 @@ private Renderer viewModelRenderer;
 
 private sealed class ViewModelRenderer.<>c // TypeDefIndex: 13257
 {
-public static readonly ViewModelRenderer.<>c <>9;
-public static Comparison<ViewModelDrawEvent> <>9__9_0;
-public static Comparison<ViewModelDrawEvent> <>9__9_1;
+	public static readonly ViewModelRenderer.<>c <>9;
+	public static Comparison<ViewModelDrawEvent> <>9__9_0;
+	public static Comparison<ViewModelDrawEvent> <>9__9_1;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-internal int <CacheReferences>
+	internal int <CacheReferences>
 
-internal int <CacheReferences>
+	internal int <CacheReferences>
 
 }
 

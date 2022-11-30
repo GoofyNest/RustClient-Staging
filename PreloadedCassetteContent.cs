@@ -1,8 +1,8 @@
 public class PreloadedCassetteContent : ScriptableObject // TypeDefIndex: 11192
 {
-public SoundDefinition[] ShortTapeContent;
-public SoundDefinition[] MediumTapeContent;
-public SoundDefinition[] LongTapeContent;
+	public SoundDefinition[] ShortTapeContent;
+	public SoundDefinition[] MediumTapeContent;
+	public SoundDefinition[] LongTapeContent;
 
 
 	public SoundDefinition GetSoundContent(int index, PreloadedCassetteContent.PreloadType type) { }
@@ -17,7 +17,7 @@ public SoundDefinition[] LongTapeContent;
 
 public enum PreloadedCassetteContent.PreloadType // TypeDefIndex: 11193
 {
-public int value__;
+	public int value__;
 	public const PreloadedCassetteContent.PreloadType Short = 0;
 	public const PreloadedCassetteContent.PreloadType Medium = 1;
 	public const PreloadedCassetteContent.PreloadType Long = 2;

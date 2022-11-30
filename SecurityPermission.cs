@@ -4,7 +4,7 @@ public sealed class SecurityPermission : CodeAccessPermission // TypeDefIndex: 9
 [ComVisibleAttribute]
 [Serializable]
 public sealed class SecurityPermission : CodeAccessPermission
-private SecurityPermissionFlag flags;
+	private SecurityPermissionFlag flags;
 
 
 	public void .ctor(PermissionState state) { }

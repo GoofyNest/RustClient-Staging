@@ -34,9 +34,9 @@ private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=8748
 internal class <Module>
 
 public sealed class Note : IComparable<Note>
-private static readonly ConcurrentDictionary<SevenBitNumber, Note> Cache;
-[CompilerGeneratedAttribute]
-private readonly SevenBitNumber <NoteNumber>k__BackingField;
+	private static readonly ConcurrentDictionary<SevenBitNumber, Note> Cache;
+	[CompilerGeneratedAttribute]
+	private readonly SevenBitNumber <NoteNumber>k__BackingField;
 
 	public SevenBitNumber NoteNumber { get; }
 	public NoteName NoteName { get; }
@@ -45,7 +45,7 @@ private readonly SevenBitNumber <NoteNumber>k__BackingField;
 
 	private void .ctor(SevenBitNumber noteNumber) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public SevenBitNumber get_NoteNumber() { }
 
 	public NoteName get_NoteName() { }
@@ -70,11 +70,11 @@ private readonly SevenBitNumber <NoteNumber>k__BackingField;
 
 public class Note : ILengthedObject, ITimedObject // TypeDefIndex: 7454
 {
-public static readonly SevenBitNumber DefaultVelocity;
-[CompilerGeneratedAttribute]
-private readonly TimedEvent <TimedNoteOnEvent>k__BackingField;
-[CompilerGeneratedAttribute]
-private readonly TimedEvent <TimedNoteOffEvent>k__BackingField;
+	public static readonly SevenBitNumber DefaultVelocity;
+	[CompilerGeneratedAttribute]
+	private readonly TimedEvent <TimedNoteOnEvent>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private readonly TimedEvent <TimedNoteOffEvent>k__BackingField;
 
 	public long Time { get; }
 	public long Length { get; }
@@ -109,10 +109,10 @@ private readonly TimedEvent <TimedNoteOffEvent>k__BackingField;
 
 	public int get_Octave() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	internal TimedEvent get_TimedNoteOnEvent() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	internal TimedEvent get_TimedNoteOffEvent() { }
 
 	internal Note get_UnderlyingNote() { }
@@ -126,19 +126,19 @@ private readonly TimedEvent <TimedNoteOffEvent>k__BackingField;
 public class Note : ConsoleSystem // TypeDefIndex: 13753
 {
 
-[ClientVar]
+	[ClientVar]
 	public static void craft_add(ConsoleSystem.Arg args) { }
 
-[ClientVar]
+	[ClientVar]
 	public static void craft_start(ConsoleSystem.Arg args) { }
 
-[ClientVar]
+	[ClientVar]
 	public static void craft_done(ConsoleSystem.Arg args) { }
 
-[ClientVar]
+	[ClientVar]
 	public static void craft_fasttracked(ConsoleSystem.Arg args) { }
 
-[ClientVar]
+	[ClientVar]
 	public static void inv(ConsoleSystem.Arg args) { }
 
 	public void .ctor() { }

@@ -1,14 +1,14 @@
 public class LootPanelToolCupboard : LootPanel // TypeDefIndex: 10445
 {
-public List<VirtualItemIcon> costIcons;
-public Text costPerTimeText;
-public Text protectedText;
-public GameObject baseNotProtectedObj;
-public GameObject baseProtectedObj;
-public Translate.Phrase protectedPrefix;
-public Tooltip costToolTip;
-public Translate.Phrase blocksPhrase;
-private float nextUpdateTime;
+	public List<VirtualItemIcon> costIcons;
+	public Text costPerTimeText;
+	public Text protectedText;
+	public GameObject baseNotProtectedObj;
+	public GameObject baseProtectedObj;
+	public Translate.Phrase protectedPrefix;
+	public Tooltip costToolTip;
+	public Translate.Phrase blocksPhrase;
+	private float nextUpdateTime;
 
 
 	public BuildingPrivlidge GetTC() { }
@@ -25,15 +25,15 @@ private float nextUpdateTime;
 
 private sealed class LootPanelToolCupboard.<>c // TypeDefIndex: 10446
 {
-public static readonly LootPanelToolCupboard.<>c <>9;
-public static Func<Item, int> <>9__12_0;
+	public static readonly LootPanelToolCupboard.<>c <>9;
+	public static Func<Item, int> <>9__12_0;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-internal int <UpdateCosts>
+	internal int <UpdateCosts>
 
 }
 

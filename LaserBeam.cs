@@ -1,31 +1,31 @@
 public class LaserBeam : MonoBehaviour // TypeDefIndex: 10622
 {
-public float scrollSpeed;
-public LineRenderer beamRenderer;
-public GameObject dotObject;
-public Renderer dotRenderer;
-public GameObject dotSpotlight;
-public Vector2 scrollDir;
-public float maxDistance;
-public float stillBlendFactor;
-public float movementBlendFactor;
-public float movementThreshhold;
-public bool isFirstPerson;
-public Transform emissionOverride;
-private MaterialPropertyBlock block;
-public static LaserBeam.LaserBeamWorkQueue workQueue;
-[ClientVar]
-[HelpAttribute]
-public static float framebudgetms;
-[ClientVar]
-public static bool debugCollisions;
-private TimeSince lastUpdate;
-private float cachedDotDistance;
-private float aimToBarrelBlendFrac;
-private Vector4 laserST;
+	public float scrollSpeed;
+	public LineRenderer beamRenderer;
+	public GameObject dotObject;
+	public Renderer dotRenderer;
+	public GameObject dotSpotlight;
+	public Vector2 scrollDir;
+	public float maxDistance;
+	public float stillBlendFactor;
+	public float movementBlendFactor;
+	public float movementThreshhold;
+	public bool isFirstPerson;
+	public Transform emissionOverride;
+	private MaterialPropertyBlock block;
+	public static LaserBeam.LaserBeamWorkQueue workQueue;
+	[ClientVar]
+	[HelpAttribute]
+	public static float framebudgetms;
+	[ClientVar]
+	public static bool debugCollisions;
+	private TimeSince lastUpdate;
+	private float cachedDotDistance;
+	private float aimToBarrelBlendFrac;
+	private Vector4 laserST;
 
 
-[ClientVar]
+	[ClientVar]
 	public static void PrintQueue(ConsoleSystem.Arg args) { }
 
 	public void LaserUpdate() { }

@@ -1,8 +1,8 @@
 public class MapMarker : BaseEntity // TypeDefIndex: 11336
 {
-public AppMarkerType appType;
-public GameObjectRef markerObj;
-public static readonly List<MapMarker> mapMarkers;
+	public AppMarkerType appType;
+	public GameObjectRef markerObj;
+	public static readonly List<MapMarker> mapMarkers;
 
 	public virtual MapMarker.ClusterType ShouldCluster { get; }
 	public virtual GameObjectRef GetClusterUIMarker { get; }
@@ -37,7 +37,7 @@ public static readonly List<MapMarker> mapMarkers;
 
 public enum MapMarker.ClusterType // TypeDefIndex: 11337
 {
-public int value__;
+	public int value__;
 	public const MapMarker.ClusterType None = 0;
 	public const MapMarker.ClusterType Vending = 1;
 

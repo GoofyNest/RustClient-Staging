@@ -1,22 +1,22 @@
 public class BaseMission : BaseScriptableObject // TypeDefIndex: 11953
 {
-public string shortname;
-public Translate.Phrase missionName;
-public Translate.Phrase missionDesc;
-public BaseMission.MissionObjectiveEntry[] objectives;
-public GameObjectRef acceptEffect;
-public GameObjectRef failedEffect;
-public GameObjectRef victoryEffect;
-public int repeatDelaySecondsSuccess;
-public int repeatDelaySecondsFailed;
-public float timeLimitSeconds;
-public Sprite icon;
-public Sprite providerIcon;
-public BaseMission.MissionDependancy[] acceptDependancies;
-public BaseMission.MissionDependancy[] completionDependancies;
-public BaseMission.MissionEntityEntry[] missionEntities;
-public BaseMission.PositionGenerator[] positionGenerators;
-public ItemAmount[] baseRewards;
+	public string shortname;
+	public Translate.Phrase missionName;
+	public Translate.Phrase missionDesc;
+	public BaseMission.MissionObjectiveEntry[] objectives;
+	public GameObjectRef acceptEffect;
+	public GameObjectRef failedEffect;
+	public GameObjectRef victoryEffect;
+	public int repeatDelaySecondsSuccess;
+	public int repeatDelaySecondsFailed;
+	public float timeLimitSeconds;
+	public Sprite icon;
+	public Sprite providerIcon;
+	public BaseMission.MissionDependancy[] acceptDependancies;
+	public BaseMission.MissionDependancy[] completionDependancies;
+	public BaseMission.MissionEntityEntry[] missionEntities;
+	public BaseMission.PositionGenerator[] positionGenerators;
+	public ItemAmount[] baseRewards;
 
 	public uint id { get; }
 	public bool isRepeatable { get; }
@@ -36,9 +36,9 @@ public ItemAmount[] baseRewards;
 
 public class BaseMission.MissionDependancy // TypeDefIndex: 11954
 {
-public string targetMissionShortname;
-public BaseMission.MissionStatus targetMissionDesiredStatus;
-public bool everAttempted;
+	public string targetMissionShortname;
+	public BaseMission.MissionStatus targetMissionDesiredStatus;
+	public bool everAttempted;
 
 	public uint targetMissionID { get; }
 
@@ -51,7 +51,7 @@ public bool everAttempted;
 
 public enum BaseMission.MissionStatus // TypeDefIndex: 11955
 {
-public int value__;
+	public int value__;
 	public const BaseMission.MissionStatus Default = 0;
 	public const BaseMission.MissionStatus Active = 1;
 	public const BaseMission.MissionStatus Accomplished = 2;
@@ -62,7 +62,7 @@ public int value__;
 
 public enum BaseMission.MissionEventType // TypeDefIndex: 11956
 {
-public int value__;
+	public int value__;
 	public const BaseMission.MissionEventType CUSTOM = 0;
 	public const BaseMission.MissionEventType HARVEST = 1;
 	public const BaseMission.MissionEventType CONVERSATION = 2;
@@ -74,11 +74,11 @@ public int value__;
 
 public class BaseMission.MissionObjectiveEntry // TypeDefIndex: 11957
 {
-public Translate.Phrase description;
-public int[] startAfterCompletedObjectives;
-public int[] autoCompleteOtherObjectives;
-public bool onlyProgressIfStarted;
-public MissionObjective objective;
+	public Translate.Phrase description;
+	public int[] startAfterCompletedObjectives;
+	public int[] autoCompleteOtherObjectives;
+	public bool onlyProgressIfStarted;
+	public MissionObjective objective;
 
 
 	public MissionObjective Get() { }
@@ -89,20 +89,20 @@ public MissionObjective objective;
 
 public class BaseMission.MissionInstance : Pool.IPooled // TypeDefIndex: 11958
 {
-private BaseEntity _cachedProviderEntity;
-private BaseMission _cachedMission;
-public uint providerID;
-public uint missionID;
-public BaseMission.MissionStatus status;
-public float completionScale;
-public float startTime;
-public float endTime;
-public Vector3 missionLocation;
-public float timePassed;
-public Dictionary<string, Vector3> missionPoints;
-public BaseMission.MissionInstance.ObjectiveStatus[] objectiveStatuses;
-public List<MissionEntity> createdEntities;
-public ItemAmount[] rewards;
+	private BaseEntity _cachedProviderEntity;
+	private BaseMission _cachedMission;
+	public uint providerID;
+	public uint missionID;
+	public BaseMission.MissionStatus status;
+	public float completionScale;
+	public float startTime;
+	public float endTime;
+	public Vector3 missionLocation;
+	public float timePassed;
+	public Dictionary<string, Vector3> missionPoints;
+	public BaseMission.MissionInstance.ObjectiveStatus[] objectiveStatuses;
+	public List<MissionEntity> createdEntities;
+	public ItemAmount[] rewards;
 
 
 	public BaseMission GetMission() { }
@@ -121,11 +121,11 @@ public ItemAmount[] rewards;
 
 public class BaseMission.MissionInstance.ObjectiveStatus // TypeDefIndex: 11959
 {
-public bool started;
-public bool completed;
-public bool failed;
-public int genericInt1;
-public float genericFloat1;
+	public bool started;
+	public bool completed;
+	public bool failed;
+	public int genericInt1;
+	public float genericFloat1;
 
 
 	public void .ctor() { }
@@ -134,7 +134,7 @@ public float genericFloat1;
 
 public enum BaseMission.MissionInstance.ObjectiveType // TypeDefIndex: 11960
 {
-public int value__;
+	public int value__;
 	public const BaseMission.MissionInstance.ObjectiveType MOVE = 0;
 	public const BaseMission.MissionInstance.ObjectiveType KILL = 1;
 
@@ -142,20 +142,20 @@ public int value__;
 
 public class BaseMission.PositionGenerator // TypeDefIndex: 11961
 {
-public string identifier;
-public float minDistForMovePoint;
-public float maxDistForMovePoint;
-public bool centerOnProvider;
-public bool centerOnPlayer;
-public string centerOnPositionIdentifier;
-public BaseMission.PositionGenerator.PositionType positionType;
-[HeaderAttribute]
-[InspectorFlagsAttribute]
-public MissionPoint.MissionPointEnum Flags;
-[InspectorFlagsAttribute]
-public MissionPoint.MissionPointEnum ExclusionFlags;
-[HeaderAttribute]
-public WorldPositionGenerator worldPositionGenerator;
+	public string identifier;
+	public float minDistForMovePoint;
+	public float maxDistForMovePoint;
+	public bool centerOnProvider;
+	public bool centerOnPlayer;
+	public string centerOnPositionIdentifier;
+	public BaseMission.PositionGenerator.PositionType positionType;
+	[HeaderAttribute]
+	[InspectorFlagsAttribute]
+	public MissionPoint.MissionPointEnum Flags;
+	[InspectorFlagsAttribute]
+	public MissionPoint.MissionPointEnum ExclusionFlags;
+	[HeaderAttribute]
+	public WorldPositionGenerator worldPositionGenerator;
 
 
 	public bool IsDependant() { }
@@ -168,7 +168,7 @@ public WorldPositionGenerator worldPositionGenerator;
 
 public enum BaseMission.PositionGenerator.PositionType // TypeDefIndex: 11962
 {
-public int value__;
+	public int value__;
 	public const BaseMission.PositionGenerator.PositionType MissionPoint = 0;
 	public const BaseMission.PositionGenerator.PositionType WorldPositionGenerator = 1;
 	public const BaseMission.PositionGenerator.PositionType DungeonPoint = 2;
@@ -177,11 +177,11 @@ public int value__;
 
 public class BaseMission.MissionEntityEntry // TypeDefIndex: 11963
 {
-public GameObjectRef entityRef;
-public string spawnPositionToUse;
-public bool cleanupOnMissionFailed;
-public bool cleanupOnMissionSuccess;
-public string entityIdentifier;
+	public GameObjectRef entityRef;
+	public string spawnPositionToUse;
+	public bool cleanupOnMissionFailed;
+	public bool cleanupOnMissionSuccess;
+	public string entityIdentifier;
 
 
 	public void .ctor() { }

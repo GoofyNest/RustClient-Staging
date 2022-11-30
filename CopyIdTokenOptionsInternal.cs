@@ -1,7 +1,7 @@
 internal struct CopyIdTokenOptionsInternal : ISettable<CopyIdTokenOptions>, IDisposable // TypeDefIndex: 9558
 {
-private int m_ApiVersion;
-private IntPtr m_LocalUserId;
+	private int m_ApiVersion;
+	private IntPtr m_LocalUserId;
 
 	public ProductUserId LocalUserId { set; }
 
@@ -18,8 +18,8 @@ private IntPtr m_LocalUserId;
 
 internal struct CopyIdTokenOptionsInternal : ISettable<CopyIdTokenOptions>, IDisposable // TypeDefIndex: 9655
 {
-private int m_ApiVersion;
-private IntPtr m_AccountId;
+	private int m_ApiVersion;
+	private IntPtr m_AccountId;
 
 	public EpicAccountId AccountId { set; }
 

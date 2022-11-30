@@ -2,7 +2,7 @@ internal struct AddNotifyPeerAuthStatusChangedOptionsInternal : ISettable<AddNot
 {
 
 internal struct AddNotifyPeerAuthStatusChangedOptionsInternal : ISettable<AddNotifyPeerAuthStatusChangedOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref AddNotifyPeerAuthStatusChangedOptions other) { }

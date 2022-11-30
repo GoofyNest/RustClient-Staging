@@ -2,7 +2,7 @@ internal struct DeleteDeviceIdOptionsInternal : ISettable<DeleteDeviceIdOptions>
 {
 
 internal struct DeleteDeviceIdOptionsInternal : ISettable<DeleteDeviceIdOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref DeleteDeviceIdOptions other) { }

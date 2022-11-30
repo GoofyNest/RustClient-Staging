@@ -9,7 +9,7 @@ internal static class CollectionUtils // TypeDefIndex: 5970
 	|-CollectionUtils.IsNullOrEmpty<object>
 	*/
 
-[ExtensionAttribute]
+	[ExtensionAttribute]
 	public static void AddRange<T>(IList<T> initial, IEnumerable<T> collection) { }
 	/* GenericInstMethod :
 	|
@@ -20,7 +20,7 @@ internal static class CollectionUtils // TypeDefIndex: 5970
 	|-CollectionUtils.AddRange<MemberInfo>
 	*/
 
-[ExtensionAttribute]
+	[ExtensionAttribute]
 	public static void AddRange<T>(IList<T> initial, IEnumerable collection) { }
 	/* GenericInstMethod :
 	|
@@ -34,7 +34,7 @@ internal static class CollectionUtils // TypeDefIndex: 5970
 
 	public static ConstructorInfo ResolveEnumerableCollectionConstructor(Type collectionType, Type collectionItemType, Type constructorArgumentType) { }
 
-[ExtensionAttribute]
+	[ExtensionAttribute]
 	public static int IndexOf<T>(IEnumerable<T> collection, Func<T, bool> predicate) { }
 	/* GenericInstMethod :
 	|
@@ -42,14 +42,14 @@ internal static class CollectionUtils // TypeDefIndex: 5970
 	|-CollectionUtils.IndexOf<PropertyInfo>
 	*/
 
-[ExtensionAttribute]
+	[ExtensionAttribute]
 	public static bool Contains<T>(List<T> list, T value, IEqualityComparer comparer) { }
 	/* GenericInstMethod :
 	|
 	|-CollectionUtils.Contains<object>
 	*/
 
-[ExtensionAttribute]
+	[ExtensionAttribute]
 	public static int IndexOfReference<T>(List<T> list, T item) { }
 	/* GenericInstMethod :
 	|

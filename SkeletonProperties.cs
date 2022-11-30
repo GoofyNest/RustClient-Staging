@@ -1,9 +1,9 @@
 public class SkeletonProperties : ScriptableObject // TypeDefIndex: 11730
 {
-public GameObject boneReference;
-[BonePropertyAttribute]
-public SkeletonProperties.BoneProperty[] bones;
-private Dictionary<uint, SkeletonProperties.BoneProperty> quickLookup;
+	public GameObject boneReference;
+	[BonePropertyAttribute]
+	public SkeletonProperties.BoneProperty[] bones;
+	private Dictionary<uint, SkeletonProperties.BoneProperty> quickLookup;
 
 
 	public void OnValidate() { }
@@ -18,9 +18,9 @@ private Dictionary<uint, SkeletonProperties.BoneProperty> quickLookup;
 
 public class SkeletonProperties.BoneProperty // TypeDefIndex: 11731
 {
-public GameObject bone;
-public Translate.Phrase name;
-public HitArea area;
+	public GameObject bone;
+	public Translate.Phrase name;
+	public HitArea area;
 
 
 	public void .ctor() { }
@@ -29,12 +29,12 @@ public HitArea area;
 
 private sealed class SkeletonProperties.<>c__DisplayClass3_0 // TypeDefIndex: 11732
 {
-public Transform child;
+	public Transform child;
 
 
 	public void .ctor() { }
 
-internal bool <OnValidate>
+	internal bool <OnValidate>
 
 }
 

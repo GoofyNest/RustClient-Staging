@@ -1,7 +1,7 @@
 internal struct VerifyIdTokenOptionsInternal : ISettable<VerifyIdTokenOptions>, IDisposable // TypeDefIndex: 9646
 {
-private int m_ApiVersion;
-private IntPtr m_IdToken;
+	private int m_ApiVersion;
+	private IntPtr m_IdToken;
 
 	public Nullable<IdToken> IdToken { set; }
 
@@ -18,8 +18,8 @@ private IntPtr m_IdToken;
 
 internal struct VerifyIdTokenOptionsInternal : ISettable<VerifyIdTokenOptions>, IDisposable // TypeDefIndex: 9709
 {
-private int m_ApiVersion;
-private IntPtr m_IdToken;
+	private int m_ApiVersion;
+	private IntPtr m_IdToken;
 
 	public Nullable<IdToken> IdToken { set; }
 

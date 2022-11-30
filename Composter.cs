@@ -1,8 +1,8 @@
 public class Composter : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6386
 {
-public bool ShouldPool;
-private bool _disposed;
-public float fertilizerProductionProgress;
+	public bool ShouldPool;
+	private bool _disposed;
+	public float fertilizerProductionProgress;
 
 
 	public static void ResetToPool(Composter instance) { }

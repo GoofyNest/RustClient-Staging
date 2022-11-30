@@ -1,8 +1,8 @@
 public struct KerningPairKey // TypeDefIndex: 6708
 {
-public uint ascii_Left;
-public uint ascii_Right;
-public uint key;
+	public uint ascii_Left;
+	public uint ascii_Right;
+	public uint key;
 
 
 	public void .ctor(uint ascii_left, uint ascii_right) { }
@@ -11,21 +11,21 @@ public uint key;
 
 public class KerningPair // TypeDefIndex: 6710
 {
-[FormerlySerializedAsAttribute]
-[SerializeField]
-private uint m_FirstGlyph;
-[SerializeField]
-private GlyphValueRecord_Legacy m_FirstGlyphAdjustments;
-[FormerlySerializedAsAttribute]
-[SerializeField]
-private uint m_SecondGlyph;
-[SerializeField]
-private GlyphValueRecord_Legacy m_SecondGlyphAdjustments;
-[FormerlySerializedAsAttribute]
-public float xOffset;
-internal static KerningPair empty;
-[SerializeField]
-private bool m_IgnoreSpacingAdjustments;
+	[FormerlySerializedAsAttribute]
+	[SerializeField]
+	private uint m_FirstGlyph;
+	[SerializeField]
+	private GlyphValueRecord_Legacy m_FirstGlyphAdjustments;
+	[FormerlySerializedAsAttribute]
+	[SerializeField]
+	private uint m_SecondGlyph;
+	[SerializeField]
+	private GlyphValueRecord_Legacy m_SecondGlyphAdjustments;
+	[FormerlySerializedAsAttribute]
+	public float xOffset;
+	internal static KerningPair empty;
+	[SerializeField]
+	private bool m_IgnoreSpacingAdjustments;
 
 	public uint firstGlyph { get; set; }
 	public GlyphValueRecord_Legacy firstGlyphAdjustments { get; }
@@ -62,7 +62,7 @@ private bool m_IgnoreSpacingAdjustments;
 
 public class KerningTable // TypeDefIndex: 6711
 {
-public List<KerningPair> kerningPairs;
+	public List<KerningPair> kerningPairs;
 
 
 	public void .ctor() { }
@@ -83,54 +83,54 @@ public List<KerningPair> kerningPairs;
 
 private sealed class KerningTable.<>c__DisplayClass3_0 // TypeDefIndex: 6712
 {
-public uint first;
-public uint second;
+	public uint first;
+	public uint second;
 
 
 	public void .ctor() { }
 
-internal bool <AddKerningPair>
+	internal bool <AddKerningPair>
 
 }
 
 private sealed class KerningTable.<>c__DisplayClass4_0 // TypeDefIndex: 6713
 {
-public uint first;
-public uint second;
+	public uint first;
+	public uint second;
 
 
 	public void .ctor() { }
 
-internal bool <AddGlyphPairAdjustmentRecord>
+	internal bool <AddGlyphPairAdjustmentRecord>
 
 }
 
 private sealed class KerningTable.<>c__DisplayClass5_0 // TypeDefIndex: 6714
 {
-public int left;
-public int right;
+	public int left;
+	public int right;
 
 
 	public void .ctor() { }
 
-internal bool <RemoveKerningPair>
+	internal bool <RemoveKerningPair>
 
 }
 
 private sealed class KerningTable.<>c // TypeDefIndex: 6715
 {
-public static readonly KerningTable.<>c <>9;
-public static Func<KerningPair, uint> <>9__7_0;
-public static Func<KerningPair, uint> <>9__7_1;
+	public static readonly KerningTable.<>c <>9;
+	public static Func<KerningPair, uint> <>9__7_0;
+	public static Func<KerningPair, uint> <>9__7_1;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-internal uint <SortKerningPairs>
+	internal uint <SortKerningPairs>
 
-internal uint <SortKerningPairs>
+	internal uint <SortKerningPairs>
 
 }
 

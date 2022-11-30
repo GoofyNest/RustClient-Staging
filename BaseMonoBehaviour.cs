@@ -17,7 +17,7 @@ public abstract class BaseMonoBehaviour : FacepunchBehaviour // TypeDefIndex: 13
 
 public enum BaseMonoBehaviour.LogEntryType // TypeDefIndex: 13084
 {
-public int value__;
+	public int value__;
 	public const BaseMonoBehaviour.LogEntryType General = 0;
 	public const BaseMonoBehaviour.LogEntryType Network = 1;
 	public const BaseMonoBehaviour.LogEntryType Hierarchy = 2;

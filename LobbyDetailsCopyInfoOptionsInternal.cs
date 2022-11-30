@@ -2,7 +2,7 @@ internal struct LobbyDetailsCopyInfoOptionsInternal : ISettable<LobbyDetailsCopy
 {
 
 internal struct LobbyDetailsCopyInfoOptionsInternal : ISettable<LobbyDetailsCopyInfoOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref LobbyDetailsCopyInfoOptions other) { }

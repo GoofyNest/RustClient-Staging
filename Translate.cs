@@ -8,8 +8,8 @@ private struct <PrivateImplementationDetails>{A0874672-3A49-45D7-A8B0-51E6098CEC
 internal class <Module>
 
 public static class Translate
-private static Dictionary<string, string> translations;
-private static string language;
+	private static Dictionary<string, string> translations;
+	private static string language;
 
 
 	public static void Init() { }
@@ -32,9 +32,9 @@ private static string language;
 
 public class Translate.Phrase // TypeDefIndex: 6895
 {
-public string token;
-[TextAreaAttribute]
-public string english;
+	public string token;
+	[TextAreaAttribute]
+	public string english;
 
 	public virtual string translated { get; }
 

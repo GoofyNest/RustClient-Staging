@@ -1,8 +1,8 @@
 public class SwapArrows : MonoBehaviour, IClientComponent // TypeDefIndex: 13248
 {
-public GameObject[] arrowModels;
-private string curAmmoType;
-private bool wasHidden;
+	public GameObject[] arrowModels;
+	private string curAmmoType;
+	private bool wasHidden;
 
 
 	public void SelectArrowType(int iType) { }
@@ -23,7 +23,7 @@ private bool wasHidden;
 
 public enum SwapArrows.ArrowType // TypeDefIndex: 13249
 {
-public int value__;
+	public int value__;
 	public const SwapArrows.ArrowType One = 0;
 	public const SwapArrows.ArrowType Two = 1;
 	public const SwapArrows.ArrowType Three = 2;

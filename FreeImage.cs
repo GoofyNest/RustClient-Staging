@@ -40,7 +40,7 @@ public static class FreeImage // TypeDefIndex: 8040
 
 public enum FreeImage.Format // TypeDefIndex: 8041
 {
-public int value__;
+	public int value__;
 	public const FreeImage.Format Unknown = -1;
 	public const FreeImage.Format BMP = 0;
 	public const FreeImage.Format JPEG = 2;
@@ -60,7 +60,7 @@ public int value__;
 
 public enum FreeImage.SaveFlags // TypeDefIndex: 8042
 {
-public int value__;
+	public int value__;
 	public const FreeImage.SaveFlags DEFAULT = 0;
 	public const FreeImage.SaveFlags BMP_SAVE_RLE = 1;
 	public const FreeImage.SaveFlags EXR_FLOAT = 1;
@@ -102,7 +102,7 @@ public int value__;
 
 public enum FreeImage.LoadFlags // TypeDefIndex: 8043
 {
-public int value__;
+	public int value__;
 	public const FreeImage.LoadFlags DEFAULT = 0;
 	public const FreeImage.LoadFlags GIF_LOAD256 = 1;
 	public const FreeImage.LoadFlags GIF_PLAYBACK = 2;
@@ -124,24 +124,24 @@ public int value__;
 
 public struct FreeImage.Header // TypeDefIndex: 8044
 {
-public uint size;
-public int width;
-public int height;
-public ushort planes;
-public ushort bitCount;
-public uint compression;
-public uint sizeImage;
-public int xPelsPerMeter;
-public int yPelsPerMeter;
-public uint clrUsed;
-public uint clrImportant;
+	public uint size;
+	public int width;
+	public int height;
+	public ushort planes;
+	public ushort bitCount;
+	public uint compression;
+	public uint sizeImage;
+	public int xPelsPerMeter;
+	public int yPelsPerMeter;
+	public uint clrUsed;
+	public uint clrImportant;
 
 }
 
 public struct FreeImage.Bitmap // TypeDefIndex: 8045
 {
-public IntPtr data;
-public static FreeImage.Bitmap Null;
+	public IntPtr data;
+	public static FreeImage.Bitmap Null;
 
 	public bool IsNull { get; }
 
@@ -156,17 +156,17 @@ public static FreeImage.Bitmap Null;
 
 public struct FreeImage.RGBQuad // TypeDefIndex: 8046
 {
-public byte rgbBlue;
-public byte rgbGreen;
-public byte rgbRed;
-public byte rgbReserved;
-public uint uintValue;
+	public byte rgbBlue;
+	public byte rgbGreen;
+	public byte rgbRed;
+	public byte rgbReserved;
+	public uint uintValue;
 
 }
 
 public enum FreeImage.Filter // TypeDefIndex: 8047
 {
-public int value__;
+	public int value__;
 	public const FreeImage.Filter Box = 0;
 	public const FreeImage.Filter Bicubic = 1;
 	public const FreeImage.Filter Bilinear = 2;

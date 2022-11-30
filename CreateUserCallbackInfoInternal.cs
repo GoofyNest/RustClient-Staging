@@ -1,10 +1,10 @@
 internal struct CreateUserCallbackInfoInternal : ICallbackInfoInternal, IGettable<CreateUserCallbackInfo>, ISettable<CreateUserCallbackInfo>, IDisposable // TypeDefIndex: 9329
 {
-private Result m_ResultCode;
-private IntPtr m_ClientData;
-private IntPtr m_LocalUserId;
-private IntPtr m_KWSUserId;
-private int m_IsMinor;
+	private Result m_ResultCode;
+	private IntPtr m_ClientData;
+	private IntPtr m_LocalUserId;
+	private IntPtr m_KWSUserId;
+	private int m_IsMinor;
 
 	public Result ResultCode { get; set; }
 	public object ClientData { get; set; }
@@ -48,9 +48,9 @@ private int m_IsMinor;
 
 internal struct CreateUserCallbackInfoInternal : ICallbackInfoInternal, IGettable<CreateUserCallbackInfo>, ISettable<CreateUserCallbackInfo>, IDisposable // TypeDefIndex: 9572
 {
-private Result m_ResultCode;
-private IntPtr m_ClientData;
-private IntPtr m_LocalUserId;
+	private Result m_ResultCode;
+	private IntPtr m_ClientData;
+	private IntPtr m_LocalUserId;
 
 	public Result ResultCode { get; set; }
 	public object ClientData { get; set; }

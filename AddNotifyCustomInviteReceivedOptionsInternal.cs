@@ -2,7 +2,7 @@ internal struct AddNotifyCustomInviteReceivedOptionsInternal : ISettable<AddNoti
 {
 
 internal struct AddNotifyCustomInviteReceivedOptionsInternal : ISettable<AddNotifyCustomInviteReceivedOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref AddNotifyCustomInviteReceivedOptions other) { }

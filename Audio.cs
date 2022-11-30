@@ -2,8 +2,8 @@ public enum AudioSpeakerMode // TypeDefIndex: 4003
 {
 
 public enum AudioSpeakerMode
-public int value__;
-[ObsoleteAttribute]
+	public int value__;
+	[ObsoleteAttribute]
 	public const AudioSpeakerMode Raw = 0;
 	public const AudioSpeakerMode Mono = 1;
 	public const AudioSpeakerMode Stereo = 2;
@@ -17,7 +17,7 @@ public int value__;
 
 public enum AudioDataLoadState // TypeDefIndex: 4004
 {
-public int value__;
+	public int value__;
 	public const AudioDataLoadState Unloaded = 0;
 	public const AudioDataLoadState Loading = 1;
 	public const AudioDataLoadState Loaded = 2;
@@ -27,17 +27,17 @@ public int value__;
 
 public struct AudioConfiguration // TypeDefIndex: 4005
 {
-public AudioSpeakerMode speakerMode;
-public int dspBufferSize;
-public int sampleRate;
-public int numRealVoices;
-public int numVirtualVoices;
+	public AudioSpeakerMode speakerMode;
+	public int dspBufferSize;
+	public int sampleRate;
+	public int numRealVoices;
+	public int numVirtualVoices;
 
 }
 
 public enum AudioSourceCurveType // TypeDefIndex: 4007
 {
-public int value__;
+	public int value__;
 	public const AudioSourceCurveType CustomRolloff = 0;
 	public const AudioSourceCurveType SpatialBlend = 1;
 	public const AudioSourceCurveType ReverbZoneMix = 2;
@@ -47,7 +47,7 @@ public int value__;
 
 public enum AudioReverbPreset // TypeDefIndex: 4008
 {
-public int value__;
+	public int value__;
 	public const AudioReverbPreset Off = 0;
 	public const AudioReverbPreset Generic = 1;
 	public const AudioReverbPreset PaddedCell = 2;
@@ -81,9 +81,9 @@ public int value__;
 
 public sealed class AudioSettings // TypeDefIndex: 4009
 {
-[CompilerGeneratedAttribute]
-[DebuggerBrowsableAttribute]
-private static AudioSettings.AudioConfigurationChangeHandler OnAudioConfigurationChanged;
+	[CompilerGeneratedAttribute]
+	[DebuggerBrowsableAttribute]
+	private static AudioSettings.AudioConfigurationChangeHandler OnAudioConfigurationChanged;
 
 	public static AudioSpeakerMode speakerMode { get; }
 	public static double dspTime { get; }
@@ -92,28 +92,28 @@ private static AudioSettings.AudioConfigurationChangeHandler OnAudioConfiguratio
 
 	private static AudioSpeakerMode GetSpeakerMode() { }
 
-[NativeThrowsAttribute]
-[NativeMethodAttribute]
+	[NativeThrowsAttribute]
+	[NativeMethodAttribute]
 	private static bool SetConfiguration(AudioConfiguration config) { }
 
-[NativeMethodAttribute]
+	[NativeMethodAttribute]
 	private static int GetSampleRate() { }
 
 	public static AudioSpeakerMode get_speakerMode() { }
 
-[NativeMethodAttribute]
+	[NativeMethodAttribute]
 	public static double get_dspTime() { }
 
 	public static int get_outputSampleRate() { }
 
-[NativeMethodAttribute]
+	[NativeMethodAttribute]
 	public static void GetDSPBufferSize(out int bufferLength, out int numBuffers) { }
 
 	public static AudioConfiguration GetConfiguration() { }
 
 	public static bool Reset(AudioConfiguration config) { }
 
-[RequiredByNativeCodeAttribute]
+	[RequiredByNativeCodeAttribute]
 	internal static void InvokeOnAudioConfigurationChanged(bool deviceWasChanged) { }
 
 	private static bool SetConfiguration_Injected(ref AudioConfiguration config) { }
@@ -137,18 +137,18 @@ public sealed class AudioSettings.AudioConfigurationChangeHandler : MulticastDel
 
 public sealed class AudioClip : Object // TypeDefIndex: 4011
 {
-[CompilerGeneratedAttribute]
-[DebuggerBrowsableAttribute]
-private AudioClip.PCMReaderCallback m_PCMReaderCallback;
-[CompilerGeneratedAttribute]
-[DebuggerBrowsableAttribute]
-private AudioClip.PCMSetPositionCallback m_PCMSetPositionCallback;
+	[CompilerGeneratedAttribute]
+	[DebuggerBrowsableAttribute]
+	private AudioClip.PCMReaderCallback m_PCMReaderCallback;
+	[CompilerGeneratedAttribute]
+	[DebuggerBrowsableAttribute]
+	private AudioClip.PCMSetPositionCallback m_PCMSetPositionCallback;
 
-[NativePropertyAttribute]
+	[NativePropertyAttribute]
 	public float length { get; }
-[NativePropertyAttribute]
+	[NativePropertyAttribute]
 	public int samples { get; }
-[NativePropertyAttribute]
+	[NativePropertyAttribute]
 	public int channels { get; }
 	public int frequency { get; }
 	public AudioDataLoadState loadState { get; }
@@ -178,7 +178,7 @@ private AudioClip.PCMSetPositionCallback m_PCMSetPositionCallback;
 
 	public bool UnloadAudioData() { }
 
-[NativeMethodAttribute]
+	[NativeMethodAttribute]
 	public AudioDataLoadState get_loadState() { }
 
 	public bool GetData(float[] data, int offsetSamples) { }
@@ -191,22 +191,22 @@ private AudioClip.PCMSetPositionCallback m_PCMSetPositionCallback;
 
 	public static AudioClip Create(string name, int lengthSamples, int channels, int frequency, bool stream, AudioClip.PCMReaderCallback pcmreadercallback, AudioClip.PCMSetPositionCallback pcmsetpositioncallback) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void add_m_PCMReaderCallback(AudioClip.PCMReaderCallback value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void remove_m_PCMReaderCallback(AudioClip.PCMReaderCallback value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void add_m_PCMSetPositionCallback(AudioClip.PCMSetPositionCallback value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void remove_m_PCMSetPositionCallback(AudioClip.PCMSetPositionCallback value) { }
 
-[RequiredByNativeCodeAttribute]
+	[RequiredByNativeCodeAttribute]
 	private void InvokePCMReaderCallback_Internal(float[] data) { }
 
-[RequiredByNativeCodeAttribute]
+	[RequiredByNativeCodeAttribute]
 	private void InvokePCMSetPositionCallback_Internal(int position) { }
 
 }
@@ -249,19 +249,19 @@ public sealed class AudioListener : AudioBehaviour
 public sealed class AudioSource : AudioBehaviour
 	public float volume { get; set; }
 	public float pitch { get; set; }
-[NativePropertyAttribute]
+	[NativePropertyAttribute]
 	public float time { get; set; }
-[NativePropertyAttribute]
+	[NativePropertyAttribute]
 	public int timeSamples { get; set; }
-[NativePropertyAttribute]
+	[NativePropertyAttribute]
 	public AudioClip clip { get; set; }
 	public AudioMixerGroup outputAudioMixerGroup { get; set; }
 	public bool isPlaying { get; }
 	public bool loop { set; }
 	public bool playOnAwake { set; }
-[NativePropertyAttribute]
+	[NativePropertyAttribute]
 	public float panStereo { get; set; }
-[NativePropertyAttribute]
+	[NativePropertyAttribute]
 	public float spatialBlend { set; }
 	public float dopplerLevel { set; }
 	public float spread { get; set; }
@@ -282,12 +282,12 @@ public sealed class AudioSource : AudioBehaviour
 
 	private void Stop(bool stopOneShots) { }
 
-[NativeThrowsAttribute]
+	[NativeThrowsAttribute]
 	private static void SetCustomCurveHelper(AudioSource source, AudioSourceCurveType type, AnimationCurve curve) { }
 
 	private static void GetOutputDataHelper(AudioSource source, [Out] float[] samples, int channel) { }
 
-[NativeThrowsAttribute]
+	[NativeThrowsAttribute]
 	private static void GetSpectrumDataHelper(AudioSource source, [Out] float[] samples, int channel, FFTWindow window) { }
 
 	public float get_volume() { }
@@ -302,10 +302,10 @@ public sealed class AudioSource : AudioBehaviour
 
 	public void set_time(float value) { }
 
-[NativeMethodAttribute]
+	[NativeMethodAttribute]
 	public int get_timeSamples() { }
 
-[NativeMethodAttribute]
+	[NativeMethodAttribute]
 	public void set_timeSamples(int value) { }
 
 	public AudioClip get_clip() { }
@@ -316,14 +316,14 @@ public sealed class AudioSource : AudioBehaviour
 
 	public void set_outputAudioMixerGroup(AudioMixerGroup value) { }
 
-[ExcludeFromDocsAttribute]
+	[ExcludeFromDocsAttribute]
 	public void Play() { }
 
 	public void PlayDelayed(float delay) { }
 
 	public void PlayScheduled(double time) { }
 
-[ExcludeFromDocsAttribute]
+	[ExcludeFromDocsAttribute]
 	public void PlayOneShot(AudioClip clip) { }
 
 	public void PlayOneShot(AudioClip clip, float volumeScale) { }
@@ -334,7 +334,7 @@ public sealed class AudioSource : AudioBehaviour
 
 	public void UnPause() { }
 
-[NativeNameAttribute]
+	[NativeNameAttribute]
 	public bool get_isPlaying() { }
 
 	public static void PlayClipAtPoint(AudioClip clip, Vector3 position, float volume) { }
@@ -464,7 +464,7 @@ public struct AudioClipPlayable : IEquatable<AudioClipPlayable> // TypeDefIndex:
 [NativeHeaderAttribute]
 [RequiredByNativeCodeAttribute]
 public struct AudioClipPlayable : IEquatable<AudioClipPlayable>
-private PlayableHandle m_Handle;
+	private PlayableHandle m_Handle;
 
 
 	public PlayableHandle GetHandle() { }
@@ -480,13 +480,13 @@ public class AudioMixer : Object // TypeDefIndex: 4020
 
 	internal void TransitionToSnapshot(AudioMixerSnapshot snapshot, float timeToReach) { }
 
-[NativeMethodAttribute]
+	[NativeMethodAttribute]
 	private void TransitionToSnapshotInternal(AudioMixerSnapshot snapshot, float timeToReach) { }
 
-[NativeMethodAttribute]
+	[NativeMethodAttribute]
 	public bool SetFloat(string name, float value) { }
 
-[NativeMethodAttribute]
+	[NativeMethodAttribute]
 	public bool GetFloat(string name, out float value) { }
 
 }
@@ -500,7 +500,7 @@ public class AudioMixerGroup : Object // TypeDefIndex: 4021
 
 public struct AudioMixerPlayable : IEquatable<AudioMixerPlayable> // TypeDefIndex: 4022
 {
-private PlayableHandle m_Handle;
+	private PlayableHandle m_Handle;
 
 
 	public PlayableHandle GetHandle() { }
@@ -511,7 +511,7 @@ private PlayableHandle m_Handle;
 
 public class AudioMixerSnapshot : Object // TypeDefIndex: 4023
 {
-[NativePropertyAttribute]
+	[NativePropertyAttribute]
 	public AudioMixer audioMixer { get; }
 
 
@@ -523,24 +523,24 @@ public class AudioMixerSnapshot : Object // TypeDefIndex: 4023
 
 public struct AudioPlayableOutput // TypeDefIndex: 4024
 {
-private PlayableOutputHandle m_Handle;
+	private PlayableOutputHandle m_Handle;
 
 }
 
 public class AudioSampleProvider // TypeDefIndex: 4025
 {
-[DebuggerBrowsableAttribute]
-[CompilerGeneratedAttribute]
-private AudioSampleProvider.SampleFramesHandler sampleFramesAvailable;
-[DebuggerBrowsableAttribute]
-[CompilerGeneratedAttribute]
-private AudioSampleProvider.SampleFramesHandler sampleFramesOverflow;
+	[DebuggerBrowsableAttribute]
+	[CompilerGeneratedAttribute]
+	private AudioSampleProvider.SampleFramesHandler sampleFramesAvailable;
+	[DebuggerBrowsableAttribute]
+	[CompilerGeneratedAttribute]
+	private AudioSampleProvider.SampleFramesHandler sampleFramesOverflow;
 
 
-[RequiredByNativeCodeAttribute]
+	[RequiredByNativeCodeAttribute]
 	private void InvokeSampleFramesAvailable(int sampleFrameCount) { }
 
-[RequiredByNativeCodeAttribute]
+	[RequiredByNativeCodeAttribute]
 	private void InvokeSampleFramesOverflow(int droppedSampleFrameCount) { }
 
 }
@@ -560,12 +560,12 @@ public sealed class AudioSampleProvider.SampleFramesHandler : MulticastDelegate 
 
 public class AudioEntity : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6427
 {
-public bool ShouldPool;
-private bool _disposed;
-public int colourMode;
-public int volumeRange;
-public int speed;
-public int gradient;
+	public bool ShouldPool;
+	private bool _disposed;
+	public int colourMode;
+	public int volumeRange;
+	public int speed;
+	public int gradient;
 
 
 	public static void ResetToPool(AudioEntity instance) { }
@@ -624,16 +624,16 @@ public int gradient;
 
 public struct AudioBeforeRenderCallbackInfo : ICallbackInfo // TypeDefIndex: 8654
 {
-[CompilerGeneratedAttribute]
-private object <ClientData>k__BackingField;
-[CompilerGeneratedAttribute]
-private ProductUserId <LocalUserId>k__BackingField;
-[CompilerGeneratedAttribute]
-private Utf8String <RoomName>k__BackingField;
-[CompilerGeneratedAttribute]
-private Nullable<AudioBuffer> <Buffer>k__BackingField;
-[CompilerGeneratedAttribute]
-private ProductUserId <ParticipantId>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private object <ClientData>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private ProductUserId <LocalUserId>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Utf8String <RoomName>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Nullable<AudioBuffer> <Buffer>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private ProductUserId <ParticipantId>k__BackingField;
 
 	public object ClientData { get; set; }
 	public ProductUserId LocalUserId { get; set; }
@@ -642,34 +642,34 @@ private ProductUserId <ParticipantId>k__BackingField;
 	public ProductUserId ParticipantId { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public object get_ClientData() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ClientData(object value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public ProductUserId get_LocalUserId() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_LocalUserId(ProductUserId value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Utf8String get_RoomName() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_RoomName(Utf8String value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Nullable<AudioBuffer> get_Buffer() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Buffer(Nullable<AudioBuffer> value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public ProductUserId get_ParticipantId() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ParticipantId(ProductUserId value) { }
 
 	public Nullable<Result> GetResultCode() { }
@@ -680,11 +680,11 @@ private ProductUserId <ParticipantId>k__BackingField;
 
 internal struct AudioBeforeRenderCallbackInfoInternal : ICallbackInfoInternal, IGettable<AudioBeforeRenderCallbackInfo>, ISettable<AudioBeforeRenderCallbackInfo>, IDisposable // TypeDefIndex: 8655
 {
-private IntPtr m_ClientData;
-private IntPtr m_LocalUserId;
-private IntPtr m_RoomName;
-private IntPtr m_Buffer;
-private IntPtr m_ParticipantId;
+	private IntPtr m_ClientData;
+	private IntPtr m_LocalUserId;
+	private IntPtr m_RoomName;
+	private IntPtr m_Buffer;
+	private IntPtr m_ParticipantId;
 
 	public object ClientData { get; set; }
 	public IntPtr ClientDataAddress { get; }
@@ -728,14 +728,14 @@ private IntPtr m_ParticipantId;
 
 public struct AudioBeforeSendCallbackInfo : ICallbackInfo // TypeDefIndex: 8656
 {
-[CompilerGeneratedAttribute]
-private object <ClientData>k__BackingField;
-[CompilerGeneratedAttribute]
-private ProductUserId <LocalUserId>k__BackingField;
-[CompilerGeneratedAttribute]
-private Utf8String <RoomName>k__BackingField;
-[CompilerGeneratedAttribute]
-private Nullable<AudioBuffer> <Buffer>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private object <ClientData>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private ProductUserId <LocalUserId>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Utf8String <RoomName>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Nullable<AudioBuffer> <Buffer>k__BackingField;
 
 	public object ClientData { get; set; }
 	public ProductUserId LocalUserId { get; set; }
@@ -743,28 +743,28 @@ private Nullable<AudioBuffer> <Buffer>k__BackingField;
 	public Nullable<AudioBuffer> Buffer { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public object get_ClientData() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ClientData(object value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public ProductUserId get_LocalUserId() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_LocalUserId(ProductUserId value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Utf8String get_RoomName() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_RoomName(Utf8String value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Nullable<AudioBuffer> get_Buffer() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Buffer(Nullable<AudioBuffer> value) { }
 
 	public Nullable<Result> GetResultCode() { }
@@ -775,10 +775,10 @@ private Nullable<AudioBuffer> <Buffer>k__BackingField;
 
 internal struct AudioBeforeSendCallbackInfoInternal : ICallbackInfoInternal, IGettable<AudioBeforeSendCallbackInfo>, ISettable<AudioBeforeSendCallbackInfo>, IDisposable // TypeDefIndex: 8657
 {
-private IntPtr m_ClientData;
-private IntPtr m_LocalUserId;
-private IntPtr m_RoomName;
-private IntPtr m_Buffer;
+	private IntPtr m_ClientData;
+	private IntPtr m_LocalUserId;
+	private IntPtr m_RoomName;
+	private IntPtr m_Buffer;
 
 	public object ClientData { get; set; }
 	public IntPtr ClientDataAddress { get; }
@@ -817,34 +817,34 @@ private IntPtr m_Buffer;
 
 public struct AudioBuffer // TypeDefIndex: 8658
 {
-[CompilerGeneratedAttribute]
-private short[] <Frames>k__BackingField;
-[CompilerGeneratedAttribute]
-private uint <SampleRate>k__BackingField;
-[CompilerGeneratedAttribute]
-private uint <Channels>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private short[] <Frames>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private uint <SampleRate>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private uint <Channels>k__BackingField;
 
 	public short[] Frames { get; set; }
 	public uint SampleRate { get; set; }
 	public uint Channels { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public short[] get_Frames() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Frames(short[] value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public uint get_SampleRate() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_SampleRate(uint value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public uint get_Channels() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Channels(uint value) { }
 
 	internal void Set(ref AudioBufferInternal other) { }
@@ -853,11 +853,11 @@ private uint <Channels>k__BackingField;
 
 internal struct AudioBufferInternal : IGettable<AudioBuffer>, ISettable<AudioBuffer>, IDisposable // TypeDefIndex: 8659
 {
-private int m_ApiVersion;
-private IntPtr m_Frames;
-private uint m_FramesCount;
-private uint m_SampleRate;
-private uint m_Channels;
+	private int m_ApiVersion;
+	private IntPtr m_Frames;
+	private uint m_FramesCount;
+	private uint m_SampleRate;
+	private uint m_Channels;
 
 	public short[] Frames { get; set; }
 	public uint SampleRate { get; set; }
@@ -888,16 +888,16 @@ private uint m_Channels;
 
 public struct AudioDevicesChangedCallbackInfo : ICallbackInfo // TypeDefIndex: 8660
 {
-[CompilerGeneratedAttribute]
-private object <ClientData>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private object <ClientData>k__BackingField;
 
 	public object ClientData { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public object get_ClientData() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ClientData(object value) { }
 
 	public Nullable<Result> GetResultCode() { }
@@ -908,7 +908,7 @@ private object <ClientData>k__BackingField;
 
 internal struct AudioDevicesChangedCallbackInfoInternal : ICallbackInfoInternal, IGettable<AudioDevicesChangedCallbackInfo>, ISettable<AudioDevicesChangedCallbackInfo>, IDisposable // TypeDefIndex: 8661
 {
-private IntPtr m_ClientData;
+	private IntPtr m_ClientData;
 
 	public object ClientData { get; set; }
 	public IntPtr ClientDataAddress { get; }
@@ -932,34 +932,34 @@ private IntPtr m_ClientData;
 
 public struct AudioInputDeviceInfo // TypeDefIndex: 8662
 {
-[CompilerGeneratedAttribute]
-private bool <DefaultDevice>k__BackingField;
-[CompilerGeneratedAttribute]
-private Utf8String <DeviceId>k__BackingField;
-[CompilerGeneratedAttribute]
-private Utf8String <DeviceName>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private bool <DefaultDevice>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Utf8String <DeviceId>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Utf8String <DeviceName>k__BackingField;
 
 	public bool DefaultDevice { get; set; }
 	public Utf8String DeviceId { get; set; }
 	public Utf8String DeviceName { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_DefaultDevice() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_DefaultDevice(bool value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Utf8String get_DeviceId() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_DeviceId(Utf8String value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Utf8String get_DeviceName() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_DeviceName(Utf8String value) { }
 
 	internal void Set(ref AudioInputDeviceInfoInternal other) { }
@@ -968,10 +968,10 @@ private Utf8String <DeviceName>k__BackingField;
 
 internal struct AudioInputDeviceInfoInternal : IGettable<AudioInputDeviceInfo>, ISettable<AudioInputDeviceInfo>, IDisposable // TypeDefIndex: 8663
 {
-private int m_ApiVersion;
-private int m_DefaultDevice;
-private IntPtr m_DeviceId;
-private IntPtr m_DeviceName;
+	private int m_ApiVersion;
+	private int m_DefaultDevice;
+	private IntPtr m_DeviceId;
+	private IntPtr m_DeviceName;
 
 	public bool DefaultDevice { get; set; }
 	public Utf8String DeviceId { get; set; }
@@ -1002,14 +1002,14 @@ private IntPtr m_DeviceName;
 
 public struct AudioInputStateCallbackInfo : ICallbackInfo // TypeDefIndex: 8664
 {
-[CompilerGeneratedAttribute]
-private object <ClientData>k__BackingField;
-[CompilerGeneratedAttribute]
-private ProductUserId <LocalUserId>k__BackingField;
-[CompilerGeneratedAttribute]
-private Utf8String <RoomName>k__BackingField;
-[CompilerGeneratedAttribute]
-private RTCAudioInputStatus <Status>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private object <ClientData>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private ProductUserId <LocalUserId>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Utf8String <RoomName>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private RTCAudioInputStatus <Status>k__BackingField;
 
 	public object ClientData { get; set; }
 	public ProductUserId LocalUserId { get; set; }
@@ -1017,28 +1017,28 @@ private RTCAudioInputStatus <Status>k__BackingField;
 	public RTCAudioInputStatus Status { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public object get_ClientData() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ClientData(object value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public ProductUserId get_LocalUserId() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_LocalUserId(ProductUserId value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Utf8String get_RoomName() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_RoomName(Utf8String value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public RTCAudioInputStatus get_Status() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Status(RTCAudioInputStatus value) { }
 
 	public Nullable<Result> GetResultCode() { }
@@ -1049,10 +1049,10 @@ private RTCAudioInputStatus <Status>k__BackingField;
 
 internal struct AudioInputStateCallbackInfoInternal : ICallbackInfoInternal, IGettable<AudioInputStateCallbackInfo>, ISettable<AudioInputStateCallbackInfo>, IDisposable // TypeDefIndex: 8665
 {
-private IntPtr m_ClientData;
-private IntPtr m_LocalUserId;
-private IntPtr m_RoomName;
-private RTCAudioInputStatus m_Status;
+	private IntPtr m_ClientData;
+	private IntPtr m_LocalUserId;
+	private IntPtr m_RoomName;
+	private RTCAudioInputStatus m_Status;
 
 	public object ClientData { get; set; }
 	public IntPtr ClientDataAddress { get; }
@@ -1091,34 +1091,34 @@ private RTCAudioInputStatus m_Status;
 
 public struct AudioOutputDeviceInfo // TypeDefIndex: 8666
 {
-[CompilerGeneratedAttribute]
-private bool <DefaultDevice>k__BackingField;
-[CompilerGeneratedAttribute]
-private Utf8String <DeviceId>k__BackingField;
-[CompilerGeneratedAttribute]
-private Utf8String <DeviceName>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private bool <DefaultDevice>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Utf8String <DeviceId>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Utf8String <DeviceName>k__BackingField;
 
 	public bool DefaultDevice { get; set; }
 	public Utf8String DeviceId { get; set; }
 	public Utf8String DeviceName { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_DefaultDevice() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_DefaultDevice(bool value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Utf8String get_DeviceId() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_DeviceId(Utf8String value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Utf8String get_DeviceName() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_DeviceName(Utf8String value) { }
 
 	internal void Set(ref AudioOutputDeviceInfoInternal other) { }
@@ -1127,10 +1127,10 @@ private Utf8String <DeviceName>k__BackingField;
 
 internal struct AudioOutputDeviceInfoInternal : IGettable<AudioOutputDeviceInfo>, ISettable<AudioOutputDeviceInfo>, IDisposable // TypeDefIndex: 8667
 {
-private int m_ApiVersion;
-private int m_DefaultDevice;
-private IntPtr m_DeviceId;
-private IntPtr m_DeviceName;
+	private int m_ApiVersion;
+	private int m_DefaultDevice;
+	private IntPtr m_DeviceId;
+	private IntPtr m_DeviceName;
 
 	public bool DefaultDevice { get; set; }
 	public Utf8String DeviceId { get; set; }
@@ -1161,14 +1161,14 @@ private IntPtr m_DeviceName;
 
 public struct AudioOutputStateCallbackInfo : ICallbackInfo // TypeDefIndex: 8668
 {
-[CompilerGeneratedAttribute]
-private object <ClientData>k__BackingField;
-[CompilerGeneratedAttribute]
-private ProductUserId <LocalUserId>k__BackingField;
-[CompilerGeneratedAttribute]
-private Utf8String <RoomName>k__BackingField;
-[CompilerGeneratedAttribute]
-private RTCAudioOutputStatus <Status>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private object <ClientData>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private ProductUserId <LocalUserId>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Utf8String <RoomName>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private RTCAudioOutputStatus <Status>k__BackingField;
 
 	public object ClientData { get; set; }
 	public ProductUserId LocalUserId { get; set; }
@@ -1176,28 +1176,28 @@ private RTCAudioOutputStatus <Status>k__BackingField;
 	public RTCAudioOutputStatus Status { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public object get_ClientData() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ClientData(object value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public ProductUserId get_LocalUserId() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_LocalUserId(ProductUserId value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Utf8String get_RoomName() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_RoomName(Utf8String value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public RTCAudioOutputStatus get_Status() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Status(RTCAudioOutputStatus value) { }
 
 	public Nullable<Result> GetResultCode() { }
@@ -1208,10 +1208,10 @@ private RTCAudioOutputStatus <Status>k__BackingField;
 
 internal struct AudioOutputStateCallbackInfoInternal : ICallbackInfoInternal, IGettable<AudioOutputStateCallbackInfo>, ISettable<AudioOutputStateCallbackInfo>, IDisposable // TypeDefIndex: 8669
 {
-private IntPtr m_ClientData;
-private IntPtr m_LocalUserId;
-private IntPtr m_RoomName;
-private RTCAudioOutputStatus m_Status;
+	private IntPtr m_ClientData;
+	private IntPtr m_LocalUserId;
+	private IntPtr m_RoomName;
+	private RTCAudioOutputStatus m_Status;
 
 	public object ClientData { get; set; }
 	public IntPtr ClientDataAddress { get; }
@@ -1250,20 +1250,20 @@ private RTCAudioOutputStatus m_Status;
 
 public class AudioVisualisationEntity : IOEntity // TypeDefIndex: 10023
 {
-private Option __menuOption_ChangeLightSettings;
-private EntityRef<BaseEntity> connectedTo;
-[CompilerGeneratedAttribute]
-private AudioVisualisationEntity.LightColour <currentColour>k__BackingField;
-[CompilerGeneratedAttribute]
-private AudioVisualisationEntity.VolumeSensitivity <currentVolumeSensitivity>k__BackingField;
-[CompilerGeneratedAttribute]
-private AudioVisualisationEntity.Speed <currentSpeed>k__BackingField;
-public GameObjectRef SettingsDialog;
-[CompilerGeneratedAttribute]
-private int <currentGradient>k__BackingField;
-private IAudioConnectionSource currentSource;
-private static float[] bands;
-private float roughPeak;
+	private Option __menuOption_ChangeLightSettings;
+	private EntityRef<BaseEntity> connectedTo;
+	[CompilerGeneratedAttribute]
+	private AudioVisualisationEntity.LightColour <currentColour>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private AudioVisualisationEntity.VolumeSensitivity <currentVolumeSensitivity>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private AudioVisualisationEntity.Speed <currentSpeed>k__BackingField;
+	public GameObjectRef SettingsDialog;
+	[CompilerGeneratedAttribute]
+	private int <currentGradient>k__BackingField;
+	private IAudioConnectionSource currentSource;
+	private static float[] bands;
+	private float roughPeak;
 
 	public override bool HasMenuOptions { get; }
 	public AudioVisualisationEntity.LightColour currentColour { get; set; }
@@ -1284,28 +1284,28 @@ private float roughPeak;
 
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public AudioVisualisationEntity.LightColour get_currentColour() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_currentColour(AudioVisualisationEntity.LightColour value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public AudioVisualisationEntity.VolumeSensitivity get_currentVolumeSensitivity() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_currentVolumeSensitivity(AudioVisualisationEntity.VolumeSensitivity value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public AudioVisualisationEntity.Speed get_currentSpeed() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_currentSpeed(AudioVisualisationEntity.Speed value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public int get_currentGradient() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_currentGradient(int value) { }
 
 	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
@@ -1316,7 +1316,7 @@ private float roughPeak;
 
 	protected virtual void UpdateVisualisation(float volume, bool force = False) { }
 
-[BaseEntity.RPC_Client]
+	[BaseEntity.RPC_Client]
 	private void Client_PlayAudioFrom(BaseEntity.RPCMessage msg) { }
 
 	public virtual bool get_ShowColourOption() { }
@@ -1333,10 +1333,10 @@ private float roughPeak;
 
 	protected virtual void UpdateVisualSettings() { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.ShowIf]
-[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu.Icon]
 	public void ChangeLightSettings(BasePlayer player) { }
 
 	public void SendNewLightSettings(int newColour, int newVolumeRange, int newSpeed, int newGradient) { }
@@ -1355,7 +1355,7 @@ private float roughPeak;
 
 public enum AudioVisualisationEntity.LightColour // TypeDefIndex: 10024
 {
-public int value__;
+	public int value__;
 	public const AudioVisualisationEntity.LightColour Red = 0;
 	public const AudioVisualisationEntity.LightColour Green = 1;
 	public const AudioVisualisationEntity.LightColour Blue = 2;
@@ -1366,7 +1366,7 @@ public int value__;
 
 public enum AudioVisualisationEntity.VolumeSensitivity // TypeDefIndex: 10025
 {
-public int value__;
+	public int value__;
 	public const AudioVisualisationEntity.VolumeSensitivity Small = 0;
 	public const AudioVisualisationEntity.VolumeSensitivity Medium = 1;
 	public const AudioVisualisationEntity.VolumeSensitivity Large = 2;
@@ -1375,7 +1375,7 @@ public int value__;
 
 public enum AudioVisualisationEntity.Speed // TypeDefIndex: 10026
 {
-public int value__;
+	public int value__;
 	public const AudioVisualisationEntity.Speed Low = 0;
 	public const AudioVisualisationEntity.Speed Medium = 1;
 	public const AudioVisualisationEntity.Speed High = 2;
@@ -1391,7 +1391,7 @@ public class AudioAlarm : IOEntity // TypeDefIndex: 10425
 
 public class AudioSettings : MonoBehaviour // TypeDefIndex: 10855
 {
-public AudioMixer mixer;
+	public AudioMixer mixer;
 
 
 	private void Update() { }
@@ -1404,19 +1404,19 @@ public AudioMixer mixer;
 
 public class AudioVisualisationEntityLight : AudioVisualisationEntity // TypeDefIndex: 11175
 {
-public Light TargetLight;
-public Light SecondaryLight;
-public MeshRenderer[] TargetRenderer;
-public AudioVisualisationEntityLight.LightColourSet RedColour;
-public AudioVisualisationEntityLight.LightColourSet GreenColour;
-public AudioVisualisationEntityLight.LightColourSet BlueColour;
-public AudioVisualisationEntityLight.LightColourSet YellowColour;
-public AudioVisualisationEntityLight.LightColourSet PinkColour;
-public float lightMinIntensity;
-public float lightMaxIntensity;
-private static MaterialPropertyBlock block;
-private static int emissionColourId;
-private float lastVolume;
+	public Light TargetLight;
+	public Light SecondaryLight;
+	public MeshRenderer[] TargetRenderer;
+	public AudioVisualisationEntityLight.LightColourSet RedColour;
+	public AudioVisualisationEntityLight.LightColourSet GreenColour;
+	public AudioVisualisationEntityLight.LightColourSet BlueColour;
+	public AudioVisualisationEntityLight.LightColourSet YellowColour;
+	public AudioVisualisationEntityLight.LightColourSet PinkColour;
+	public float lightMinIntensity;
+	public float lightMaxIntensity;
+	private static MaterialPropertyBlock block;
+	private static int emissionColourId;
+	private float lastVolume;
 
 	public override bool ShowColourOption { get; }
 	public override bool ShowSpeedOption { get; }
@@ -1455,21 +1455,21 @@ private float lastVolume;
 
 public struct AudioVisualisationEntityLight.LightColourSet // TypeDefIndex: 11176
 {
-[ColorUsageAttribute]
-public Color LightColor;
-[ColorUsageAttribute]
-public Color SecondaryLightColour;
-[ColorUsageAttribute]
-public Color EmissionColour;
+	[ColorUsageAttribute]
+	public Color LightColor;
+	[ColorUsageAttribute]
+	public Color SecondaryLightColour;
+	[ColorUsageAttribute]
+	public Color EmissionColour;
 
 }
 
 public class AudioInterceptComponent : MonoBehaviour // TypeDefIndex: 11196
 {
-public OggEncoder Encoder;
-private float[] strippedData;
-[ClientVar]
-public static bool debugChannels;
+	public OggEncoder Encoder;
+	private float[] strippedData;
+	[ClientVar]
+	public static bool debugChannels;
 
 
 	private void OnAudioFilterRead(float[] data, int channels) { }
@@ -1482,36 +1482,36 @@ public static bool debugChannels;
 
 public class Audio : ConsoleSystem // TypeDefIndex: 13687
 {
-[ClientVar]
-public static float master;
-[ClientVar]
-public static float musicvolume;
-[ClientVar]
-public static float musicvolumemenu;
-[ClientVar]
-public static float game;
-[ClientVar]
-public static float voices;
-[ClientVar]
-public static float instruments;
-[ClientVar]
-public static float voiceProps;
-[ClientVar]
-public static float eventAudio;
-[ClientVar]
-public static bool ambience;
-[ClientVar]
-public static float framebudget;
-[ClientVar]
-public static float minupdatefraction;
-[ClientVar]
-public static bool advancedocclusion;
-[ClientVar]
-public static bool hqsoundfade;
-[ClientVar]
-public static bool debugVoiceLimiting;
+	[ClientVar]
+	public static float master;
+	[ClientVar]
+	public static float musicvolume;
+	[ClientVar]
+	public static float musicvolumemenu;
+	[ClientVar]
+	public static float game;
+	[ClientVar]
+	public static float voices;
+	[ClientVar]
+	public static float instruments;
+	[ClientVar]
+	public static float voiceProps;
+	[ClientVar]
+	public static float eventAudio;
+	[ClientVar]
+	public static bool ambience;
+	[ClientVar]
+	public static float framebudget;
+	[ClientVar]
+	public static float minupdatefraction;
+	[ClientVar]
+	public static bool advancedocclusion;
+	[ClientVar]
+	public static bool hqsoundfade;
+	[ClientVar]
+	public static bool debugVoiceLimiting;
 
-[ClientVar]
+	[ClientVar]
 	public static int speakers { get; set; }
 
 
@@ -1519,10 +1519,10 @@ public static bool debugVoiceLimiting;
 
 	public static void set_speakers(int value) { }
 
-[ClientVar]
+	[ClientVar]
 	public static void printSounds(ConsoleSystem.Arg arg) { }
 
-[ClientVar]
+	[ClientVar]
 	public static void printEngineSounds(ConsoleSystem.Arg arg) { }
 
 	public void .ctor() { }

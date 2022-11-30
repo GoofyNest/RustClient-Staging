@@ -9,12 +9,12 @@ internal class VFXExpressionNoise
 [RequiredByNativeCodeAttribute]
 [NativeTypeAttribute]
 public class VFXExpressionValues
-internal IntPtr m_Ptr;
+	internal IntPtr m_Ptr;
 
 
 	private void .ctor() { }
 
-[RequiredByNativeCodeAttribute]
+	[RequiredByNativeCodeAttribute]
 	internal static VFXExpressionValues CreateExpressionValuesWrapper(IntPtr ptr) { }
 
 }

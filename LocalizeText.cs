@@ -1,11 +1,11 @@
 public class LocalizeText : MonoBehaviour, IClientComponent, ILocalize // TypeDefIndex: 13069
 {
-public string token;
-[TextAreaAttribute]
-public string english;
-public string append;
-public LocalizeText.SpecialMode specialMode;
-private object[] Tokens;
+	public string token;
+	[TextAreaAttribute]
+	public string english;
+	public string append;
+	public LocalizeText.SpecialMode specialMode;
+	private object[] Tokens;
 
 	public string LanguageToken { get; set; }
 	public string LanguageEnglish { get; set; }
@@ -39,7 +39,7 @@ private object[] Tokens;
 
 public enum LocalizeText.SpecialMode // TypeDefIndex: 13070
 {
-public int value__;
+	public int value__;
 	public const LocalizeText.SpecialMode None = 0;
 	public const LocalizeText.SpecialMode AllUppercase = 1;
 	public const LocalizeText.SpecialMode AllLowercase = 2;

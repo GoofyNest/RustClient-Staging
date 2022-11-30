@@ -9,10 +9,10 @@ internal class <Module>
 
 [Serializable]
 public class SceneField
-[SerializeField]
-private Object sceneAsset;
-[SerializeField]
-private string sceneName;
+	[SerializeField]
+	private Object sceneAsset;
+	[SerializeField]
+	private string sceneName;
 
 	public string SceneName { get; }
 

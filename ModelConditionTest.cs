@@ -11,7 +11,7 @@ public abstract class ModelConditionTest : PrefabAttribute // TypeDefIndex: 1079
 
 public class ModelConditionTest_False : ModelConditionTest // TypeDefIndex: 10798
 {
-public ConditionalModel reference;
+	public ConditionalModel reference;
 
 
 	public override bool DoTest(BaseEntity ent) { }
@@ -29,7 +29,7 @@ public class ModelConditionTest_FoundationSide : ModelConditionTest // TypeDefIn
 	private const string triangle_south = "foundation.triangle/sockets/foundation-top/1";
 	private const string triangle_northwest = "foundation.triangle/sockets/foundation-top/2";
 	private const string triangle_northeast = "foundation.triangle/sockets/foundation-top/3";
-private string socket;
+	private string socket;
 
 
 	protected void OnDrawGizmosSelected() { }
@@ -76,8 +76,8 @@ public class ModelConditionTest_RoofBottom : ModelConditionTest // TypeDefIndex:
 	private const string socket_bot_left = "sockets/neighbour/4";
 	private const string socket_top_right = "sockets/neighbour/5";
 	private const string socket_top_left = "sockets/neighbour/6";
-private static string[] sockets_bot_right;
-private static string[] sockets_bot_left;
+	private static string[] sockets_bot_right;
+	private static string[] sockets_bot_left;
 
 
 	protected void OnDrawGizmosSelected() { }
@@ -92,13 +92,13 @@ private static string[] sockets_bot_left;
 
 public class ModelConditionTest_RoofLeft : ModelConditionTest // TypeDefIndex: 10803
 {
-public ModelConditionTest_RoofLeft.AngleType angle;
-public ModelConditionTest_RoofLeft.ShapeType shape;
+	public ModelConditionTest_RoofLeft.AngleType angle;
+	public ModelConditionTest_RoofLeft.ShapeType shape;
 	private const string roof_square = "roof/";
 	private const string roof_triangle = "roof.triangle/";
 	private const string socket_right = "sockets/neighbour/3";
 	private const string socket_left = "sockets/neighbour/4";
-private static string[] sockets_left;
+	private static string[] sockets_left;
 
 	private bool IsConvex { get; }
 	private bool IsConcave { get; }
@@ -120,7 +120,7 @@ private static string[] sockets_left;
 
 public enum ModelConditionTest_RoofLeft.AngleType // TypeDefIndex: 10804
 {
-public int value__;
+	public int value__;
 	public const ModelConditionTest_RoofLeft.AngleType None = -1;
 	public const ModelConditionTest_RoofLeft.AngleType Straight = 0;
 	public const ModelConditionTest_RoofLeft.AngleType Convex60 = 60;
@@ -135,7 +135,7 @@ public int value__;
 
 public enum ModelConditionTest_RoofLeft.ShapeType // TypeDefIndex: 10805
 {
-public int value__;
+	public int value__;
 	public const ModelConditionTest_RoofLeft.ShapeType Any = -1;
 	public const ModelConditionTest_RoofLeft.ShapeType Square = 0;
 	public const ModelConditionTest_RoofLeft.ShapeType Triangle = 1;
@@ -144,13 +144,13 @@ public int value__;
 
 public class ModelConditionTest_RoofRight : ModelConditionTest // TypeDefIndex: 10806
 {
-public ModelConditionTest_RoofRight.AngleType angle;
-public ModelConditionTest_RoofRight.ShapeType shape;
+	public ModelConditionTest_RoofRight.AngleType angle;
+	public ModelConditionTest_RoofRight.ShapeType shape;
 	private const string roof_square = "roof/";
 	private const string roof_triangle = "roof.triangle/";
 	private const string socket_right = "sockets/neighbour/3";
 	private const string socket_left = "sockets/neighbour/4";
-private static string[] sockets_right;
+	private static string[] sockets_right;
 
 	private bool IsConvex { get; }
 	private bool IsConcave { get; }
@@ -172,7 +172,7 @@ private static string[] sockets_right;
 
 public enum ModelConditionTest_RoofRight.AngleType // TypeDefIndex: 10807
 {
-public int value__;
+	public int value__;
 	public const ModelConditionTest_RoofRight.AngleType None = -1;
 	public const ModelConditionTest_RoofRight.AngleType Straight = 0;
 	public const ModelConditionTest_RoofRight.AngleType Convex60 = 60;
@@ -187,7 +187,7 @@ public int value__;
 
 public enum ModelConditionTest_RoofRight.ShapeType // TypeDefIndex: 10808
 {
-public int value__;
+	public int value__;
 	public const ModelConditionTest_RoofRight.ShapeType Any = -1;
 	public const ModelConditionTest_RoofRight.ShapeType Square = 0;
 	public const ModelConditionTest_RoofRight.ShapeType Triangle = 1;
@@ -202,8 +202,8 @@ public class ModelConditionTest_RoofTop : ModelConditionTest // TypeDefIndex: 10
 	private const string socket_bot_left = "sockets/neighbour/4";
 	private const string socket_top_right = "sockets/neighbour/5";
 	private const string socket_top_left = "sockets/neighbour/6";
-private static string[] sockets_top_right;
-private static string[] sockets_top_left;
+	private static string[] sockets_top_right;
+	private static string[] sockets_top_left;
 
 
 	protected void OnDrawGizmosSelected() { }
@@ -230,9 +230,9 @@ public class ModelConditionTest_RoofTriangle : ModelConditionTest // TypeDefInde
 public class ModelConditionTest_SpiralStairs : ModelConditionTest // TypeDefIndex: 10811
 {
 	private const string stairs_socket_female = "sockets/stairs-female/1";
-private static string[] stairs_sockets_female;
+	private static string[] stairs_sockets_female;
 	private const string floor_socket_female = "sockets/floor-female/1";
-private static string[] floor_sockets_female;
+	private static string[] floor_sockets_female;
 
 
 	protected void OnDrawGizmosSelected() { }
@@ -247,7 +247,7 @@ private static string[] floor_sockets_female;
 
 public class ModelConditionTest_True : ModelConditionTest // TypeDefIndex: 10812
 {
-public ConditionalModel reference;
+	public ConditionalModel reference;
 
 
 	public override bool DoTest(BaseEntity ent) { }
@@ -268,7 +268,7 @@ public class ModelConditionTest_Wall : ModelConditionTest // TypeDefIndex: 10813
 public class ModelConditionTest_WallCornerLeft : ModelConditionTest // TypeDefIndex: 10814
 {
 	private const string socket = "sockets/stability/2";
-private static string[] sockets;
+	private static string[] sockets;
 
 
 	public override bool DoTest(BaseEntity ent) { }
@@ -282,7 +282,7 @@ private static string[] sockets;
 public class ModelConditionTest_WallCornerRight : ModelConditionTest // TypeDefIndex: 10815
 {
 	private const string socket = "sockets/stability/1";
-private static string[] sockets;
+	private static string[] sockets;
 
 
 	public override bool DoTest(BaseEntity ent) { }

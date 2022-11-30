@@ -1,13 +1,13 @@
 public class PrefabPreProcess : IPrefabProcessor // TypeDefIndex: 11723
 {
-public static Type[] clientsideOnlyTypes;
-public static Type[] serversideOnlyTypes;
-public bool isClientside;
-public bool isServerside;
-public bool isBundling;
-internal Dictionary<string, GameObject> prefabList;
-private List<Component> destroyList;
-private List<GameObject> cleanupList;
+	public static Type[] clientsideOnlyTypes;
+	public static Type[] serversideOnlyTypes;
+	public bool isClientside;
+	public bool isServerside;
+	public bool isBundling;
+	internal Dictionary<string, GameObject> prefabList;
+	private List<Component> destroyList;
+	private List<GameObject> cleanupList;
 
 
 	public void .ctor(bool clientside, bool serverside, bool bundling = False) { }
@@ -81,15 +81,15 @@ private List<GameObject> cleanupList;
 
 private sealed class PrefabPreProcess.<>c__DisplayClass8_0 // TypeDefIndex: 11724
 {
-public PrefabPreProcess <>4__this;
-public GameObject go;
+	public PrefabPreProcess <>4__this;
+	public GameObject go;
 
 
 	public void .ctor() { }
 
-internal bool <NeedsProcessing>
+	internal bool <NeedsProcessing>
 
-internal bool <NeedsProcessing>
+	internal bool <NeedsProcessing>
 
 }
 

@@ -2,7 +2,7 @@ internal struct AddNotifyClientIntegrityViolatedOptionsInternal : ISettable<AddN
 {
 
 internal struct AddNotifyClientIntegrityViolatedOptionsInternal : ISettable<AddNotifyClientIntegrityViolatedOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref AddNotifyClientIntegrityViolatedOptions other) { }

@@ -19,26 +19,26 @@ internal sealed class MetricTimeSpanConverter : ITimeSpanConverter // TypeDefInd
 
 private sealed class MetricTimeSpanConverter.<>c // TypeDefIndex: 7492
 {
-public static readonly MetricTimeSpanConverter.<>c <>9;
-public static Func<MetricTempoMapValuesCache.AccumulatedMicroseconds, long> <>9__2_0;
+	public static readonly MetricTimeSpanConverter.<>c <>9;
+	public static Func<MetricTempoMapValuesCache.AccumulatedMicroseconds, long> <>9__2_0;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-internal long <TicksToMetricTimeSpan>
+	internal long <TicksToMetricTimeSpan>
 
 }
 
 private sealed class MetricTimeSpanConverter.<>c__DisplayClass3_0 // TypeDefIndex: 7493
 {
-public long timeMicroseconds;
+	public long timeMicroseconds;
 
 
 	public void .ctor() { }
 
-internal bool <MetricTimeSpanToTicks>
+	internal bool <MetricTimeSpanToTicks>
 
 }
 

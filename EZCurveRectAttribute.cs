@@ -2,8 +2,8 @@ public class EZCurveRectAttribute : PropertyAttribute // TypeDefIndex: 7167
 {
 
 public class EZCurveRectAttribute : PropertyAttribute
-public Rect rect;
-public Color color;
+	public Rect rect;
+	public Color color;
 
 
 	public void .ctor() { }

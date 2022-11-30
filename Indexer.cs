@@ -1,11 +1,11 @@
 public class Indexer // TypeDefIndex: 6653
 {
-private List<Indexer.Keyframe> keyframes;
-private long LastPacketTime;
-private long PacketCount;
-private Dictionary<uint, Indexer.Entity> currentEnts;
-private long NextKeyframe;
-private List<uint> Updated;
+	private List<Indexer.Keyframe> keyframes;
+	private long LastPacketTime;
+	private long PacketCount;
+	private Dictionary<uint, Indexer.Entity> currentEnts;
+	private long NextKeyframe;
+	private List<uint> Updated;
 
 	public TimeSpan TotalLength { get; }
 	public long Interval { get; }
@@ -41,10 +41,10 @@ private List<uint> Updated;
 
 public class Indexer.Entity // TypeDefIndex: 6654
 {
-public Entity Init;
-public Entity Data;
-public Vector3 Position;
-public Vector3 Rotation;
+	public Entity Init;
+	public Entity Data;
+	public Vector3 Position;
+	public Vector3 Rotation;
 
 	public uint UId { get; }
 
@@ -59,10 +59,10 @@ public Vector3 Rotation;
 
 public class Indexer.Keyframe // TypeDefIndex: 6655
 {
-public long Position;
-public Indexer.Entity[] Entities;
-public uint[] Updated;
-public Dictionary<uint, Indexer.Entity> EntityDict;
+	public long Position;
+	public Indexer.Entity[] Entities;
+	public uint[] Updated;
+	public Dictionary<uint, Indexer.Entity> EntityDict;
 
 
 	public void Init() { }
@@ -75,32 +75,32 @@ public Dictionary<uint, Indexer.Entity> EntityDict;
 
 private sealed class Indexer.Keyframe.<>c // TypeDefIndex: 6656
 {
-public static readonly Indexer.Keyframe.<>c <>9;
-public static Func<Indexer.Entity, uint> <>9__4_0;
-public static Func<Indexer.Entity, Indexer.Entity> <>9__4_1;
+	public static readonly Indexer.Keyframe.<>c <>9;
+	public static Func<Indexer.Entity, uint> <>9__4_0;
+	public static Func<Indexer.Entity, Indexer.Entity> <>9__4_1;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-internal uint <Init>
+	internal uint <Init>
 
-internal Indexer.Entity <Init>
+	internal Indexer.Entity <Init>
 
 }
 
 private sealed class Indexer.<>c // TypeDefIndex: 6657
 {
-public static readonly Indexer.<>c <>9;
-public static Func<KeyValuePair<uint, Indexer.Entity>, Indexer.Entity> <>9__21_0;
+	public static readonly Indexer.<>c <>9;
+	public static Func<KeyValuePair<uint, Indexer.Entity>, Indexer.Entity> <>9__21_0;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-internal Indexer.Entity <TryCreateKeyframe>
+	internal Indexer.Entity <TryCreateKeyframe>
 
 }
 

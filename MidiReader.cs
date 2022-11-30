@@ -1,18 +1,18 @@
 public sealed class MidiReader : IDisposable // TypeDefIndex: 7603
 {
-private static readonly byte[] EmptyByteArray;
-private readonly ReaderSettings _settings;
-private readonly Stream _stream;
-private readonly bool _isStreamWrapped;
-private readonly bool _useBuffering;
-private byte[] _buffer;
-private int _bufferSize;
-private int _bufferPosition;
-private long _bufferStart;
-private long _position;
-private bool _disposed;
-[CompilerGeneratedAttribute]
-private readonly long <Length>k__BackingField;
+	private static readonly byte[] EmptyByteArray;
+	private readonly ReaderSettings _settings;
+	private readonly Stream _stream;
+	private readonly bool _isStreamWrapped;
+	private readonly bool _useBuffering;
+	private byte[] _buffer;
+	private int _bufferSize;
+	private int _bufferPosition;
+	private long _bufferStart;
+	private long _position;
+	private bool _disposed;
+	[CompilerGeneratedAttribute]
+	private readonly long <Length>k__BackingField;
 
 	public long Position { get; set; }
 	public long Length { get; }
@@ -25,7 +25,7 @@ private readonly long <Length>k__BackingField;
 
 	public void set_Position(long value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public long get_Length() { }
 
 	public bool get_EndReached() { }
@@ -72,15 +72,15 @@ private readonly long <Length>k__BackingField;
 
 private sealed class MidiReader.<>c // TypeDefIndex: 7604
 {
-public static readonly MidiReader.<>c <>9;
-public static Func<byte[], IEnumerable<byte>> <>9__22_0;
+	public static readonly MidiReader.<>c <>9;
+	public static Func<byte[], IEnumerable<byte>> <>9__22_0;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-internal IEnumerable<byte> <ReadBytes>
+	internal IEnumerable<byte> <ReadBytes>
 
 }
 

@@ -1,8 +1,8 @@
 internal static class ConvertUtils // TypeDefIndex: 5952
 {
-private static readonly Dictionary<Type, PrimitiveTypeCode> TypeCodeMap;
-private static readonly TypeInformation[] PrimitiveTypeCodes;
-private static readonly ThreadSafeStore<ConvertUtils.TypeConvertKey, Func<object, object>> CastConverters;
+	private static readonly Dictionary<Type, PrimitiveTypeCode> TypeCodeMap;
+	private static readonly TypeInformation[] PrimitiveTypeCodes;
+	private static readonly ThreadSafeStore<ConvertUtils.TypeConvertKey, Func<object, object>> CastConverters;
 
 
 	public static PrimitiveTypeCode GetTypeCode(Type t) { }
@@ -47,8 +47,8 @@ private static readonly ThreadSafeStore<ConvertUtils.TypeConvertKey, Func<object
 
 internal struct ConvertUtils.TypeConvertKey // TypeDefIndex: 5953
 {
-private readonly Type _initialType;
-private readonly Type _targetType;
+	private readonly Type _initialType;
+	private readonly Type _targetType;
 
 	public Type InitialType { get; }
 	public Type TargetType { get; }
@@ -70,7 +70,7 @@ private readonly Type _targetType;
 
 internal enum ConvertUtils.ConvertResult // TypeDefIndex: 5954
 {
-public int value__;
+	public int value__;
 	public const ConvertUtils.ConvertResult Success = 0;
 	public const ConvertUtils.ConvertResult CannotConvertNull = 1;
 	public const ConvertUtils.ConvertResult NotInstantiableType = 2;
@@ -80,12 +80,12 @@ public int value__;
 
 private sealed class ConvertUtils.<>c__DisplayClass9_0 // TypeDefIndex: 5955
 {
-public MethodCall<object, object> call;
+	public MethodCall<object, object> call;
 
 
 	public void .ctor() { }
 
-internal object <CreateCastConverter>
+	internal object <CreateCastConverter>
 
 }
 

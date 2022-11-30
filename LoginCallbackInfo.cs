@@ -1,13 +1,13 @@
 public struct LoginCallbackInfo : ICallbackInfo // TypeDefIndex: 9595
 {
-[CompilerGeneratedAttribute]
-private Result <ResultCode>k__BackingField;
-[CompilerGeneratedAttribute]
-private object <ClientData>k__BackingField;
-[CompilerGeneratedAttribute]
-private ProductUserId <LocalUserId>k__BackingField;
-[CompilerGeneratedAttribute]
-private ContinuanceToken <ContinuanceToken>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Result <ResultCode>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private object <ClientData>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private ProductUserId <LocalUserId>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private ContinuanceToken <ContinuanceToken>k__BackingField;
 
 	public Result ResultCode { get; set; }
 	public object ClientData { get; set; }
@@ -15,28 +15,28 @@ private ContinuanceToken <ContinuanceToken>k__BackingField;
 	public ContinuanceToken ContinuanceToken { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Result get_ResultCode() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ResultCode(Result value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public object get_ClientData() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ClientData(object value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public ProductUserId get_LocalUserId() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_LocalUserId(ProductUserId value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public ContinuanceToken get_ContinuanceToken() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ContinuanceToken(ContinuanceToken value) { }
 
 	public Nullable<Result> GetResultCode() { }
@@ -47,20 +47,20 @@ private ContinuanceToken <ContinuanceToken>k__BackingField;
 
 public struct LoginCallbackInfo : ICallbackInfo // TypeDefIndex: 9671
 {
-[CompilerGeneratedAttribute]
-private Result <ResultCode>k__BackingField;
-[CompilerGeneratedAttribute]
-private object <ClientData>k__BackingField;
-[CompilerGeneratedAttribute]
-private EpicAccountId <LocalUserId>k__BackingField;
-[CompilerGeneratedAttribute]
-private Nullable<PinGrantInfo> <PinGrantInfo>k__BackingField;
-[CompilerGeneratedAttribute]
-private ContinuanceToken <ContinuanceToken>k__BackingField;
-[CompilerGeneratedAttribute]
-private Nullable<AccountFeatureRestrictedInfo> <AccountFeatureRestrictedInfo>k__BackingField;
-[CompilerGeneratedAttribute]
-private EpicAccountId <SelectedAccountId>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Result <ResultCode>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private object <ClientData>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private EpicAccountId <LocalUserId>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Nullable<PinGrantInfo> <PinGrantInfo>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private ContinuanceToken <ContinuanceToken>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Nullable<AccountFeatureRestrictedInfo> <AccountFeatureRestrictedInfo>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private EpicAccountId <SelectedAccountId>k__BackingField;
 
 	public Result ResultCode { get; set; }
 	public object ClientData { get; set; }
@@ -71,46 +71,46 @@ private EpicAccountId <SelectedAccountId>k__BackingField;
 	public EpicAccountId SelectedAccountId { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Result get_ResultCode() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ResultCode(Result value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public object get_ClientData() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ClientData(object value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public EpicAccountId get_LocalUserId() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_LocalUserId(EpicAccountId value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Nullable<PinGrantInfo> get_PinGrantInfo() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_PinGrantInfo(Nullable<PinGrantInfo> value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public ContinuanceToken get_ContinuanceToken() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ContinuanceToken(ContinuanceToken value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Nullable<AccountFeatureRestrictedInfo> get_AccountFeatureRestrictedInfo() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_AccountFeatureRestrictedInfo(Nullable<AccountFeatureRestrictedInfo> value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public EpicAccountId get_SelectedAccountId() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_SelectedAccountId(EpicAccountId value) { }
 
 	public Nullable<Result> GetResultCode() { }

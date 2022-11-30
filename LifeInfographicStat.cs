@@ -1,14 +1,14 @@
 public class LifeInfographicStat : MonoBehaviour // TypeDefIndex: 12863
 {
-public LifeInfographicStat.DataType dataSource;
-[HeaderAttribute]
-public string genericStatKey;
-[HeaderAttribute]
-public string targetWeaponName;
-public LifeInfographicStat.WeaponInfoType weaponInfoType;
-public TextMeshProUGUI targetText;
-public Image StatImage;
-private LifeInfographic cachedInfographic;
+	public LifeInfographicStat.DataType dataSource;
+	[HeaderAttribute]
+	public string genericStatKey;
+	[HeaderAttribute]
+	public string targetWeaponName;
+	public LifeInfographicStat.WeaponInfoType weaponInfoType;
+	public TextMeshProUGUI targetText;
+	public Image StatImage;
+	private LifeInfographic cachedInfographic;
 
 
 	private string GetText() { }
@@ -25,7 +25,7 @@ private LifeInfographic cachedInfographic;
 
 public enum LifeInfographicStat.DataType // TypeDefIndex: 12864
 {
-public int value__;
+	public int value__;
 	public const LifeInfographicStat.DataType None = 0;
 	public const LifeInfographicStat.DataType AliveTime_Short = 1;
 	public const LifeInfographicStat.DataType SleepingTime_Short = 2;
@@ -54,7 +54,7 @@ public int value__;
 
 public enum LifeInfographicStat.WeaponInfoType // TypeDefIndex: 12865
 {
-public int value__;
+	public int value__;
 	public const LifeInfographicStat.WeaponInfoType TotalShots = 0;
 	public const LifeInfographicStat.WeaponInfoType ShotsHit = 1;
 	public const LifeInfographicStat.WeaponInfoType ShotsMissed = 2;

@@ -2,16 +2,16 @@ public class HungerAboveAIEvent : BaseAIEvent // TypeDefIndex: 11139
 {
 
 public class HungerAboveAIEvent : BaseAIEvent
-[CompilerGeneratedAttribute]
-private float <Value>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private float <Value>k__BackingField;
 
 	public float Value { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public float get_Value() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_Value(float value) { }
 
 	public void .ctor() { }

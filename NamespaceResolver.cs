@@ -1,8 +1,8 @@
 internal struct NamespaceResolver // TypeDefIndex: 5848
 {
-private int scope;
-private NamespaceResolver.NamespaceDeclaration declaration;
-private NamespaceResolver.NamespaceDeclaration rover;
+	private int scope;
+	private NamespaceResolver.NamespaceDeclaration declaration;
+	private NamespaceResolver.NamespaceDeclaration rover;
 
 
 	public void PushScope() { }
@@ -19,10 +19,10 @@ private NamespaceResolver.NamespaceDeclaration rover;
 
 private class NamespaceResolver.NamespaceDeclaration // TypeDefIndex: 5849
 {
-public string prefix;
-public XNamespace ns;
-public int scope;
-public NamespaceResolver.NamespaceDeclaration prev;
+	public string prefix;
+	public XNamespace ns;
+	public int scope;
+	public NamespaceResolver.NamespaceDeclaration prev;
 
 
 	public void .ctor() { }

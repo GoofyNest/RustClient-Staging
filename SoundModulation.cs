@@ -1,9 +1,9 @@
 public class SoundModulation : MonoBehaviour, IClientComponent // TypeDefIndex: 10766
 {
 	private const int parameterCount = 4;
-private Sound sound;
-public List<List<SoundModulation.Modulator>> modulators;
-private List<float> modulationValues;
+	private Sound sound;
+	public List<List<SoundModulation.Modulator>> modulators;
+	private List<float> modulationValues;
 
 
 	protected void Awake() { }
@@ -28,7 +28,7 @@ private List<float> modulationValues;
 
 public enum SoundModulation.Parameter // TypeDefIndex: 10767
 {
-public int value__;
+	public int value__;
 	public const SoundModulation.Parameter Gain = 0;
 	public const SoundModulation.Parameter Pitch = 1;
 	public const SoundModulation.Parameter Spread = 2;
@@ -38,8 +38,8 @@ public int value__;
 
 public class SoundModulation.Modulator // TypeDefIndex: 10768
 {
-public SoundModulation.Parameter param;
-public float value;
+	public SoundModulation.Parameter param;
+	public float value;
 
 
 	public void .ctor() { }

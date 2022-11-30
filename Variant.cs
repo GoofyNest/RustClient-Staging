@@ -1,25 +1,25 @@
 internal struct Variant // TypeDefIndex: 418
 {
-public short vt;
-public ushort wReserved1;
-public ushort wReserved2;
-public ushort wReserved3;
-public long llVal;
-public int lVal;
-public byte bVal;
-public short iVal;
-public float fltVal;
-public double dblVal;
-public short boolVal;
-public IntPtr bstrVal;
-public sbyte cVal;
-public ushort uiVal;
-public uint ulVal;
-public ulong ullVal;
-public int intVal;
-public uint uintVal;
-public IntPtr pdispVal;
-public BRECORD bRecord;
+	public short vt;
+	public ushort wReserved1;
+	public ushort wReserved2;
+	public ushort wReserved3;
+	public long llVal;
+	public int lVal;
+	public byte bVal;
+	public short iVal;
+	public float fltVal;
+	public double dblVal;
+	public short boolVal;
+	public IntPtr bstrVal;
+	public sbyte cVal;
+	public ushort uiVal;
+	public uint ulVal;
+	public ulong ullVal;
+	public int intVal;
+	public uint uintVal;
+	public IntPtr pdispVal;
+	public BRECORD bRecord;
 
 
 	public void Clear() { }
@@ -28,7 +28,7 @@ public BRECORD bRecord;
 
 public abstract class Variant : IConvertible // TypeDefIndex: 13391
 {
-protected static readonly IFormatProvider FormatProvider;
+	protected static readonly IFormatProvider FormatProvider;
 
 	public virtual Variant Item { get; set; }
 	public virtual Variant Item { get; set; }

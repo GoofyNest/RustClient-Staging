@@ -76,13 +76,13 @@ public sealed class AntiCheatServerInterface : Handle // TypeDefIndex: 9726
 
 	public Result UnregisterClient(ref UnregisterClientOptions options) { }
 
-[MonoPInvokeCallbackAttribute]
+	[MonoPInvokeCallbackAttribute]
 	internal static void OnClientActionRequiredCallbackInternalImplementation(ref OnClientActionRequiredCallbackInfoInternal data) { }
 
-[MonoPInvokeCallbackAttribute]
+	[MonoPInvokeCallbackAttribute]
 	internal static void OnClientAuthStatusChangedCallbackInternalImplementation(ref OnClientAuthStatusChangedCallbackInfoInternal data) { }
 
-[MonoPInvokeCallbackAttribute]
+	[MonoPInvokeCallbackAttribute]
 	internal static void OnMessageToClientCallbackInternalImplementation(ref OnMessageToClientCallbackInfoInternal data) { }
 
 }

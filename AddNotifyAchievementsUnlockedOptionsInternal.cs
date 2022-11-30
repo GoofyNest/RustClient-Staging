@@ -2,7 +2,7 @@ internal struct AddNotifyAchievementsUnlockedOptionsInternal : ISettable<AddNoti
 {
 
 internal struct AddNotifyAchievementsUnlockedOptionsInternal : ISettable<AddNotifyAchievementsUnlockedOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref AddNotifyAchievementsUnlockedOptions other) { }

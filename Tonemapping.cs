@@ -1,18 +1,18 @@
 public class Tonemapping : PostEffectsBase // TypeDefIndex: 8231
 {
-public Tonemapping.TonemapperType type;
-public Tonemapping.AdaptiveTexSize adaptiveTextureSize;
-public AnimationCurve remapCurve;
-private Texture2D curveTex;
-public float exposureAdjustment;
-public float middleGrey;
-public float white;
-public float adaptionSpeed;
-public Shader tonemapper;
-public bool validRenderTextureFormat;
-private Material tonemapMaterial;
-private RenderTexture rt;
-private RenderTextureFormat rtFormat;
+	public Tonemapping.TonemapperType type;
+	public Tonemapping.AdaptiveTexSize adaptiveTextureSize;
+	public AnimationCurve remapCurve;
+	private Texture2D curveTex;
+	public float exposureAdjustment;
+	public float middleGrey;
+	public float white;
+	public float adaptionSpeed;
+	public Shader tonemapper;
+	public bool validRenderTextureFormat;
+	private Material tonemapMaterial;
+	private RenderTexture rt;
+	private RenderTextureFormat rtFormat;
 
 
 	public override bool CheckResources() { }
@@ -23,7 +23,7 @@ private RenderTextureFormat rtFormat;
 
 	private bool CreateInternalRenderTexture() { }
 
-[ImageEffectTransformsToLDR]
+	[ImageEffectTransformsToLDR]
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
 	public void .ctor() { }
@@ -32,7 +32,7 @@ private RenderTextureFormat rtFormat;
 
 public enum Tonemapping.TonemapperType // TypeDefIndex: 8232
 {
-public int value__;
+	public int value__;
 	public const Tonemapping.TonemapperType SimpleReinhard = 0;
 	public const Tonemapping.TonemapperType UserCurve = 1;
 	public const Tonemapping.TonemapperType Hable = 2;
@@ -45,7 +45,7 @@ public int value__;
 
 public enum Tonemapping.AdaptiveTexSize // TypeDefIndex: 8233
 {
-public int value__;
+	public int value__;
 	public const Tonemapping.AdaptiveTexSize Square16 = 16;
 	public const Tonemapping.AdaptiveTexSize Square32 = 32;
 	public const Tonemapping.AdaptiveTexSize Square64 = 64;
@@ -58,9 +58,9 @@ public int value__;
 
 public class TonemappingOverlay : ImageEffectLayer // TypeDefIndex: 10870
 {
-public TonemappingColorGrading tonemapping;
-private int screenWidth;
-private int screenHeight;
+	public TonemappingColorGrading tonemapping;
+	private int screenWidth;
+	private int screenHeight;
 
 
 	public void Awake() { }
@@ -77,35 +77,35 @@ private int screenHeight;
 
 public class TonemappingColorGrading : MonoBehaviour // TypeDefIndex: 13459
 {
-[SerializeField]
-[TonemappingColorGrading.SettingsGroup]
-private TonemappingColorGrading.EyeAdaptationSettings m_EyeAdaptation;
-[SerializeField]
-[TonemappingColorGrading.SettingsGroup]
-private TonemappingColorGrading.TonemappingSettings m_Tonemapping;
-[SerializeField]
-[TonemappingColorGrading.SettingsGroup]
-private TonemappingColorGrading.ColorGradingSettings m_ColorGrading;
-[SerializeField]
-[TonemappingColorGrading.SettingsGroup]
-private TonemappingColorGrading.LUTSettings m_Lut;
-private Texture2D m_IdentityLut;
-private RenderTexture m_InternalLut;
-private Texture2D m_CurveTexture;
-private Texture2D m_TonemapperCurve;
-private float m_TonemapperCurveRange;
-[SerializeField]
-private Shader m_Shader;
-private Material m_Material;
-[CompilerGeneratedAttribute]
-private bool <validRenderTextureFormat>k__BackingField;
-[CompilerGeneratedAttribute]
-private bool <validUserLutSize>k__BackingField;
-private bool m_Dirty;
-private bool m_TonemapperDirty;
-private RenderTexture m_SmallAdaptiveRt;
-private RenderTextureFormat m_AdaptiveRtFormat;
-private RenderTexture[] rts;
+	[SerializeField]
+	[TonemappingColorGrading.SettingsGroup]
+	private TonemappingColorGrading.EyeAdaptationSettings m_EyeAdaptation;
+	[SerializeField]
+	[TonemappingColorGrading.SettingsGroup]
+	private TonemappingColorGrading.TonemappingSettings m_Tonemapping;
+	[SerializeField]
+	[TonemappingColorGrading.SettingsGroup]
+	private TonemappingColorGrading.ColorGradingSettings m_ColorGrading;
+	[SerializeField]
+	[TonemappingColorGrading.SettingsGroup]
+	private TonemappingColorGrading.LUTSettings m_Lut;
+	private Texture2D m_IdentityLut;
+	private RenderTexture m_InternalLut;
+	private Texture2D m_CurveTexture;
+	private Texture2D m_TonemapperCurve;
+	private float m_TonemapperCurveRange;
+	[SerializeField]
+	private Shader m_Shader;
+	private Material m_Material;
+	[CompilerGeneratedAttribute]
+	private bool <validRenderTextureFormat>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private bool <validUserLutSize>k__BackingField;
+	private bool m_Dirty;
+	private bool m_TonemapperDirty;
+	private RenderTexture m_SmallAdaptiveRt;
+	private RenderTextureFormat m_AdaptiveRtFormat;
+	private RenderTexture[] rts;
 
 	public TonemappingColorGrading.EyeAdaptationSettings eyeAdaptation { get; set; }
 	public TonemappingColorGrading.TonemappingSettings tonemapping { get; set; }
@@ -155,16 +155,16 @@ private RenderTexture[] rts;
 
 	public int get_lutSize() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_validRenderTextureFormat() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_validRenderTextureFormat(bool value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_validUserLutSize() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_validUserLutSize(bool value) { }
 
 	public void SetDirty() { }
@@ -195,7 +195,7 @@ private RenderTexture[] rts;
 
 	private bool CheckSmallAdaptiveRt() { }
 
-[ImageEffectTransformsToLDR]
+	[ImageEffectTransformsToLDR]
 	public void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
 	public Texture2D BakeLUT() { }
@@ -227,8 +227,8 @@ public class TonemappingColorGrading.ChannelMixer : PropertyAttribute // TypeDef
 
 public class TonemappingColorGrading.ColorWheelGroup : PropertyAttribute // TypeDefIndex: 13463
 {
-public int minSizePerWheel;
-public int maxSizePerWheel;
+	public int minSizePerWheel;
+	public int maxSizePerWheel;
 
 
 	public void .ctor() { }
@@ -239,7 +239,7 @@ public int maxSizePerWheel;
 
 public class TonemappingColorGrading.Curve : PropertyAttribute // TypeDefIndex: 13464
 {
-public Color color;
+	public Color color;
 
 
 	public void .ctor() { }
@@ -250,19 +250,19 @@ public Color color;
 
 public struct TonemappingColorGrading.EyeAdaptationSettings // TypeDefIndex: 13465
 {
-public bool enabled;
-[MinAttribute]
-[TooltipAttribute]
-public float middleGrey;
-[TooltipAttribute]
-public float min;
-[TooltipAttribute]
-public float max;
-[MinAttribute]
-[TooltipAttribute]
-public float speed;
-[TooltipAttribute]
-public bool showDebug;
+	public bool enabled;
+	[MinAttribute]
+	[TooltipAttribute]
+	public float middleGrey;
+	[TooltipAttribute]
+	public float min;
+	[TooltipAttribute]
+	public float max;
+	[MinAttribute]
+	[TooltipAttribute]
+	public float speed;
+	[TooltipAttribute]
+	public bool showDebug;
 
 	public static TonemappingColorGrading.EyeAdaptationSettings defaultSettings { get; }
 
@@ -273,7 +273,7 @@ public bool showDebug;
 
 public enum TonemappingColorGrading.Tonemapper // TypeDefIndex: 13466
 {
-public int value__;
+	public int value__;
 	public const TonemappingColorGrading.Tonemapper ACES = 0;
 	public const TonemappingColorGrading.Tonemapper Curve = 1;
 	public const TonemappingColorGrading.Tonemapper Hable = 2;
@@ -286,26 +286,26 @@ public int value__;
 
 public struct TonemappingColorGrading.TonemappingSettings // TypeDefIndex: 13467
 {
-public bool enabled;
-[TooltipAttribute]
-public TonemappingColorGrading.Tonemapper tonemapper;
-[MinAttribute]
-[TooltipAttribute]
-public float exposure;
-[TooltipAttribute]
-public AnimationCurve curve;
-[RangeAttribute]
-public float neutralBlackIn;
-[RangeAttribute]
-public float neutralWhiteIn;
-[RangeAttribute]
-public float neutralBlackOut;
-[RangeAttribute]
-public float neutralWhiteOut;
-[RangeAttribute]
-public float neutralWhiteLevel;
-[RangeAttribute]
-public float neutralWhiteClip;
+	public bool enabled;
+	[TooltipAttribute]
+	public TonemappingColorGrading.Tonemapper tonemapper;
+	[MinAttribute]
+	[TooltipAttribute]
+	public float exposure;
+	[TooltipAttribute]
+	public AnimationCurve curve;
+	[RangeAttribute]
+	public float neutralBlackIn;
+	[RangeAttribute]
+	public float neutralWhiteIn;
+	[RangeAttribute]
+	public float neutralBlackOut;
+	[RangeAttribute]
+	public float neutralWhiteOut;
+	[RangeAttribute]
+	public float neutralWhiteLevel;
+	[RangeAttribute]
+	public float neutralWhiteClip;
 
 	public static TonemappingColorGrading.TonemappingSettings defaultSettings { get; }
 
@@ -316,12 +316,12 @@ public float neutralWhiteClip;
 
 public struct TonemappingColorGrading.LUTSettings // TypeDefIndex: 13468
 {
-public bool enabled;
-[TooltipAttribute]
-public Texture texture;
-[RangeAttribute]
-[TooltipAttribute]
-public float contribution;
+	public bool enabled;
+	[TooltipAttribute]
+	public Texture texture;
+	[RangeAttribute]
+	[TooltipAttribute]
+	public float contribution;
 
 	public static TonemappingColorGrading.LUTSettings defaultSettings { get; }
 
@@ -332,12 +332,12 @@ public float contribution;
 
 public struct TonemappingColorGrading.ColorWheelsSettings // TypeDefIndex: 13469
 {
-[ColorUsageAttribute]
-public Color shadows;
-[ColorUsageAttribute]
-public Color midtones;
-[ColorUsageAttribute]
-public Color highlights;
+	[ColorUsageAttribute]
+	public Color shadows;
+	[ColorUsageAttribute]
+	public Color midtones;
+	[ColorUsageAttribute]
+	public Color highlights;
 
 	public static TonemappingColorGrading.ColorWheelsSettings defaultSettings { get; }
 
@@ -348,35 +348,35 @@ public Color highlights;
 
 public struct TonemappingColorGrading.BasicsSettings // TypeDefIndex: 13470
 {
-[RangeAttribute]
-[TooltipAttribute]
-public float temperatureShift;
-[RangeAttribute]
-[TooltipAttribute]
-public float tint;
-[SpaceAttribute]
-[RangeAttribute]
-[TooltipAttribute]
-public float hue;
-[RangeAttribute]
-[TooltipAttribute]
-public float saturation;
-[RangeAttribute]
-[TooltipAttribute]
-public float vibrance;
-[RangeAttribute]
-[TooltipAttribute]
-public float value;
-[SpaceAttribute]
-[RangeAttribute]
-[TooltipAttribute]
-public float contrast;
-[RangeAttribute]
-[TooltipAttribute]
-public float gain;
-[RangeAttribute]
-[TooltipAttribute]
-public float gamma;
+	[RangeAttribute]
+	[TooltipAttribute]
+	public float temperatureShift;
+	[RangeAttribute]
+	[TooltipAttribute]
+	public float tint;
+	[SpaceAttribute]
+	[RangeAttribute]
+	[TooltipAttribute]
+	public float hue;
+	[RangeAttribute]
+	[TooltipAttribute]
+	public float saturation;
+	[RangeAttribute]
+	[TooltipAttribute]
+	public float vibrance;
+	[RangeAttribute]
+	[TooltipAttribute]
+	public float value;
+	[SpaceAttribute]
+	[RangeAttribute]
+	[TooltipAttribute]
+	public float contrast;
+	[RangeAttribute]
+	[TooltipAttribute]
+	public float gain;
+	[RangeAttribute]
+	[TooltipAttribute]
+	public float gamma;
 
 	public static TonemappingColorGrading.BasicsSettings defaultSettings { get; }
 
@@ -387,8 +387,8 @@ public float gamma;
 
 public struct TonemappingColorGrading.ChannelMixerSettings // TypeDefIndex: 13471
 {
-public int currentChannel;
-public Vector3[] channels;
+	public int currentChannel;
+	public Vector3[] channels;
 
 	public static TonemappingColorGrading.ChannelMixerSettings defaultSettings { get; }
 
@@ -399,14 +399,14 @@ public Vector3[] channels;
 
 public struct TonemappingColorGrading.CurvesSettings // TypeDefIndex: 13472
 {
-[TonemappingColorGrading.Curve]
-public AnimationCurve master;
-[TonemappingColorGrading.Curve]
-public AnimationCurve red;
-[TonemappingColorGrading.Curve]
-public AnimationCurve green;
-[TonemappingColorGrading.Curve]
-public AnimationCurve blue;
+	[TonemappingColorGrading.Curve]
+	public AnimationCurve master;
+	[TonemappingColorGrading.Curve]
+	public AnimationCurve red;
+	[TonemappingColorGrading.Curve]
+	public AnimationCurve green;
+	[TonemappingColorGrading.Curve]
+	public AnimationCurve blue;
 
 	public static TonemappingColorGrading.CurvesSettings defaultSettings { get; }
 	public static AnimationCurve defaultCurve { get; }
@@ -420,7 +420,7 @@ public AnimationCurve blue;
 
 public enum TonemappingColorGrading.ColorGradingPrecision // TypeDefIndex: 13473
 {
-public int value__;
+	public int value__;
 	public const TonemappingColorGrading.ColorGradingPrecision Normal = 16;
 	public const TonemappingColorGrading.ColorGradingPrecision High = 32;
 
@@ -428,26 +428,26 @@ public int value__;
 
 public struct TonemappingColorGrading.ColorGradingSettings // TypeDefIndex: 13474
 {
-public bool enabled;
-[TooltipAttribute]
-public TonemappingColorGrading.ColorGradingPrecision precision;
-[SpaceAttribute]
-[TonemappingColorGrading.ColorWheelGroup]
-public TonemappingColorGrading.ColorWheelsSettings colorWheels;
-[SpaceAttribute]
-[TonemappingColorGrading.IndentedGroup]
-public TonemappingColorGrading.BasicsSettings basics;
-[SpaceAttribute]
-[TonemappingColorGrading.ChannelMixer]
-public TonemappingColorGrading.ChannelMixerSettings channelMixer;
-[SpaceAttribute]
-[TonemappingColorGrading.IndentedGroup]
-public TonemappingColorGrading.CurvesSettings curves;
-[SpaceAttribute]
-[TooltipAttribute]
-public bool useDithering;
-[TooltipAttribute]
-public bool showDebug;
+	public bool enabled;
+	[TooltipAttribute]
+	public TonemappingColorGrading.ColorGradingPrecision precision;
+	[SpaceAttribute]
+	[TonemappingColorGrading.ColorWheelGroup]
+	public TonemappingColorGrading.ColorWheelsSettings colorWheels;
+	[SpaceAttribute]
+	[TonemappingColorGrading.IndentedGroup]
+	public TonemappingColorGrading.BasicsSettings basics;
+	[SpaceAttribute]
+	[TonemappingColorGrading.ChannelMixer]
+	public TonemappingColorGrading.ChannelMixerSettings channelMixer;
+	[SpaceAttribute]
+	[TonemappingColorGrading.IndentedGroup]
+	public TonemappingColorGrading.CurvesSettings curves;
+	[SpaceAttribute]
+	[TooltipAttribute]
+	public bool useDithering;
+	[TooltipAttribute]
+	public bool showDebug;
 
 	public static TonemappingColorGrading.ColorGradingSettings defaultSettings { get; }
 
@@ -460,7 +460,7 @@ public bool showDebug;
 
 private enum TonemappingColorGrading.Pass // TypeDefIndex: 13475
 {
-public int value__;
+	public int value__;
 	public const TonemappingColorGrading.Pass LutGen = 0;
 	public const TonemappingColorGrading.Pass AdaptationLog = 1;
 	public const TonemappingColorGrading.Pass AdaptationExpBlend = 2;

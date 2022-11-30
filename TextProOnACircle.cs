@@ -5,17 +5,17 @@ internal class <Module>
 
 [ExecuteInEditMode]
 public class TextProOnACircle : TextProOnACurve
-[SerializeField]
-[TooltipAttribute]
-private float m_radius;
-[TooltipAttribute]
-public float m_arcDegrees;
-[SerializeField]
-[TooltipAttribute]
-private float m_angularOffset;
-private float m_oldRadius;
-private float m_oldArcDegrees;
-private float m_oldAngularOffset;
+	[SerializeField]
+	[TooltipAttribute]
+	private float m_radius;
+	[TooltipAttribute]
+	public float m_arcDegrees;
+	[SerializeField]
+	[TooltipAttribute]
+	private float m_angularOffset;
+	private float m_oldRadius;
+	private float m_oldArcDegrees;
+	private float m_oldAngularOffset;
 
 
 	protected override bool ParametersHaveChanged() { }

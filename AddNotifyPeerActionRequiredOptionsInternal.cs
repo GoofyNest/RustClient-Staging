@@ -2,7 +2,7 @@ internal struct AddNotifyPeerActionRequiredOptionsInternal : ISettable<AddNotify
 {
 
 internal struct AddNotifyPeerActionRequiredOptionsInternal : ISettable<AddNotifyPeerActionRequiredOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref AddNotifyPeerActionRequiredOptions other) { }

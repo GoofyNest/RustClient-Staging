@@ -9,13 +9,13 @@ public class GenerateClutterTopology : ProceduralComponent // TypeDefIndex: 1220
 
 private sealed class GenerateClutterTopology.<>c__DisplayClass0_0 // TypeDefIndex: 12210
 {
-public int[] map;
-public int res;
+	public int[] map;
+	public int res;
 
 
 	public void .ctor() { }
 
-internal void <Process>
+	internal void <Process>
 
 }
 

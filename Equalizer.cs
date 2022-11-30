@@ -2,8 +2,8 @@ public class Equalizer // TypeDefIndex: 7407
 {
 	private const int BANDS = 32;
 	internal const float BAND_NOT_PRESENT = -∞;
-internal static readonly Equalizer PassThruEq;
-private float[] _Settings;
+	internal static readonly Equalizer PassThruEq;
+	private float[] _Settings;
 
 	internal float[] FromFloatArray { set; }
 	internal virtual Equalizer FromEqualizer { set; }

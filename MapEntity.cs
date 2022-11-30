@@ -1,9 +1,9 @@
 public class MapEntity : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6329
 {
-public bool ShouldPool;
-private bool _disposed;
-public List<uint> fogImages;
-public List<uint> paintImages;
+	public bool ShouldPool;
+	private bool _disposed;
+	public List<uint> fogImages;
+	public List<uint> paintImages;
 
 
 	public static void ResetToPool(MapEntity instance) { }
@@ -62,8 +62,8 @@ public List<uint> paintImages;
 
 public class MapEntity : HeldEntity // TypeDefIndex: 10324
 {
-public uint[] fogImages;
-public uint[] paintImages;
+	public uint[] fogImages;
+	public uint[] paintImages;
 
 
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }

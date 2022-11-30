@@ -42,7 +42,7 @@ public static class TerrainTopology // TypeDefIndex: 7801
 
 public enum TerrainTopology.Enum // TypeDefIndex: 7802
 {
-public int value__;
+	public int value__;
 	public const TerrainTopology.Enum Field = 1;
 	public const TerrainTopology.Enum Cliff = 2;
 	public const TerrainTopology.Enum Summit = 4;

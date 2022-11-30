@@ -2,7 +2,7 @@ internal struct AddNotifyOnPresenceChangedOptionsInternal : ISettable<AddNotifyO
 {
 
 internal struct AddNotifyOnPresenceChangedOptionsInternal : ISettable<AddNotifyOnPresenceChangedOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref AddNotifyOnPresenceChangedOptions other) { }

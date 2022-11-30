@@ -2,12 +2,12 @@ public class Buffer16BitStereo : ABuffer // TypeDefIndex: 7393
 {
 
 public class Buffer16BitStereo : ABuffer
-internal bool DoubleMonoToStereo;
+	internal bool DoubleMonoToStereo;
 	private const int OUTPUT_CHANNELS = 2;
-private readonly byte[] _Buffer;
-private readonly int[] _BufferChannelOffsets;
-private int _End;
-private int _Offset;
+	private readonly byte[] _Buffer;
+	private readonly int[] _BufferChannelOffsets;
+	private int _End;
+	private int _Offset;
 
 	internal int BytesLeft { get; }
 

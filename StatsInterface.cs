@@ -27,10 +27,10 @@ public sealed class StatsInterface : Handle // TypeDefIndex: 8450
 
 	public void QueryStats(ref QueryStatsOptions options, object clientData, OnQueryStatsCompleteCallback completionDelegate) { }
 
-[MonoPInvokeCallbackAttribute]
+	[MonoPInvokeCallbackAttribute]
 	internal static void OnIngestStatCompleteCallbackInternalImplementation(ref IngestStatCompleteCallbackInfoInternal data) { }
 
-[MonoPInvokeCallbackAttribute]
+	[MonoPInvokeCallbackAttribute]
 	internal static void OnQueryStatsCompleteCallbackInternalImplementation(ref OnQueryStatsCompleteCallbackInfoInternal data) { }
 
 }

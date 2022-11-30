@@ -25,15 +25,15 @@ public static class TransformUtil // TypeDefIndex: 13212
 
 private sealed class TransformUtil.<>c // TypeDefIndex: 13213
 {
-public static readonly TransformUtil.<>c <>9;
-public static Func<Transform, bool> <>9__9_0;
+	public static readonly TransformUtil.<>c <>9;
+	public static Func<Transform, bool> <>9__9_0;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-internal bool <GetRootObjects>
+	internal bool <GetRootObjects>
 
 }
 

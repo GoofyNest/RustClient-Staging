@@ -1,7 +1,7 @@
 internal sealed class Parser // TypeDefIndex: 919
 {
-private SecurityDocument _doc;
-private Tokenizer _t;
+	private SecurityDocument _doc;
+	private Tokenizer _t;
 
 
 	internal SecurityElement GetTopElement() { }
@@ -20,26 +20,26 @@ private Tokenizer _t;
 
 internal sealed class Parser // TypeDefIndex: 2265
 {
-private SchemaType schemaType;
-private XmlNameTable nameTable;
-private SchemaNames schemaNames;
-private ValidationEventHandler eventHandler;
-private XmlNamespaceManager namespaceManager;
-private XmlReader reader;
-private PositionInfo positionInfo;
-private bool isProcessNamespaces;
-private int schemaXmlDepth;
-private int markupDepth;
-private SchemaBuilder builder;
-private XmlSchema schema;
-private SchemaInfo xdrSchema;
-private XmlResolver xmlResolver;
-private XmlDocument dummyDocument;
-private bool processMarkup;
-private XmlNode parentNode;
-private XmlNamespaceManager annotationNSManager;
-private string xmlns;
-private XmlCharType xmlCharType;
+	private SchemaType schemaType;
+	private XmlNameTable nameTable;
+	private SchemaNames schemaNames;
+	private ValidationEventHandler eventHandler;
+	private XmlNamespaceManager namespaceManager;
+	private XmlReader reader;
+	private PositionInfo positionInfo;
+	private bool isProcessNamespaces;
+	private int schemaXmlDepth;
+	private int markupDepth;
+	private SchemaBuilder builder;
+	private XmlSchema schema;
+	private SchemaInfo xdrSchema;
+	private XmlResolver xmlResolver;
+	private XmlDocument dummyDocument;
+	private bool processMarkup;
+	private XmlNode parentNode;
+	private XmlNamespaceManager annotationNSManager;
+	private string xmlns;
+	private XmlCharType xmlCharType;
 
 	public XmlSchema XmlSchema { get; }
 	internal XmlResolver XmlResolver { set; }
@@ -89,7 +89,7 @@ public static class Parser.Token
 
 public static class Parser.DateTime // TypeDefIndex: 5800
 {
-public static readonly Func<object, string> ToString;
+	public static readonly Func<object, string> ToString;
 
 
 	public static bool TryParse(string input, out DateTimeOffset result) { }
@@ -100,14 +100,14 @@ public static readonly Func<object, string> ToString;
 
 private sealed class Parser.DateTime.<>c // TypeDefIndex: 5801
 {
-public static readonly Parser.DateTime.<>c <>9;
+	public static readonly Parser.DateTime.<>c <>9;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-internal string <.cctor>
+	internal string <.cctor>
 
 }
 
@@ -141,7 +141,7 @@ public static class Parser.Long // TypeDefIndex: 5805
 
 public static class Parser.MD5 // TypeDefIndex: 5806
 {
-public static readonly Func<object, string> ToString;
+	public static readonly Func<object, string> ToString;
 
 
 	public static bool TryParse(string input, out byte[] result) { }
@@ -152,14 +152,14 @@ public static readonly Func<object, string> ToString;
 
 private sealed class Parser.MD5.<>c // TypeDefIndex: 5807
 {
-public static readonly Parser.MD5.<>c <>9;
+	public static readonly Parser.MD5.<>c <>9;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-internal string <.cctor>
+	internal string <.cctor>
 
 }
 

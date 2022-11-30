@@ -1,9 +1,9 @@
 public class Header // TypeDefIndex: 1237
 {
-public string HeaderNamespace;
-public bool MustUnderstand;
-public string Name;
-public object Value;
+	public string HeaderNamespace;
+	public bool MustUnderstand;
+	public string Name;
+	public object Value;
 
 }
 
@@ -19,27 +19,27 @@ public class Header // TypeDefIndex: 7408
 	internal const int FOURTYFOUR_POINT_ONE = 0;
 	internal const int FOURTYEIGHT = 1;
 	internal const int THIRTYTWO = 2;
-internal static readonly int[][] Frequencies;
-internal static readonly int[][][] Bitrates;
-internal static readonly string[][][] BitrateStr;
-internal short Checksum;
-internal int NSlots;
-private Crc16 _CRC;
-internal int Framesize;
-private bool _Copyright;
-private bool _Original;
-private int _Headerstring;
-private int _Layer;
-private int _ProtectionBit;
-private int _BitrateIndex;
-private int _PaddingBit;
-private int _ModeExtension;
-private int _Mode;
-private int _NumberOfSubbands;
-private int _IntensityStereoBound;
-private int _SampleFrequency;
-private sbyte _Syncmode;
-private int _Version;
+	internal static readonly int[][] Frequencies;
+	internal static readonly int[][][] Bitrates;
+	internal static readonly string[][][] BitrateStr;
+	internal short Checksum;
+	internal int NSlots;
+	private Crc16 _CRC;
+	internal int Framesize;
+	private bool _Copyright;
+	private bool _Original;
+	private int _Headerstring;
+	private int _Layer;
+	private int _ProtectionBit;
+	private int _BitrateIndex;
+	private int _PaddingBit;
+	private int _ModeExtension;
+	private int _Mode;
+	private int _NumberOfSubbands;
+	private int _IntensityStereoBound;
+	private int _SampleFrequency;
+	private sbyte _Syncmode;
+	private int _Version;
 
 
 	internal void .ctor() { }

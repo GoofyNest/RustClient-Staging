@@ -1,7 +1,7 @@
 public class Monument : TerrainPlacement // TypeDefIndex: 12342
 {
-public float Radius;
-public float Fade;
+	public float Radius;
+	public float Fade;
 
 
 	protected void OnDrawGizmosSelected() { }
@@ -24,82 +24,82 @@ public float Fade;
 
 private sealed class Monument.<>c__DisplayClass3_0 // TypeDefIndex: 12343
 {
-public Matrix4x4 worldToLocal;
-public Monument <>4__this;
-public bool useBlendMap;
-public TextureData blenddata;
-public Vector3 position;
-public TextureData heightdata;
+	public Matrix4x4 worldToLocal;
+	public Monument <>4__this;
+	public bool useBlendMap;
+	public TextureData blenddata;
+	public Vector3 position;
+	public TextureData heightdata;
 
 
 	public void .ctor() { }
 
-internal void <ApplyHeight>
+	internal void <ApplyHeight>
 
 }
 
 private sealed class Monument.<>c__DisplayClass4_0 // TypeDefIndex: 12344
 {
-public Matrix4x4 worldToLocal;
-public Monument <>4__this;
-public TextureData splat0data;
-public TextureData splat1data;
-public bool should0;
-public bool should1;
-public bool should2;
-public bool should3;
-public bool should4;
-public bool should5;
-public bool should6;
-public bool should7;
+	public Matrix4x4 worldToLocal;
+	public Monument <>4__this;
+	public TextureData splat0data;
+	public TextureData splat1data;
+	public bool should0;
+	public bool should1;
+	public bool should2;
+	public bool should3;
+	public bool should4;
+	public bool should5;
+	public bool should6;
+	public bool should7;
 
 
 	public void .ctor() { }
 
-internal void <ApplySplat>
+	internal void <ApplySplat>
 
 }
 
 private sealed class Monument.<>c__DisplayClass5_0 // TypeDefIndex: 12345
 {
-public Matrix4x4 worldToLocal;
-public Monument <>4__this;
-public TextureData alphadata;
+	public Matrix4x4 worldToLocal;
+	public Monument <>4__this;
+	public TextureData alphadata;
 
 
 	public void .ctor() { }
 
-internal void <ApplyAlpha>
+	internal void <ApplyAlpha>
 
 }
 
 private sealed class Monument.<>c__DisplayClass6_0 // TypeDefIndex: 12346
 {
-public Matrix4x4 worldToLocal;
-public Monument <>4__this;
-public TextureData biomedata;
-public bool should0;
-public bool should1;
-public bool should2;
-public bool should3;
+	public Matrix4x4 worldToLocal;
+	public Monument <>4__this;
+	public TextureData biomedata;
+	public bool should0;
+	public bool should1;
+	public bool should2;
+	public bool should3;
 
 
 	public void .ctor() { }
 
-internal void <ApplyBiome>
+	internal void <ApplyBiome>
 
 }
 
 private sealed class Monument.<>c__DisplayClass7_0 // TypeDefIndex: 12347
 {
-public Matrix4x4 worldToLocal;
-public Monument <>4__this;
-public TextureData topologydata;
+	public Matrix4x4 worldToLocal;
+	public Monument <>4__this;
+	public TextureData topologydata;
 
 
 	public void .ctor() { }
 
-internal void <ApplyTopology>
+	internal void <ApplyTopology>
 
 }
 

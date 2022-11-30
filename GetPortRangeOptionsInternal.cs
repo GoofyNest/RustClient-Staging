@@ -2,7 +2,7 @@ internal struct GetPortRangeOptionsInternal : ISettable<GetPortRangeOptions>, ID
 {
 
 internal struct GetPortRangeOptionsInternal : ISettable<GetPortRangeOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref GetPortRangeOptions other) { }

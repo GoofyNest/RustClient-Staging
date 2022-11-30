@@ -14,7 +14,7 @@ public class GenerateRoadTerrain : ProceduralComponent // TypeDefIndex: 12276
 
 private sealed class GenerateRoadTerrain.<>c__DisplayClass4_0 // TypeDefIndex: 12277
 {
-public TerrainTopologyMap topologymap;
+	public TerrainTopologyMap topologymap;
 
 
 	public void .ctor() { }
@@ -23,13 +23,13 @@ public TerrainTopologyMap topologymap;
 
 private sealed class GenerateRoadTerrain.<>c__DisplayClass4_1 // TypeDefIndex: 12278
 {
-public PathInterpolator path;
-public GenerateRoadTerrain.<>c
+	public PathInterpolator path;
+	public GenerateRoadTerrain.<>c
 
 
 	public void .ctor() { }
 
-internal float <Process>
+	internal float <Process>
 
 }
 

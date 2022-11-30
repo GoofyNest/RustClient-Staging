@@ -1,13 +1,13 @@
 public class OnePoleLowpassFilter : MonoBehaviour // TypeDefIndex: 10746
 {
-[RangeAttribute]
-public float frequency;
-private int sampleRate;
-private float c;
-private float a1;
-private float b1;
-private OnePoleLowpassFilter.ChannelData[] channelData;
-private float prevFrequency;
+	[RangeAttribute]
+	public float frequency;
+	private int sampleRate;
+	private float c;
+	private float a1;
+	private float b1;
+	private OnePoleLowpassFilter.ChannelData[] channelData;
+	private float prevFrequency;
 
 
 	public void Update() { }
@@ -24,7 +24,7 @@ private float prevFrequency;
 
 private class OnePoleLowpassFilter.ChannelData // TypeDefIndex: 10747
 {
-public float out1;
+	public float out1;
 
 
 	public void .ctor() { }

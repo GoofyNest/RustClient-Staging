@@ -1,6 +1,6 @@
 public enum AmmoTypes // TypeDefIndex: 6631
 {
-public int value__;
+	public int value__;
 	public const AmmoTypes PISTOL_9MM = 1;
 	public const AmmoTypes RIFLE_556MM = 2;
 	public const AmmoTypes SHOTGUN_12GUAGE = 4;
@@ -18,16 +18,16 @@ public int value__;
 
 public class AmmoBelowAIEvent : BaseAIEvent // TypeDefIndex: 11129
 {
-[CompilerGeneratedAttribute]
-private float <Value>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private float <Value>k__BackingField;
 
 	public float Value { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public float get_Value() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_Value(float value) { }
 
 	public void .ctor() { }
@@ -47,12 +47,12 @@ public class AmmoBelowEventUI : BaseEventUI // TypeDefIndex: 12552
 
 public class AmmoInformationPanel : ItemInformationPanel // TypeDefIndex: 12756
 {
-public ItemStatValue damageDisplay;
-public ItemStatValue velocityDisplay;
-public ItemStatValue spreadDisplay;
-public ItemTextValue pelletsDisplay;
-public ItemStatValue falloffRangeDisplay;
-public ItemTextValue thicknessDisplay;
+	public ItemStatValue damageDisplay;
+	public ItemStatValue velocityDisplay;
+	public ItemStatValue spreadDisplay;
+	public ItemTextValue pelletsDisplay;
+	public ItemStatValue falloffRangeDisplay;
+	public ItemTextValue thicknessDisplay;
 
 
 	public override bool EligableForDisplay(ItemDefinition info) { }

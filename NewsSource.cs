@@ -1,16 +1,16 @@
 public class NewsSource : MonoBehaviour // TypeDefIndex: 12917
 {
-private static readonly Regex BbcodeParse;
-public RustText title;
-public RustText date;
-public RustText authorName;
-public HttpImage coverImage;
-public RectTransform container;
-public Button button;
-public RustText paragraphTemplate;
-public HttpImage imageTemplate;
-public HttpImage youtubeTemplate;
-private static readonly string[] BulletSeparators;
+	private static readonly Regex BbcodeParse;
+	public RustText title;
+	public RustText date;
+	public RustText authorName;
+	public HttpImage coverImage;
+	public RectTransform container;
+	public Button button;
+	public RustText paragraphTemplate;
+	public HttpImage imageTemplate;
+	public HttpImage youtubeTemplate;
+	private static readonly string[] BulletSeparators;
 
 
 	public void Awake() { }
@@ -37,8 +37,8 @@ private static readonly string[] BulletSeparators;
 
 private struct NewsSource.ParagraphBuilder // TypeDefIndex: 12918
 {
-public StringBuilder StringBuilder;
-public List<string> Links;
+	public StringBuilder StringBuilder;
+	public List<string> Links;
 
 
 	public static NewsSource.ParagraphBuilder New() { }
@@ -51,12 +51,12 @@ public List<string> Links;
 
 private sealed class NewsSource.<>c__DisplayClass12_0 // TypeDefIndex: 12919
 {
-public SteamNewsSource.Story story;
+	public SteamNewsSource.Story story;
 
 
 	public void .ctor() { }
 
-internal void <SetStory>
+	internal void <SetStory>
 
 	internal Manifest.NewsInfo.BlogInfo <SetStory>g__GetBlogPost|1() { }
 
@@ -64,26 +64,26 @@ internal void <SetStory>
 
 private sealed class NewsSource.<>c // TypeDefIndex: 12920
 {
-public static readonly NewsSource.<>c <>9;
-public static Func<Manifest.NewsInfo.BlogInfo, string> <>9__12_2;
+	public static readonly NewsSource.<>c <>9;
+	public static Func<Manifest.NewsInfo.BlogInfo, string> <>9__12_2;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-internal string <SetStory>
+	internal string <SetStory>
 
 }
 
 private sealed class NewsSource.<>c__DisplayClass18_0 // TypeDefIndex: 12921
 {
-public string videoUrl;
+	public string videoUrl;
 
 
 	public void .ctor() { }
 
-internal void <AppendYouTube>
+	internal void <AppendYouTube>
 
 }
 

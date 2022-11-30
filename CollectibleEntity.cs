@@ -1,9 +1,9 @@
 public class CollectibleEntity : BaseEntity, IPrefabPreProcess // TypeDefIndex: 10273
 {
-public Translate.Phrase itemName;
-public ItemAmount[] itemList;
-public GameObjectRef pickupEffect;
-public float xpScale;
+	public Translate.Phrase itemName;
+	public ItemAmount[] itemList;
+	public GameObjectRef pickupEffect;
+	public float xpScale;
 
 
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
@@ -18,11 +18,11 @@ public float xpScale;
 
 	public void .ctor() { }
 
-[CompilerGeneratedAttribute]
-private void <GetMenuItems>
+	[CompilerGeneratedAttribute]
+	private void <GetMenuItems>
 
-[CompilerGeneratedAttribute]
-private void <GetMenuItems>
+	[CompilerGeneratedAttribute]
+	private void <GetMenuItems>
 
 }
 

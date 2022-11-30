@@ -2,7 +2,7 @@ internal struct AddNotifyCustomInviteRejectedOptionsInternal : ISettable<AddNoti
 {
 
 internal struct AddNotifyCustomInviteRejectedOptionsInternal : ISettable<AddNotifyCustomInviteRejectedOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref AddNotifyCustomInviteRejectedOptions other) { }

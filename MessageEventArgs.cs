@@ -375,8 +375,8 @@ public struct PostLateUpdate.TriggerEndOfFrameCallbacks
 
 [Serializable]
 public class MessageEventArgs
-public int playerId;
-public byte[] data;
+	public int playerId;
+	public byte[] data;
 
 
 	public void .ctor() { }

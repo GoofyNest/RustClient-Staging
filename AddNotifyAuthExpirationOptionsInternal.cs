@@ -2,7 +2,7 @@ internal struct AddNotifyAuthExpirationOptionsInternal : ISettable<AddNotifyAuth
 {
 
 internal struct AddNotifyAuthExpirationOptionsInternal : ISettable<AddNotifyAuthExpirationOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref AddNotifyAuthExpirationOptions other) { }

@@ -1,14 +1,14 @@
 public class GameManifest : ScriptableObject // TypeDefIndex: 12482
 {
-internal static GameManifest loadedManifest;
-internal static Dictionary<string, string> guidToPath;
-internal static Dictionary<string, string> pathToGuid;
-internal static Dictionary<string, Object> guidToObject;
-public GameManifest.PooledString[] pooledStrings;
-public GameManifest.PrefabProperties[] prefabProperties;
-public GameManifest.EffectCategory[] effectCategories;
-public GameManifest.GuidPath[] guidPaths;
-public string[] entities;
+	internal static GameManifest loadedManifest;
+	internal static Dictionary<string, string> guidToPath;
+	internal static Dictionary<string, string> pathToGuid;
+	internal static Dictionary<string, Object> guidToObject;
+	public GameManifest.PooledString[] pooledStrings;
+	public GameManifest.PrefabProperties[] prefabProperties;
+	public GameManifest.EffectCategory[] effectCategories;
+	public GameManifest.GuidPath[] guidPaths;
+	public string[] entities;
 
 	public static GameManifest Current { get; }
 
@@ -39,19 +39,19 @@ public string[] entities;
 
 public struct GameManifest.PooledString // TypeDefIndex: 12483
 {
-[HideInInspector]
-public string str;
-public uint hash;
+	[HideInInspector]
+	public string str;
+	public uint hash;
 
 }
 
 public class GameManifest.PrefabProperties // TypeDefIndex: 12484
 {
-[HideInInspector]
-public string name;
-public string guid;
-public uint hash;
-public bool pool;
+	[HideInInspector]
+	public string name;
+	public string guid;
+	public uint hash;
+	public bool pool;
 
 
 	public void .ctor() { }
@@ -60,9 +60,9 @@ public bool pool;
 
 public class GameManifest.EffectCategory // TypeDefIndex: 12485
 {
-[HideInInspector]
-public string folder;
-public List<string> prefabs;
+	[HideInInspector]
+	public string folder;
+	public List<string> prefabs;
 
 
 	public void .ctor() { }
@@ -71,9 +71,9 @@ public List<string> prefabs;
 
 public class GameManifest.GuidPath // TypeDefIndex: 12486
 {
-[HideInInspector]
-public string name;
-public string guid;
+	[HideInInspector]
+	public string name;
+	public string guid;
 
 
 	public void .ctor() { }

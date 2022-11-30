@@ -2,11 +2,11 @@ public class DeployGuide : BaseMonoBehaviour // TypeDefIndex: 11532
 {
 
 public class DeployGuide : BaseMonoBehaviour
-public static DeployGuide current;
-private bool hidden;
-public bool isGoodPlacement;
-private MeshRenderer meshRenderer;
-private MeshFilter meshFilter;
+	public static DeployGuide current;
+	private bool hidden;
+	public bool isGoodPlacement;
+	private MeshRenderer meshRenderer;
+	private MeshFilter meshFilter;
 
 
 	public static void HideFor(float seconds) { }

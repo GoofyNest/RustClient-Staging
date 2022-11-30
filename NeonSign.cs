@@ -1,10 +1,10 @@
 public class NeonSign : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6401
 {
-public bool ShouldPool;
-private bool _disposed;
-public List<NeonSign.Lights> frameLighting;
-public int currentFrame;
-public float animationSpeed;
+	public bool ShouldPool;
+	private bool _disposed;
+	public List<NeonSign.Lights> frameLighting;
+	public int currentFrame;
+	public float animationSpeed;
 
 
 	public static void ResetToPool(NeonSign instance) { }
@@ -63,12 +63,12 @@ public float animationSpeed;
 
 public class NeonSign.Lights : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6402
 {
-public bool ShouldPool;
-private bool _disposed;
-public Color topLeft;
-public Color topRight;
-public Color bottomLeft;
-public Color bottomRight;
+	public bool ShouldPool;
+	private bool _disposed;
+	public Color topLeft;
+	public Color topRight;
+	public Color bottomLeft;
+	public Color bottomRight;
 
 
 	public static void ResetToPool(NeonSign.Lights instance) { }
@@ -127,29 +127,29 @@ public Color bottomRight;
 
 public class NeonSign : Signage // TypeDefIndex: 10144
 {
-private Option __menuOption_SwitchToFastSpeed;
-private Option __menuOption_SwitchToMediumSpeed;
-private Option __menuOption_SwitchToSlowSpeed;
+	private Option __menuOption_SwitchToFastSpeed;
+	private Option __menuOption_SwitchToMediumSpeed;
+	private Option __menuOption_SwitchToSlowSpeed;
 	private const float FastSpeed = 0,5;
 	private const float MediumSpeed = 1;
 	private const float SlowSpeed = 2;
 	private const float MinSpeed = 0,5;
 	private const float MaxSpeed = 5;
-[HeaderAttribute]
-public Light topLeft;
-public Light topRight;
-public Light bottomLeft;
-public Light bottomRight;
-public float lightIntensity;
-[RangeAttribute]
-public int powerConsumption;
-public Material activeMaterial;
-public Material inactiveMaterial;
-private float animationSpeed;
-private int currentFrame;
-private List<NeonSign.Lights> frameLighting;
-public AmbienceEmitter ambientSoundEmitter;
-public SoundDefinition switchSoundDef;
+	[HeaderAttribute]
+	public Light topLeft;
+	public Light topRight;
+	public Light bottomLeft;
+	public Light bottomRight;
+	public float lightIntensity;
+	[RangeAttribute]
+	public int powerConsumption;
+	public Material activeMaterial;
+	public Material inactiveMaterial;
+	private float animationSpeed;
+	private int currentFrame;
+	private List<NeonSign.Lights> frameLighting;
+	public AmbienceEmitter ambientSoundEmitter;
+	public SoundDefinition switchSoundDef;
 
 	public override bool HasMenuOptions { get; }
 
@@ -174,31 +174,31 @@ public SoundDefinition switchSoundDef;
 
 	public override void OnTextureWasEdited(int frame, Texture2D texture, bool fromFile = False) { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.ShowIf]
 	public void SwitchToSlowSpeed(BasePlayer player) { }
 
 	public bool SwitchToSlowSpeed_ShowIf(BasePlayer player) { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.ShowIf]
 	public void SwitchToMediumSpeed(BasePlayer player) { }
 
 	public bool SwitchToMediumSpeed_ShowIf(BasePlayer player) { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.ShowIf]
 	public void SwitchToFastSpeed(BasePlayer player) { }
 
 	public bool SwitchToFastSpeed_ShowIf(BasePlayer player) { }
 
-[BaseEntity.RPC_Client]
+	[BaseEntity.RPC_Client]
 	public void SetFrame(BaseEntity.RPCMessage msg) { }
 
 	public override void Load(BaseNetworkable.LoadInfo info) { }

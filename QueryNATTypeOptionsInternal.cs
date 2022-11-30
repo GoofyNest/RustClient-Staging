@@ -2,7 +2,7 @@ internal struct QueryNATTypeOptionsInternal : ISettable<QueryNATTypeOptions>, ID
 {
 
 internal struct QueryNATTypeOptionsInternal : ISettable<QueryNATTypeOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref QueryNATTypeOptions other) { }

@@ -2,7 +2,7 @@ public static class Analytics.Client // TypeDefIndex: 13841
 {
 
 public static class Analytics.Client
-public static bool Enabled;
+	public static bool Enabled;
 
 	public static int InventoryOpened { get; set; }
 	public static int CraftingOpened { get; set; }

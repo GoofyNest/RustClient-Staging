@@ -2,7 +2,7 @@ internal struct AddNotifyIncomingPacketQueueFullOptionsInternal : ISettable<AddN
 {
 
 internal struct AddNotifyIncomingPacketQueueFullOptionsInternal : ISettable<AddNotifyIncomingPacketQueueFullOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref AddNotifyIncomingPacketQueueFullOptions other) { }

@@ -1,7 +1,7 @@
 public class Manager : IDisposable // TypeDefIndex: 6885
 {
-private Dictionary<uint, Group> groups;
-internal Provider provider;
+	private Dictionary<uint, Group> groups;
+	internal Provider provider;
 
 
 	public virtual void Dispose() { }
@@ -28,7 +28,7 @@ internal Provider provider;
 
 public static class Manager // TypeDefIndex: 7048
 {
-private static Dictionary<string, GameObject> Prefabs;
+	private static Dictionary<string, GameObject> Prefabs;
 
 
 	internal static GameObject CreatePrefab(string name) { }
@@ -62,11 +62,11 @@ private static Dictionary<string, GameObject> Prefabs;
 public class Manager // TypeDefIndex: 7388
 {
 	private const string hex = "0123456789abcdef";
-private static Manager manager;
-private Hashtable handlers;
-private Hashtable active;
-private Hashtable assemblies;
-private static readonly object lockobj;
+	private static Manager manager;
+	private Hashtable handlers;
+	private Hashtable active;
+	private Hashtable assemblies;
+	private static readonly object lockobj;
 
 	public static Manager PrimaryManager { get; }
 

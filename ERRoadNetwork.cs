@@ -1,11 +1,11 @@
 public class ERRoadNetwork // TypeDefIndex: 7287
 {
-public ERModularBase roadNetwork;
-public bool isInBuildMode;
-public string str;
-public static ERRoadNetwork.RoadUpdateCallback onRoadUpdate;
-public static ERRoadNetwork.BuildModeCallback onBuildModeEnter;
-public static ERRoadNetwork.EditModeCallback onEditModeEnter;
+	public ERModularBase roadNetwork;
+	public bool isInBuildMode;
+	public string str;
+	public static ERRoadNetwork.RoadUpdateCallback onRoadUpdate;
+	public static ERRoadNetwork.BuildModeCallback onBuildModeEnter;
+	public static ERRoadNetwork.EditModeCallback onEditModeEnter;
 
 
 	public static void OnBuildModeEnter() { }
@@ -70,7 +70,7 @@ public static ERRoadNetwork.EditModeCallback onEditModeEnter;
 
 	public ERConnection[] LoadConnections() { }
 
-[ObsoleteAttribute]
+	[ObsoleteAttribute]
 	public ERConnection GetSourceConnectionByName(string name) { }
 
 	public ERConnection GetConnectionPrefabByName(string name) { }

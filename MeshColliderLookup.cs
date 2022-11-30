@@ -1,7 +1,7 @@
 public class MeshColliderLookup // TypeDefIndex: 10891
 {
-public MeshColliderLookup.LookupGroup src;
-public MeshColliderLookup.LookupGroup dst;
+	public MeshColliderLookup.LookupGroup src;
+	public MeshColliderLookup.LookupGroup dst;
 
 
 	public void Apply() { }
@@ -16,8 +16,8 @@ public MeshColliderLookup.LookupGroup dst;
 
 public class MeshColliderLookup.LookupGroup // TypeDefIndex: 10892
 {
-public List<MeshColliderLookup.LookupEntry> data;
-public List<int> indices;
+	public List<MeshColliderLookup.LookupEntry> data;
+	public List<int> indices;
 
 
 	public void Clear() { }
@@ -32,10 +32,10 @@ public List<int> indices;
 
 public struct MeshColliderLookup.LookupEntry // TypeDefIndex: 10893
 {
-public Transform transform;
-public Rigidbody rigidbody;
-public Collider collider;
-public OBB bounds;
+	public Transform transform;
+	public Rigidbody rigidbody;
+	public Collider collider;
+	public OBB bounds;
 
 
 	public void .ctor(MeshColliderInstance instance) { }

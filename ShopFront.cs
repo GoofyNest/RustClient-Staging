@@ -1,9 +1,9 @@
 public class ShopFront : StorageContainer // TypeDefIndex: 10362
 {
-public float maxUseAngle;
-public BasePlayer vendorPlayer;
-public BasePlayer customerPlayer;
-public GameObjectRef transactionCompleteEffect;
+	public float maxUseAngle;
+	public BasePlayer vendorPlayer;
+	public BasePlayer customerPlayer;
+	public GameObjectRef transactionCompleteEffect;
 
 	private float AngleDotProduct { get; }
 
@@ -28,7 +28,7 @@ public GameObjectRef transactionCompleteEffect;
 
 	public override bool ShouldShowLootMenus() { }
 
-[BaseEntity.RPC_Client]
+	[BaseEntity.RPC_Client]
 	public void CLIENT_ReceivePlayers(BaseEntity.RPCMessage msg) { }
 
 	public void .ctor() { }

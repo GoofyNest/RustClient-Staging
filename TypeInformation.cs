@@ -1,8 +1,8 @@
 internal sealed class TypeInformation // TypeDefIndex: 1111
 {
-private string fullTypeName;
-private string assemblyString;
-private bool hasTypeForwardedFrom;
+	private string fullTypeName;
+	private string assemblyString;
+	private bool hasTypeForwardedFrom;
 
 	internal string FullTypeName { get; }
 	internal string AssemblyString { get; }
@@ -21,25 +21,25 @@ private bool hasTypeForwardedFrom;
 
 internal class TypeInformation // TypeDefIndex: 5950
 {
-[CompilerGeneratedAttribute]
-private Type <Type>k__BackingField;
-[CompilerGeneratedAttribute]
-private PrimitiveTypeCode <TypeCode>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Type <Type>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private PrimitiveTypeCode <TypeCode>k__BackingField;
 
 	public Type Type { get; set; }
 	public PrimitiveTypeCode TypeCode { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Type get_Type() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Type(Type value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public PrimitiveTypeCode get_TypeCode() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_TypeCode(PrimitiveTypeCode value) { }
 
 	public void .ctor() { }

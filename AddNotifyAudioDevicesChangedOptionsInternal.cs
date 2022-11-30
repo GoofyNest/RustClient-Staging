@@ -2,7 +2,7 @@ internal struct AddNotifyAudioDevicesChangedOptionsInternal : ISettable<AddNotif
 {
 
 internal struct AddNotifyAudioDevicesChangedOptionsInternal : ISettable<AddNotifyAudioDevicesChangedOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref AddNotifyAudioDevicesChangedOptions other) { }

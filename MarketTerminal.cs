@@ -1,12 +1,12 @@
 public class MarketTerminal : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6405
 {
-public bool ShouldPool;
-private bool _disposed;
-public ulong customerSteamId;
-public uint marketplaceId;
-public List<MarketTerminal.PendingOrder> orders;
-public string customerName;
-public TimeUntil timeUntilExpiry;
+	public bool ShouldPool;
+	private bool _disposed;
+	public ulong customerSteamId;
+	public uint marketplaceId;
+	public List<MarketTerminal.PendingOrder> orders;
+	public string customerName;
+	public TimeUntil timeUntilExpiry;
 
 
 	public static void ResetToPool(MarketTerminal instance) { }
@@ -65,11 +65,11 @@ public TimeUntil timeUntilExpiry;
 
 public class MarketTerminal.PendingOrder : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6406
 {
-public bool ShouldPool;
-private bool _disposed;
-public uint vendingMachineId;
-public uint droneId;
-public TimeUntil timeUntilExpiry;
+	public bool ShouldPool;
+	private bool _disposed;
+	public uint vendingMachineId;
+	public uint droneId;
+	public TimeUntil timeUntilExpiry;
 
 
 	public static void ResetToPool(MarketTerminal.PendingOrder instance) { }
@@ -128,23 +128,23 @@ public TimeUntil timeUntilExpiry;
 
 public class MarketTerminal : StorageContainer // TypeDefIndex: 10129
 {
-private Option __menuOption_Menu_RequestOpenMarket;
-private ulong _currentlyDisplayedUserId;
+	private Option __menuOption_Menu_RequestOpenMarket;
+	private ulong _currentlyDisplayedUserId;
 	public const BaseEntity.Flags Flag_HasItems = 128;
 	public const BaseEntity.Flags Flag_InventoryFull = 256;
-[HeaderAttribute]
-public GameObjectRef menuPrefab;
-public ulong lockToCustomerDuration;
-public ulong orderTimeout;
-public ItemDefinition deliveryFeeCurrency;
-public int deliveryFeeAmount;
-public DeliveryDroneConfig config;
-public RustText userLabel;
-private ulong _customerSteamId;
-private string _customerName;
-private TimeUntil _timeUntilCustomerExpiry;
-private EntityRef<Marketplace> _marketplace;
-public List<MarketTerminal.PendingOrder> pendingOrders;
+	[HeaderAttribute]
+	public GameObjectRef menuPrefab;
+	public ulong lockToCustomerDuration;
+	public ulong orderTimeout;
+	public ItemDefinition deliveryFeeCurrency;
+	public int deliveryFeeAmount;
+	public DeliveryDroneConfig config;
+	public RustText userLabel;
+	private ulong _customerSteamId;
+	private string _customerName;
+	private TimeUntil _timeUntilCustomerExpiry;
+	private EntityRef<Marketplace> _marketplace;
+	public List<MarketTerminal.PendingOrder> pendingOrders;
 
 	public override bool HasMenuOptions { get; }
 
@@ -155,19 +155,19 @@ public List<MarketTerminal.PendingOrder> pendingOrders;
 
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-[BaseEntity.RPC_Client]
+	[BaseEntity.RPC_Client]
 	public void Client_OpenMarket(BaseEntity.RPCMessage msg) { }
 
-[BaseEntity.RPC_Client]
+	[BaseEntity.RPC_Client]
 	public void Client_ShowItemNotice(BaseEntity.RPCMessage msg) { }
 
-[BaseEntity.RPC_Client]
+	[BaseEntity.RPC_Client]
 	public void Client_CloseMarketUI(BaseEntity.RPCMessage msg) { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.ShowIf]
 	public void Menu_RequestOpenMarket(BasePlayer player) { }
 
 	public bool Menu_RequestOpenMarket_ShowIf(BasePlayer player) { }
@@ -190,18 +190,18 @@ public List<MarketTerminal.PendingOrder> pendingOrders;
 
 private sealed class MarketTerminal.<>c // TypeDefIndex: 10130
 {
-public static readonly MarketTerminal.<>c <>9;
-public static Func<Item, int> <>9__27_0;
-public static Func<MarketTerminal.PendingOrder, uint> <>9__28_0;
+	public static readonly MarketTerminal.<>c <>9;
+	public static Func<Item, int> <>9__27_0;
+	public static Func<MarketTerminal.PendingOrder, uint> <>9__28_0;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-internal int <CanPlayerAffordOrderAndDeliveryFee>
+	internal int <CanPlayerAffordOrderAndDeliveryFee>
 
-internal uint <HasPendingOrderFor>
+	internal uint <HasPendingOrderFor>
 
 }
 

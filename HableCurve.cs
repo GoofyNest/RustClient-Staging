@@ -1,15 +1,15 @@
 public class HableCurve // TypeDefIndex: 13662
 {
-[CompilerGeneratedAttribute]
-private float <whitePoint>k__BackingField;
-[CompilerGeneratedAttribute]
-private float <inverseWhitePoint>k__BackingField;
-[CompilerGeneratedAttribute]
-private float <x0>k__BackingField;
-[CompilerGeneratedAttribute]
-private float <x1>k__BackingField;
-private readonly HableCurve.Segment[] m_Segments;
-public readonly HableCurve.Uniforms uniforms;
+	[CompilerGeneratedAttribute]
+	private float <whitePoint>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private float <inverseWhitePoint>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private float <x0>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private float <x1>k__BackingField;
+	private readonly HableCurve.Segment[] m_Segments;
+	public readonly HableCurve.Uniforms uniforms;
 
 	public float whitePoint { get; set; }
 	public float inverseWhitePoint { get; set; }
@@ -17,28 +17,28 @@ public readonly HableCurve.Uniforms uniforms;
 	internal float x1 { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public float get_whitePoint() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_whitePoint(float value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public float get_inverseWhitePoint() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_inverseWhitePoint(float value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	internal float get_x0() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_x0(float value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	internal float get_x1() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_x1(float value) { }
 
 	public void .ctor() { }
@@ -59,12 +59,12 @@ public readonly HableCurve.Uniforms uniforms;
 
 private class HableCurve.Segment // TypeDefIndex: 13663
 {
-public float offsetX;
-public float offsetY;
-public float scaleX;
-public float scaleY;
-public float lnA;
-public float B;
+	public float offsetX;
+	public float offsetY;
+	public float scaleX;
+	public float scaleY;
+	public float lnA;
+	public float B;
 
 
 	public float Eval(float x) { }
@@ -75,20 +75,20 @@ public float B;
 
 private struct HableCurve.DirectParams // TypeDefIndex: 13664
 {
-internal float x0;
-internal float y0;
-internal float x1;
-internal float y1;
-internal float W;
-internal float overshootX;
-internal float overshootY;
-internal float gamma;
+	internal float x0;
+	internal float y0;
+	internal float x1;
+	internal float y1;
+	internal float W;
+	internal float overshootX;
+	internal float overshootY;
+	internal float gamma;
 
 }
 
 public class HableCurve.Uniforms // TypeDefIndex: 13665
 {
-private HableCurve parent;
+	private HableCurve parent;
 
 	public Vector4 curve { get; }
 	public Vector4 toeSegmentA { get; }

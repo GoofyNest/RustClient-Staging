@@ -13,29 +13,29 @@ internal sealed class BarBeatTicksTimeSpanConverter : ITimeSpanConverter // Type
 
 private sealed class BarBeatTicksTimeSpanConverter.<>c__DisplayClass0_0 // TypeDefIndex: 7486
 {
-public long time;
-public long endTime;
+	public long time;
+	public long endTime;
 
 
 	public void .ctor() { }
 
-internal bool <ConvertTo>
+	internal bool <ConvertTo>
 
 }
 
 private sealed class BarBeatTicksTimeSpanConverter.<>c__DisplayClass1_0 // TypeDefIndex: 7487
 {
-public long time;
-public long totalTicks;
-public long lastTime;
-public Func<ValueChange<TimeSignature>, bool> <>9__1;
+	public long time;
+	public long totalTicks;
+	public long lastTime;
+	public Func<ValueChange<TimeSignature>, bool> <>9__1;
 
 
 	public void .ctor() { }
 
-internal bool <ConvertFrom>
+	internal bool <ConvertFrom>
 
-internal bool <ConvertFrom>
+	internal bool <ConvertFrom>
 
 }
 

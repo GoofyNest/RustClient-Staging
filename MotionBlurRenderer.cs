@@ -11,7 +11,7 @@ internal sealed class MotionBlurRenderer : PostProcessEffectRenderer<MotionBlur>
 
 private enum MotionBlurRenderer.Pass // TypeDefIndex: 13598
 {
-public int value__;
+	public int value__;
 	public const MotionBlurRenderer.Pass VelocitySetup = 0;
 	public const MotionBlurRenderer.Pass TileMax1 = 1;
 	public const MotionBlurRenderer.Pass TileMax2 = 2;

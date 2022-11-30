@@ -2,7 +2,7 @@ internal struct GetDesktopCrossplayStatusOptionsInternal : ISettable<GetDesktopC
 {
 
 internal struct GetDesktopCrossplayStatusOptionsInternal : ISettable<GetDesktopCrossplayStatusOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref GetDesktopCrossplayStatusOptions other) { }

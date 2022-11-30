@@ -3,8 +3,8 @@ public class ColliderInfo : MonoBehaviour // TypeDefIndex: 11580
 	public const ColliderInfo.Flags FlagsNone = 0;
 	public const ColliderInfo.Flags FlagsEverything = -1;
 	public const ColliderInfo.Flags FlagsDefault = 15;
-[InspectorFlagsAttribute]
-public ColliderInfo.Flags flags;
+	[InspectorFlagsAttribute]
+	public ColliderInfo.Flags flags;
 
 
 	public bool HasFlag(ColliderInfo.Flags f) { }
@@ -19,7 +19,7 @@ public ColliderInfo.Flags flags;
 
 public enum ColliderInfo.Flags // TypeDefIndex: 11581
 {
-public int value__;
+	public int value__;
 	public const ColliderInfo.Flags Usable = 1;
 	public const ColliderInfo.Flags Shootable = 2;
 	public const ColliderInfo.Flags Melee = 4;

@@ -1,11 +1,11 @@
 public abstract class Encoder // TypeDefIndex: 444
 {
-internal EncoderFallback m_fallback;
-internal EncoderFallbackBuffer m_fallbackBuffer;
+	internal EncoderFallback m_fallback;
+	internal EncoderFallbackBuffer m_fallbackBuffer;
 
-[ComVisibleAttribute]
+	[ComVisibleAttribute]
 	public EncoderFallback Fallback { get; }
-[ComVisibleAttribute]
+	[ComVisibleAttribute]
 	public EncoderFallbackBuffer FallbackBuffer { get; }
 	internal bool InternalHasFallbackBuffer { get; }
 
@@ -20,26 +20,26 @@ internal EncoderFallbackBuffer m_fallbackBuffer;
 
 	internal bool get_InternalHasFallbackBuffer() { }
 
-[ComVisibleAttribute]
+	[ComVisibleAttribute]
 	public virtual void Reset() { }
 
 	public abstract int GetByteCount(char[] chars, int index, int count, bool flush);
 
-[ComVisibleAttribute]
-[CLSCompliantAttribute]
+	[ComVisibleAttribute]
+	[CLSCompliantAttribute]
 	public virtual int GetByteCount(char* chars, int count, bool flush) { }
 
 	public abstract int GetBytes(char[] chars, int charIndex, int charCount, byte[] bytes, int byteIndex, bool flush);
 
-[CLSCompliantAttribute]
-[ComVisibleAttribute]
+	[CLSCompliantAttribute]
+	[ComVisibleAttribute]
 	public virtual int GetBytes(char* chars, int charCount, byte* bytes, int byteCount, bool flush) { }
 
-[ComVisibleAttribute]
+	[ComVisibleAttribute]
 	public virtual void Convert(char[] chars, int charIndex, int charCount, byte[] bytes, int byteIndex, int byteCount, bool flush, out int charsUsed, out int bytesUsed, out bool completed) { }
 
-[ComVisibleAttribute]
-[CLSCompliantAttribute]
+	[ComVisibleAttribute]
+	[CLSCompliantAttribute]
 	public virtual void Convert(char* chars, int charCount, byte* bytes, int byteCount, bool flush, out int charsUsed, out int bytesUsed, out bool completed) { }
 
 }
@@ -82,10 +82,10 @@ public sealed class EncoderExceptionFallbackBuffer : EncoderFallbackBuffer // Ty
 
 public sealed class EncoderFallbackException : ArgumentException // TypeDefIndex: 449
 {
-private char charUnknown;
-private char charUnknownHigh;
-private char charUnknownLow;
-private int index;
+	private char charUnknown;
+	private char charUnknownHigh;
+	private char charUnknownLow;
+	private int index;
 
 
 	public void .ctor() { }
@@ -100,10 +100,10 @@ private int index;
 
 public abstract class EncoderFallback // TypeDefIndex: 450
 {
-internal bool bIsMicrosoftBestFitFallback;
-private static EncoderFallback replacementFallback;
-private static EncoderFallback exceptionFallback;
-private static object s_InternalSyncObject;
+	internal bool bIsMicrosoftBestFitFallback;
+	private static EncoderFallback replacementFallback;
+	private static EncoderFallback exceptionFallback;
+	private static object s_InternalSyncObject;
 
 	private static object InternalSyncObject { get; }
 	public static EncoderFallback ReplacementFallback { get; }
@@ -127,13 +127,13 @@ private static object s_InternalSyncObject;
 
 public abstract class EncoderFallbackBuffer // TypeDefIndex: 451
 {
-internal char* charStart;
-internal char* charEnd;
-internal EncoderNLS encoder;
-internal bool setEncoder;
-internal bool bUsedEncoder;
-internal bool bFallingBack;
-internal int iRecursionCount;
+	internal char* charStart;
+	internal char* charEnd;
+	internal EncoderNLS encoder;
+	internal bool setEncoder;
+	internal bool bUsedEncoder;
+	internal bool bFallingBack;
+	internal int iRecursionCount;
 	private const int iMaxRecursion = 250;
 
 	public abstract int Remaining { get; }
@@ -167,11 +167,11 @@ internal int iRecursionCount;
 
 internal class EncoderNLS : Encoder, ISerializable // TypeDefIndex: 452
 {
-internal char charLeftOver;
-protected Encoding m_encoding;
-protected bool m_mustFlush;
-internal bool m_throwOnOverflow;
-internal int m_charsUsed;
+	internal char charLeftOver;
+	protected Encoding m_encoding;
+	protected bool m_mustFlush;
+	internal bool m_throwOnOverflow;
+	internal int m_charsUsed;
 
 	public Encoding Encoding { get; }
 	public bool MustFlush { get; }
@@ -212,7 +212,7 @@ internal int m_charsUsed;
 
 public sealed class EncoderReplacementFallback : EncoderFallback // TypeDefIndex: 453
 {
-private string strDefault;
+	private string strDefault;
 
 	public string DefaultString { get; }
 	public override int MaxCharCount { get; }
@@ -236,9 +236,9 @@ private string strDefault;
 
 public sealed class EncoderReplacementFallbackBuffer : EncoderFallbackBuffer // TypeDefIndex: 454
 {
-private string strDefault;
-private int fallbackCount;
-private int fallbackIndex;
+	private string strDefault;
+	private int fallbackCount;
+	private int fallbackIndex;
 
 	public override int Remaining { get; }
 
@@ -261,15 +261,15 @@ private int fallbackIndex;
 
 public abstract class Encoding : ICloneable // TypeDefIndex: 455
 {
-private static Encoding defaultEncoding;
-private static Encoding unicodeEncoding;
-private static Encoding bigEndianUnicode;
-private static Encoding utf7Encoding;
-private static Encoding utf8Encoding;
-private static Encoding utf32Encoding;
-private static Encoding asciiEncoding;
-private static Encoding latin1Encoding;
-private static Hashtable encodings;
+	private static Encoding defaultEncoding;
+	private static Encoding unicodeEncoding;
+	private static Encoding bigEndianUnicode;
+	private static Encoding utf7Encoding;
+	private static Encoding utf8Encoding;
+	private static Encoding utf32Encoding;
+	private static Encoding asciiEncoding;
+	private static Encoding latin1Encoding;
+	private static Hashtable encodings;
 	private const int MIMECONTF_MAILNEWS = 1;
 	private const int MIMECONTF_BROWSER = 2;
 	private const int MIMECONTF_SAVABLE_MAILNEWS = 256;
@@ -316,16 +316,16 @@ private static Hashtable encodings;
 	private const int CodePageUTF8 = 65001;
 	private const int CodePageUTF32 = 12000;
 	private const int CodePageUTF32BE = 12001;
-internal int m_codePage;
-internal CodePageDataItem dataItem;
-internal bool m_deserializedFromEverett;
-[OptionalFieldAttribute]
-private bool m_isReadOnly;
-[OptionalFieldAttribute]
-internal EncoderFallback encoderFallback;
-[OptionalFieldAttribute]
-internal DecoderFallback decoderFallback;
-private static object s_InternalSyncObject;
+	internal int m_codePage;
+	internal CodePageDataItem dataItem;
+	internal bool m_deserializedFromEverett;
+	[OptionalFieldAttribute]
+	private bool m_isReadOnly;
+	[OptionalFieldAttribute]
+	internal EncoderFallback encoderFallback;
+	[OptionalFieldAttribute]
+	internal DecoderFallback decoderFallback;
+	private static object s_InternalSyncObject;
 
 	private static object InternalSyncObject { get; }
 	public virtual string BodyName { get; }
@@ -337,13 +337,13 @@ private static object s_InternalSyncObject;
 	public virtual bool IsBrowserSave { get; }
 	public virtual bool IsMailNewsDisplay { get; }
 	public virtual bool IsMailNewsSave { get; }
-[ComVisibleAttribute]
+	[ComVisibleAttribute]
 	public virtual bool IsSingleByte { get; }
-[ComVisibleAttribute]
+	[ComVisibleAttribute]
 	public EncoderFallback EncoderFallback { get; set; }
-[ComVisibleAttribute]
+	[ComVisibleAttribute]
 	public DecoderFallback DecoderFallback { get; set; }
-[ComVisibleAttribute]
+	[ComVisibleAttribute]
 	public bool IsReadOnly { get; }
 	public static Encoding ASCII { get; }
 	private static Encoding Latin1 { get; }
@@ -366,13 +366,13 @@ private static object s_InternalSyncObject;
 
 	internal void OnDeserialized() { }
 
-[OnDeserializingAttribute]
+	[OnDeserializingAttribute]
 	private void OnDeserializing(StreamingContext ctx) { }
 
-[OnDeserializedAttribute]
+	[OnDeserializedAttribute]
 	private void OnDeserialized(StreamingContext ctx) { }
 
-[OnSerializingAttribute]
+	[OnSerializingAttribute]
 	private void OnSerializing(StreamingContext ctx) { }
 
 	internal void DeserializeEncoding(SerializationInfo info, StreamingContext context) { }
@@ -417,7 +417,7 @@ private static object s_InternalSyncObject;
 
 	public void set_DecoderFallback(DecoderFallback value) { }
 
-[ComVisibleAttribute]
+	[ComVisibleAttribute]
 	public virtual object Clone() { }
 
 	public bool get_IsReadOnly() { }
@@ -430,8 +430,8 @@ private static object s_InternalSyncObject;
 
 	public abstract int GetByteCount(char[] chars, int index, int count);
 
-[ComVisibleAttribute]
-[CLSCompliantAttribute]
+	[ComVisibleAttribute]
+	[CLSCompliantAttribute]
 	public virtual int GetByteCount(char* chars, int count) { }
 
 	internal virtual int GetByteCount(char* chars, int count, EncoderNLS encoder) { }
@@ -448,14 +448,14 @@ private static object s_InternalSyncObject;
 
 	internal virtual int GetBytes(char* chars, int charCount, byte* bytes, int byteCount, EncoderNLS encoder) { }
 
-[ComVisibleAttribute]
-[CLSCompliantAttribute]
+	[ComVisibleAttribute]
+	[CLSCompliantAttribute]
 	public virtual int GetBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 	public abstract int GetCharCount(byte[] bytes, int index, int count);
 
-[ComVisibleAttribute]
-[CLSCompliantAttribute]
+	[ComVisibleAttribute]
+	[CLSCompliantAttribute]
 	public virtual int GetCharCount(byte* bytes, int count) { }
 
 	internal virtual int GetCharCount(byte* bytes, int count, DecoderNLS decoder) { }
@@ -464,19 +464,19 @@ private static object s_InternalSyncObject;
 
 	public abstract int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex);
 
-[ComVisibleAttribute]
-[CLSCompliantAttribute]
+	[ComVisibleAttribute]
+	[CLSCompliantAttribute]
 	public virtual int GetChars(byte* bytes, int byteCount, char* chars, int charCount) { }
 
 	internal virtual int GetChars(byte* bytes, int byteCount, char* chars, int charCount, DecoderNLS decoder) { }
 
-[CLSCompliantAttribute]
-[ComVisibleAttribute]
+	[CLSCompliantAttribute]
+	[ComVisibleAttribute]
 	public string GetString(byte* bytes, int byteCount) { }
 
 	public virtual int get_CodePage() { }
 
-[ComVisibleAttribute]
+	[ComVisibleAttribute]
 	public virtual bool IsAlwaysNormalized(NormalizationForm form) { }
 
 	public virtual Decoder GetDecoder() { }
@@ -527,9 +527,9 @@ private static object s_InternalSyncObject;
 
 internal class Encoding.DefaultEncoder : Encoder, ISerializable, IObjectReference // TypeDefIndex: 456
 {
-private Encoding m_encoding;
-private bool m_hasInitializedEncoding;
-internal char charLeftOver;
+	private Encoding m_encoding;
+	private bool m_hasInitializedEncoding;
+	internal char charLeftOver;
 
 
 	public void .ctor(Encoding encoding) { }
@@ -552,8 +552,8 @@ internal char charLeftOver;
 
 internal class Encoding.DefaultDecoder : Decoder, ISerializable, IObjectReference // TypeDefIndex: 457
 {
-private Encoding m_encoding;
-private bool m_hasInitializedEncoding;
+	private Encoding m_encoding;
+	private bool m_hasInitializedEncoding;
 
 
 	public void .ctor(Encoding encoding) { }
@@ -580,16 +580,16 @@ private bool m_hasInitializedEncoding;
 
 internal class Encoding.EncodingCharBuffer // TypeDefIndex: 458
 {
-private char* chars;
-private char* charStart;
-private char* charEnd;
-private int charCountResult;
-private Encoding enc;
-private DecoderNLS decoder;
-private byte* byteStart;
-private byte* byteEnd;
-private byte* bytes;
-private DecoderFallbackBuffer fallbackBuffer;
+	private char* chars;
+	private char* charStart;
+	private char* charEnd;
+	private int charCountResult;
+	private Encoding enc;
+	private DecoderNLS decoder;
+	private byte* byteStart;
+	private byte* byteEnd;
+	private byte* bytes;
+	private DecoderFallbackBuffer fallbackBuffer;
 
 	internal bool MoreData { get; }
 	internal int BytesUsed { get; }
@@ -620,16 +620,16 @@ private DecoderFallbackBuffer fallbackBuffer;
 
 internal class Encoding.EncodingByteBuffer // TypeDefIndex: 459
 {
-private byte* bytes;
-private byte* byteStart;
-private byte* byteEnd;
-private char* chars;
-private char* charStart;
-private char* charEnd;
-private int byteCountResult;
-private Encoding enc;
-private EncoderNLS encoder;
-internal EncoderFallbackBuffer fallbackBuffer;
+	private byte* bytes;
+	private byte* byteStart;
+	private byte* byteEnd;
+	private char* chars;
+	private char* charStart;
+	private char* charEnd;
+	private int byteCountResult;
+	private Encoding enc;
+	private EncoderNLS encoder;
+	internal EncoderFallbackBuffer fallbackBuffer;
 
 	internal bool MoreData { get; }
 	internal int CharsUsed { get; }
@@ -693,8 +693,8 @@ internal abstract class EncodingNLS : Encoding // TypeDefIndex: 460
 
 public abstract class EncodingProvider // TypeDefIndex: 461
 {
-private static object s_InternalSyncObject;
-private static EncodingProvider[] s_providers;
+	private static object s_InternalSyncObject;
+	private static EncodingProvider[] s_providers;
 
 
 	public abstract Encoding GetEncoding(string name);
@@ -711,10 +711,10 @@ private static EncodingProvider[] s_providers;
 
 internal static class EncodingHelper // TypeDefIndex: 479
 {
-private static Encoding utf8EncodingWithoutMarkers;
-private static readonly object lockobj;
-private static Assembly i18nAssembly;
-private static bool i18nDisabled;
+	private static Encoding utf8EncodingWithoutMarkers;
+	private static readonly object lockobj;
+	private static Assembly i18nAssembly;
+	private static bool i18nDisabled;
 
 	internal static Encoding UTF8Unmarked { get; }
 
@@ -733,11 +733,11 @@ private static bool i18nDisabled;
 
 internal static class EncodingTable // TypeDefIndex: 736
 {
-internal static InternalEncodingDataItem[] encodingDataPtr;
-internal static InternalCodePageDataItem[] codePageDataPtr;
-private static int lastEncodingItem;
-private static Hashtable hashByName;
-private static Hashtable hashByCodePage;
+	internal static InternalEncodingDataItem[] encodingDataPtr;
+	internal static InternalCodePageDataItem[] codePageDataPtr;
+	private static int lastEncodingItem;
+	private static Hashtable hashByName;
+	private static Hashtable hashByCodePage;
 
 
 	private static int GetNumEncodingItems() { }
@@ -1353,12 +1353,12 @@ public class ENCibm865 : CP865 // TypeDefIndex: 8025
 
 public sealed class Encoder // TypeDefIndex: 13374
 {
-private static readonly Type includeAttrType;
-private static readonly Type excludeAttrType;
-private static readonly Type typeHintAttrType;
-private readonly StringBuilder builder;
-private readonly EncodeOptions options;
-private int indent;
+	private static readonly Type includeAttrType;
+	private static readonly Type excludeAttrType;
+	private static readonly Type typeHintAttrType;
+	private readonly StringBuilder builder;
+	private readonly EncodeOptions options;
+	private int indent;
 
 	private bool PrettyPrintEnabled { get; }
 	private bool TypeHintsEnabled { get; }

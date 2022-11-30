@@ -3,7 +3,7 @@ public class WWW : CustomYieldInstruction, IDisposable // TypeDefIndex: 4760
 
 [ObsoleteAttribute]
 public class WWW : CustomYieldInstruction, IDisposable
-private UnityWebRequest _uwr;
+	private UnityWebRequest _uwr;
 
 	public string error { get; }
 	public bool isDone { get; }

@@ -1,8 +1,8 @@
 internal struct RequestPlayersForGameProgressCallback_t : ICallbackData // TypeDefIndex: 5357
 {
-internal Result Result;
-internal ulong LSearchID;
-public static int _datasize;
+	internal Result Result;
+	internal ulong LSearchID;
+	public static int _datasize;
 
 	public int DataSize { get; }
 	public CallbackType CallbackType { get; }
@@ -18,17 +18,17 @@ public static int _datasize;
 
 internal struct RequestPlayersForGameResultCallback_t : ICallbackData // TypeDefIndex: 5358
 {
-internal Result Result;
-internal ulong LSearchID;
-internal ulong SteamIDPlayerFound;
-internal ulong SteamIDLobby;
-internal RequestPlayersForGameResultCallback_t.PlayerAcceptState_t PlayerAcceptState;
-internal int PlayerIndex;
-internal int TotalPlayersFound;
-internal int TotalPlayersAcceptedGame;
-internal int SuggestedTeamIndex;
-internal ulong LUniqueGameID;
-public static int _datasize;
+	internal Result Result;
+	internal ulong LSearchID;
+	internal ulong SteamIDPlayerFound;
+	internal ulong SteamIDLobby;
+	internal RequestPlayersForGameResultCallback_t.PlayerAcceptState_t PlayerAcceptState;
+	internal int PlayerIndex;
+	internal int TotalPlayersFound;
+	internal int TotalPlayersAcceptedGame;
+	internal int SuggestedTeamIndex;
+	internal ulong LUniqueGameID;
+	public static int _datasize;
 
 	public int DataSize { get; }
 	public CallbackType CallbackType { get; }
@@ -44,7 +44,7 @@ public static int _datasize;
 
 internal enum RequestPlayersForGameResultCallback_t.PlayerAcceptState_t // TypeDefIndex: 5359
 {
-public int value__;
+	public int value__;
 	public const RequestPlayersForGameResultCallback_t.PlayerAcceptState_t Unknown = 0;
 	public const RequestPlayersForGameResultCallback_t.PlayerAcceptState_t PlayerAccepted = 1;
 	public const RequestPlayersForGameResultCallback_t.PlayerAcceptState_t PlayerDeclined = 2;
@@ -53,10 +53,10 @@ public int value__;
 
 internal struct RequestPlayersForGameFinalResultCallback_t : ICallbackData // TypeDefIndex: 5360
 {
-internal Result Result;
-internal ulong LSearchID;
-internal ulong LUniqueGameID;
-public static int _datasize;
+	internal Result Result;
+	internal ulong LSearchID;
+	internal ulong LUniqueGameID;
+	public static int _datasize;
 
 	public int DataSize { get; }
 	public CallbackType CallbackType { get; }

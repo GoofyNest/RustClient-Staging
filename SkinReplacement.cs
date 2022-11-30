@@ -1,7 +1,7 @@
 public class SkinReplacement // TypeDefIndex: 12515
 {
-public SkinReplacement.SkinType skinReplacementType;
-public GameObjectRef targetReplacement;
+	public SkinReplacement.SkinType skinReplacementType;
+	public GameObjectRef targetReplacement;
 
 
 	public void .ctor() { }
@@ -10,7 +10,7 @@ public GameObjectRef targetReplacement;
 
 public enum SkinReplacement.SkinType // TypeDefIndex: 12516
 {
-public int value__;
+	public int value__;
 	public const SkinReplacement.SkinType NONE = 0;
 	public const SkinReplacement.SkinType Hands = 1;
 	public const SkinReplacement.SkinType Head = 2;

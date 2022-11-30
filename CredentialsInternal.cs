@@ -1,8 +1,8 @@
 internal struct CredentialsInternal : IGettable<Credentials>, ISettable<Credentials>, IDisposable // TypeDefIndex: 9576
 {
-private int m_ApiVersion;
-private IntPtr m_Token;
-private ExternalCredentialType m_Type;
+	private int m_ApiVersion;
+	private IntPtr m_Token;
+	private ExternalCredentialType m_Type;
 
 	public Utf8String Token { get; set; }
 	public ExternalCredentialType Type { get; set; }
@@ -28,12 +28,12 @@ private ExternalCredentialType m_Type;
 
 internal struct CredentialsInternal : IGettable<Credentials>, ISettable<Credentials>, IDisposable // TypeDefIndex: 9659
 {
-private int m_ApiVersion;
-private IntPtr m_Id;
-private IntPtr m_Token;
-private LoginCredentialType m_Type;
-private IntPtr m_SystemAuthCredentialsOptions;
-private ExternalCredentialType m_ExternalType;
+	private int m_ApiVersion;
+	private IntPtr m_Id;
+	private IntPtr m_Token;
+	private LoginCredentialType m_Type;
+	private IntPtr m_SystemAuthCredentialsOptions;
+	private ExternalCredentialType m_ExternalType;
 
 	public Utf8String Id { get; set; }
 	public Utf8String Token { get; set; }

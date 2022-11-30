@@ -1,9 +1,9 @@
 public class InstrumentRecording : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6377
 {
-public bool ShouldPool;
-private bool _disposed;
-public List<InstrumentRecordingNote> notes;
-public int forInstrument;
+	public bool ShouldPool;
+	private bool _disposed;
+	public List<InstrumentRecordingNote> notes;
+	public int forInstrument;
 
 
 	public static void ResetToPool(InstrumentRecording instance) { }
@@ -62,16 +62,16 @@ public int forInstrument;
 
 public class InstrumentRecordingNote : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6378
 {
-public bool ShouldPool;
-private bool _disposed;
-public float startTime;
-public float duration;
-public int note;
-public int octave;
-public float velocity;
-public int noteType;
-public bool shouldPlay;
-public bool hasPlayed;
+	public bool ShouldPool;
+	private bool _disposed;
+	public float startTime;
+	public float duration;
+	public int note;
+	public int octave;
+	public float velocity;
+	public int noteType;
+	public bool shouldPlay;
+	public bool hasPlayed;
 
 
 	public static void ResetToPool(InstrumentRecordingNote instance) { }
@@ -130,10 +130,10 @@ public bool hasPlayed;
 
 public class InstrumentMidiBindings : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6379
 {
-public bool ShouldPool;
-private bool _disposed;
-public List<InstrumentMidiBinding> bindings;
-public uint forInstrument;
+	public bool ShouldPool;
+	private bool _disposed;
+	public List<InstrumentMidiBinding> bindings;
+	public uint forInstrument;
 
 
 	public static void ResetToPool(InstrumentMidiBindings instance) { }
@@ -192,12 +192,12 @@ public uint forInstrument;
 
 public class InstrumentMidiBinding : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6380
 {
-public bool ShouldPool;
-private bool _disposed;
-public int noteFrom;
-public int note;
-public int noteOctave;
-public int noteType;
+	public bool ShouldPool;
+	private bool _disposed;
+	public int noteFrom;
+	public int note;
+	public int noteOctave;
+	public int noteType;
 
 
 	public static void ResetToPool(InstrumentMidiBinding instance) { }
@@ -269,13 +269,13 @@ public sealed class InstrumentNameEvent : BaseTextEvent // TypeDefIndex: 7553
 
 public class InstrumentTool : HeldEntity // TypeDefIndex: 10309
 {
-public InstrumentKeyController KeyController;
-public SoundDefinition DeploySound;
-public Vector2 PitchClamp;
-public bool UseAnimationSlotEvents;
-public Transform MuzzleT;
-public bool UsableByAutoTurrets;
-private InstrumentViewmodel instrumentView;
+	public InstrumentKeyController KeyController;
+	public SoundDefinition DeploySound;
+	public Vector2 PitchClamp;
+	public bool UseAnimationSlotEvents;
+	public Transform MuzzleT;
+	public bool UsableByAutoTurrets;
+	private InstrumentViewmodel instrumentView;
 
 
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
@@ -306,10 +306,10 @@ private InstrumentViewmodel instrumentView;
 
 	public override void ResetState() { }
 
-[BaseEntity.RPC_Client]
+	[BaseEntity.RPC_Client]
 	private void Client_PlayNote(BaseEntity.RPCMessage msg) { }
 
-[BaseEntity.RPC_Client]
+	[BaseEntity.RPC_Client]
 	private void Client_StopNote(BaseEntity.RPCMessage msg) { }
 
 	public override bool IsInstrument() { }
@@ -320,11 +320,11 @@ private InstrumentViewmodel instrumentView;
 
 public class InstrumentStateBehaviour : StateMachineBehaviour // TypeDefIndex: 10468
 {
-private static readonly int[] targetState;
-private static readonly int[] states;
-public int ignoreIndex;
-private float lastCrossfade;
-public float AnimatorCrossfadeDuration;
+	private static readonly int[] targetState;
+	private static readonly int[] states;
+	public int ignoreIndex;
+	private float lastCrossfade;
+	public float AnimatorCrossfadeDuration;
 
 
 	public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) { }
@@ -337,26 +337,26 @@ public float AnimatorCrossfadeDuration;
 
 public class InstrumentViewmodel : MonoBehaviour // TypeDefIndex: 10469
 {
-public Animator ViewAnimator;
-public bool UpdateA;
-public bool UpdateB;
-public bool UpdateC;
-public bool UpdateD;
-public bool UpdateE;
-public bool UpdateF;
-public bool UpdateG;
-public bool UpdateRecentlyPlayed;
-public bool UpdatePlayedNoteTrigger;
-public bool UseTriggers;
-private readonly int note_a;
-private readonly int note_b;
-private readonly int note_c;
-private readonly int note_d;
-private readonly int note_e;
-private readonly int note_f;
-private readonly int note_g;
-private readonly int recentlyPlayedHash;
-private readonly int playedNoteHash;
+	public Animator ViewAnimator;
+	public bool UpdateA;
+	public bool UpdateB;
+	public bool UpdateC;
+	public bool UpdateD;
+	public bool UpdateE;
+	public bool UpdateF;
+	public bool UpdateG;
+	public bool UpdateRecentlyPlayed;
+	public bool UpdatePlayedNoteTrigger;
+	public bool UseTriggers;
+	private readonly int note_a;
+	private readonly int note_b;
+	private readonly int note_c;
+	private readonly int note_d;
+	private readonly int note_e;
+	private readonly int note_f;
+	private readonly int note_g;
+	private readonly int recentlyPlayedHash;
+	private readonly int playedNoteHash;
 
 
 	public void UpdateSlots(InstrumentKeyController.AnimationSlot currentSlot, bool recentlyPlayed, bool playedNoteThisFrame) { }
@@ -369,11 +369,11 @@ private readonly int playedNoteHash;
 
 public class InstrumentToolGuitar : InstrumentTool // TypeDefIndex: 11208
 {
-public Transform InUseAligner;
-public Transform DeployAligner;
-public string DeployBone;
-private Transform handBoneTarget;
-private static readonly int deployHash;
+	public Transform InUseAligner;
+	public Transform DeployAligner;
+	public string DeployBone;
+	private Transform handBoneTarget;
+	private static readonly int deployHash;
 
 
 	protected override void LateUpdate() { }
@@ -400,11 +400,11 @@ public class InstrumentDebugInput : MonoBehaviour // TypeDefIndex: 11290
 public interface IIdealSlotEntity
 
 public class InstrumentDebugInput : MonoBehaviour
-public InstrumentKeyController KeyController;
-public InstrumentKeyController.KeySet Note;
-public float Frequency;
-public float StopAfter;
-public SoundDefinition OverrideDefinition;
+	public InstrumentKeyController KeyController;
+	public InstrumentKeyController.KeySet Note;
+	public float Frequency;
+	public float StopAfter;
+	public SoundDefinition OverrideDefinition;
 
 
 	public void .ctor() { }
@@ -413,38 +413,38 @@ public SoundDefinition OverrideDefinition;
 
 public class InstrumentIKController : MonoBehaviour // TypeDefIndex: 11291
 {
-public Vector3 HitRotationVector;
-public Transform[] LeftHandIkTargets;
-public Transform[] LeftHandIKTargetHitRotations;
-public Transform[] RightHandIkTargets;
-public Transform[] RightHandIKTargetHitRotations;
-public Transform[] RightFootIkTargets;
-public AnimationCurve HandHeightCurve;
-public float HandHeightMultiplier;
-public float HandMoveLerpSpeed;
-public bool DebugHitRotation;
-public AnimationCurve HandHitCurve;
-public float NoteHitTime;
-[HeaderAttribute]
-public float BodyLookWeight;
-public float HeadLookWeight;
-public float LookWeightLimit;
-public bool HoldHandsAtPlay;
-private int currentLeftHandTarget;
-private float leftHandTargetNoteTime;
-private int currentRightHandTarget;
-private float rightHandTargetNoteTime;
-private int currentRightFootTarget;
-private float rightFootTargetNoteTime;
-private Vector3 leftHandIkPos;
-private Vector3 rightHandIkPos;
-private Vector3 rightFootIkPos;
-private Transform iKWorkerTransform;
-private Transform rotationWorker;
-private float totalHandAnimTime;
-private float lastSetLeftHandTime;
-private float lastSetRightHandTime;
-private float lastSetRightFootTime;
+	public Vector3 HitRotationVector;
+	public Transform[] LeftHandIkTargets;
+	public Transform[] LeftHandIKTargetHitRotations;
+	public Transform[] RightHandIkTargets;
+	public Transform[] RightHandIKTargetHitRotations;
+	public Transform[] RightFootIkTargets;
+	public AnimationCurve HandHeightCurve;
+	public float HandHeightMultiplier;
+	public float HandMoveLerpSpeed;
+	public bool DebugHitRotation;
+	public AnimationCurve HandHitCurve;
+	public float NoteHitTime;
+	[HeaderAttribute]
+	public float BodyLookWeight;
+	public float HeadLookWeight;
+	public float LookWeightLimit;
+	public bool HoldHandsAtPlay;
+	private int currentLeftHandTarget;
+	private float leftHandTargetNoteTime;
+	private int currentRightHandTarget;
+	private float rightHandTargetNoteTime;
+	private int currentRightFootTarget;
+	private float rightFootTargetNoteTime;
+	private Vector3 leftHandIkPos;
+	private Vector3 rightHandIkPos;
+	private Vector3 rightFootIkPos;
+	private Transform iKWorkerTransform;
+	private Transform rotationWorker;
+	private float totalHandAnimTime;
+	private float lastSetLeftHandTime;
+	private float lastSetRightHandTime;
+	private float lastSetRightFootTime;
 
 
 	public void HoldHandsUpdate(InstrumentKeyController key) { }
@@ -474,61 +474,61 @@ public class InstrumentIKTargetAttribute : PropertyAttribute // TypeDefIndex: 11
 
 public class InstrumentKeyController : MonoBehaviour // TypeDefIndex: 11293
 {
-public static readonly int PlayingNoteParam;
-public static readonly int AnimationSlot1;
-public static readonly int AnimationSlot2;
-public static readonly int AnimationSlot3;
-public static readonly int AnimationSlot4;
-public static readonly int AnimationSlot5;
-public static readonly int AnimationSlot6;
-public static readonly int AnimationSlot7;
-private float lastAnimationSlotTime;
-public Action<InstrumentKeyController.AnimationSlot> OnAnimationSlotSet;
-private Nullable<InstrumentKeyController.AnimationSlot> setSlot;
-[CompilerGeneratedAttribute]
-private MicrophoneStandIOEntity <currentReceiver>k__BackingField;
-private bool sustain;
-private int lastMidiFrame;
-private int midiNotesThisFrame;
-private InstrumentRecording activeRecording;
-private string recordingFileName;
-private float recordingStartTime;
-private List<InstrumentRecordingNote> activeNotes;
-private InstrumentRecording playingRecording;
-private float playbackElapsedTime;
-private List<int> stoppedNotes;
+	public static readonly int PlayingNoteParam;
+	public static readonly int AnimationSlot1;
+	public static readonly int AnimationSlot2;
+	public static readonly int AnimationSlot3;
+	public static readonly int AnimationSlot4;
+	public static readonly int AnimationSlot5;
+	public static readonly int AnimationSlot6;
+	public static readonly int AnimationSlot7;
+	private float lastAnimationSlotTime;
+	public Action<InstrumentKeyController.AnimationSlot> OnAnimationSlotSet;
+	private Nullable<InstrumentKeyController.AnimationSlot> setSlot;
+	[CompilerGeneratedAttribute]
+	private MicrophoneStandIOEntity <currentReceiver>k__BackingField;
+	private bool sustain;
+	private int lastMidiFrame;
+	private int midiNotesThisFrame;
+	private InstrumentRecording activeRecording;
+	private string recordingFileName;
+	private float recordingStartTime;
+	private List<InstrumentRecordingNote> activeNotes;
+	private InstrumentRecording playingRecording;
+	private float playbackElapsedTime;
+	private List<int> stoppedNotes;
 	public const float DEFAULT_NOTE_VELOCITY = 1;
-public NoteBindingCollection Bindings;
-public InstrumentKeyController.NoteBinding[] NoteBindings;
-public Transform[] NoteSoundPositions;
-public InstrumentIKController IKController;
-public Transform LeftHandProp;
-public Transform RightHandProp;
-public Animator InstrumentAnimator;
-public BaseEntity RPCHandler;
-public uint overrideAchievementId;
+	public NoteBindingCollection Bindings;
+	public InstrumentKeyController.NoteBinding[] NoteBindings;
+	public Transform[] NoteSoundPositions;
+	public InstrumentIKController IKController;
+	public Transform LeftHandProp;
+	public Transform RightHandProp;
+	public Animator InstrumentAnimator;
+	public BaseEntity RPCHandler;
+	public uint overrideAchievementId;
 	private const string ALL_INSTRUMENTS_ACHIEVEMENT_NAME = "PLAY_ALL_INSTRUMENTS";
 	private const int INSTRUMENT_ACHIEVEMENT_COUNT = 11;
-private static HashSet<uint> playedInstruments;
-private InstrumentKeyController.NoteBinding workerBinding;
-private BasePlayer midiPlayer;
-private bool playedFirstNote;
-private float teamAchievementCheck;
-private static bool awardedFullCollectionAchievement;
-public TimeSince TimeInUse;
-private bool subscribedToMidi;
-private InstrumentMidiBindings activeMidiBindings;
-private bool hasSetupBindings;
-private string autoplayPrefString;
-private string autoplayDefaultName;
-[CompilerGeneratedAttribute]
-private bool <FullKeyboardMode>k__BackingField;
-private List<int> activeMidiNotes;
-[CompilerGeneratedAttribute]
-private InstrumentKeyController.AnimationSlot <CurrentAnimation>k__BackingField;
-private BasePlayer OwnerPlayer;
-[CompilerGeneratedAttribute]
-private bool <PlayedNoteThisFrame>k__BackingField;
+	private static HashSet<uint> playedInstruments;
+	private InstrumentKeyController.NoteBinding workerBinding;
+	private BasePlayer midiPlayer;
+	private bool playedFirstNote;
+	private float teamAchievementCheck;
+	private static bool awardedFullCollectionAchievement;
+	public TimeSince TimeInUse;
+	private bool subscribedToMidi;
+	private InstrumentMidiBindings activeMidiBindings;
+	private bool hasSetupBindings;
+	private string autoplayPrefString;
+	private string autoplayDefaultName;
+	[CompilerGeneratedAttribute]
+	private bool <FullKeyboardMode>k__BackingField;
+	private List<int> activeMidiNotes;
+	[CompilerGeneratedAttribute]
+	private InstrumentKeyController.AnimationSlot <CurrentAnimation>k__BackingField;
+	private BasePlayer OwnerPlayer;
+	[CompilerGeneratedAttribute]
+	private bool <PlayedNoteThisFrame>k__BackingField;
 
 	public MicrophoneStandIOEntity currentReceiver { get; set; }
 	public bool FullKeyboardMode { get; set; }
@@ -550,10 +550,10 @@ private bool <PlayedNoteThisFrame>k__BackingField;
 
 	private int GetAnimationSlotHash(InstrumentKeyController.AnimationSlot slot) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public MicrophoneStandIOEntity get_currentReceiver() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_currentReceiver(MicrophoneStandIOEntity value) { }
 
 	public bool SetCurrentReceiver(MicrophoneStandIOEntity receiver) { }
@@ -596,16 +596,16 @@ private bool <PlayedNoteThisFrame>k__BackingField;
 
 	private void StopPlayingRecording() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_FullKeyboardMode() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_FullKeyboardMode(bool value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public InstrumentKeyController.AnimationSlot get_CurrentAnimation() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_CurrentAnimation(InstrumentKeyController.AnimationSlot value) { }
 
 	public bool get_RecentlyPlayedNote() { }
@@ -648,10 +648,10 @@ private bool <PlayedNoteThisFrame>k__BackingField;
 
 	private GameObject GetNoteSoundPosition(int index) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_PlayedNoteThisFrame() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_PlayedNoteThisFrame(bool value) { }
 
 	public void OnPlayerPlayedNote(Notes note, InstrumentKeyController.NoteType type, int octave, float velocity, BasePlayer player) { }
@@ -666,22 +666,22 @@ private bool <PlayedNoteThisFrame>k__BackingField;
 
 	private static void .cctor() { }
 
-[CompilerGeneratedAttribute]
-private void <SetFullKeyboardMode>
+	[CompilerGeneratedAttribute]
+	private void <SetFullKeyboardMode>
 
 }
 
 public struct InstrumentKeyController.NoteBinding // TypeDefIndex: 11294
 {
-private Sound playingSound;
-private float startedPlayingNote;
-private float minimumNoteTime;
-private float minimumSoundFadeOutTime;
-private bool lastNoteState;
-private bool blockUntilRelease;
-public float PitchOffset;
-public bool MidiOn;
-public bool MouseOn;
+	private Sound playingSound;
+	private float startedPlayingNote;
+	private float minimumNoteTime;
+	private float minimumSoundFadeOutTime;
+	private bool lastNoteState;
+	private bool blockUntilRelease;
+	public float PitchOffset;
+	public bool MidiOn;
+	public bool MouseOn;
 
 	public bool Playing { get; }
 	public float PlayingDuration { get; }
@@ -714,7 +714,7 @@ public bool MouseOn;
 
 public enum InstrumentKeyController.IKType // TypeDefIndex: 11295
 {
-public int value__;
+	public int value__;
 	public const InstrumentKeyController.IKType LeftHand = 0;
 	public const InstrumentKeyController.IKType RightHand = 1;
 	public const InstrumentKeyController.IKType RightFoot = 2;
@@ -723,7 +723,7 @@ public int value__;
 
 public enum InstrumentKeyController.NoteType // TypeDefIndex: 11296
 {
-public int value__;
+	public int value__;
 	public const InstrumentKeyController.NoteType Regular = 0;
 	public const InstrumentKeyController.NoteType Sharp = 1;
 
@@ -731,7 +731,7 @@ public int value__;
 
 public enum InstrumentKeyController.InstrumentType // TypeDefIndex: 11297
 {
-public int value__;
+	public int value__;
 	public const InstrumentKeyController.InstrumentType Note = 0;
 	public const InstrumentKeyController.InstrumentType Hold = 1;
 
@@ -739,7 +739,7 @@ public int value__;
 
 public enum InstrumentKeyController.AnimationSlot // TypeDefIndex: 11298
 {
-public int value__;
+	public int value__;
 	public const InstrumentKeyController.AnimationSlot None = 0;
 	public const InstrumentKeyController.AnimationSlot One = 1;
 	public const InstrumentKeyController.AnimationSlot Two = 2;
@@ -753,9 +753,9 @@ public int value__;
 
 public struct InstrumentKeyController.KeySet // TypeDefIndex: 11299
 {
-public Notes Note;
-public InstrumentKeyController.NoteType NoteType;
-public int OctaveShift;
+	public Notes Note;
+	public InstrumentKeyController.NoteType NoteType;
+	public int OctaveShift;
 
 
 	public override string ToString() { }
@@ -764,15 +764,15 @@ public int OctaveShift;
 
 public struct InstrumentKeyController.NoteOverride // TypeDefIndex: 11300
 {
-public bool Override;
-public InstrumentKeyController.KeySet Note;
+	public bool Override;
+	public InstrumentKeyController.KeySet Note;
 
 }
 
 public struct InstrumentKeyController.IKNoteTarget // TypeDefIndex: 11301
 {
-public InstrumentKeyController.IKType TargetType;
-public int IkIndex;
+	public InstrumentKeyController.IKType TargetType;
+	public int IkIndex;
 
 }
 

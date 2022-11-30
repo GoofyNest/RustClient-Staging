@@ -2,7 +2,7 @@ internal struct AddNotifyLobbyMemberStatusReceivedOptionsInternal : ISettable<Ad
 {
 
 internal struct AddNotifyLobbyMemberStatusReceivedOptionsInternal : ISettable<AddNotifyLobbyMemberStatusReceivedOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref AddNotifyLobbyMemberStatusReceivedOptions other) { }

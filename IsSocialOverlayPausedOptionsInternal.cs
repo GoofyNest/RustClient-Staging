@@ -2,7 +2,7 @@ internal struct IsSocialOverlayPausedOptionsInternal : ISettable<IsSocialOverlay
 {
 
 internal struct IsSocialOverlayPausedOptionsInternal : ISettable<IsSocialOverlayPausedOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref IsSocialOverlayPausedOptions other) { }

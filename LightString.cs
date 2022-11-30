@@ -1,10 +1,10 @@
 public class LightString : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6381
 {
-public bool ShouldPool;
-private bool _disposed;
-public List<LightString.StringPoint> points;
-public int lengthUsed;
-public int animationStyle;
+	public bool ShouldPool;
+	private bool _disposed;
+	public List<LightString.StringPoint> points;
+	public int lengthUsed;
+	public int animationStyle;
 
 
 	public static void ResetToPool(LightString instance) { }
@@ -63,10 +63,10 @@ public int animationStyle;
 
 public class LightString.StringPoint : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6382
 {
-public bool ShouldPool;
-private bool _disposed;
-public Vector3 point;
-public Vector3 normal;
+	public bool ShouldPool;
+	private bool _disposed;
+	public Vector3 point;
+	public Vector3 normal;
 
 
 	public static void ResetToPool(LightString.StringPoint instance) { }

@@ -5,12 +5,12 @@ public sealed class Cloth : Component // TypeDefIndex: 4521
 [NativeHeaderAttribute]
 [NativeClassAttribute]
 public sealed class Cloth : Component
-[CompilerGeneratedAttribute]
-[DebuggerBrowsableAttribute]
-private float <useContinuousCollision>k__BackingField;
-[DebuggerBrowsableAttribute]
-[CompilerGeneratedAttribute]
-private readonly bool <selfCollision>k__BackingField;
+	[CompilerGeneratedAttribute]
+	[DebuggerBrowsableAttribute]
+	private float <useContinuousCollision>k__BackingField;
+	[DebuggerBrowsableAttribute]
+	[CompilerGeneratedAttribute]
+	private readonly bool <selfCollision>k__BackingField;
 
 	public Vector3 externalAcceleration { get; set; }
 	public bool enabled { set; }

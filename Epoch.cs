@@ -1,6 +1,6 @@
 internal static class Epoch // TypeDefIndex: 5259
 {
-private static readonly DateTime epoch;
+	private static readonly DateTime epoch;
 
 	public static int Current { get; }
 
@@ -15,7 +15,7 @@ private static readonly DateTime epoch;
 
 public static class Epoch // TypeDefIndex: 6246
 {
-private static readonly DateTime epoch;
+	private static readonly DateTime epoch;
 
 	public static int Current { get; }
 

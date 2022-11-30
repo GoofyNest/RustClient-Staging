@@ -1,15 +1,15 @@
 public class MaterialEffect : ScriptableObject // TypeDefIndex: 11948
 {
-public GameObjectRef DefaultEffect;
-public SoundDefinition DefaultSoundDefinition;
-public MaterialEffect.Entry[] Entries;
-public int waterFootstepIndex;
-public MaterialEffect.Entry deepWaterEntry;
-public float deepWaterDepth;
-public MaterialEffect.Entry submergedWaterEntry;
-public float submergedWaterDepth;
-public bool ScaleVolumeWithSpeed;
-public AnimationCurve SpeedGainCurve;
+	public GameObjectRef DefaultEffect;
+	public SoundDefinition DefaultSoundDefinition;
+	public MaterialEffect.Entry[] Entries;
+	public int waterFootstepIndex;
+	public MaterialEffect.Entry deepWaterEntry;
+	public float deepWaterDepth;
+	public MaterialEffect.Entry submergedWaterEntry;
+	public float submergedWaterDepth;
+	public bool ScaleVolumeWithSpeed;
+	public AnimationCurve SpeedGainCurve;
 
 
 	public MaterialEffect.Entry GetEntryFromMaterial(PhysicMaterial mat) { }
@@ -26,9 +26,9 @@ public AnimationCurve SpeedGainCurve;
 
 public class MaterialEffect.Entry // TypeDefIndex: 11949
 {
-public PhysicMaterial Material;
-public GameObjectRef Effect;
-public SoundDefinition SoundDefinition;
+	public PhysicMaterial Material;
+	public GameObjectRef Effect;
+	public SoundDefinition SoundDefinition;
 
 
 	public void .ctor() { }

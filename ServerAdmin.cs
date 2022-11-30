@@ -1,9 +1,9 @@
 public class ServerAdminConvarInfo : MonoBehaviour // TypeDefIndex: 13892
 {
-public RustText InfoName;
-public RustText InfoValue;
-public RustInput VariableInput;
-public Tooltip TooltipComponent;
+	public RustText InfoName;
+	public RustText InfoValue;
+	public RustInput VariableInput;
+	public Tooltip TooltipComponent;
 
 
 	public void Populate(Admin.ServerConvarInfo convarInfo) { }
@@ -16,21 +16,21 @@ public Tooltip TooltipComponent;
 
 public class ServerAdminPlayerEntry : MonoBehaviour // TypeDefIndex: 13893
 {
-public RustText PlayerName;
-public RustText Ping;
-public RustButton Button;
-[CompilerGeneratedAttribute]
-private Admin.PlayerInfo <CachedInfo>k__BackingField;
-private Action selectedAction;
-private Action deselectedAction;
+	public RustText PlayerName;
+	public RustText Ping;
+	public RustButton Button;
+	[CompilerGeneratedAttribute]
+	private Admin.PlayerInfo <CachedInfo>k__BackingField;
+	private Action selectedAction;
+	private Action deselectedAction;
 
 	public Admin.PlayerInfo CachedInfo { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Admin.PlayerInfo get_CachedInfo() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_CachedInfo(Admin.PlayerInfo value) { }
 
 	public void Populate(Admin.PlayerInfo info, Action onSelected, Action onDeselected) { }
@@ -43,8 +43,8 @@ private Action deselectedAction;
 
 public class ServerAdminPlayerId : MonoBehaviour // TypeDefIndex: 13894
 {
-public RustText PlayerName;
-public RustText PlayerId;
+	public RustText PlayerName;
+	public RustText PlayerId;
 
 
 	public void Populate(ulong playerId) { }
@@ -55,26 +55,26 @@ public RustText PlayerId;
 
 public class ServerAdminPlayerInfo : MonoBehaviour // TypeDefIndex: 13895
 {
-public RustText PlayerName;
-public RustText SteamID;
-public RustText OwnerSteamID;
-public RustText Ping;
-public RustText Address;
-public RustText ConnectedTime;
-public RustText ViolationLevel;
-public RustText Health;
-public RustInput KickReasonInput;
-public RustInput BanReasonInput;
-[CompilerGeneratedAttribute]
-private Admin.PlayerInfo <CachedInfo>k__BackingField;
+	public RustText PlayerName;
+	public RustText SteamID;
+	public RustText OwnerSteamID;
+	public RustText Ping;
+	public RustText Address;
+	public RustText ConnectedTime;
+	public RustText ViolationLevel;
+	public RustText Health;
+	public RustInput KickReasonInput;
+	public RustInput BanReasonInput;
+	[CompilerGeneratedAttribute]
+	private Admin.PlayerInfo <CachedInfo>k__BackingField;
 
 	public Admin.PlayerInfo CachedInfo { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Admin.PlayerInfo get_CachedInfo() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_CachedInfo(Admin.PlayerInfo value) { }
 
 	public void Populate(Admin.PlayerInfo info) { }
@@ -91,8 +91,8 @@ private Admin.PlayerInfo <CachedInfo>k__BackingField;
 
 public class ServerAdminServerInfo : MonoBehaviour // TypeDefIndex: 13896
 {
-public RustText InfoName;
-public RustText InfoValue;
+	public RustText InfoName;
+	public RustText InfoValue;
 
 
 	public void Populate(string variableName, string variableValue) { }
@@ -103,8 +103,8 @@ public RustText InfoValue;
 
 public class ServerAdminUGCEntry : MonoBehaviour // TypeDefIndex: 13897
 {
-protected Admin.ServerUGCInfo cachedInfo;
-private Action<byte[]> receivedCallback;
+	protected Admin.ServerUGCInfo cachedInfo;
+	private Action<byte[]> receivedCallback;
 
 
 	public void Populate(Admin.ServerUGCInfo info) { }
@@ -125,11 +125,11 @@ private Action<byte[]> receivedCallback;
 
 public class ServerAdminUGCEntryAudio : ServerAdminUGCEntry // TypeDefIndex: 13898
 {
-public AudioSource AudioSpeaker;
-public RustText DurationText;
-public RustSlider ProgressSlider;
-public RustIcon PlayIcon;
-private bool blockSeek;
+	public AudioSource AudioSpeaker;
+	public RustText DurationText;
+	public RustSlider ProgressSlider;
+	public RustIcon PlayIcon;
+	private bool blockSeek;
 
 
 	protected override void OnVisible(Admin.ServerUGCInfo info) { }
@@ -142,22 +142,22 @@ private bool blockSeek;
 
 	public void .ctor() { }
 
-[CompilerGeneratedAttribute]
-private void <OnVisible>
+	[CompilerGeneratedAttribute]
+	private void <OnVisible>
 
-[CompilerGeneratedAttribute]
-private void <OnVisible>
+	[CompilerGeneratedAttribute]
+	private void <OnVisible>
 
 }
 
 public class ServerAdminUGCEntryImage : ServerAdminUGCEntry // TypeDefIndex: 13899
 {
-public RawImage Image;
-public RectTransform Backing;
-public GameObject MultiImageRoot;
-public RustText ImageIndex;
-public Vector2 OriginalImageSize;
-private int currentIndex;
+	public RawImage Image;
+	public RectTransform Backing;
+	public GameObject MultiImageRoot;
+	public RustText ImageIndex;
+	public Vector2 OriginalImageSize;
+	private int currentIndex;
 
 
 	protected override void OnVisible(Admin.ServerUGCInfo info) { }
@@ -172,15 +172,15 @@ private int currentIndex;
 
 	public void .ctor() { }
 
-[CompilerGeneratedAttribute]
-private void <GetDataForCurrentIndex>
+	[CompilerGeneratedAttribute]
+	private void <GetDataForCurrentIndex>
 
 }
 
 public class ServerAdminUGCEntryPattern : ServerAdminUGCEntry // TypeDefIndex: 13900
 {
-public GameObjectRef StarPrefab;
-public RectTransform StarRoot;
+	public GameObjectRef StarPrefab;
+	public RectTransform StarRoot;
 
 
 	protected override void OnVisible(Admin.ServerUGCInfo info) { }
@@ -197,13 +197,13 @@ public RectTransform StarRoot;
 
 public class ServerAdminUGCEntryStub : MonoBehaviour // TypeDefIndex: 13901
 {
-public ServerAdminUGCEntryAudio AudioWidget;
-public ServerAdminUGCEntryImage ImageWidget;
-public ServerAdminUGCEntryPattern PatternWidget;
-public RustText PrefabName;
-public RustButton HistoryButton;
-public ServerAdminPlayerId[] HistoryIds;
-protected Admin.ServerUGCInfo cachedInfo;
+	public ServerAdminUGCEntryAudio AudioWidget;
+	public ServerAdminUGCEntryImage ImageWidget;
+	public ServerAdminUGCEntryPattern PatternWidget;
+	public RustText PrefabName;
+	public RustButton HistoryButton;
+	public ServerAdminPlayerId[] HistoryIds;
+	protected Admin.ServerUGCInfo cachedInfo;
 
 
 	public void Populate(Admin.ServerUGCInfo info) { }
@@ -216,28 +216,28 @@ protected Admin.ServerUGCInfo cachedInfo;
 
 public class ServerAdminUI : SingletonComponent<ServerAdminUI> // TypeDefIndex: 13902
 {
-public GameObjectRef PlayerEntry;
-public RectTransform PlayerInfoParent;
-public RustText PlayerCount;
-public RustInput PlayerNameFilter;
-public GameObjectRef ServerInfoEntry;
-public RectTransform ServerInfoParent;
-public GameObjectRef ConvarInfoEntry;
-public GameObjectRef ConvarInfoLongEntry;
-public RectTransform ConvarInfoParent;
-public ServerAdminPlayerInfo PlayerInfo;
-public RustInput UgcNameFilter;
-public GameObjectRef ImageEntry;
-public GameObjectRef PatternEntry;
-public GameObjectRef SoundEntry;
-public VirtualScroll UgcVirtualScroll;
-public GameObject ExpandedUgcRoot;
-public RawImage ExpandedImage;
-public RectTransform ExpandedImageBacking;
-private Vector2 initialExpandedImageSize;
-private List<ServerAdminPlayerEntry> playerEntries;
-private List<ServerAdminUGCEntry> ugcEntries;
-private ServerAdminUI.UGCDataSource UgcSource;
+	public GameObjectRef PlayerEntry;
+	public RectTransform PlayerInfoParent;
+	public RustText PlayerCount;
+	public RustInput PlayerNameFilter;
+	public GameObjectRef ServerInfoEntry;
+	public RectTransform ServerInfoParent;
+	public GameObjectRef ConvarInfoEntry;
+	public GameObjectRef ConvarInfoLongEntry;
+	public RectTransform ConvarInfoParent;
+	public ServerAdminPlayerInfo PlayerInfo;
+	public RustInput UgcNameFilter;
+	public GameObjectRef ImageEntry;
+	public GameObjectRef PatternEntry;
+	public GameObjectRef SoundEntry;
+	public VirtualScroll UgcVirtualScroll;
+	public GameObject ExpandedUgcRoot;
+	public RawImage ExpandedImage;
+	public RectTransform ExpandedImageBacking;
+	private Vector2 initialExpandedImageSize;
+	private List<ServerAdminPlayerEntry> playerEntries;
+	private List<ServerAdminUGCEntry> ugcEntries;
+	private ServerAdminUI.UGCDataSource UgcSource;
 
 	public static bool ShouldReceiveMessages { get; }
 
@@ -312,16 +312,16 @@ private ServerAdminUI.UGCDataSource UgcSource;
 
 	public void .ctor() { }
 
-[CompilerGeneratedAttribute]
-private GameObjectRef <PopulateConvarInfo>
+	[CompilerGeneratedAttribute]
+	private GameObjectRef <PopulateConvarInfo>
 
 }
 
 private class ServerAdminUI.UGCDataSource : VirtualScroll.IDataSource // TypeDefIndex: 13903
 {
-private List<Admin.ServerUGCInfo> rawInfo;
-private List<Admin.ServerUGCInfo> filteredInfo;
-private string lastFilter;
+	private List<Admin.ServerUGCInfo> rawInfo;
+	private List<Admin.ServerUGCInfo> filteredInfo;
+	private string lastFilter;
 
 
 	public int GetItemCount() { }
@@ -340,44 +340,44 @@ private string lastFilter;
 
 private sealed class ServerAdminUI.<>c__DisplayClass33_0 // TypeDefIndex: 13904
 {
-public ServerAdminUI <>4__this;
-public string oldSelectedPlayer;
-public Action <>9__3;
+	public ServerAdminUI <>4__this;
+	public string oldSelectedPlayer;
+	public Action <>9__3;
 
 
 	public void .ctor() { }
 
-internal GameObjectRef <PopulatePlayerInfo>
+	internal GameObjectRef <PopulatePlayerInfo>
 
-internal void <PopulatePlayerInfo>
+	internal void <PopulatePlayerInfo>
 
-internal void <PopulatePlayerInfo>
+	internal void <PopulatePlayerInfo>
 
 }
 
 private sealed class ServerAdminUI.<>c__DisplayClass33_1 // TypeDefIndex: 13905
 {
-public Admin.PlayerInfo playerInfo;
-public ServerAdminUI.<>c
+	public Admin.PlayerInfo playerInfo;
+	public ServerAdminUI.<>c
 
 
 	public void .ctor() { }
 
-internal void <PopulatePlayerInfo>
+	internal void <PopulatePlayerInfo>
 
 }
 
 private sealed class ServerAdminUI.<>c // TypeDefIndex: 13906
 {
-public static readonly ServerAdminUI.<>c <>9;
-public static Action<Admin.ServerConvarInfo, ServerAdminConvarInfo> <>9__38_1;
+	public static readonly ServerAdminUI.<>c <>9;
+	public static Action<Admin.ServerConvarInfo, ServerAdminConvarInfo> <>9__38_1;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-internal void <PopulateConvarInfo>
+	internal void <PopulateConvarInfo>
 
 }
 

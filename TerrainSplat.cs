@@ -19,7 +19,7 @@ public static class TerrainSplat // TypeDefIndex: 7799
 	public const int FOREST_IDX = 5;
 	public const int STONES_IDX = 6;
 	public const int GRAVEL_IDX = 7;
-private static Dictionary<int, int> type2index;
+	private static Dictionary<int, int> type2index;
 
 
 	public static int TypeToIndex(int id) { }
@@ -32,7 +32,7 @@ private static Dictionary<int, int> type2index;
 
 public enum TerrainSplat.Enum // TypeDefIndex: 7800
 {
-public int value__;
+	public int value__;
 	public const TerrainSplat.Enum Dirt = 1;
 	public const TerrainSplat.Enum Snow = 2;
 	public const TerrainSplat.Enum Sand = 4;

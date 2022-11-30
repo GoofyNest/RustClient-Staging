@@ -32,7 +32,7 @@ public sealed class SessionSearch : Handle // TypeDefIndex: 8585
 
 	public Result SetTargetUserId(ref SessionSearchSetTargetUserIdOptions options) { }
 
-[MonoPInvokeCallbackAttribute]
+	[MonoPInvokeCallbackAttribute]
 	internal static void OnFindCallbackInternalImplementation(ref SessionSearchFindCallbackInfoInternal data) { }
 
 }

@@ -1,8 +1,8 @@
 public class HeldEntity : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6321
 {
-public bool ShouldPool;
-private bool _disposed;
-public uint itemUID;
+	public bool ShouldPool;
+	private bool _disposed;
+	public uint itemUID;
 
 
 	public static void ResetToPool(HeldEntity instance) { }
@@ -61,32 +61,32 @@ public uint itemUID;
 
 public class HeldEntity : BaseEntity // TypeDefIndex: 10298
 {
-protected List<HeldEntity.PunchEntry> _punches;
-protected Vector3 punchAdded;
-protected float lastPunchTime;
-public Animator worldModelAnimator;
-public SoundDefinition thirdPersonDeploySound;
-public SoundDefinition thirdPersonAimSound;
-public SoundDefinition thirdPersonAimEndSound;
-protected ViewModel viewModel;
-protected bool isDeployed;
-public static float lastExamineTime;
-private float nextExamineTime;
+	protected List<HeldEntity.PunchEntry> _punches;
+	protected Vector3 punchAdded;
+	protected float lastPunchTime;
+	public Animator worldModelAnimator;
+	public SoundDefinition thirdPersonDeploySound;
+	public SoundDefinition thirdPersonAimSound;
+	public SoundDefinition thirdPersonAimEndSound;
+	protected ViewModel viewModel;
+	protected bool isDeployed;
+	public static float lastExamineTime;
+	private float nextExamineTime;
 	public const BaseEntity.Flags Flag_ForceVisible = 65536;
-[HeaderAttribute]
-public string handBone;
-public AnimatorOverrideController HoldAnimationOverride;
-public bool isBuildingTool;
-[HeaderAttribute]
-public float hostileScore;
-public HeldEntity.HolsterInfo holsterInfo;
-[HeaderAttribute]
-public BasePlayer.CameraMode HeldCameraMode;
-public Vector3 FirstPersonArmOffset;
-public Vector3 FirstPersonArmRotation;
-[RangeAttribute]
-public float FirstPersonRotationStrength;
-internal uint ownerItemUID;
+	[HeaderAttribute]
+	public string handBone;
+	public AnimatorOverrideController HoldAnimationOverride;
+	public bool isBuildingTool;
+	[HeaderAttribute]
+	public float hostileScore;
+	public HeldEntity.HolsterInfo holsterInfo;
+	[HeaderAttribute]
+	public BasePlayer.CameraMode HeldCameraMode;
+	public Vector3 FirstPersonArmOffset;
+	public Vector3 FirstPersonArmRotation;
+	[RangeAttribute]
+	public float FirstPersonRotationStrength;
+	internal uint ownerItemUID;
 
 	public bool hostile { get; }
 
@@ -95,7 +95,7 @@ internal uint ownerItemUID;
 
 	public virtual void AddPunch(Vector3 amount, float duration) { }
 
-[BaseEntity.RPC_Client]
+	[BaseEntity.RPC_Client]
 	public void CL_Punch(BaseEntity.RPCMessage msg) { }
 
 	public virtual void DoRecoilCompensation() { }
@@ -190,10 +190,10 @@ internal uint ownerItemUID;
 
 public class HeldEntity.PunchEntry // TypeDefIndex: 10299
 {
-public Vector3 amount;
-public float duration;
-public float startTime;
-public Vector3 amountAdded;
+	public Vector3 amount;
+	public float duration;
+	public float startTime;
+	public Vector3 amountAdded;
 
 
 	public void .ctor() { }
@@ -202,11 +202,11 @@ public Vector3 amountAdded;
 
 public class HeldEntity.HolsterInfo // TypeDefIndex: 10300
 {
-public HeldEntity.HolsterInfo.HolsterSlot slot;
-public bool displayWhenHolstered;
-public string holsterBone;
-public Vector3 holsterOffset;
-public Vector3 holsterRotationOffset;
+	public HeldEntity.HolsterInfo.HolsterSlot slot;
+	public bool displayWhenHolstered;
+	public string holsterBone;
+	public Vector3 holsterOffset;
+	public Vector3 holsterRotationOffset;
 
 
 	public void .ctor() { }
@@ -215,7 +215,7 @@ public Vector3 holsterRotationOffset;
 
 public enum HeldEntity.HolsterInfo.HolsterSlot // TypeDefIndex: 10301
 {
-public int value__;
+	public int value__;
 	public const HeldEntity.HolsterInfo.HolsterSlot BACK = 0;
 	public const HeldEntity.HolsterInfo.HolsterSlot RIGHT_THIGH = 1;
 	public const HeldEntity.HolsterInfo.HolsterSlot LEFT_THIGH = 2;

@@ -1,7 +1,7 @@
 public class HitchTrough : StorageContainer // TypeDefIndex: 10423
 {
-public HitchTrough.HitchSpot[] hitchSpots;
-public float caloriesToDecaySeconds;
+	public HitchTrough.HitchSpot[] hitchSpots;
+	public float caloriesToDecaySeconds;
 
 
 	public override void Load(BaseNetworkable.LoadInfo info) { }
@@ -12,9 +12,9 @@ public float caloriesToDecaySeconds;
 
 public class HitchTrough.HitchSpot // TypeDefIndex: 10424
 {
-public HitchTrough owner;
-public Transform spot;
-public EntityRef horse;
+	public HitchTrough owner;
+	public Transform spot;
+	public EntityRef horse;
 
 
 	public RidableHorse GetHorse(bool isServer = True) { }

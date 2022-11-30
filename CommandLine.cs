@@ -1,8 +1,8 @@
 public static class CommandLine // TypeDefIndex: 4840
 {
-private static bool initialized;
-private static string commandline;
-private static Dictionary<string, string> switches;
+	private static bool initialized;
+	private static string commandline;
+	private static Dictionary<string, string> switches;
 
 	public static string Full { get; }
 
@@ -27,9 +27,9 @@ private static Dictionary<string, string> switches;
 
 public static class CommandLine // TypeDefIndex: 6247
 {
-private static bool initialized;
-private static string commandline;
-private static Dictionary<string, string> switches;
+	private static bool initialized;
+	private static string commandline;
+	private static Dictionary<string, string> switches;
 
 	public static string Full { get; }
 

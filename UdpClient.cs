@@ -1,11 +1,11 @@
 public class UdpClient : IDisposable // TypeDefIndex: 3060
 {
-private Socket m_ClientSocket;
-private bool m_Active;
-private byte[] m_Buffer;
-private AddressFamily m_Family;
-private bool m_CleanedUp;
-private bool m_IsBroadcast;
+	private Socket m_ClientSocket;
+	private bool m_Active;
+	private byte[] m_Buffer;
+	private AddressFamily m_Family;
+	private bool m_CleanedUp;
+	private bool m_IsBroadcast;
 
 	public Socket Client { get; set; }
 
@@ -44,11 +44,11 @@ private bool m_IsBroadcast;
 
 	private void createClientSocket() { }
 
-[CompilerGeneratedAttribute]
-private IAsyncResult <ReceiveAsync>
+	[CompilerGeneratedAttribute]
+	private IAsyncResult <ReceiveAsync>
 
-[CompilerGeneratedAttribute]
-private UdpReceiveResult <ReceiveAsync>
+	[CompilerGeneratedAttribute]
+	private UdpReceiveResult <ReceiveAsync>
 
 }
 

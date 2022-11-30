@@ -2,7 +2,7 @@ public enum Keypad.EFFECT_TYPE // TypeDefIndex: 7682
 {
 
 public enum Keypad.EFFECT_TYPE
-public int value__;
+	public int value__;
 	public const Keypad.EFFECT_TYPE CHROMA_NONE = 0;
 	public const Keypad.EFFECT_TYPE CHROMA_BREATHING = 1;
 	public const Keypad.EFFECT_TYPE CHROMA_CUSTOM = 2;
@@ -16,7 +16,7 @@ public int value__;
 
 public struct Keypad.STATIC_EFFECT_TYPE // TypeDefIndex: 7683
 {
-public int Color;
+	public int Color;
 
 }
 

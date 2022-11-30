@@ -2,7 +2,7 @@ internal struct AddNotifyClientActionRequiredOptionsInternal : ISettable<AddNoti
 {
 
 internal struct AddNotifyClientActionRequiredOptionsInternal : ISettable<AddNotifyClientActionRequiredOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref AddNotifyClientActionRequiredOptions other) { }

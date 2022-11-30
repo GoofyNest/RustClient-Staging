@@ -2,7 +2,7 @@ internal struct TransactionGetEntitlementsCountOptionsInternal : ISettable<Trans
 {
 
 internal struct TransactionGetEntitlementsCountOptionsInternal : ISettable<TransactionGetEntitlementsCountOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref TransactionGetEntitlementsCountOptions other) { }

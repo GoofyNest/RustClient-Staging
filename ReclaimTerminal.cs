@@ -1,8 +1,8 @@
 public class ReclaimTerminal : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6414
 {
-public bool ShouldPool;
-private bool _disposed;
-public int itemCount;
+	public bool ShouldPool;
+	private bool _disposed;
+	public int itemCount;
 
 
 	public static void ResetToPool(ReclaimTerminal instance) { }
@@ -61,8 +61,8 @@ public int itemCount;
 
 public class ReclaimTerminal : StorageContainer // TypeDefIndex: 10350
 {
-public int itemCount;
-public static readonly Translate.Phrase DespawnToast;
+	public int itemCount;
+	public static readonly Translate.Phrase DespawnToast;
 
 
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }

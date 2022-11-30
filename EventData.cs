@@ -1,13 +1,13 @@
 public class EventDataAttribute : Attribute // TypeDefIndex: 1515
 {
-private EventLevel level;
-private EventOpcode opcode;
-[CompilerGeneratedAttribute]
-private string <Name>k__BackingField;
-[CompilerGeneratedAttribute]
-private EventKeywords <Keywords>k__BackingField;
-[CompilerGeneratedAttribute]
-private EventTags <Tags>k__BackingField;
+	private EventLevel level;
+	private EventOpcode opcode;
+	[CompilerGeneratedAttribute]
+	private string <Name>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private EventKeywords <Keywords>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private EventTags <Tags>k__BackingField;
 
 	public string Name { get; }
 	internal EventLevel Level { get; }
@@ -16,42 +16,42 @@ private EventTags <Tags>k__BackingField;
 	internal EventTags Tags { get; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public string get_Name() { }
 
 	internal EventLevel get_Level() { }
 
 	internal EventOpcode get_Opcode() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	internal EventKeywords get_Keywords() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	internal EventTags get_Tags() { }
 
 }
 
 public class AxisEventData : BaseEventData // TypeDefIndex: 5052
 {
-[CompilerGeneratedAttribute]
-private Vector2 <moveVector>k__BackingField;
-[CompilerGeneratedAttribute]
-private MoveDirection <moveDir>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Vector2 <moveVector>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private MoveDirection <moveDir>k__BackingField;
 
 	public Vector2 moveVector { get; set; }
 	public MoveDirection moveDir { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Vector2 get_moveVector() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_moveVector(Vector2 value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public MoveDirection get_moveDir() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_moveDir(MoveDirection value) { }
 
 	public void .ctor(EventSystem eventSystem) { }
@@ -60,7 +60,7 @@ private MoveDirection <moveDir>k__BackingField;
 
 public abstract class AbstractEventData // TypeDefIndex: 5053
 {
-protected bool m_Used;
+	protected bool m_Used;
 
 	public virtual bool used { get; }
 
@@ -77,7 +77,7 @@ protected bool m_Used;
 
 public class BaseEventData : AbstractEventData // TypeDefIndex: 5054
 {
-private readonly EventSystem m_EventSystem;
+	private readonly EventSystem m_EventSystem;
 
 	public BaseInputModule currentInputModule { get; }
 	public GameObject selectedObject { get; set; }
@@ -95,46 +95,46 @@ private readonly EventSystem m_EventSystem;
 
 public class PointerEventData : BaseEventData // TypeDefIndex: 5055
 {
-[CompilerGeneratedAttribute]
-private GameObject <pointerEnter>k__BackingField;
-private GameObject m_PointerPress;
-[CompilerGeneratedAttribute]
-private GameObject <lastPress>k__BackingField;
-[CompilerGeneratedAttribute]
-private GameObject <rawPointerPress>k__BackingField;
-[CompilerGeneratedAttribute]
-private GameObject <pointerDrag>k__BackingField;
-[CompilerGeneratedAttribute]
-private RaycastResult <pointerCurrentRaycast>k__BackingField;
-[CompilerGeneratedAttribute]
-private RaycastResult <pointerPressRaycast>k__BackingField;
-public List<GameObject> hovered;
-[CompilerGeneratedAttribute]
-private bool <eligibleForClick>k__BackingField;
-[CompilerGeneratedAttribute]
-private int <pointerId>k__BackingField;
-[CompilerGeneratedAttribute]
-private Vector2 <position>k__BackingField;
-[CompilerGeneratedAttribute]
-private Vector2 <delta>k__BackingField;
-[CompilerGeneratedAttribute]
-private Vector2 <pressPosition>k__BackingField;
-[CompilerGeneratedAttribute]
-private Vector3 <worldPosition>k__BackingField;
-[CompilerGeneratedAttribute]
-private Vector3 <worldNormal>k__BackingField;
-[CompilerGeneratedAttribute]
-private float <clickTime>k__BackingField;
-[CompilerGeneratedAttribute]
-private int <clickCount>k__BackingField;
-[CompilerGeneratedAttribute]
-private Vector2 <scrollDelta>k__BackingField;
-[CompilerGeneratedAttribute]
-private bool <useDragThreshold>k__BackingField;
-[CompilerGeneratedAttribute]
-private bool <dragging>k__BackingField;
-[CompilerGeneratedAttribute]
-private PointerEventData.InputButton <button>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private GameObject <pointerEnter>k__BackingField;
+	private GameObject m_PointerPress;
+	[CompilerGeneratedAttribute]
+	private GameObject <lastPress>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private GameObject <rawPointerPress>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private GameObject <pointerDrag>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private RaycastResult <pointerCurrentRaycast>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private RaycastResult <pointerPressRaycast>k__BackingField;
+	public List<GameObject> hovered;
+	[CompilerGeneratedAttribute]
+	private bool <eligibleForClick>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private int <pointerId>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Vector2 <position>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Vector2 <delta>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Vector2 <pressPosition>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Vector3 <worldPosition>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Vector3 <worldNormal>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private float <clickTime>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private int <clickCount>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Vector2 <scrollDelta>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private bool <useDragThreshold>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private bool <dragging>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private PointerEventData.InputButton <button>k__BackingField;
 
 	public GameObject pointerEnter { get; set; }
 	public GameObject lastPress { get; set; }
@@ -147,9 +147,9 @@ private PointerEventData.InputButton <button>k__BackingField;
 	public Vector2 position { get; set; }
 	public Vector2 delta { get; set; }
 	public Vector2 pressPosition { get; set; }
-[ObsoleteAttribute]
+	[ObsoleteAttribute]
 	public Vector3 worldPosition { get; set; }
-[ObsoleteAttribute]
+	[ObsoleteAttribute]
 	public Vector3 worldNormal { get; set; }
 	public float clickTime { get; set; }
 	public int clickCount { get; set; }
@@ -162,118 +162,118 @@ private PointerEventData.InputButton <button>k__BackingField;
 	public GameObject pointerPress { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public GameObject get_pointerEnter() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_pointerEnter(GameObject value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public GameObject get_lastPress() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_lastPress(GameObject value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public GameObject get_rawPointerPress() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_rawPointerPress(GameObject value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public GameObject get_pointerDrag() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_pointerDrag(GameObject value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public RaycastResult get_pointerCurrentRaycast() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_pointerCurrentRaycast(RaycastResult value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public RaycastResult get_pointerPressRaycast() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_pointerPressRaycast(RaycastResult value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_eligibleForClick() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_eligibleForClick(bool value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public int get_pointerId() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_pointerId(int value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Vector2 get_position() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_position(Vector2 value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Vector2 get_delta() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_delta(Vector2 value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Vector2 get_pressPosition() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_pressPosition(Vector2 value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Vector3 get_worldPosition() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_worldPosition(Vector3 value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Vector3 get_worldNormal() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_worldNormal(Vector3 value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public float get_clickTime() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_clickTime(float value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public int get_clickCount() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_clickCount(int value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Vector2 get_scrollDelta() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_scrollDelta(Vector2 value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_useDragThreshold() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_useDragThreshold(bool value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_dragging() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_dragging(bool value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public PointerEventData.InputButton get_button() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_button(PointerEventData.InputButton value) { }
 
 	public void .ctor(EventSystem eventSystem) { }
@@ -296,7 +296,7 @@ private PointerEventData.InputButton <button>k__BackingField;
 
 public enum PointerEventData.InputButton // TypeDefIndex: 5056
 {
-public int value__;
+	public int value__;
 	public const PointerEventData.InputButton Left = 0;
 	public const PointerEventData.InputButton Right = 1;
 	public const PointerEventData.InputButton Middle = 2;
@@ -305,7 +305,7 @@ public int value__;
 
 public enum PointerEventData.FramePressState // TypeDefIndex: 5057
 {
-public int value__;
+	public int value__;
 	public const PointerEventData.FramePressState Pressed = 0;
 	public const PointerEventData.FramePressState Released = 1;
 	public const PointerEventData.FramePressState PressedAndReleased = 2;
@@ -315,10 +315,10 @@ public int value__;
 
 public class TimerAIEventData : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6555
 {
-public bool ShouldPool;
-private bool _disposed;
-public float duration;
-public float durationMax;
+	public bool ShouldPool;
+	private bool _disposed;
+	public float duration;
+	public float durationMax;
 
 
 	public static void ResetToPool(TimerAIEventData instance) { }
@@ -377,9 +377,9 @@ public float durationMax;
 
 public class HealthBelowAIEventData : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6557
 {
-public bool ShouldPool;
-private bool _disposed;
-public float healthFraction;
+	public bool ShouldPool;
+	private bool _disposed;
+	public float healthFraction;
 
 
 	public static void ResetToPool(HealthBelowAIEventData instance) { }
@@ -438,9 +438,9 @@ public float healthFraction;
 
 public class InRangeAIEventData : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6558
 {
-public bool ShouldPool;
-private bool _disposed;
-public float range;
+	public bool ShouldPool;
+	private bool _disposed;
+	public float range;
 
 
 	public static void ResetToPool(InRangeAIEventData instance) { }
@@ -499,9 +499,9 @@ public float range;
 
 public class HungerAboveAIEventData : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6559
 {
-public bool ShouldPool;
-private bool _disposed;
-public float value;
+	public bool ShouldPool;
+	private bool _disposed;
+	public float value;
 
 
 	public static void ResetToPool(HungerAboveAIEventData instance) { }
@@ -560,9 +560,9 @@ public float value;
 
 public class TirednessAboveAIEventData : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6560
 {
-public bool ShouldPool;
-private bool _disposed;
-public float value;
+	public bool ShouldPool;
+	private bool _disposed;
+	public float value;
 
 
 	public static void ResetToPool(TirednessAboveAIEventData instance) { }
@@ -621,9 +621,9 @@ public float value;
 
 public class AmmoBelowAIEventData : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6561
 {
-public bool ShouldPool;
-private bool _disposed;
-public float value;
+	public bool ShouldPool;
+	private bool _disposed;
+	public float value;
 
 
 	public static void ResetToPool(AmmoBelowAIEventData instance) { }
@@ -682,9 +682,9 @@ public float value;
 
 public class ThreatDetectedAIEventData : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6562
 {
-public bool ShouldPool;
-private bool _disposed;
-public float range;
+	public bool ShouldPool;
+	private bool _disposed;
+	public float range;
 
 
 	public static void ResetToPool(ThreatDetectedAIEventData instance) { }
@@ -743,9 +743,9 @@ public float range;
 
 public class TargetDetectedAIEventData : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6563
 {
-public bool ShouldPool;
-private bool _disposed;
-public float range;
+	public bool ShouldPool;
+	private bool _disposed;
+	public float range;
 
 
 	public static void ResetToPool(TargetDetectedAIEventData instance) { }
@@ -804,9 +804,9 @@ public float range;
 
 public class ChanceAIEventData : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6564
 {
-public bool ShouldPool;
-private bool _disposed;
-public float value;
+	public bool ShouldPool;
+	private bool _disposed;
+	public float value;
 
 
 	public static void ResetToPool(ChanceAIEventData instance) { }
@@ -865,9 +865,9 @@ public float value;
 
 public class TimeSinceThreatAIEventData : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6565
 {
-public bool ShouldPool;
-private bool _disposed;
-public float value;
+	public bool ShouldPool;
+	private bool _disposed;
+	public float value;
 
 
 	public static void ResetToPool(TimeSinceThreatAIEventData instance) { }
@@ -926,9 +926,9 @@ public float value;
 
 public class AggressionTimerAIEventData : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6566
 {
-public bool ShouldPool;
-private bool _disposed;
-public float value;
+	public bool ShouldPool;
+	private bool _disposed;
+	public float value;
 
 
 	public static void ResetToPool(AggressionTimerAIEventData instance) { }
@@ -987,9 +987,9 @@ public float value;
 
 public class InRangeOfHomeAIEventData : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6568
 {
-public bool ShouldPool;
-private bool _disposed;
-public float range;
+	public bool ShouldPool;
+	private bool _disposed;
+	public float range;
 
 
 	public static void ResetToPool(InRangeOfHomeAIEventData instance) { }
@@ -1048,44 +1048,44 @@ public float range;
 
 internal struct ColorEventData // TypeDefIndex: 7717
 {
-[CompilerGeneratedAttribute]
-private float <Value>k__BackingField;
-[CompilerGeneratedAttribute]
-private ColorEventFrame <Frame>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private float <Value>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private ColorEventFrame <Frame>k__BackingField;
 
-[JsonPropertyAttribute]
+	[JsonPropertyAttribute]
 	public float Value { get; set; }
-[JsonPropertyAttribute]
+	[JsonPropertyAttribute]
 	public ColorEventFrame Frame { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public float get_Value() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Value(float value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public ColorEventFrame get_Frame() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Frame(ColorEventFrame value) { }
 
 }
 
 internal struct EmptyEventData // TypeDefIndex: 7720
 {
-[CompilerGeneratedAttribute]
-private int <Value>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private int <Value>k__BackingField;
 
-[JsonPropertyAttribute]
+	[JsonPropertyAttribute]
 	public int Value { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public int get_Value() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Value(int value) { }
 
 }

@@ -1,7 +1,7 @@
 public sealed class Pointer : ISerializable // TypeDefIndex: 546
 {
-private void* _ptr;
-private RuntimeType _ptrType;
+	private void* _ptr;
+	private RuntimeType _ptrType;
 
 
 	private void .ctor() { }
@@ -16,9 +16,9 @@ private RuntimeType _ptrType;
 
 public class PointER // TypeDefIndex: 6914
 {
-public float x;
-public float y;
-public float z;
+	public float x;
+	public float y;
+	public float z;
 
 
 	public void .ctor(float x, float y, float z) { }

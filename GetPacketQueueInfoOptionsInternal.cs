@@ -2,7 +2,7 @@ internal struct GetPacketQueueInfoOptionsInternal : ISettable<GetPacketQueueInfo
 {
 
 internal struct GetPacketQueueInfoOptionsInternal : ISettable<GetPacketQueueInfoOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref GetPacketQueueInfoOptions other) { }

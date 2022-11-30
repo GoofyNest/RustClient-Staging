@@ -1,6 +1,6 @@
 public enum Result // TypeDefIndex: 5141
 {
-public int value__;
+	public int value__;
 	public const Result None = 0;
 	public const Result OK = 1;
 	public const Result Fail = 2;
@@ -133,13 +133,13 @@ public int value__;
 
 public class Result.Entry<T> // TypeDefIndex: 6270
 {
-public T Content;
-public string Id;
-public DateTime Created;
-public DateTime Updated;
-public string AuthorId;
-public string AuthorName;
-public string AuthType;
+	public T Content;
+	public string Id;
+	public DateTime Created;
+	public DateTime Updated;
+	public string AuthorId;
+	public string AuthorName;
+	public string AuthType;
 
 
 	public void .ctor() { }
@@ -152,7 +152,7 @@ public string AuthType;
 
 public enum Result // TypeDefIndex: 8296
 {
-public int value__;
+	public int value__;
 	public const Result Success = 0;
 	public const Result NoConnection = 1;
 	public const Result InvalidCredentials = 2;

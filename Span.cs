@@ -1,8 +1,8 @@
 public struct Span<T> // TypeDefIndex: 120
 {
-private readonly Pinnable<T> _pinnable;
-private readonly IntPtr _byteOffset;
-private readonly int _length;
+	private readonly Pinnable<T> _pinnable;
+	private readonly IntPtr _byteOffset;
+	private readonly int _length;
 
 	public int Length { get; }
 	public T Item { get; }
@@ -30,7 +30,7 @@ private readonly int _length;
 	|-Span<object>.get_Item
 	*/
 
-[ObsoleteAttribute]
+	[ObsoleteAttribute]
 	public override bool Equals(object obj) { }
 	/* GenericInstMethod :
 	|
@@ -39,7 +39,7 @@ private readonly int _length;
 	|-Span<object>.Equals
 	*/
 
-[ObsoleteAttribute]
+	[ObsoleteAttribute]
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
 	|
@@ -78,9 +78,9 @@ internal static class SpanHelpers
 
 public static class SpanHelpers.PerTypeValues<T> // TypeDefIndex: 123
 {
-public static readonly bool IsReferenceOrContainsReferences;
-public static readonly T[] EmptyArray;
-public static readonly IntPtr ArrayAdjustment;
+	public static readonly bool IsReferenceOrContainsReferences;
+	public static readonly T[] EmptyArray;
+	public static readonly IntPtr ArrayAdjustment;
 
 
 	private static IntPtr MeasureArrayAdjustment() { }
@@ -105,8 +105,8 @@ public static readonly IntPtr ArrayAdjustment;
 
 public class SpanningTree<T> // TypeDefIndex: 4818
 {
-private List<SpanningTree.Node<T>> nodes;
-private List<SpanningTree.Edge<T>> edges;
+	private List<SpanningTree.Node<T>> nodes;
+	private List<SpanningTree.Edge<T>> edges;
 
 
 	public int AddNode() { }
@@ -155,8 +155,8 @@ private List<SpanningTree.Edge<T>> edges;
 
 private class SpanningTree.Node<T> // TypeDefIndex: 4819
 {
-public List<SpanningTree.Edge<T>> edges;
-public bool connected;
+	public List<SpanningTree.Edge<T>> edges;
+	public bool connected;
 
 
 	public void .ctor() { }
@@ -169,40 +169,40 @@ public bool connected;
 
 private class SpanningTree.Edge<T> : IMinHeapNode<SpanningTree.Edge<T>> // TypeDefIndex: 4820
 {
-public SpanningTree.Node<T> source;
-public SpanningTree.Node<T> target;
-public T value;
-[CompilerGeneratedAttribute]
-private int <order>k__BackingField;
-[CompilerGeneratedAttribute]
-private SpanningTree.Edge<T> <child>k__BackingField;
+	public SpanningTree.Node<T> source;
+	public SpanningTree.Node<T> target;
+	public T value;
+	[CompilerGeneratedAttribute]
+	private int <order>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private SpanningTree.Edge<T> <child>k__BackingField;
 
 	public int order { get; set; }
 	public SpanningTree.Edge<T> child { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public int get_order() { }
 	/* GenericInstMethod :
 	|
 	|-SpanningTree.Edge<object>.get_order
 	*/
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_order(int value) { }
 	/* GenericInstMethod :
 	|
 	|-SpanningTree.Edge<object>.set_order
 	*/
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public SpanningTree.Edge<T> get_child() { }
 	/* GenericInstMethod :
 	|
 	|-SpanningTree.Edge<object>.get_child
 	*/
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_child(SpanningTree.Edge<T> value) { }
 	/* GenericInstMethod :
 	|
@@ -219,9 +219,9 @@ private SpanningTree.Edge<T> <child>k__BackingField;
 
 public struct Span<T> // TypeDefIndex: 6905
 {
-private readonly Pinnable<T> _pinnable;
-private readonly IntPtr _byteOffset;
-private readonly int _length;
+	private readonly Pinnable<T> _pinnable;
+	private readonly IntPtr _byteOffset;
+	private readonly int _length;
 
 	public int Length { get; }
 	public T Item { get; }
@@ -237,8 +237,8 @@ private readonly int _length;
 	|-Span<object>.get_Length
 	*/
 
-[ObsoleteAttribute]
-[EditorBrowsableAttribute]
+	[ObsoleteAttribute]
+	[EditorBrowsableAttribute]
 	public override bool Equals(object obj) { }
 	/* GenericInstMethod :
 	|
@@ -249,8 +249,8 @@ private readonly int _length;
 	|-Span<object>.Equals
 	*/
 
-[ObsoleteAttribute]
-[EditorBrowsableAttribute]
+	[ObsoleteAttribute]
+	[EditorBrowsableAttribute]
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
 	|
@@ -301,7 +301,7 @@ private readonly int _length;
 	|-Span<object>..ctor
 	*/
 
-[CLSCompliantAttribute]
+	[CLSCompliantAttribute]
 	public void .ctor(void* pointer, int length) { }
 	/* GenericInstMethod :
 	|
@@ -362,7 +362,7 @@ private readonly int _length;
 	|-Span<object>.Slice
 	*/
 
-[EditorBrowsableAttribute]
+	[EditorBrowsableAttribute]
 	internal ref T DangerousGetPinnableReference() { }
 	/* GenericInstMethod :
 	|
@@ -405,7 +405,7 @@ internal static class SpanHelpers
 	|-SpanHelpers.CopyTo<object>
 	*/
 
-[ExtensionAttribute]
+	[ExtensionAttribute]
 	public static IntPtr Add<T>(IntPtr start, int index) { }
 	/* GenericInstMethod :
 	|
@@ -428,9 +428,9 @@ internal static class SpanHelpers
 
 public static class SpanHelpers.PerTypeValues<T> // TypeDefIndex: 6908
 {
-public static readonly bool IsReferenceOrContainsReferences;
-public static readonly T[] EmptyArray;
-public static readonly IntPtr ArrayAdjustment;
+	public static readonly bool IsReferenceOrContainsReferences;
+	public static readonly T[] EmptyArray;
+	public static readonly IntPtr ArrayAdjustment;
 
 
 	private static IntPtr MeasureArrayAdjustment() { }
@@ -455,17 +455,17 @@ public static readonly IntPtr ArrayAdjustment;
 
 internal struct SpanWriter // TypeDefIndex: 6964
 {
-private readonly Span<byte> _data;
-[CompilerGeneratedAttribute]
-private int <Length>k__BackingField;
+	private readonly Span<byte> _data;
+	[CompilerGeneratedAttribute]
+	private int <Length>k__BackingField;
 
 	public int Length { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public int get_Length() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_Length(int value) { }
 
 	public void .ctor(Span<byte> data) { }

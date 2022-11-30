@@ -1,6 +1,6 @@
 public class LootPanelOven : LootPanel // TypeDefIndex: 12813
 {
-private OvenLootPanel ovenPanel;
+	private OvenLootPanel ovenPanel;
 
 	private GameObject controlsOn { get; }
 	private GameObject controlsOff { get; }
@@ -28,11 +28,11 @@ private OvenLootPanel ovenPanel;
 
 	public void .ctor() { }
 
-[CompilerGeneratedAttribute]
-private void <Awake>
+	[CompilerGeneratedAttribute]
+	private void <Awake>
 
-[CompilerGeneratedAttribute]
-private void <Awake>
+	[CompilerGeneratedAttribute]
+	private void <Awake>
 
 }
 

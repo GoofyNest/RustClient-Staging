@@ -2,7 +2,7 @@ internal struct CopyUserAuthTokenOptionsInternal : ISettable<CopyUserAuthTokenOp
 {
 
 internal struct CopyUserAuthTokenOptionsInternal : ISettable<CopyUserAuthTokenOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref CopyUserAuthTokenOptions other) { }

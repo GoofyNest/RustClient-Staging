@@ -1,18 +1,18 @@
 public class EnvironmentFishManager : BaseMonoBehaviour, IClientComponent // TypeDefIndex: 10680
 {
-public EnvironmentFishManager.FishTypeInstance[] fishTypes;
-[ClientVar]
-public static int maxFishPerType;
-[ClientVar]
-public static float maxFishDistance;
-[ClientVar]
-[HelpAttribute]
-public static float framebudgetms;
-public static EnvironmentFishManager.EnvironmentFishWorkQueue workQueue;
-private GameObject fishContainer;
-private int lastMaxFish;
-private Vector3 lastFishUpdatePosition;
-private float nextFishUpdateTime;
+	public EnvironmentFishManager.FishTypeInstance[] fishTypes;
+	[ClientVar]
+	public static int maxFishPerType;
+	[ClientVar]
+	public static float maxFishDistance;
+	[ClientVar]
+	[HelpAttribute]
+	public static float framebudgetms;
+	public static EnvironmentFishManager.EnvironmentFishWorkQueue workQueue;
+	private GameObject fishContainer;
+	private int lastMaxFish;
+	private Vector3 lastFishUpdatePosition;
+	private float nextFishUpdateTime;
 
 
 	public int GetMaxFish() { }
@@ -39,15 +39,15 @@ private float nextFishUpdateTime;
 
 public class EnvironmentFishManager.FishTypeInstance // TypeDefIndex: 10681
 {
-public GameObjectRef prefab;
-public bool shouldSchool;
-public float populationScale;
-public bool freshwater;
-public bool seawater;
-public float minDepth;
-public float maxDepth;
-public List<EnvironmentFish> activeFish;
-public List<EnvironmentFish> sleeping;
+	public GameObjectRef prefab;
+	public bool shouldSchool;
+	public float populationScale;
+	public bool freshwater;
+	public bool seawater;
+	public float minDepth;
+	public float maxDepth;
+	public List<EnvironmentFish> activeFish;
+	public List<EnvironmentFish> sleeping;
 
 
 	public float GetPopulationScaleForPoint(Vector3 point) { }

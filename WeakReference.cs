@@ -4,8 +4,8 @@ public class WeakReference : ISerializable // TypeDefIndex: 421
 [ComVisibleAttribute]
 [Serializable]
 public class WeakReference : ISerializable
-private bool isLongReference;
-private GCHandle gcHandle;
+	private bool isLongReference;
+	private GCHandle gcHandle;
 
 	public virtual bool IsAlive { get; }
 	public virtual object Target { get; set; }

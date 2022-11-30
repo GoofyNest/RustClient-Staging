@@ -1,8 +1,8 @@
 internal struct DeleteCacheCallbackInfoInternal : ICallbackInfoInternal, IGettable<DeleteCacheCallbackInfo>, ISettable<DeleteCacheCallbackInfo>, IDisposable // TypeDefIndex: 8390
 {
-private Result m_ResultCode;
-private IntPtr m_ClientData;
-private IntPtr m_LocalUserId;
+	private Result m_ResultCode;
+	private IntPtr m_ClientData;
+	private IntPtr m_LocalUserId;
 
 	public Result ResultCode { get; set; }
 	public object ClientData { get; set; }
@@ -36,9 +36,9 @@ private IntPtr m_LocalUserId;
 
 internal struct DeleteCacheCallbackInfoInternal : ICallbackInfoInternal, IGettable<DeleteCacheCallbackInfo>, ISettable<DeleteCacheCallbackInfo>, IDisposable // TypeDefIndex: 8875
 {
-private Result m_ResultCode;
-private IntPtr m_ClientData;
-private IntPtr m_LocalUserId;
+	private Result m_ResultCode;
+	private IntPtr m_ClientData;
+	private IntPtr m_LocalUserId;
 
 	public Result ResultCode { get; set; }
 	public object ClientData { get; set; }

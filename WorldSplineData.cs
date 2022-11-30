@@ -1,12 +1,12 @@
 public class WorldSplineData // TypeDefIndex: 13215
 {
-public Vector3[] inputPoints;
-public Vector3[] inputTangents;
-public float inputLUTInterval;
-public List<WorldSplineData.LUTEntry> LUTValues;
-public float Length;
-[SerializeField]
-private int maxPointsIndex;
+	public Vector3[] inputPoints;
+	public Vector3[] inputTangents;
+	public float inputLUTInterval;
+	public List<WorldSplineData.LUTEntry> LUTValues;
+	public float Length;
+	[SerializeField]
+	private int maxPointsIndex;
 
 
 	public void .ctor(WorldSpline worldSpline) { }
@@ -41,7 +41,7 @@ private int maxPointsIndex;
 
 public class WorldSplineData.LUTEntry // TypeDefIndex: 13216
 {
-public List<WorldSplineData.LUTEntry.LUTPoint> points;
+	public List<WorldSplineData.LUTEntry.LUTPoint> points;
 
 
 	public void .ctor() { }
@@ -50,8 +50,8 @@ public List<WorldSplineData.LUTEntry.LUTPoint> points;
 
 public struct WorldSplineData.LUTEntry.LUTPoint // TypeDefIndex: 13217
 {
-public float distance;
-public Vector3 pos;
+	public float distance;
+	public Vector3 pos;
 
 
 	public void .ctor(float distance, Vector3 pos) { }

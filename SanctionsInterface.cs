@@ -16,7 +16,7 @@ public sealed class SanctionsInterface : Handle // TypeDefIndex: 8633
 
 	public void QueryActivePlayerSanctions(ref QueryActivePlayerSanctionsOptions options, object clientData, OnQueryActivePlayerSanctionsCallback completionDelegate) { }
 
-[MonoPInvokeCallbackAttribute]
+	[MonoPInvokeCallbackAttribute]
 	internal static void OnQueryActivePlayerSanctionsCallbackInternalImplementation(ref QueryActivePlayerSanctionsCallbackInfoInternal data) { }
 
 }

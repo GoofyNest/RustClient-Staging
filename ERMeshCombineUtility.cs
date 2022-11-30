@@ -21,11 +21,11 @@ public class ERMeshCombineUtility // TypeDefIndex: 7253
 
 public struct ERMeshCombineUtility.MeshInstance // TypeDefIndex: 7254
 {
-public Mesh mesh;
-public int subMeshIndex;
-public Matrix4x4 transform;
-public int vertexCount;
-public bool flipTriangles;
+	public Mesh mesh;
+	public int subMeshIndex;
+	public Matrix4x4 transform;
+	public int vertexCount;
+	public bool flipTriangles;
 
 }
 

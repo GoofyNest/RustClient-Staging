@@ -2,9 +2,9 @@ public class GodRaysRenderer : PostProcessEffectRenderer<GodRays> // TypeDefInde
 {
 	private const int PASS_SCREEN = 0;
 	private const int PASS_ADD = 1;
-public Shader GodRayShader;
-public Shader ScreenClearShader;
-public Shader SkyMaskShader;
+	public Shader GodRayShader;
+	public Shader ScreenClearShader;
+	public Shader SkyMaskShader;
 
 
 	public override void Init() { }

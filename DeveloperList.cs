@@ -11,12 +11,12 @@ public static class DeveloperList // TypeDefIndex: 11045
 
 private sealed class DeveloperList.<>c__DisplayClass0_0 // TypeDefIndex: 11046
 {
-public string steamid;
+	public string steamid;
 
 
 	public void .ctor() { }
 
-internal bool <Contains>
+	internal bool <Contains>
 
 }
 

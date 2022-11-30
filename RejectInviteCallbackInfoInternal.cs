@@ -1,7 +1,7 @@
 internal struct RejectInviteCallbackInfoInternal : ICallbackInfoInternal, IGettable<RejectInviteCallbackInfo>, ISettable<RejectInviteCallbackInfo>, IDisposable // TypeDefIndex: 8541
 {
-private Result m_ResultCode;
-private IntPtr m_ClientData;
+	private Result m_ResultCode;
+	private IntPtr m_ClientData;
 
 	public Result ResultCode { get; set; }
 	public object ClientData { get; set; }
@@ -30,9 +30,9 @@ private IntPtr m_ClientData;
 
 internal struct RejectInviteCallbackInfoInternal : ICallbackInfoInternal, IGettable<RejectInviteCallbackInfo>, ISettable<RejectInviteCallbackInfo>, IDisposable // TypeDefIndex: 9263
 {
-private Result m_ResultCode;
-private IntPtr m_ClientData;
-private IntPtr m_InviteId;
+	private Result m_ResultCode;
+	private IntPtr m_ClientData;
+	private IntPtr m_InviteId;
 
 	public Result ResultCode { get; set; }
 	public object ClientData { get; set; }
@@ -66,10 +66,10 @@ private IntPtr m_InviteId;
 
 internal struct RejectInviteCallbackInfoInternal : ICallbackInfoInternal, IGettable<RejectInviteCallbackInfo>, ISettable<RejectInviteCallbackInfo>, IDisposable // TypeDefIndex: 9412
 {
-private Result m_ResultCode;
-private IntPtr m_ClientData;
-private IntPtr m_LocalUserId;
-private IntPtr m_TargetUserId;
+	private Result m_ResultCode;
+	private IntPtr m_ClientData;
+	private IntPtr m_LocalUserId;
+	private IntPtr m_TargetUserId;
 
 	public Result ResultCode { get; set; }
 	public object ClientData { get; set; }

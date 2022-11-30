@@ -1,10 +1,10 @@
 internal struct BeginSessionOptionsInternal : ISettable<BeginSessionOptions>, IDisposable // TypeDefIndex: 9728
 {
-private int m_ApiVersion;
-private uint m_RegisterTimeoutSeconds;
-private IntPtr m_ServerName;
-private int m_EnableGameplayData;
-private IntPtr m_LocalUserId;
+	private int m_ApiVersion;
+	private uint m_RegisterTimeoutSeconds;
+	private IntPtr m_ServerName;
+	private int m_EnableGameplayData;
+	private IntPtr m_LocalUserId;
 
 	public uint RegisterTimeoutSeconds { set; }
 	public Utf8String ServerName { set; }
@@ -30,9 +30,9 @@ private IntPtr m_LocalUserId;
 
 internal struct BeginSessionOptionsInternal : ISettable<BeginSessionOptions>, IDisposable // TypeDefIndex: 9825
 {
-private int m_ApiVersion;
-private IntPtr m_LocalUserId;
-private AntiCheatClientMode m_Mode;
+	private int m_ApiVersion;
+	private IntPtr m_LocalUserId;
+	private AntiCheatClientMode m_Mode;
 
 	public ProductUserId LocalUserId { set; }
 	public AntiCheatClientMode Mode { set; }

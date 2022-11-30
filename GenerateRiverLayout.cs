@@ -18,15 +18,15 @@ public class GenerateRiverLayout : ProceduralComponent // TypeDefIndex: 12257
 
 private sealed class GenerateRiverLayout.<>c // TypeDefIndex: 12258
 {
-public static readonly GenerateRiverLayout.<>c <>9;
-public static Comparison<PathList> <>9__8_0;
+	public static readonly GenerateRiverLayout.<>c <>9;
+	public static Comparison<PathList> <>9__8_0;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-internal int <Process>
+	internal int <Process>
 
 }
 

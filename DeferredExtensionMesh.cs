@@ -1,10 +1,10 @@
 public class DeferredExtensionMesh : MonoBehaviour // TypeDefIndex: 12417
 {
-public SubsurfaceProfile subsurfaceProfile;
-private bool isVisible;
-private List<DeferredExtensionMesh.MaterialLink> materialLinks;
-private MaterialPropertyBlock _block;
-private Renderer _renderer;
+	public SubsurfaceProfile subsurfaceProfile;
+	private bool isVisible;
+	private List<DeferredExtensionMesh.MaterialLink> materialLinks;
+	private MaterialPropertyBlock _block;
+	private Renderer _renderer;
 
 	private MaterialPropertyBlock block { get; }
 	private Renderer renderer { get; }
@@ -36,9 +36,9 @@ private Renderer _renderer;
 
 public struct DeferredExtensionMesh.MaterialLink // TypeDefIndex: 12418
 {
-public Material material;
-public int submeshIndex;
-public int passIndex;
+	public Material material;
+	public int submeshIndex;
+	public int passIndex;
 
 
 	public void .ctor(Material material, int submeshIndex, int passIndex) { }

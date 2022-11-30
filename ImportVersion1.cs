@@ -1,7 +1,7 @@
 internal class ImportVersion1 : SingletonComponent<ImportVersion1> // TypeDefIndex: 7786
 {
 
-[IteratorStateMachineAttribute]
+	[IteratorStateMachineAttribute]
 	internal IEnumerator DoImport(IWorkshopContent item, Skin skin) { }
 
 	public void .ctor() { }
@@ -10,29 +10,29 @@ internal class ImportVersion1 : SingletonComponent<ImportVersion1> // TypeDefInd
 
 private sealed class ImportVersion1.<DoImport>d__0 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 7787
 {
-private int <>1__state;
-private object <>2__current;
-public IWorkshopContent item;
+	private int <>1__state;
+	private object <>2__current;
+	public IWorkshopContent item;
 
 	private object System.Collections.Generic.IEnumerator<System.Object>.Current { get; }
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	public void .ctor(int <>1__state) { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private void System.Collections.IEnumerator.Reset() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }

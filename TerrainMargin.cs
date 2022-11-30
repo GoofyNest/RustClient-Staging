@@ -1,6 +1,6 @@
 public class TerrainMargin // TypeDefIndex: 12181
 {
-private static MaterialPropertyBlock materialPropertyBlock;
+	private static MaterialPropertyBlock materialPropertyBlock;
 
 
 	public static void Create() { }

@@ -2,7 +2,7 @@ internal struct AddNotifyDisplaySettingsUpdatedOptionsInternal : ISettable<AddNo
 {
 
 internal struct AddNotifyDisplaySettingsUpdatedOptionsInternal : ISettable<AddNotifyDisplaySettingsUpdatedOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref AddNotifyDisplaySettingsUpdatedOptions other) { }

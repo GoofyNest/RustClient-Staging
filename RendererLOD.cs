@@ -1,11 +1,11 @@
 public class RendererLOD : LODComponent, IBatchingHandler // TypeDefIndex: 11700
 {
-public RendererLOD.State[] States;
-private RendererBatch meshBatch;
-private int curlod;
-private bool force;
-private bool isSmall;
-private bool isBeingForcedOff;
+	public RendererLOD.State[] States;
+	private RendererBatch meshBatch;
+	private int curlod;
+	private bool force;
+	private bool isSmall;
+	private bool isBeingForcedOff;
 
 
 	protected override void InitLOD() { }
@@ -36,11 +36,11 @@ private bool isBeingForcedOff;
 
 public class RendererLOD.State // TypeDefIndex: 11701
 {
-public float distance;
-public Renderer renderer;
-public MeshFilter filter;
-public ShadowCastingMode shadowMode;
-public bool isImpostor;
+	public float distance;
+	public Renderer renderer;
+	public MeshFilter filter;
+	public ShadowCastingMode shadowMode;
+	public bool isImpostor;
 
 
 	public void Show(RendererBatch batch, bool forceShadowsOff = False) { }

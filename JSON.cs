@@ -4,8 +4,8 @@ public static class JsonUtility // TypeDefIndex: 4530
 [NativeHeaderAttribute]
 public static class JsonUtility
 
-[ThreadSafeAttribute]
-[FreeFunctionAttribute]
+	[ThreadSafeAttribute]
+	[FreeFunctionAttribute]
 	private static object FromJsonInternal(string json, object objectToOverwrite, Type type) { }
 
 	public static T FromJson<T>(string json) { }
@@ -21,7 +21,7 @@ public static class JsonUtility
 
 internal enum JSONNodeType // TypeDefIndex: 5646
 {
-public int value__;
+	public int value__;
 	public const JSONNodeType Array = 1;
 	public const JSONNodeType Object = 2;
 	public const JSONNodeType String = 3;
@@ -35,7 +35,7 @@ public int value__;
 
 internal enum JSONTextMode // TypeDefIndex: 5647
 {
-public int value__;
+	public int value__;
 	public const JSONTextMode Compact = 0;
 	public const JSONTextMode Indent = 1;
 
@@ -43,10 +43,10 @@ public int value__;
 
 internal abstract class JSONNode // TypeDefIndex: 5648
 {
-public static bool forceASCII;
-public static bool longAsString;
-[ThreadStaticAttribute]
-private static StringBuilder m_EscapeBuilder;
+	public static bool forceASCII;
+	public static bool longAsString;
+	[ThreadStaticAttribute]
+	private static StringBuilder m_EscapeBuilder;
 
 	public virtual JSONNode Item { get; }
 	public virtual JSONNode Item { get; set; }
@@ -85,7 +85,7 @@ private static StringBuilder m_EscapeBuilder;
 
 	public virtual void Add(JSONNode aItem) { }
 
-[IteratorStateMachineAttribute]
+	[IteratorStateMachineAttribute]
 	public virtual IEnumerable<JSONNode> get_Children() { }
 
 	public override string ToString() { }
@@ -148,9 +148,9 @@ private static StringBuilder m_EscapeBuilder;
 
 public struct JSONNode.Enumerator // TypeDefIndex: 5649
 {
-private JSONNode.Enumerator.Type type;
-private Dictionary.Enumerator<string, JSONNode> m_Object;
-private List.Enumerator<JSONNode> m_Array;
+	private JSONNode.Enumerator.Type type;
+	private Dictionary.Enumerator<string, JSONNode> m_Object;
+	private List.Enumerator<JSONNode> m_Array;
 
 	public KeyValuePair<string, JSONNode> Current { get; }
 
@@ -167,7 +167,7 @@ private List.Enumerator<JSONNode> m_Array;
 
 private enum JSONNode.Enumerator.Type // TypeDefIndex: 5650
 {
-public int value__;
+	public int value__;
 	public const JSONNode.Enumerator.Type None = 0;
 	public const JSONNode.Enumerator.Type Array = 1;
 	public const JSONNode.Enumerator.Type Object = 2;
@@ -176,43 +176,43 @@ public int value__;
 
 private sealed class JSONNode.<get_Children>d__40 : IEnumerable<JSONNode>, IEnumerable, IEnumerator<JSONNode>, IDisposable, IEnumerator // TypeDefIndex: 5651
 {
-private int <>1__state;
-private JSONNode <>2__current;
-private int <>l__initialThreadId;
+	private int <>1__state;
+	private JSONNode <>2__current;
+	private int <>l__initialThreadId;
 
 	private JSONNode System.Collections.Generic.IEnumerator<GameAnalyticsSDK.Net.Utilities.JSONNode>.Current { get; }
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	public void .ctor(int <>1__state) { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private JSONNode System.Collections.Generic.IEnumerator<GameAnalyticsSDK.Net.Utilities.JSONNode>.get_Current() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private void System.Collections.IEnumerator.Reset() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private object System.Collections.IEnumerator.get_Current() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private IEnumerator<JSONNode> System.Collections.Generic.IEnumerable<GameAnalyticsSDK.Net.Utilities.JSONNode>.GetEnumerator() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
 }
 
 internal class JSONArray : JSONNode // TypeDefIndex: 5652
 {
-private List<JSONNode> m_List;
-private bool inline;
+	private List<JSONNode> m_List;
+	private bool inline;
 
 	public override bool IsArray { get; }
 	public override JSONNode Item { get; }
@@ -235,7 +235,7 @@ private bool inline;
 
 	public override void Add(string aKey, JSONNode aItem) { }
 
-[IteratorStateMachineAttribute]
+	[IteratorStateMachineAttribute]
 	public override IEnumerable<JSONNode> get_Children() { }
 
 	internal override void WriteToStringBuilder(StringBuilder aSB, int aIndent, int aIndentInc, JSONTextMode aMode) { }
@@ -248,47 +248,47 @@ private bool inline;
 
 private sealed class JSONArray.<get_Children>d__22 : IEnumerable<JSONNode>, IEnumerable, IEnumerator<JSONNode>, IDisposable, IEnumerator // TypeDefIndex: 5653
 {
-private int <>1__state;
-private JSONNode <>2__current;
-private int <>l__initialThreadId;
-public JSONArray <>4__this;
-private List.Enumerator<JSONNode> <>7__wrap1;
+	private int <>1__state;
+	private JSONNode <>2__current;
+	private int <>l__initialThreadId;
+	public JSONArray <>4__this;
+	private List.Enumerator<JSONNode> <>7__wrap1;
 
 	private JSONNode System.Collections.Generic.IEnumerator<GameAnalyticsSDK.Net.Utilities.JSONNode>.Current { get; }
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	public void .ctor(int <>1__state) { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
 	private void <>m__Finally1() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private JSONNode System.Collections.Generic.IEnumerator<GameAnalyticsSDK.Net.Utilities.JSONNode>.get_Current() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private void System.Collections.IEnumerator.Reset() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private object System.Collections.IEnumerator.get_Current() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private IEnumerator<JSONNode> System.Collections.Generic.IEnumerable<GameAnalyticsSDK.Net.Utilities.JSONNode>.GetEnumerator() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
 }
 
 internal class JSONObject : JSONNode // TypeDefIndex: 5654
 {
-private Dictionary<string, JSONNode> m_Dict;
-private bool inline;
+	private Dictionary<string, JSONNode> m_Dict;
+	private bool inline;
 
 	public override JSONNode Item { get; set; }
 	public override JSONNode Item { get; }
@@ -308,7 +308,7 @@ private bool inline;
 
 	public override void Add(string aKey, JSONNode aItem) { }
 
-[IteratorStateMachineAttribute]
+	[IteratorStateMachineAttribute]
 	public override IEnumerable<JSONNode> get_Children() { }
 
 	internal override void WriteToStringBuilder(StringBuilder aSB, int aIndent, int aIndentInc, JSONTextMode aMode) { }
@@ -321,46 +321,46 @@ private bool inline;
 
 private sealed class JSONObject.<get_Children>d__23 : IEnumerable<JSONNode>, IEnumerable, IEnumerator<JSONNode>, IDisposable, IEnumerator // TypeDefIndex: 5655
 {
-private int <>1__state;
-private JSONNode <>2__current;
-private int <>l__initialThreadId;
-public JSONObject <>4__this;
-private Dictionary.Enumerator<string, JSONNode> <>7__wrap1;
+	private int <>1__state;
+	private JSONNode <>2__current;
+	private int <>l__initialThreadId;
+	public JSONObject <>4__this;
+	private Dictionary.Enumerator<string, JSONNode> <>7__wrap1;
 
 	private JSONNode System.Collections.Generic.IEnumerator<GameAnalyticsSDK.Net.Utilities.JSONNode>.Current { get; }
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	public void .ctor(int <>1__state) { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
 	private void <>m__Finally1() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private JSONNode System.Collections.Generic.IEnumerator<GameAnalyticsSDK.Net.Utilities.JSONNode>.get_Current() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private void System.Collections.IEnumerator.Reset() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private object System.Collections.IEnumerator.get_Current() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private IEnumerator<JSONNode> System.Collections.Generic.IEnumerable<GameAnalyticsSDK.Net.Utilities.JSONNode>.GetEnumerator() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
 }
 
 internal class JSONString : JSONNode // TypeDefIndex: 5656
 {
-private string m_Data;
+	private string m_Data;
 
 	public override string Value { get; }
 
@@ -383,7 +383,7 @@ private string m_Data;
 
 internal class JSONNumber : JSONNode // TypeDefIndex: 5657
 {
-private double m_Data;
+	private double m_Data;
 
 	public override bool IsNumber { get; }
 	public override string Value { get; }
@@ -417,7 +417,7 @@ private double m_Data;
 
 internal class JSONBool : JSONNode // TypeDefIndex: 5658
 {
-private bool m_Data;
+	private bool m_Data;
 
 	public override bool IsBoolean { get; }
 	public override string Value { get; }
@@ -446,8 +446,8 @@ private bool m_Data;
 
 internal class JSONNull : JSONNode // TypeDefIndex: 5659
 {
-private static JSONNull m_StaticInstance;
-public static bool reuseSameInstance;
+	private static JSONNull m_StaticInstance;
+	public static bool reuseSameInstance;
 
 	public override string Value { get; }
 	public override bool AsBool { get; }
@@ -477,8 +477,8 @@ public static bool reuseSameInstance;
 
 internal class JSONLazyCreator : JSONNode // TypeDefIndex: 5660
 {
-private JSONNode m_Node;
-private string m_Key;
+	private JSONNode m_Node;
+	private string m_Key;
 
 	public override JSONNode Item { get; }
 	public override JSONNode Item { get; set; }
@@ -568,25 +568,25 @@ public class JsonException : Exception // TypeDefIndex: 5883
 
 public class JsonExtensionDataAttribute : Attribute // TypeDefIndex: 5884
 {
-[CompilerGeneratedAttribute]
-private bool <WriteData>k__BackingField;
-[CompilerGeneratedAttribute]
-private bool <ReadData>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private bool <WriteData>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private bool <ReadData>k__BackingField;
 
 	public bool WriteData { get; set; }
 	public bool ReadData { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_WriteData() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_WriteData(bool value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_ReadData() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ReadData(bool value) { }
 
 	public void .ctor() { }
@@ -595,7 +595,7 @@ private bool <ReadData>k__BackingField;
 
 internal enum JsonContainerType // TypeDefIndex: 5885
 {
-public int value__;
+	public int value__;
 	public const JsonContainerType None = 0;
 	public const JsonContainerType Object = 1;
 	public const JsonContainerType Array = 2;
@@ -605,11 +605,11 @@ public int value__;
 
 internal struct JsonPosition // TypeDefIndex: 5886
 {
-private static readonly char[] SpecialCharacters;
-internal JsonContainerType Type;
-internal int Position;
-internal string PropertyName;
-internal bool HasIndex;
+	private static readonly char[] SpecialCharacters;
+	internal JsonContainerType Type;
+	internal int Position;
+	internal string PropertyName;
+	internal bool HasIndex;
 
 
 	public void .ctor(JsonContainerType type) { }
@@ -644,23 +644,23 @@ public sealed class JsonArrayAttribute : JsonContainerAttribute // TypeDefIndex:
 
 public abstract class JsonContainerAttribute : Attribute // TypeDefIndex: 5894
 {
-[CompilerGeneratedAttribute]
-private Type <ItemConverterType>k__BackingField;
-[CompilerGeneratedAttribute]
-private object[] <ItemConverterParameters>k__BackingField;
-internal Nullable<bool> _isReference;
-internal Nullable<bool> _itemIsReference;
-internal Nullable<ReferenceLoopHandling> _itemReferenceLoopHandling;
-internal Nullable<TypeNameHandling> _itemTypeNameHandling;
+	[CompilerGeneratedAttribute]
+	private Type <ItemConverterType>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private object[] <ItemConverterParameters>k__BackingField;
+	internal Nullable<bool> _isReference;
+	internal Nullable<bool> _itemIsReference;
+	internal Nullable<ReferenceLoopHandling> _itemReferenceLoopHandling;
+	internal Nullable<TypeNameHandling> _itemTypeNameHandling;
 
 	public Type ItemConverterType { get; }
 	public object[] ItemConverterParameters { get; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Type get_ItemConverterType() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public object[] get_ItemConverterParameters() { }
 
 	protected void .ctor() { }
@@ -669,9 +669,9 @@ internal Nullable<TypeNameHandling> _itemTypeNameHandling;
 
 public sealed class JsonConverterAttribute : Attribute // TypeDefIndex: 5896
 {
-private readonly Type _converterType;
-[CompilerGeneratedAttribute]
-private object[] <ConverterParameters>k__BackingField;
+	private readonly Type _converterType;
+	[CompilerGeneratedAttribute]
+	private object[] <ConverterParameters>k__BackingField;
 
 	public Type ConverterType { get; }
 	public object[] ConverterParameters { get; }
@@ -679,7 +679,7 @@ private object[] <ConverterParameters>k__BackingField;
 
 	public Type get_ConverterType() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public object[] get_ConverterParameters() { }
 
 	public void .ctor(Type converterType) { }
@@ -688,8 +688,8 @@ private object[] <ConverterParameters>k__BackingField;
 
 public sealed class JsonObjectAttribute : JsonContainerAttribute // TypeDefIndex: 5897
 {
-private MemberSerialization _memberSerialization;
-internal Nullable<Required> _itemRequired;
+	private MemberSerialization _memberSerialization;
+	internal Nullable<Required> _itemRequired;
 
 	public MemberSerialization MemberSerialization { get; }
 
@@ -702,46 +702,46 @@ internal Nullable<Required> _itemRequired;
 
 public class JsonSerializerSettings // TypeDefIndex: 5898
 {
-internal static readonly StreamingContext DefaultContext;
-internal static readonly CultureInfo DefaultCulture;
-internal Nullable<Formatting> _formatting;
-internal Nullable<DateFormatHandling> _dateFormatHandling;
-internal Nullable<DateTimeZoneHandling> _dateTimeZoneHandling;
-internal Nullable<DateParseHandling> _dateParseHandling;
-internal Nullable<FloatFormatHandling> _floatFormatHandling;
-internal Nullable<FloatParseHandling> _floatParseHandling;
-internal Nullable<StringEscapeHandling> _stringEscapeHandling;
-internal CultureInfo _culture;
-internal Nullable<bool> _checkAdditionalContent;
-internal Nullable<int> _maxDepth;
-internal bool _maxDepthSet;
-internal string _dateFormatString;
-internal bool _dateFormatStringSet;
-internal Nullable<FormatterAssemblyStyle> _typeNameAssemblyFormat;
-internal Nullable<DefaultValueHandling> _defaultValueHandling;
-internal Nullable<PreserveReferencesHandling> _preserveReferencesHandling;
-internal Nullable<NullValueHandling> _nullValueHandling;
-internal Nullable<ObjectCreationHandling> _objectCreationHandling;
-internal Nullable<MissingMemberHandling> _missingMemberHandling;
-internal Nullable<ReferenceLoopHandling> _referenceLoopHandling;
-internal Nullable<StreamingContext> _context;
-internal Nullable<ConstructorHandling> _constructorHandling;
-internal Nullable<TypeNameHandling> _typeNameHandling;
-internal Nullable<MetadataPropertyHandling> _metadataPropertyHandling;
-[CompilerGeneratedAttribute]
-private IList<JsonConverter> <Converters>k__BackingField;
-[CompilerGeneratedAttribute]
-private IContractResolver <ContractResolver>k__BackingField;
-[CompilerGeneratedAttribute]
-private IEqualityComparer <EqualityComparer>k__BackingField;
-[CompilerGeneratedAttribute]
-private Func<IReferenceResolver> <ReferenceResolverProvider>k__BackingField;
-[CompilerGeneratedAttribute]
-private ITraceWriter <TraceWriter>k__BackingField;
-[CompilerGeneratedAttribute]
-private SerializationBinder <Binder>k__BackingField;
-[CompilerGeneratedAttribute]
-private EventHandler<ErrorEventArgs> <Error>k__BackingField;
+	internal static readonly StreamingContext DefaultContext;
+	internal static readonly CultureInfo DefaultCulture;
+	internal Nullable<Formatting> _formatting;
+	internal Nullable<DateFormatHandling> _dateFormatHandling;
+	internal Nullable<DateTimeZoneHandling> _dateTimeZoneHandling;
+	internal Nullable<DateParseHandling> _dateParseHandling;
+	internal Nullable<FloatFormatHandling> _floatFormatHandling;
+	internal Nullable<FloatParseHandling> _floatParseHandling;
+	internal Nullable<StringEscapeHandling> _stringEscapeHandling;
+	internal CultureInfo _culture;
+	internal Nullable<bool> _checkAdditionalContent;
+	internal Nullable<int> _maxDepth;
+	internal bool _maxDepthSet;
+	internal string _dateFormatString;
+	internal bool _dateFormatStringSet;
+	internal Nullable<FormatterAssemblyStyle> _typeNameAssemblyFormat;
+	internal Nullable<DefaultValueHandling> _defaultValueHandling;
+	internal Nullable<PreserveReferencesHandling> _preserveReferencesHandling;
+	internal Nullable<NullValueHandling> _nullValueHandling;
+	internal Nullable<ObjectCreationHandling> _objectCreationHandling;
+	internal Nullable<MissingMemberHandling> _missingMemberHandling;
+	internal Nullable<ReferenceLoopHandling> _referenceLoopHandling;
+	internal Nullable<StreamingContext> _context;
+	internal Nullable<ConstructorHandling> _constructorHandling;
+	internal Nullable<TypeNameHandling> _typeNameHandling;
+	internal Nullable<MetadataPropertyHandling> _metadataPropertyHandling;
+	[CompilerGeneratedAttribute]
+	private IList<JsonConverter> <Converters>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private IContractResolver <ContractResolver>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private IEqualityComparer <EqualityComparer>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Func<IReferenceResolver> <ReferenceResolverProvider>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private ITraceWriter <TraceWriter>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private SerializationBinder <Binder>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private EventHandler<ErrorEventArgs> <Error>k__BackingField;
 
 	public ReferenceLoopHandling ReferenceLoopHandling { get; }
 	public MissingMemberHandling MissingMemberHandling { get; }
@@ -773,10 +773,10 @@ private EventHandler<ErrorEventArgs> <Error>k__BackingField;
 
 	public DefaultValueHandling get_DefaultValueHandling() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public IList<JsonConverter> get_Converters() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Converters(IList<JsonConverter> value) { }
 
 	public PreserveReferencesHandling get_PreserveReferencesHandling() { }
@@ -789,22 +789,22 @@ private EventHandler<ErrorEventArgs> <Error>k__BackingField;
 
 	public ConstructorHandling get_ConstructorHandling() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public IContractResolver get_ContractResolver() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public IEqualityComparer get_EqualityComparer() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Func<IReferenceResolver> get_ReferenceResolverProvider() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public ITraceWriter get_TraceWriter() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public SerializationBinder get_Binder() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public EventHandler<ErrorEventArgs> get_Error() { }
 
 	public StreamingContext get_Context() { }
@@ -824,17 +824,17 @@ private sealed class JsonSerializerSettings.<>c__DisplayClass90_0 // TypeDefInde
 
 public class JsonTextReader : JsonReader, IJsonLineInfo // TypeDefIndex: 5903
 {
-private readonly TextReader _reader;
-private char[] _chars;
-private int _charsUsed;
-private int _charPos;
-private int _lineStartPos;
-private int _lineNumber;
-private bool _isEndOfFile;
-private StringBuffer _stringBuffer;
-private StringReference _stringReference;
-private IArrayPool<char> _arrayPool;
-internal PropertyNameTable NameTable;
+	private readonly TextReader _reader;
+	private char[] _chars;
+	private int _charsUsed;
+	private int _charPos;
+	private int _lineStartPos;
+	private int _lineNumber;
+	private bool _isEndOfFile;
+	private StringBuffer _stringBuffer;
+	private StringReference _stringReference;
+	private IArrayPool<char> _arrayPool;
+	internal PropertyNameTable NameTable;
 
 	public int LineNumber { get; }
 	public int LinePosition { get; }
@@ -962,39 +962,39 @@ internal PropertyNameTable NameTable;
 
 public sealed class JsonPropertyAttribute : Attribute // TypeDefIndex: 5904
 {
-internal Nullable<NullValueHandling> _nullValueHandling;
-internal Nullable<DefaultValueHandling> _defaultValueHandling;
-internal Nullable<ReferenceLoopHandling> _referenceLoopHandling;
-internal Nullable<ObjectCreationHandling> _objectCreationHandling;
-internal Nullable<TypeNameHandling> _typeNameHandling;
-internal Nullable<bool> _isReference;
-internal Nullable<int> _order;
-internal Nullable<Required> _required;
-internal Nullable<bool> _itemIsReference;
-internal Nullable<ReferenceLoopHandling> _itemReferenceLoopHandling;
-internal Nullable<TypeNameHandling> _itemTypeNameHandling;
-[CompilerGeneratedAttribute]
-private Type <ItemConverterType>k__BackingField;
-[CompilerGeneratedAttribute]
-private object[] <ItemConverterParameters>k__BackingField;
-[CompilerGeneratedAttribute]
-private string <PropertyName>k__BackingField;
+	internal Nullable<NullValueHandling> _nullValueHandling;
+	internal Nullable<DefaultValueHandling> _defaultValueHandling;
+	internal Nullable<ReferenceLoopHandling> _referenceLoopHandling;
+	internal Nullable<ObjectCreationHandling> _objectCreationHandling;
+	internal Nullable<TypeNameHandling> _typeNameHandling;
+	internal Nullable<bool> _isReference;
+	internal Nullable<int> _order;
+	internal Nullable<Required> _required;
+	internal Nullable<bool> _itemIsReference;
+	internal Nullable<ReferenceLoopHandling> _itemReferenceLoopHandling;
+	internal Nullable<TypeNameHandling> _itemTypeNameHandling;
+	[CompilerGeneratedAttribute]
+	private Type <ItemConverterType>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private object[] <ItemConverterParameters>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private string <PropertyName>k__BackingField;
 
 	public Type ItemConverterType { get; }
 	public object[] ItemConverterParameters { get; }
 	public string PropertyName { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Type get_ItemConverterType() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public object[] get_ItemConverterParameters() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public string get_PropertyName() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_PropertyName(string value) { }
 
 	public void .ctor() { }
@@ -1012,16 +1012,16 @@ public sealed class JsonIgnoreAttribute : Attribute // TypeDefIndex: 5905
 
 public class JsonTextWriter : JsonWriter // TypeDefIndex: 5906
 {
-private readonly TextWriter _writer;
-private Base64Encoder _base64Encoder;
-private char _indentChar;
-private int _indentation;
-private char _quoteChar;
-private bool _quoteName;
-private bool[] _charEscapeFlags;
-private char[] _writeBuffer;
-private IArrayPool<char> _arrayPool;
-private char[] _indentChars;
+	private readonly TextWriter _writer;
+	private Base64Encoder _base64Encoder;
+	private char _indentChar;
+	private int _indentation;
+	private char _quoteChar;
+	private bool _quoteName;
+	private bool[] _charEscapeFlags;
+	private char[] _writeBuffer;
+	private IArrayPool<char> _arrayPool;
+	private char[] _indentChars;
 
 	private Base64Encoder Base64Encoder { get; }
 	public char QuoteChar { get; }
@@ -1073,12 +1073,12 @@ private char[] _indentChars;
 
 	public override void WriteValue(int value) { }
 
-[CLSCompliantAttribute]
+	[CLSCompliantAttribute]
 	public override void WriteValue(uint value) { }
 
 	public override void WriteValue(long value) { }
 
-[CLSCompliantAttribute]
+	[CLSCompliantAttribute]
 	public override void WriteValue(ulong value) { }
 
 	public override void WriteValue(float value) { }
@@ -1093,14 +1093,14 @@ private char[] _indentChars;
 
 	public override void WriteValue(short value) { }
 
-[CLSCompliantAttribute]
+	[CLSCompliantAttribute]
 	public override void WriteValue(ushort value) { }
 
 	public override void WriteValue(char value) { }
 
 	public override void WriteValue(byte value) { }
 
-[CLSCompliantAttribute]
+	[CLSCompliantAttribute]
 	public override void WriteValue(sbyte value) { }
 
 	public override void WriteValue(Decimal value) { }
@@ -1129,13 +1129,13 @@ private char[] _indentChars;
 
 public class JsonWriterException : JsonException // TypeDefIndex: 5907
 {
-[CompilerGeneratedAttribute]
-private string <Path>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private string <Path>k__BackingField;
 
 	private string Path { set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_Path(string value) { }
 
 	public void .ctor() { }
@@ -1152,25 +1152,25 @@ private string <Path>k__BackingField;
 
 public class JsonReaderException : JsonException // TypeDefIndex: 5908
 {
-[CompilerGeneratedAttribute]
-private int <LineNumber>k__BackingField;
-[CompilerGeneratedAttribute]
-private int <LinePosition>k__BackingField;
-[CompilerGeneratedAttribute]
-private string <Path>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private int <LineNumber>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private int <LinePosition>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private string <Path>k__BackingField;
 
 	private int LineNumber { set; }
 	private int LinePosition { set; }
 	private string Path { set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_LineNumber(int value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_LinePosition(int value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_Path(string value) { }
 
 	public void .ctor() { }
@@ -1216,23 +1216,23 @@ public class JsonConverterCollection : Collection<JsonConverter> // TypeDefIndex
 
 public abstract class JsonReader : IDisposable // TypeDefIndex: 5911
 {
-private JsonToken _tokenType;
-private object _value;
-internal char _quoteChar;
-internal JsonReader.State _currentState;
-private JsonPosition _currentPosition;
-private CultureInfo _culture;
-private DateTimeZoneHandling _dateTimeZoneHandling;
-private Nullable<int> _maxDepth;
-private bool _hasExceededMaxDepth;
-internal DateParseHandling _dateParseHandling;
-internal FloatParseHandling _floatParseHandling;
-private string _dateFormatString;
-private List<JsonPosition> _stack;
-[CompilerGeneratedAttribute]
-private bool <CloseInput>k__BackingField;
-[CompilerGeneratedAttribute]
-private bool <SupportMultipleContent>k__BackingField;
+	private JsonToken _tokenType;
+	private object _value;
+	internal char _quoteChar;
+	internal JsonReader.State _currentState;
+	private JsonPosition _currentPosition;
+	private CultureInfo _culture;
+	private DateTimeZoneHandling _dateTimeZoneHandling;
+	private Nullable<int> _maxDepth;
+	private bool _hasExceededMaxDepth;
+	internal DateParseHandling _dateParseHandling;
+	internal FloatParseHandling _floatParseHandling;
+	private string _dateFormatString;
+	private List<JsonPosition> _stack;
+	[CompilerGeneratedAttribute]
+	private bool <CloseInput>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private bool <SupportMultipleContent>k__BackingField;
 
 	protected JsonReader.State CurrentState { get; }
 	public bool CloseInput { get; set; }
@@ -1252,16 +1252,16 @@ private bool <SupportMultipleContent>k__BackingField;
 
 	protected JsonReader.State get_CurrentState() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_CloseInput() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_CloseInput(bool value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_SupportMultipleContent() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_SupportMultipleContent(bool value) { }
 
 	public DateTimeZoneHandling get_DateTimeZoneHandling() { }
@@ -1384,24 +1384,24 @@ private bool <SupportMultipleContent>k__BackingField;
 
 public static class JsonConvert // TypeDefIndex: 5913
 {
-[CompilerGeneratedAttribute]
-private static Func<JsonSerializerSettings> <DefaultSettings>k__BackingField;
-public static readonly string True;
-public static readonly string False;
-public static readonly string Null;
-public static readonly string Undefined;
-public static readonly string PositiveInfinity;
-public static readonly string NegativeInfinity;
-public static readonly string NaN;
-private static readonly JsonSerializerSettings InitialSerializerSettings;
+	[CompilerGeneratedAttribute]
+	private static Func<JsonSerializerSettings> <DefaultSettings>k__BackingField;
+	public static readonly string True;
+	public static readonly string False;
+	public static readonly string Null;
+	public static readonly string Undefined;
+	public static readonly string PositiveInfinity;
+	public static readonly string NegativeInfinity;
+	public static readonly string NaN;
+	private static readonly JsonSerializerSettings InitialSerializerSettings;
 
 	public static Func<JsonSerializerSettings> DefaultSettings { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public static Func<JsonSerializerSettings> get_DefaultSettings() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public static void set_DefaultSettings(Func<JsonSerializerSettings> value) { }
 
 	private static void .cctor() { }
@@ -1517,38 +1517,38 @@ public class JsonSerializationException : JsonException // TypeDefIndex: 5914
 
 public class JsonSerializer // TypeDefIndex: 5915
 {
-internal TypeNameHandling _typeNameHandling;
-internal FormatterAssemblyStyle _typeNameAssemblyFormat;
-internal PreserveReferencesHandling _preserveReferencesHandling;
-internal ReferenceLoopHandling _referenceLoopHandling;
-internal MissingMemberHandling _missingMemberHandling;
-internal ObjectCreationHandling _objectCreationHandling;
-internal NullValueHandling _nullValueHandling;
-internal DefaultValueHandling _defaultValueHandling;
-internal ConstructorHandling _constructorHandling;
-internal MetadataPropertyHandling _metadataPropertyHandling;
-internal JsonConverterCollection _converters;
-internal IContractResolver _contractResolver;
-internal ITraceWriter _traceWriter;
-internal IEqualityComparer _equalityComparer;
-internal SerializationBinder _binder;
-internal StreamingContext _context;
-private IReferenceResolver _referenceResolver;
-private Nullable<Formatting> _formatting;
-private Nullable<DateFormatHandling> _dateFormatHandling;
-private Nullable<DateTimeZoneHandling> _dateTimeZoneHandling;
-private Nullable<DateParseHandling> _dateParseHandling;
-private Nullable<FloatFormatHandling> _floatFormatHandling;
-private Nullable<FloatParseHandling> _floatParseHandling;
-private Nullable<StringEscapeHandling> _stringEscapeHandling;
-private CultureInfo _culture;
-private Nullable<int> _maxDepth;
-private bool _maxDepthSet;
-private Nullable<bool> _checkAdditionalContent;
-private string _dateFormatString;
-private bool _dateFormatStringSet;
-[CompilerGeneratedAttribute]
-private EventHandler<ErrorEventArgs> Error;
+	internal TypeNameHandling _typeNameHandling;
+	internal FormatterAssemblyStyle _typeNameAssemblyFormat;
+	internal PreserveReferencesHandling _preserveReferencesHandling;
+	internal ReferenceLoopHandling _referenceLoopHandling;
+	internal MissingMemberHandling _missingMemberHandling;
+	internal ObjectCreationHandling _objectCreationHandling;
+	internal NullValueHandling _nullValueHandling;
+	internal DefaultValueHandling _defaultValueHandling;
+	internal ConstructorHandling _constructorHandling;
+	internal MetadataPropertyHandling _metadataPropertyHandling;
+	internal JsonConverterCollection _converters;
+	internal IContractResolver _contractResolver;
+	internal ITraceWriter _traceWriter;
+	internal IEqualityComparer _equalityComparer;
+	internal SerializationBinder _binder;
+	internal StreamingContext _context;
+	private IReferenceResolver _referenceResolver;
+	private Nullable<Formatting> _formatting;
+	private Nullable<DateFormatHandling> _dateFormatHandling;
+	private Nullable<DateTimeZoneHandling> _dateTimeZoneHandling;
+	private Nullable<DateParseHandling> _dateParseHandling;
+	private Nullable<FloatFormatHandling> _floatFormatHandling;
+	private Nullable<FloatParseHandling> _floatParseHandling;
+	private Nullable<StringEscapeHandling> _stringEscapeHandling;
+	private CultureInfo _culture;
+	private Nullable<int> _maxDepth;
+	private bool _maxDepthSet;
+	private Nullable<bool> _checkAdditionalContent;
+	private string _dateFormatString;
+	private bool _dateFormatStringSet;
+	[CompilerGeneratedAttribute]
+	private EventHandler<ErrorEventArgs> Error;
 
 	public virtual IReferenceResolver ReferenceResolver { set; }
 	public virtual SerializationBinder Binder { set; }
@@ -1571,10 +1571,10 @@ private EventHandler<ErrorEventArgs> Error;
 	public virtual bool CheckAdditionalContent { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public virtual void add_Error(EventHandler<ErrorEventArgs> value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public virtual void remove_Error(EventHandler<ErrorEventArgs> value) { }
 
 	public virtual void set_ReferenceResolver(IReferenceResolver value) { }
@@ -1682,7 +1682,7 @@ private EventHandler<ErrorEventArgs> Error;
 
 public enum JsonToken // TypeDefIndex: 5920
 {
-public int value__;
+	public int value__;
 	public const JsonToken None = 0;
 	public const JsonToken StartObject = 1;
 	public const JsonToken StartArray = 2;
@@ -1706,20 +1706,20 @@ public int value__;
 
 public abstract class JsonWriter : IDisposable // TypeDefIndex: 5921
 {
-private static readonly JsonWriter.State[][] StateArray;
-internal static readonly JsonWriter.State[][] StateArrayTempate;
-private List<JsonPosition> _stack;
-private JsonPosition _currentPosition;
-private JsonWriter.State _currentState;
-private Formatting _formatting;
-[CompilerGeneratedAttribute]
-private bool <CloseOutput>k__BackingField;
-private DateFormatHandling _dateFormatHandling;
-private DateTimeZoneHandling _dateTimeZoneHandling;
-private StringEscapeHandling _stringEscapeHandling;
-private FloatFormatHandling _floatFormatHandling;
-private string _dateFormatString;
-private CultureInfo _culture;
+	private static readonly JsonWriter.State[][] StateArray;
+	internal static readonly JsonWriter.State[][] StateArrayTempate;
+	private List<JsonPosition> _stack;
+	private JsonPosition _currentPosition;
+	private JsonWriter.State _currentState;
+	private Formatting _formatting;
+	[CompilerGeneratedAttribute]
+	private bool <CloseOutput>k__BackingField;
+	private DateFormatHandling _dateFormatHandling;
+	private DateTimeZoneHandling _dateTimeZoneHandling;
+	private StringEscapeHandling _stringEscapeHandling;
+	private FloatFormatHandling _floatFormatHandling;
+	private string _dateFormatString;
+	private CultureInfo _culture;
 
 	public bool CloseOutput { get; set; }
 	protected internal int Top { get; }
@@ -1739,10 +1739,10 @@ private CultureInfo _culture;
 
 	private static void .cctor() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_CloseOutput() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_CloseOutput(bool value) { }
 
 	protected internal int get_Top() { }
@@ -1853,12 +1853,12 @@ private CultureInfo _culture;
 
 	public virtual void WriteValue(int value) { }
 
-[CLSCompliantAttribute]
+	[CLSCompliantAttribute]
 	public virtual void WriteValue(uint value) { }
 
 	public virtual void WriteValue(long value) { }
 
-[CLSCompliantAttribute]
+	[CLSCompliantAttribute]
 	public virtual void WriteValue(ulong value) { }
 
 	public virtual void WriteValue(float value) { }
@@ -1869,14 +1869,14 @@ private CultureInfo _culture;
 
 	public virtual void WriteValue(short value) { }
 
-[CLSCompliantAttribute]
+	[CLSCompliantAttribute]
 	public virtual void WriteValue(ushort value) { }
 
 	public virtual void WriteValue(char value) { }
 
 	public virtual void WriteValue(byte value) { }
 
-[CLSCompliantAttribute]
+	[CLSCompliantAttribute]
 	public virtual void WriteValue(sbyte value) { }
 
 	public virtual void WriteValue(Decimal value) { }
@@ -1891,12 +1891,12 @@ private CultureInfo _culture;
 
 	public virtual void WriteValue(Nullable<int> value) { }
 
-[CLSCompliantAttribute]
+	[CLSCompliantAttribute]
 	public virtual void WriteValue(Nullable<uint> value) { }
 
 	public virtual void WriteValue(Nullable<long> value) { }
 
-[CLSCompliantAttribute]
+	[CLSCompliantAttribute]
 	public virtual void WriteValue(Nullable<ulong> value) { }
 
 	public virtual void WriteValue(Nullable<float> value) { }
@@ -1907,14 +1907,14 @@ private CultureInfo _culture;
 
 	public virtual void WriteValue(Nullable<short> value) { }
 
-[CLSCompliantAttribute]
+	[CLSCompliantAttribute]
 	public virtual void WriteValue(Nullable<ushort> value) { }
 
 	public virtual void WriteValue(Nullable<char> value) { }
 
 	public virtual void WriteValue(Nullable<byte> value) { }
 
-[CLSCompliantAttribute]
+	[CLSCompliantAttribute]
 	public virtual void WriteValue(Nullable<sbyte> value) { }
 
 	public virtual void WriteValue(Nullable<Decimal> value) { }
@@ -1959,7 +1959,7 @@ private CultureInfo _culture;
 
 internal enum JsonWriter.State // TypeDefIndex: 5922
 {
-public int value__;
+	public int value__;
 	public const JsonWriter.State Start = 0;
 	public const JsonWriter.State Property = 1;
 	public const JsonWriter.State ObjectStart = 2;
@@ -1986,16 +1986,16 @@ internal static class JsonTokenUtils // TypeDefIndex: 5927
 
 public class JsonContainerContract : JsonContract // TypeDefIndex: 5986
 {
-private JsonContract _itemContract;
-private JsonContract _finalItemContract;
-[CompilerGeneratedAttribute]
-private JsonConverter <ItemConverter>k__BackingField;
-[CompilerGeneratedAttribute]
-private Nullable<bool> <ItemIsReference>k__BackingField;
-[CompilerGeneratedAttribute]
-private Nullable<ReferenceLoopHandling> <ItemReferenceLoopHandling>k__BackingField;
-[CompilerGeneratedAttribute]
-private Nullable<TypeNameHandling> <ItemTypeNameHandling>k__BackingField;
+	private JsonContract _itemContract;
+	private JsonContract _finalItemContract;
+	[CompilerGeneratedAttribute]
+	private JsonConverter <ItemConverter>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Nullable<bool> <ItemIsReference>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Nullable<ReferenceLoopHandling> <ItemReferenceLoopHandling>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Nullable<TypeNameHandling> <ItemTypeNameHandling>k__BackingField;
 
 	internal JsonContract ItemContract { get; set; }
 	internal JsonContract FinalItemContract { get; }
@@ -2011,28 +2011,28 @@ private Nullable<TypeNameHandling> <ItemTypeNameHandling>k__BackingField;
 
 	internal JsonContract get_FinalItemContract() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public JsonConverter get_ItemConverter() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ItemConverter(JsonConverter value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Nullable<bool> get_ItemIsReference() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ItemIsReference(Nullable<bool> value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Nullable<ReferenceLoopHandling> get_ItemReferenceLoopHandling() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ItemReferenceLoopHandling(Nullable<ReferenceLoopHandling> value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Nullable<TypeNameHandling> get_ItemTypeNameHandling() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ItemTypeNameHandling(Nullable<TypeNameHandling> value) { }
 
 	internal void .ctor(Type underlyingType) { }
@@ -2041,9 +2041,9 @@ private Nullable<TypeNameHandling> <ItemTypeNameHandling>k__BackingField;
 
 internal class TraceJsonReader : JsonReader, IJsonLineInfo // TypeDefIndex: 5989
 {
-private readonly JsonReader _innerReader;
-private readonly JsonTextWriter _textWriter;
-private readonly StringWriter _sw;
+	private readonly JsonReader _innerReader;
+	private readonly JsonTextWriter _textWriter;
+	private readonly StringWriter _sw;
 
 	public override int Depth { get; }
 	public override string Path { get; }
@@ -2098,9 +2098,9 @@ private readonly StringWriter _sw;
 
 internal class TraceJsonWriter : JsonWriter // TypeDefIndex: 5990
 {
-private readonly JsonWriter _innerWriter;
-private readonly JsonTextWriter _textWriter;
-private readonly StringWriter _sw;
+	private readonly JsonWriter _innerWriter;
+	private readonly JsonTextWriter _textWriter;
+	private readonly StringWriter _sw;
 
 
 	public void .ctor(JsonWriter innerWriter) { }
@@ -2183,9 +2183,9 @@ private readonly StringWriter _sw;
 
 internal class JsonFormatterConverter : IFormatterConverter // TypeDefIndex: 5991
 {
-private readonly JsonSerializerInternalReader _reader;
-private readonly JsonISerializableContract _contract;
-private readonly JsonProperty _member;
+	private readonly JsonSerializerInternalReader _reader;
+	private readonly JsonISerializableContract _contract;
+	private readonly JsonProperty _member;
 
 
 	public void .ctor(JsonSerializerInternalReader reader, JsonISerializableContract contract, JsonProperty member) { }
@@ -2228,17 +2228,17 @@ public class JsonLinqContract : JsonContract // TypeDefIndex: 5993
 
 public class JsonPrimitiveContract : JsonContract // TypeDefIndex: 5994
 {
-[CompilerGeneratedAttribute]
-private PrimitiveTypeCode <TypeCode>k__BackingField;
-private static readonly Dictionary<Type, ReadType> ReadTypeMap;
+	[CompilerGeneratedAttribute]
+	private PrimitiveTypeCode <TypeCode>k__BackingField;
+	private static readonly Dictionary<Type, ReadType> ReadTypeMap;
 
 	internal PrimitiveTypeCode TypeCode { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	internal PrimitiveTypeCode get_TypeCode() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	internal void set_TypeCode(PrimitiveTypeCode value) { }
 
 	public void .ctor(Type underlyingType) { }
@@ -2249,25 +2249,25 @@ private static readonly Dictionary<Type, ReadType> ReadTypeMap;
 
 public class JsonArrayContract : JsonContainerContract // TypeDefIndex: 6014
 {
-[CompilerGeneratedAttribute]
-private Type <CollectionItemType>k__BackingField;
-[CompilerGeneratedAttribute]
-private bool <IsMultidimensionalArray>k__BackingField;
-private readonly Type _genericCollectionDefinitionType;
-private Type _genericWrapperType;
-private ObjectConstructor<object> _genericWrapperCreator;
-private Func<object> _genericTemporaryCollectionCreator;
-[CompilerGeneratedAttribute]
-private bool <IsArray>k__BackingField;
-[CompilerGeneratedAttribute]
-private bool <ShouldCreateWrapper>k__BackingField;
-[CompilerGeneratedAttribute]
-private bool <CanDeserialize>k__BackingField;
-private readonly ConstructorInfo _parameterizedConstructor;
-private ObjectConstructor<object> _parameterizedCreator;
-private ObjectConstructor<object> _overrideCreator;
-[CompilerGeneratedAttribute]
-private bool <HasParameterizedCreator>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Type <CollectionItemType>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private bool <IsMultidimensionalArray>k__BackingField;
+	private readonly Type _genericCollectionDefinitionType;
+	private Type _genericWrapperType;
+	private ObjectConstructor<object> _genericWrapperCreator;
+	private Func<object> _genericTemporaryCollectionCreator;
+	[CompilerGeneratedAttribute]
+	private bool <IsArray>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private bool <ShouldCreateWrapper>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private bool <CanDeserialize>k__BackingField;
+	private readonly ConstructorInfo _parameterizedConstructor;
+	private ObjectConstructor<object> _parameterizedCreator;
+	private ObjectConstructor<object> _overrideCreator;
+	[CompilerGeneratedAttribute]
+	private bool <HasParameterizedCreator>k__BackingField;
 
 	public Type CollectionItemType { get; set; }
 	public bool IsMultidimensionalArray { get; set; }
@@ -2280,34 +2280,34 @@ private bool <HasParameterizedCreator>k__BackingField;
 	internal bool HasParameterizedCreatorInternal { get; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Type get_CollectionItemType() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_CollectionItemType(Type value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_IsMultidimensionalArray() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_IsMultidimensionalArray(bool value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	internal bool get_IsArray() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_IsArray(bool value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	internal bool get_ShouldCreateWrapper() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_ShouldCreateWrapper(bool value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	internal bool get_CanDeserialize() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_CanDeserialize(bool value) { }
 
 	internal ObjectConstructor<object> get_ParameterizedCreator() { }
@@ -2316,10 +2316,10 @@ private bool <HasParameterizedCreator>k__BackingField;
 
 	public void set_OverrideCreator(ObjectConstructor<object> value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_HasParameterizedCreator() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_HasParameterizedCreator(bool value) { }
 
 	internal bool get_HasParameterizedCreatorInternal() { }
@@ -2334,7 +2334,7 @@ private bool <HasParameterizedCreator>k__BackingField;
 
 internal enum JsonContractType // TypeDefIndex: 6015
 {
-public int value__;
+	public int value__;
 	public const JsonContractType None = 0;
 	public const JsonContractType Object = 1;
 	public const JsonContractType Array = 2;
@@ -2349,33 +2349,33 @@ public int value__;
 
 public abstract class JsonContract // TypeDefIndex: 6020
 {
-internal bool IsNullable;
-internal bool IsConvertable;
-internal bool IsEnum;
-internal Type NonNullableUnderlyingType;
-internal ReadType InternalReadType;
-internal JsonContractType ContractType;
-internal bool IsReadOnlyOrFixedSize;
-internal bool IsSealed;
-internal bool IsInstantiable;
-private List<SerializationCallback> _onDeserializedCallbacks;
-private IList<SerializationCallback> _onDeserializingCallbacks;
-private IList<SerializationCallback> _onSerializedCallbacks;
-private IList<SerializationCallback> _onSerializingCallbacks;
-private IList<SerializationErrorCallback> _onErrorCallbacks;
-private Type _createdType;
-[CompilerGeneratedAttribute]
-private Type <UnderlyingType>k__BackingField;
-[CompilerGeneratedAttribute]
-private Nullable<bool> <IsReference>k__BackingField;
-[CompilerGeneratedAttribute]
-private JsonConverter <Converter>k__BackingField;
-[CompilerGeneratedAttribute]
-private JsonConverter <InternalConverter>k__BackingField;
-[CompilerGeneratedAttribute]
-private Func<object> <DefaultCreator>k__BackingField;
-[CompilerGeneratedAttribute]
-private bool <DefaultCreatorNonPublic>k__BackingField;
+	internal bool IsNullable;
+	internal bool IsConvertable;
+	internal bool IsEnum;
+	internal Type NonNullableUnderlyingType;
+	internal ReadType InternalReadType;
+	internal JsonContractType ContractType;
+	internal bool IsReadOnlyOrFixedSize;
+	internal bool IsSealed;
+	internal bool IsInstantiable;
+	private List<SerializationCallback> _onDeserializedCallbacks;
+	private IList<SerializationCallback> _onDeserializingCallbacks;
+	private IList<SerializationCallback> _onSerializedCallbacks;
+	private IList<SerializationCallback> _onSerializingCallbacks;
+	private IList<SerializationErrorCallback> _onErrorCallbacks;
+	private Type _createdType;
+	[CompilerGeneratedAttribute]
+	private Type <UnderlyingType>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Nullable<bool> <IsReference>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private JsonConverter <Converter>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private JsonConverter <InternalConverter>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Func<object> <DefaultCreator>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private bool <DefaultCreatorNonPublic>k__BackingField;
 
 	public Type UnderlyingType { get; set; }
 	public Type CreatedType { get; set; }
@@ -2391,32 +2391,32 @@ private bool <DefaultCreatorNonPublic>k__BackingField;
 	public bool DefaultCreatorNonPublic { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Type get_UnderlyingType() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_UnderlyingType(Type value) { }
 
 	public Type get_CreatedType() { }
 
 	public void set_CreatedType(Type value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Nullable<bool> get_IsReference() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_IsReference(Nullable<bool> value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public JsonConverter get_Converter() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Converter(JsonConverter value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	internal JsonConverter get_InternalConverter() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	internal void set_InternalConverter(JsonConverter value) { }
 
 	public IList<SerializationCallback> get_OnDeserializedCallbacks() { }
@@ -2429,16 +2429,16 @@ private bool <DefaultCreatorNonPublic>k__BackingField;
 
 	public IList<SerializationErrorCallback> get_OnErrorCallbacks() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Func<object> get_DefaultCreator() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_DefaultCreator(Func<object> value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_DefaultCreatorNonPublic() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_DefaultCreatorNonPublic(bool value) { }
 
 	internal void .ctor(Type underlyingType) { }
@@ -2461,87 +2461,87 @@ private bool <DefaultCreatorNonPublic>k__BackingField;
 
 private sealed class JsonContract.<>c__DisplayClass73_0 // TypeDefIndex: 6021
 {
-public MethodInfo callbackMethodInfo;
+	public MethodInfo callbackMethodInfo;
 
 
 	public void .ctor() { }
 
-internal void <CreateSerializationCallback>
+	internal void <CreateSerializationCallback>
 
 }
 
 private sealed class JsonContract.<>c__DisplayClass74_0 // TypeDefIndex: 6022
 {
-public MethodInfo callbackMethodInfo;
+	public MethodInfo callbackMethodInfo;
 
 
 	public void .ctor() { }
 
-internal void <CreateSerializationErrorCallback>
+	internal void <CreateSerializationErrorCallback>
 
 }
 
 public class JsonProperty // TypeDefIndex: 6024
 {
-internal Nullable<Required> _required;
-internal bool _hasExplicitDefaultValue;
-private object _defaultValue;
-private bool _hasGeneratedDefaultValue;
-private string _propertyName;
-internal bool _skipPropertyNameEscape;
-private Type _propertyType;
-[CompilerGeneratedAttribute]
-private JsonContract <PropertyContract>k__BackingField;
-[CompilerGeneratedAttribute]
-private Type <DeclaringType>k__BackingField;
-[CompilerGeneratedAttribute]
-private Nullable<int> <Order>k__BackingField;
-[CompilerGeneratedAttribute]
-private string <UnderlyingName>k__BackingField;
-[CompilerGeneratedAttribute]
-private IValueProvider <ValueProvider>k__BackingField;
-[CompilerGeneratedAttribute]
-private IAttributeProvider <AttributeProvider>k__BackingField;
-[CompilerGeneratedAttribute]
-private JsonConverter <Converter>k__BackingField;
-[CompilerGeneratedAttribute]
-private JsonConverter <MemberConverter>k__BackingField;
-[CompilerGeneratedAttribute]
-private bool <Ignored>k__BackingField;
-[CompilerGeneratedAttribute]
-private bool <Readable>k__BackingField;
-[CompilerGeneratedAttribute]
-private bool <Writable>k__BackingField;
-[CompilerGeneratedAttribute]
-private bool <HasMemberAttribute>k__BackingField;
-[CompilerGeneratedAttribute]
-private Nullable<bool> <IsReference>k__BackingField;
-[CompilerGeneratedAttribute]
-private Nullable<NullValueHandling> <NullValueHandling>k__BackingField;
-[CompilerGeneratedAttribute]
-private Nullable<DefaultValueHandling> <DefaultValueHandling>k__BackingField;
-[CompilerGeneratedAttribute]
-private Nullable<ReferenceLoopHandling> <ReferenceLoopHandling>k__BackingField;
-[CompilerGeneratedAttribute]
-private Nullable<ObjectCreationHandling> <ObjectCreationHandling>k__BackingField;
-[CompilerGeneratedAttribute]
-private Nullable<TypeNameHandling> <TypeNameHandling>k__BackingField;
-[CompilerGeneratedAttribute]
-private Predicate<object> <ShouldSerialize>k__BackingField;
-[CompilerGeneratedAttribute]
-private Predicate<object> <ShouldDeserialize>k__BackingField;
-[CompilerGeneratedAttribute]
-private Predicate<object> <GetIsSpecified>k__BackingField;
-[CompilerGeneratedAttribute]
-private Action<object, object> <SetIsSpecified>k__BackingField;
-[CompilerGeneratedAttribute]
-private JsonConverter <ItemConverter>k__BackingField;
-[CompilerGeneratedAttribute]
-private Nullable<bool> <ItemIsReference>k__BackingField;
-[CompilerGeneratedAttribute]
-private Nullable<TypeNameHandling> <ItemTypeNameHandling>k__BackingField;
-[CompilerGeneratedAttribute]
-private Nullable<ReferenceLoopHandling> <ItemReferenceLoopHandling>k__BackingField;
+	internal Nullable<Required> _required;
+	internal bool _hasExplicitDefaultValue;
+	private object _defaultValue;
+	private bool _hasGeneratedDefaultValue;
+	private string _propertyName;
+	internal bool _skipPropertyNameEscape;
+	private Type _propertyType;
+	[CompilerGeneratedAttribute]
+	private JsonContract <PropertyContract>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Type <DeclaringType>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Nullable<int> <Order>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private string <UnderlyingName>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private IValueProvider <ValueProvider>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private IAttributeProvider <AttributeProvider>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private JsonConverter <Converter>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private JsonConverter <MemberConverter>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private bool <Ignored>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private bool <Readable>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private bool <Writable>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private bool <HasMemberAttribute>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Nullable<bool> <IsReference>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Nullable<NullValueHandling> <NullValueHandling>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Nullable<DefaultValueHandling> <DefaultValueHandling>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Nullable<ReferenceLoopHandling> <ReferenceLoopHandling>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Nullable<ObjectCreationHandling> <ObjectCreationHandling>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Nullable<TypeNameHandling> <TypeNameHandling>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Predicate<object> <ShouldSerialize>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Predicate<object> <ShouldDeserialize>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Predicate<object> <GetIsSpecified>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Action<object, object> <SetIsSpecified>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private JsonConverter <ItemConverter>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Nullable<bool> <ItemIsReference>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Nullable<TypeNameHandling> <ItemTypeNameHandling>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Nullable<ReferenceLoopHandling> <ItemReferenceLoopHandling>k__BackingField;
 
 	internal JsonContract PropertyContract { get; set; }
 	public string PropertyName { get; set; }
@@ -2575,81 +2575,81 @@ private Nullable<ReferenceLoopHandling> <ItemReferenceLoopHandling>k__BackingFie
 	public Nullable<ReferenceLoopHandling> ItemReferenceLoopHandling { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	internal JsonContract get_PropertyContract() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	internal void set_PropertyContract(JsonContract value) { }
 
 	public string get_PropertyName() { }
 
 	public void set_PropertyName(string value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Type get_DeclaringType() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_DeclaringType(Type value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Nullable<int> get_Order() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Order(Nullable<int> value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public string get_UnderlyingName() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_UnderlyingName(string value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public IValueProvider get_ValueProvider() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ValueProvider(IValueProvider value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_AttributeProvider(IAttributeProvider value) { }
 
 	public Type get_PropertyType() { }
 
 	public void set_PropertyType(Type value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public JsonConverter get_Converter() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Converter(JsonConverter value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public JsonConverter get_MemberConverter() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_MemberConverter(JsonConverter value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_Ignored() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Ignored(bool value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_Readable() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Readable(bool value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_Writable() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Writable(bool value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_HasMemberAttribute() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_HasMemberAttribute(bool value) { }
 
 	public object get_DefaultValue() { }
@@ -2660,87 +2660,87 @@ private Nullable<ReferenceLoopHandling> <ItemReferenceLoopHandling>k__BackingFie
 
 	public Required get_Required() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Nullable<bool> get_IsReference() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_IsReference(Nullable<bool> value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Nullable<NullValueHandling> get_NullValueHandling() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_NullValueHandling(Nullable<NullValueHandling> value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Nullable<DefaultValueHandling> get_DefaultValueHandling() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_DefaultValueHandling(Nullable<DefaultValueHandling> value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Nullable<ReferenceLoopHandling> get_ReferenceLoopHandling() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ReferenceLoopHandling(Nullable<ReferenceLoopHandling> value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Nullable<ObjectCreationHandling> get_ObjectCreationHandling() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ObjectCreationHandling(Nullable<ObjectCreationHandling> value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Nullable<TypeNameHandling> get_TypeNameHandling() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_TypeNameHandling(Nullable<TypeNameHandling> value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Predicate<object> get_ShouldSerialize() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ShouldSerialize(Predicate<object> value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Predicate<object> get_ShouldDeserialize() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Predicate<object> get_GetIsSpecified() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_GetIsSpecified(Predicate<object> value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Action<object, object> get_SetIsSpecified() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_SetIsSpecified(Action<object, object> value) { }
 
 	public override string ToString() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public JsonConverter get_ItemConverter() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ItemConverter(JsonConverter value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Nullable<bool> get_ItemIsReference() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ItemIsReference(Nullable<bool> value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Nullable<TypeNameHandling> get_ItemTypeNameHandling() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ItemTypeNameHandling(Nullable<TypeNameHandling> value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Nullable<ReferenceLoopHandling> get_ItemReferenceLoopHandling() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ItemReferenceLoopHandling(Nullable<ReferenceLoopHandling> value) { }
 
 	internal void WritePropertyName(JsonWriter writer) { }
@@ -2751,8 +2751,8 @@ private Nullable<ReferenceLoopHandling> <ItemReferenceLoopHandling>k__BackingFie
 
 public class JsonPropertyCollection : KeyedCollection<string, JsonProperty> // TypeDefIndex: 6025
 {
-private readonly Type _type;
-private readonly List<JsonProperty> _list;
+	private readonly Type _type;
+	private readonly List<JsonProperty> _list;
 
 
 	public void .ctor(Type type) { }
@@ -2771,32 +2771,32 @@ private readonly List<JsonProperty> _list;
 
 public class JsonObjectContract : JsonContainerContract // TypeDefIndex: 6027
 {
-[CompilerGeneratedAttribute]
-private MemberSerialization <MemberSerialization>k__BackingField;
-[CompilerGeneratedAttribute]
-private Nullable<Required> <ItemRequired>k__BackingField;
-[CompilerGeneratedAttribute]
-private JsonPropertyCollection <Properties>k__BackingField;
-[CompilerGeneratedAttribute]
-private ExtensionDataSetter <ExtensionDataSetter>k__BackingField;
-[CompilerGeneratedAttribute]
-private ExtensionDataGetter <ExtensionDataGetter>k__BackingField;
-internal bool ExtensionDataIsJToken;
-private Nullable<bool> _hasRequiredOrDefaultValueProperties;
-private ConstructorInfo _parametrizedConstructor;
-private ConstructorInfo _overrideConstructor;
-private ObjectConstructor<object> _overrideCreator;
-private ObjectConstructor<object> _parameterizedCreator;
-private JsonPropertyCollection _creatorParameters;
-private Type _extensionDataValueType;
+	[CompilerGeneratedAttribute]
+	private MemberSerialization <MemberSerialization>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Nullable<Required> <ItemRequired>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private JsonPropertyCollection <Properties>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private ExtensionDataSetter <ExtensionDataSetter>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private ExtensionDataGetter <ExtensionDataGetter>k__BackingField;
+	internal bool ExtensionDataIsJToken;
+	private Nullable<bool> _hasRequiredOrDefaultValueProperties;
+	private ConstructorInfo _parametrizedConstructor;
+	private ConstructorInfo _overrideConstructor;
+	private ObjectConstructor<object> _overrideCreator;
+	private ObjectConstructor<object> _parameterizedCreator;
+	private JsonPropertyCollection _creatorParameters;
+	private Type _extensionDataValueType;
 
 	public MemberSerialization MemberSerialization { get; set; }
 	public Nullable<Required> ItemRequired { get; set; }
 	public JsonPropertyCollection Properties { get; set; }
 	public JsonPropertyCollection CreatorParameters { get; }
-[ObsoleteAttribute]
+	[ObsoleteAttribute]
 	public ConstructorInfo OverrideConstructor { set; }
-[ObsoleteAttribute]
+	[ObsoleteAttribute]
 	public ConstructorInfo ParametrizedConstructor { set; }
 	public ObjectConstructor<object> OverrideCreator { get; }
 	internal ObjectConstructor<object> ParameterizedCreator { get; }
@@ -2806,22 +2806,22 @@ private Type _extensionDataValueType;
 	internal bool HasRequiredOrDefaultValueProperties { get; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public MemberSerialization get_MemberSerialization() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_MemberSerialization(MemberSerialization value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Nullable<Required> get_ItemRequired() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ItemRequired(Nullable<Required> value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public JsonPropertyCollection get_Properties() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_Properties(JsonPropertyCollection value) { }
 
 	public JsonPropertyCollection get_CreatorParameters() { }
@@ -2834,16 +2834,16 @@ private Type _extensionDataValueType;
 
 	internal ObjectConstructor<object> get_ParameterizedCreator() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public ExtensionDataSetter get_ExtensionDataSetter() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ExtensionDataSetter(ExtensionDataSetter value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public ExtensionDataGetter get_ExtensionDataGetter() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ExtensionDataGetter(ExtensionDataGetter value) { }
 
 	public void set_ExtensionDataValueType(Type value) { }
@@ -2858,11 +2858,11 @@ private Type _extensionDataValueType;
 
 internal abstract class JsonSerializerInternalBase // TypeDefIndex: 6028
 {
-private ErrorContext _currentErrorContext;
-private BidirectionalDictionary<string, object> _mappings;
-internal readonly JsonSerializer Serializer;
-internal readonly ITraceWriter TraceWriter;
-protected JsonSerializerProxy InternalSerializer;
+	private ErrorContext _currentErrorContext;
+	private BidirectionalDictionary<string, object> _mappings;
+	internal readonly JsonSerializer Serializer;
+	internal readonly ITraceWriter TraceWriter;
+	protected JsonSerializerProxy InternalSerializer;
 
 	internal BidirectionalDictionary<string, object> DefaultReferenceMappings { get; }
 
@@ -2991,7 +2991,7 @@ internal class JsonSerializerInternalReader : JsonSerializerInternalBase // Type
 
 internal enum JsonSerializerInternalReader.PropertyPresence // TypeDefIndex: 6031
 {
-public int value__;
+	public int value__;
 	public const JsonSerializerInternalReader.PropertyPresence None = 0;
 	public const JsonSerializerInternalReader.PropertyPresence Null = 1;
 	public const JsonSerializerInternalReader.PropertyPresence Value = 2;
@@ -3000,12 +3000,12 @@ public int value__;
 
 internal class JsonSerializerInternalReader.CreatorPropertyContext // TypeDefIndex: 6032
 {
-public string Name;
-public JsonProperty Property;
-public JsonProperty ConstructorProperty;
-public Nullable<JsonSerializerInternalReader.PropertyPresence> Presence;
-public object Value;
-public bool Used;
+	public string Name;
+	public JsonProperty Property;
+	public JsonProperty ConstructorProperty;
+	public Nullable<JsonSerializerInternalReader.PropertyPresence> Presence;
+	public object Value;
+	public bool Used;
 
 
 	public void .ctor() { }
@@ -3014,43 +3014,43 @@ public bool Used;
 
 private sealed class JsonSerializerInternalReader.<>c__DisplayClass36_0 // TypeDefIndex: 6033
 {
-public JsonProperty property;
+	public JsonProperty property;
 
 
 	public void .ctor() { }
 
-internal bool <CreateObjectUsingCreatorWithParameters>
+	internal bool <CreateObjectUsingCreatorWithParameters>
 
 }
 
 private sealed class JsonSerializerInternalReader.<>c // TypeDefIndex: 6034
 {
-public static readonly JsonSerializerInternalReader.<>c <>9;
-public static Func<JsonProperty, string> <>9__36_0;
-public static Func<JsonProperty, string> <>9__36_2;
-public static Func<JsonProperty, JsonProperty> <>9__41_0;
-public static Func<JsonProperty, JsonSerializerInternalReader.PropertyPresence> <>9__41_1;
+	public static readonly JsonSerializerInternalReader.<>c <>9;
+	public static Func<JsonProperty, string> <>9__36_0;
+	public static Func<JsonProperty, string> <>9__36_2;
+	public static Func<JsonProperty, JsonProperty> <>9__41_0;
+	public static Func<JsonProperty, JsonSerializerInternalReader.PropertyPresence> <>9__41_1;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-internal string <CreateObjectUsingCreatorWithParameters>
+	internal string <CreateObjectUsingCreatorWithParameters>
 
-internal string <CreateObjectUsingCreatorWithParameters>
+	internal string <CreateObjectUsingCreatorWithParameters>
 
-internal JsonProperty <PopulateObject>
+	internal JsonProperty <PopulateObject>
 
-internal JsonSerializerInternalReader.PropertyPresence <PopulateObject>
+	internal JsonSerializerInternalReader.PropertyPresence <PopulateObject>
 
 }
 
 internal class JsonSerializerInternalWriter : JsonSerializerInternalBase // TypeDefIndex: 6035
 {
-private Type _rootType;
-private int _rootLevel;
-private readonly List<object> _serializeStack;
+	private Type _rootType;
+	private int _rootLevel;
+	private readonly List<object> _serializeStack;
 
 
 	public void .ctor(JsonSerializer serializer) { }
@@ -3129,9 +3129,9 @@ private readonly List<object> _serializeStack;
 
 internal class JsonSerializerProxy : JsonSerializer // TypeDefIndex: 6036
 {
-private readonly JsonSerializerInternalReader _serializerReader;
-private readonly JsonSerializerInternalWriter _serializerWriter;
-private readonly JsonSerializer _serializer;
+	private readonly JsonSerializerInternalReader _serializerReader;
+	private readonly JsonSerializerInternalWriter _serializerWriter;
+	private readonly JsonSerializer _serializer;
 
 	public override IReferenceResolver ReferenceResolver { set; }
 	public override ITraceWriter TraceWriter { get; set; }
@@ -3233,10 +3233,10 @@ public class JsonStringContract : JsonPrimitiveContract // TypeDefIndex: 6037
 
 internal static class JsonTypeReflector // TypeDefIndex: 6038
 {
-private static Nullable<bool> _fullyTrusted;
-private static readonly ThreadSafeStore<Type, Func<object[], JsonConverter>> JsonConverterCreatorCache;
-private static readonly ThreadSafeStore<Type, Type> AssociatedMetadataTypesCache;
-private static ReflectionObject _metadataTypeAttributeReflectionObject;
+	private static Nullable<bool> _fullyTrusted;
+	private static readonly ThreadSafeStore<Type, Func<object[], JsonConverter>> JsonConverterCreatorCache;
+	private static readonly ThreadSafeStore<Type, Type> AssociatedMetadataTypesCache;
+	private static ReflectionObject _metadataTypeAttributeReflectionObject;
 
 	public static bool FullyTrusted { get; }
 	public static ReflectionDelegateFactory ReflectionDelegateFactory { get; }
@@ -3305,27 +3305,27 @@ private static ReflectionObject _metadataTypeAttributeReflectionObject;
 
 private sealed class JsonTypeReflector.<>c__DisplayClass18_0 // TypeDefIndex: 6039
 {
-public Type converterType;
-public Func<object> defaultConstructor;
+	public Type converterType;
+	public Func<object> defaultConstructor;
 
 
 	public void .ctor() { }
 
-internal JsonConverter <GetJsonConverterCreator>
+	internal JsonConverter <GetJsonConverterCreator>
 
 }
 
 private sealed class JsonTypeReflector.<>c // TypeDefIndex: 6040
 {
-public static readonly JsonTypeReflector.<>c <>9;
-public static Func<object, Type> <>9__18_1;
+	public static readonly JsonTypeReflector.<>c <>9;
+	public static Func<object, Type> <>9__18_1;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-internal Type <GetJsonConverterCreator>
+	internal Type <GetJsonConverterCreator>
 
 }
 
@@ -3359,8 +3359,8 @@ public class JPropertyDescriptor : PropertyDescriptor // TypeDefIndex: 6047
 
 internal class JPropertyKeyedCollection : Collection<JToken> // TypeDefIndex: 6048
 {
-private static readonly IEqualityComparer<string> Comparer;
-private Dictionary<string, JToken> _dictionary;
+	private static readonly IEqualityComparer<string> Comparer;
+	private Dictionary<string, JToken> _dictionary;
 
 	public ICollection<string> Keys { get; }
 
@@ -3399,8 +3399,8 @@ private Dictionary<string, JToken> _dictionary;
 
 public class JsonLoadSettings // TypeDefIndex: 6049
 {
-private CommentHandling _commentHandling;
-private LineInfoHandling _lineInfoHandling;
+	private CommentHandling _commentHandling;
+	private LineInfoHandling _lineInfoHandling;
 
 	public CommentHandling CommentHandling { get; }
 	public LineInfoHandling LineInfoHandling { get; }
@@ -3437,8 +3437,8 @@ public class JTokenEqualityComparer : IEqualityComparer<JToken>
 
 public class JConstructor : JContainer // TypeDefIndex: 6065
 {
-private string _name;
-private readonly List<JToken> _values;
+	private string _name;
+	private readonly List<JToken> _values;
 
 	protected override IList<JToken> ChildrenTokens { get; }
 	public string Name { get; }
@@ -3473,9 +3473,9 @@ private readonly List<JToken> _values;
 
 public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, IEnumerable<JToken>, IEnumerable, IBindingList, IList, ICollection // TypeDefIndex: 6066
 {
-internal ListChangedEventHandler _listChanged;
-private object _syncRoot;
-private bool _busy;
+	internal ListChangedEventHandler _listChanged;
+	private object _syncRoot;
+	private bool _busy;
 
 	protected abstract IList<JToken> ChildrenTokens { get; }
 	public override bool HasValues { get; }
@@ -3616,11 +3616,11 @@ private bool _busy;
 
 public class JObject : JContainer, IDictionary<string, JToken>, ICollection<KeyValuePair<string, JToken>>, IEnumerable<KeyValuePair<string, JToken>>, IEnumerable, ICustomTypeDescriptor, INotifyPropertyChanging // TypeDefIndex: 6069
 {
-private readonly JPropertyKeyedCollection _properties;
-[CompilerGeneratedAttribute]
-private PropertyChangedEventHandler PropertyChanged;
-[CompilerGeneratedAttribute]
-private PropertyChangingEventHandler PropertyChanging;
+	private readonly JPropertyKeyedCollection _properties;
+	[CompilerGeneratedAttribute]
+	private PropertyChangedEventHandler PropertyChanged;
+	[CompilerGeneratedAttribute]
+	private PropertyChangingEventHandler PropertyChanging;
 
 	protected override IList<JToken> ChildrenTokens { get; }
 	public override JTokenType Type { get; }
@@ -3710,7 +3710,7 @@ private PropertyChangingEventHandler PropertyChanging;
 
 private sealed class JObject.<>c // TypeDefIndex: 6070
 {
-public static readonly JObject.<>c <>9;
+	public static readonly JObject.<>c <>9;
 
 
 	private static void .cctor() { }
@@ -3721,39 +3721,39 @@ public static readonly JObject.<>c <>9;
 
 private sealed class JObject.<GetEnumerator>d__58 : IEnumerator<KeyValuePair<string, JToken>>, IDisposable, IEnumerator // TypeDefIndex: 6071
 {
-private int <>1__state;
-private KeyValuePair<string, JToken> <>2__current;
-public JObject <>4__this;
-private IEnumerator<JToken> <>7__wrap1;
+	private int <>1__state;
+	private KeyValuePair<string, JToken> <>2__current;
+	public JObject <>4__this;
+	private IEnumerator<JToken> <>7__wrap1;
 
 	private KeyValuePair<string, JToken> System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Current { get; }
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	public void .ctor(int <>1__state) { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
 	private void <>m__Finally1() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private KeyValuePair<string, JToken> System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.get_Current() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private void System.Collections.IEnumerator.Reset() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }
 
 public class JArray : JContainer, IList<JToken>, ICollection<JToken>, IEnumerable<JToken>, IEnumerable // TypeDefIndex: 6072
 {
-private readonly List<JToken> _values;
+	private readonly List<JToken> _values;
 
 	protected override IList<JToken> ChildrenTokens { get; }
 	public override JTokenType Type { get; }
@@ -3813,10 +3813,10 @@ private readonly List<JToken> _values;
 
 public class JTokenReader : JsonReader, IJsonLineInfo // TypeDefIndex: 6073
 {
-private readonly JToken _root;
-private string _initialPath;
-private JToken _parent;
-private JToken _current;
+	private readonly JToken _root;
+	private string _initialPath;
+	private JToken _parent;
+	private JToken _current;
 
 	public JToken CurrentToken { get; }
 	private int Newtonsoft.Json.IJsonLineInfo.LineNumber { get; }
@@ -3856,10 +3856,10 @@ private JToken _current;
 
 public class JTokenWriter : JsonWriter // TypeDefIndex: 6074
 {
-private JContainer _token;
-private JContainer _parent;
-private JValue _value;
-private JToken _current;
+	private JContainer _token;
+	private JContainer _parent;
+	private JValue _value;
+	private JToken _current;
 
 	public JToken Token { get; }
 
@@ -3902,12 +3902,12 @@ private JToken _current;
 
 	public override void WriteValue(int value) { }
 
-[CLSCompliantAttribute]
+	[CLSCompliantAttribute]
 	public override void WriteValue(uint value) { }
 
 	public override void WriteValue(long value) { }
 
-[CLSCompliantAttribute]
+	[CLSCompliantAttribute]
 	public override void WriteValue(ulong value) { }
 
 	public override void WriteValue(float value) { }
@@ -3918,14 +3918,14 @@ private JToken _current;
 
 	public override void WriteValue(short value) { }
 
-[CLSCompliantAttribute]
+	[CLSCompliantAttribute]
 	public override void WriteValue(ushort value) { }
 
 	public override void WriteValue(char value) { }
 
 	public override void WriteValue(byte value) { }
 
-[CLSCompliantAttribute]
+	[CLSCompliantAttribute]
 	public override void WriteValue(sbyte value) { }
 
 	public override void WriteValue(Decimal value) { }
@@ -3948,19 +3948,19 @@ private JToken _current;
 
 public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnumerable, IJsonLineInfo, ICloneable // TypeDefIndex: 6075
 {
-private JContainer _parent;
-private JToken _previous;
-private JToken _next;
-private object _annotations;
-private static readonly JTokenType[] BooleanTypes;
-private static readonly JTokenType[] NumberTypes;
-private static readonly JTokenType[] StringTypes;
-private static readonly JTokenType[] GuidTypes;
-private static readonly JTokenType[] TimeSpanTypes;
-private static readonly JTokenType[] UriTypes;
-private static readonly JTokenType[] CharTypes;
-private static readonly JTokenType[] DateTimeTypes;
-private static readonly JTokenType[] BytesTypes;
+	private JContainer _parent;
+	private JToken _previous;
+	private JToken _next;
+	private object _annotations;
+	private static readonly JTokenType[] BooleanTypes;
+	private static readonly JTokenType[] NumberTypes;
+	private static readonly JTokenType[] StringTypes;
+	private static readonly JTokenType[] GuidTypes;
+	private static readonly JTokenType[] TimeSpanTypes;
+	private static readonly JTokenType[] UriTypes;
+	private static readonly JTokenType[] CharTypes;
+	private static readonly JTokenType[] DateTimeTypes;
+	private static readonly JTokenType[] BytesTypes;
 
 	public JContainer Parent { get; set; }
 	public JToken Root { get; }
@@ -3975,7 +3975,7 @@ private static readonly JTokenType[] BytesTypes;
 	private int Newtonsoft.Json.IJsonLineInfo.LinePosition { get; }
 
 
-[DebuggerStepThroughAttribute]
+	[DebuggerStepThroughAttribute]
 	public JContainer get_Parent() { }
 
 	internal void set_Parent(JContainer value) { }
@@ -4055,27 +4055,27 @@ private static readonly JTokenType[] BytesTypes;
 
 	public static short op_Explicit(JToken value) { }
 
-[CLSCompliantAttribute]
+	[CLSCompliantAttribute]
 	public static ushort op_Explicit(JToken value) { }
 
-[CLSCompliantAttribute]
+	[CLSCompliantAttribute]
 	public static char op_Explicit(JToken value) { }
 
 	public static byte op_Explicit(JToken value) { }
 
-[CLSCompliantAttribute]
+	[CLSCompliantAttribute]
 	public static sbyte op_Explicit(JToken value) { }
 
 	public static Nullable<int> op_Explicit(JToken value) { }
 
 	public static Nullable<short> op_Explicit(JToken value) { }
 
-[CLSCompliantAttribute]
+	[CLSCompliantAttribute]
 	public static Nullable<ushort> op_Explicit(JToken value) { }
 
 	public static Nullable<byte> op_Explicit(JToken value) { }
 
-[CLSCompliantAttribute]
+	[CLSCompliantAttribute]
 	public static Nullable<sbyte> op_Explicit(JToken value) { }
 
 	public static DateTime op_Explicit(JToken value) { }
@@ -4086,10 +4086,10 @@ private static readonly JTokenType[] BytesTypes;
 
 	public static Decimal op_Explicit(JToken value) { }
 
-[CLSCompliantAttribute]
+	[CLSCompliantAttribute]
 	public static Nullable<uint> op_Explicit(JToken value) { }
 
-[CLSCompliantAttribute]
+	[CLSCompliantAttribute]
 	public static Nullable<ulong> op_Explicit(JToken value) { }
 
 	public static double op_Explicit(JToken value) { }
@@ -4098,10 +4098,10 @@ private static readonly JTokenType[] BytesTypes;
 
 	public static string op_Explicit(JToken value) { }
 
-[CLSCompliantAttribute]
+	[CLSCompliantAttribute]
 	public static uint op_Explicit(JToken value) { }
 
-[CLSCompliantAttribute]
+	[CLSCompliantAttribute]
 	public static ulong op_Explicit(JToken value) { }
 
 	public static Guid op_Explicit(JToken value) { }
@@ -4172,8 +4172,8 @@ private static readonly JTokenType[] BytesTypes;
 
 private class JToken.LineInfoAnnotation // TypeDefIndex: 6076
 {
-internal readonly int LineNumber;
-internal readonly int LinePosition;
+	internal readonly int LineNumber;
+	internal readonly int LinePosition;
 
 
 	public void .ctor(int lineNumber, int linePosition) { }
@@ -4197,8 +4197,8 @@ private sealed class JToken.<Annotations>d__172
 
 [PreserveAttribute]
 public class JProperty : JContainer
-private readonly JProperty.JPropertyList _content;
-private readonly string _name;
+	private readonly JProperty.JPropertyList _content;
+	private readonly string _name;
 
 	protected override IList<JToken> ChildrenTokens { get; }
 	public string Name { get; }
@@ -4208,10 +4208,10 @@ private readonly string _name;
 
 	protected override IList<JToken> get_ChildrenTokens() { }
 
-[DebuggerStepThroughAttribute]
+	[DebuggerStepThroughAttribute]
 	public string get_Name() { }
 
-[DebuggerStepThroughAttribute]
+	[DebuggerStepThroughAttribute]
 	public JToken get_Value() { }
 
 	public void set_Value(JToken value) { }
@@ -4238,7 +4238,7 @@ private readonly string _name;
 
 	internal override JToken CloneToken() { }
 
-[DebuggerStepThroughAttribute]
+	[DebuggerStepThroughAttribute]
 	public override JTokenType get_Type() { }
 
 	internal void .ctor(string name) { }
@@ -4255,7 +4255,7 @@ private readonly string _name;
 
 private class JProperty.JPropertyList : IList<JToken>, ICollection<JToken>, IEnumerable<JToken>, IEnumerable // TypeDefIndex: 6083
 {
-internal JToken _token;
+	internal JToken _token;
 
 	public int Count { get; }
 	public bool IsReadOnly { get; }
@@ -4296,36 +4296,36 @@ internal JToken _token;
 
 private sealed class JProperty.JPropertyList.<GetEnumerator>d__1 : IEnumerator<JToken>, IDisposable, IEnumerator // TypeDefIndex: 6084
 {
-private int <>1__state;
-private JToken <>2__current;
-public JProperty.JPropertyList <>4__this;
+	private int <>1__state;
+	private JToken <>2__current;
+	public JProperty.JPropertyList <>4__this;
 
 	private JToken System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.Current { get; }
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	public void .ctor(int <>1__state) { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private JToken System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private void System.Collections.IEnumerator.Reset() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }
 
 public enum JTokenType // TypeDefIndex: 6085
 {
-public int value__;
+	public int value__;
 	public const JTokenType None = 0;
 	public const JTokenType Object = 1;
 	public const JTokenType Array = 2;
@@ -4349,8 +4349,8 @@ public int value__;
 
 public class JValue : JToken, IFormattable, IComparable, IConvertible // TypeDefIndex: 6086
 {
-private JTokenType _valueType;
-private object _value;
+	private JTokenType _valueType;
+	private object _value;
 
 	public override bool HasValues { get; }
 	public override JTokenType Type { get; }
@@ -4443,17 +4443,17 @@ private object _value;
 
 public static class JSON // TypeDefIndex: 13385
 {
-private static readonly Type includeAttrType;
-private static readonly Type excludeAttrType;
-private static readonly Type decodeAliasAttrType;
-private static readonly Dictionary<string, Type> typeCache;
+	private static readonly Type includeAttrType;
+	private static readonly Type excludeAttrType;
+	private static readonly Type decodeAliasAttrType;
+	private static readonly Dictionary<string, Type> typeCache;
 	private const BindingFlags instanceBindingFlags = 52;
 	private const BindingFlags staticBindingFlags = 56;
-private static readonly MethodInfo decodeTypeMethod;
-private static readonly MethodInfo decodeListMethod;
-private static readonly MethodInfo decodeDictionaryMethod;
-private static readonly MethodInfo decodeArrayMethod;
-private static readonly MethodInfo decodeMultiRankArrayMethod;
+	private static readonly MethodInfo decodeTypeMethod;
+	private static readonly MethodInfo decodeListMethod;
+	private static readonly MethodInfo decodeDictionaryMethod;
+	private static readonly MethodInfo decodeArrayMethod;
+	private static readonly MethodInfo decodeMultiRankArrayMethod;
 
 
 	public static Variant Load(string json) { }
@@ -4470,7 +4470,7 @@ private static readonly MethodInfo decodeMultiRankArrayMethod;
 
 	private static Type FindType(string fullName) { }
 
-[PreserveAttribute]
+	[PreserveAttribute]
 	private static T DecodeType<T>(Variant data) { }
 	/* GenericInstMethod :
 	|
@@ -4497,7 +4497,7 @@ private static readonly MethodInfo decodeMultiRankArrayMethod;
 	|-JSON.DecodeType<ulong>
 	*/
 
-[PreserveAttribute]
+	[PreserveAttribute]
 	private static List<T> DecodeList<T>(Variant data) { }
 	/* GenericInstMethod :
 	|
@@ -4524,7 +4524,7 @@ private static readonly MethodInfo decodeMultiRankArrayMethod;
 	|-JSON.DecodeList<ulong>
 	*/
 
-[PreserveAttribute]
+	[PreserveAttribute]
 	private static Dictionary<TKey, TValue> DecodeDictionary<TKey, TValue>(Variant data) { }
 	/* GenericInstMethod :
 	|
@@ -4771,7 +4771,7 @@ private static readonly MethodInfo decodeMultiRankArrayMethod;
 	|-JSON.DecodeDictionary<ulong, ulong>
 	*/
 
-[PreserveAttribute]
+	[PreserveAttribute]
 	private static T[] DecodeArray<T>(Variant data) { }
 	/* GenericInstMethod :
 	|
@@ -4798,14 +4798,14 @@ private static readonly MethodInfo decodeMultiRankArrayMethod;
 	|-JSON.DecodeArray<ulong>
 	*/
 
-[PreserveAttribute]
+	[PreserveAttribute]
 	private static void DecodeMultiRankArray<T>(ProxyArray arrayData, Array array, int arrayRank, int[] indices) { }
 	/* GenericInstMethod :
 	|
 	|-JSON.DecodeMultiRankArray<object>
 	*/
 
-[PreserveAttribute]
+	[PreserveAttribute]
 	public static void SupportTypeForAOT<T>() { }
 	/* GenericInstMethod :
 	|
@@ -4833,7 +4833,7 @@ private static readonly MethodInfo decodeMultiRankArrayMethod;
 	|-JSON.SupportTypeForAOT<ulong>
 	*/
 
-[PreserveAttribute]
+	[PreserveAttribute]
 	private static void SupportValueTypesForAOT() { }
 
 	private static void .cctor() { }

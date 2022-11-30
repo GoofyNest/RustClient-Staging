@@ -2,7 +2,7 @@ internal struct SessionSearchGetSearchResultCountOptionsInternal : ISettable<Ses
 {
 
 internal struct SessionSearchGetSearchResultCountOptionsInternal : ISettable<SessionSearchGetSearchResultCountOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref SessionSearchGetSearchResultCountOptions other) { }

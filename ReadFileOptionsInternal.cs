@@ -1,13 +1,13 @@
 internal struct ReadFileOptionsInternal : ISettable<ReadFileOptions>, IDisposable // TypeDefIndex: 8424
 {
-private int m_ApiVersion;
-private IntPtr m_LocalUserId;
-private IntPtr m_Filename;
-private uint m_ReadChunkLengthBytes;
-private IntPtr m_ReadFileDataCallback;
-private IntPtr m_FileTransferProgressCallback;
-private static OnReadFileDataCallbackInternal s_ReadFileDataCallback;
-private static OnFileTransferProgressCallbackInternal s_FileTransferProgressCallback;
+	private int m_ApiVersion;
+	private IntPtr m_LocalUserId;
+	private IntPtr m_Filename;
+	private uint m_ReadChunkLengthBytes;
+	private IntPtr m_ReadFileDataCallback;
+	private IntPtr m_FileTransferProgressCallback;
+	private static OnReadFileDataCallbackInternal s_ReadFileDataCallback;
+	private static OnFileTransferProgressCallbackInternal s_FileTransferProgressCallback;
 
 	public ProductUserId LocalUserId { set; }
 	public Utf8String Filename { set; }
@@ -36,14 +36,14 @@ private static OnFileTransferProgressCallbackInternal s_FileTransferProgressCall
 
 internal struct ReadFileOptionsInternal : ISettable<ReadFileOptions>, IDisposable // TypeDefIndex: 8927
 {
-private int m_ApiVersion;
-private IntPtr m_LocalUserId;
-private IntPtr m_Filename;
-private uint m_ReadChunkLengthBytes;
-private IntPtr m_ReadFileDataCallback;
-private IntPtr m_FileTransferProgressCallback;
-private static OnReadFileDataCallbackInternal s_ReadFileDataCallback;
-private static OnFileTransferProgressCallbackInternal s_FileTransferProgressCallback;
+	private int m_ApiVersion;
+	private IntPtr m_LocalUserId;
+	private IntPtr m_Filename;
+	private uint m_ReadChunkLengthBytes;
+	private IntPtr m_ReadFileDataCallback;
+	private IntPtr m_FileTransferProgressCallback;
+	private static OnReadFileDataCallbackInternal s_ReadFileDataCallback;
+	private static OnFileTransferProgressCallbackInternal s_FileTransferProgressCallback;
 
 	public ProductUserId LocalUserId { set; }
 	public Utf8String Filename { set; }

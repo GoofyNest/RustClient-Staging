@@ -1,25 +1,25 @@
 internal class ScreenSpaceAmbientObscurance : PostEffectsBase // TypeDefIndex: 8221
 {
-[RangeAttribute]
-public float intensity;
-[RangeAttribute]
-public float radius;
-[RangeAttribute]
-public int blurIterations;
-[RangeAttribute]
-public float blurFilterDistance;
-[RangeAttribute]
-public int downsample;
-public Texture2D rand;
-public Shader aoShader;
-private Material aoMaterial;
+	[RangeAttribute]
+	public float intensity;
+	[RangeAttribute]
+	public float radius;
+	[RangeAttribute]
+	public int blurIterations;
+	[RangeAttribute]
+	public float blurFilterDistance;
+	[RangeAttribute]
+	public int downsample;
+	public Texture2D rand;
+	public Shader aoShader;
+	private Material aoMaterial;
 
 
 	public override bool CheckResources() { }
 
 	private void OnDisable() { }
 
-[ImageEffectOpaque]
+	[ImageEffectOpaque]
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
 	public void .ctor() { }
@@ -28,17 +28,17 @@ private Material aoMaterial;
 
 public class ScreenSpaceAmbientOcclusion : MonoBehaviour // TypeDefIndex: 8222
 {
-public float m_Radius;
-public ScreenSpaceAmbientOcclusion.SSAOSamples m_SampleCount;
-public float m_OcclusionIntensity;
-public int m_Blur;
-public int m_Downsampling;
-public float m_OcclusionAttenuation;
-public float m_MinZ;
-public Shader m_SSAOShader;
-private Material m_SSAOMaterial;
-public Texture2D m_RandomTexture;
-private bool m_Supported;
+	public float m_Radius;
+	public ScreenSpaceAmbientOcclusion.SSAOSamples m_SampleCount;
+	public float m_OcclusionIntensity;
+	public int m_Blur;
+	public int m_Downsampling;
+	public float m_OcclusionAttenuation;
+	public float m_MinZ;
+	public Shader m_SSAOShader;
+	private Material m_SSAOMaterial;
+	public Texture2D m_RandomTexture;
+	private bool m_Supported;
 
 
 	private static Material CreateMaterial(Shader shader) { }
@@ -53,7 +53,7 @@ private bool m_Supported;
 
 	private void CreateMaterials() { }
 
-[ImageEffectOpaque]
+	[ImageEffectOpaque]
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
 	public void .ctor() { }
@@ -62,7 +62,7 @@ private bool m_Supported;
 
 public enum ScreenSpaceAmbientOcclusion.SSAOSamples // TypeDefIndex: 8223
 {
-public int value__;
+	public int value__;
 	public const ScreenSpaceAmbientOcclusion.SSAOSamples Low = 0;
 	public const ScreenSpaceAmbientOcclusion.SSAOSamples Medium = 1;
 	public const ScreenSpaceAmbientOcclusion.SSAOSamples High = 2;
@@ -71,7 +71,7 @@ public int value__;
 
 public enum ScreenSpaceReflectionPreset // TypeDefIndex: 13604
 {
-public int value__;
+	public int value__;
 	public const ScreenSpaceReflectionPreset Lower = 0;
 	public const ScreenSpaceReflectionPreset Low = 1;
 	public const ScreenSpaceReflectionPreset Medium = 2;
@@ -85,7 +85,7 @@ public int value__;
 
 public enum ScreenSpaceReflectionResolution // TypeDefIndex: 13605
 {
-public int value__;
+	public int value__;
 	public const ScreenSpaceReflectionResolution Downsampled = 0;
 	public const ScreenSpaceReflectionResolution FullSize = 1;
 	public const ScreenSpaceReflectionResolution Supersampled = 2;
@@ -108,24 +108,24 @@ public sealed class ScreenSpaceReflectionResolutionParameter : ParameterOverride
 
 public sealed class ScreenSpaceReflections : PostProcessEffectSettings // TypeDefIndex: 13608
 {
-[TooltipAttribute]
-public ScreenSpaceReflectionPresetParameter preset;
-[RangeAttribute]
-[TooltipAttribute]
-public IntParameter maximumIterationCount;
-[TooltipAttribute]
-public ScreenSpaceReflectionResolutionParameter resolution;
-[RangeAttribute]
-[TooltipAttribute]
-public FloatParameter thickness;
-[TooltipAttribute]
-public FloatParameter maximumMarchDistance;
-[RangeAttribute]
-[TooltipAttribute]
-public FloatParameter distanceFade;
-[RangeAttribute]
-[TooltipAttribute]
-public FloatParameter vignette;
+	[TooltipAttribute]
+	public ScreenSpaceReflectionPresetParameter preset;
+	[RangeAttribute]
+	[TooltipAttribute]
+	public IntParameter maximumIterationCount;
+	[TooltipAttribute]
+	public ScreenSpaceReflectionResolutionParameter resolution;
+	[RangeAttribute]
+	[TooltipAttribute]
+	public FloatParameter thickness;
+	[TooltipAttribute]
+	public FloatParameter maximumMarchDistance;
+	[RangeAttribute]
+	[TooltipAttribute]
+	public FloatParameter distanceFade;
+	[RangeAttribute]
+	[TooltipAttribute]
+	public FloatParameter vignette;
 
 
 	public override bool IsEnabledAndSupported(PostProcessRenderContext context) { }
@@ -136,10 +136,10 @@ public FloatParameter vignette;
 
 internal sealed class ScreenSpaceReflectionsRenderer : PostProcessEffectRenderer<ScreenSpaceReflections> // TypeDefIndex: 13609
 {
-private RenderTexture m_Resolve;
-private RenderTexture m_History;
-private int[] m_MipIDs;
-private readonly ScreenSpaceReflectionsRenderer.QualityPreset[] m_Presets;
+	private RenderTexture m_Resolve;
+	private RenderTexture m_History;
+	private int[] m_MipIDs;
+	private readonly ScreenSpaceReflectionsRenderer.QualityPreset[] m_Presets;
 
 
 	public override DepthTextureMode GetCameraFlags() { }
@@ -156,9 +156,9 @@ private readonly ScreenSpaceReflectionsRenderer.QualityPreset[] m_Presets;
 
 private class ScreenSpaceReflectionsRenderer.QualityPreset // TypeDefIndex: 13610
 {
-public int maximumIterationCount;
-public float thickness;
-public ScreenSpaceReflectionResolution downsampling;
+	public int maximumIterationCount;
+	public float thickness;
+	public ScreenSpaceReflectionResolution downsampling;
 
 
 	public void .ctor() { }
@@ -167,7 +167,7 @@ public ScreenSpaceReflectionResolution downsampling;
 
 private enum ScreenSpaceReflectionsRenderer.Pass // TypeDefIndex: 13611
 {
-public int value__;
+	public int value__;
 	public const ScreenSpaceReflectionsRenderer.Pass Test = 0;
 	public const ScreenSpaceReflectionsRenderer.Pass Resolve = 1;
 	public const ScreenSpaceReflectionsRenderer.Pass Reproject = 2;

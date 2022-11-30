@@ -2,7 +2,7 @@ internal struct ActiveSessionGetRegisteredPlayerCountOptionsInternal : ISettable
 {
 
 internal struct ActiveSessionGetRegisteredPlayerCountOptionsInternal : ISettable<ActiveSessionGetRegisteredPlayerCountOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref ActiveSessionGetRegisteredPlayerCountOptions other) { }

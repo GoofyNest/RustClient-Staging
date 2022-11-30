@@ -2,7 +2,7 @@ internal struct AddNotifyPermissionsUpdateReceivedOptionsInternal : ISettable<Ad
 {
 
 internal struct AddNotifyPermissionsUpdateReceivedOptionsInternal : ISettable<AddNotifyPermissionsUpdateReceivedOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref AddNotifyPermissionsUpdateReceivedOptions other) { }

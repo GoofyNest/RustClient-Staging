@@ -1,22 +1,22 @@
 public class SpecialPurposeCamera // TypeDefIndex: 12455
 {
-public bool dirty;
-public string name;
-public Camera camera;
-public RenderTexture texture;
-public CommandBuffer commands;
-internal Vector3 position;
-internal Quaternion rotation;
-internal float orthographicSize;
-internal float nearClipPlane;
-internal float farClipPlane;
-internal bool created;
-private ListHashSet<SpecialPurposeCamera.RenderEntry> dynamicEntries;
-private InstancingContainer dynamicBuffer;
-private ListHashSet<SpecialPurposeCamera.RenderEntry> staticEntries;
-private InstancingContainer staticBuffer;
-private CameraEvent cameraEvent;
-private MaterialPropertyBlock block;
+	public bool dirty;
+	public string name;
+	public Camera camera;
+	public RenderTexture texture;
+	public CommandBuffer commands;
+	internal Vector3 position;
+	internal Quaternion rotation;
+	internal float orthographicSize;
+	internal float nearClipPlane;
+	internal float farClipPlane;
+	internal bool created;
+	private ListHashSet<SpecialPurposeCamera.RenderEntry> dynamicEntries;
+	private InstancingContainer dynamicBuffer;
+	private ListHashSet<SpecialPurposeCamera.RenderEntry> staticEntries;
+	private InstancingContainer staticBuffer;
+	private CameraEvent cameraEvent;
+	private MaterialPropertyBlock block;
 
 
 	public void .ctor(string name) { }
@@ -39,10 +39,10 @@ private MaterialPropertyBlock block;
 
 private struct SpecialPurposeCamera.RenderEntry : IEquatable<SpecialPurposeCamera.RenderEntry> // TypeDefIndex: 12456
 {
-public Transform transform;
-public Mesh mesh;
-public Material material;
-public bool billboard;
+	public Transform transform;
+	public Mesh mesh;
+	public Material material;
+	public bool billboard;
 
 	public Matrix4x4 matrix { get; }
 

@@ -32,7 +32,7 @@ public sealed class LobbySearch : Handle // TypeDefIndex: 9185
 
 	public Result SetTargetUserId(ref LobbySearchSetTargetUserIdOptions options) { }
 
-[MonoPInvokeCallbackAttribute]
+	[MonoPInvokeCallbackAttribute]
 	internal static void OnFindCallbackInternalImplementation(ref LobbySearchFindCallbackInfoInternal data) { }
 
 }

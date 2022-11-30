@@ -1,14 +1,14 @@
 public class AddSellOrderManager : MonoBehaviour // TypeDefIndex: 10452
 {
-public VirtualItemIcon sellItemIcon;
-public VirtualItemIcon currencyItemIcon;
-public GameObject itemSearchParent;
-public ItemSearchEntry itemSearchEntryPrefab;
-public InputField sellItemInput;
-public InputField sellItemAmount;
-public InputField currencyItemInput;
-public InputField currencyItemAmount;
-public VendingPanelAdmin adminPanel;
+	public VirtualItemIcon sellItemIcon;
+	public VirtualItemIcon currencyItemIcon;
+	public GameObject itemSearchParent;
+	public ItemSearchEntry itemSearchEntryPrefab;
+	public InputField sellItemInput;
+	public InputField sellItemAmount;
+	public InputField currencyItemInput;
+	public InputField currencyItemAmount;
+	public VendingPanelAdmin adminPanel;
 
 
 	public void ItemSelectionMade(ItemDefinition info, bool asBP) { }
@@ -47,15 +47,15 @@ public VendingPanelAdmin adminPanel;
 
 private sealed class AddSellOrderManager.<>c__DisplayClass10_0 // TypeDefIndex: 10453
 {
-public AddSellOrderManager <>4__this;
-public string search;
+	public AddSellOrderManager <>4__this;
+	public string search;
 
 
 	public void .ctor() { }
 
-internal bool <Search>
+	internal bool <Search>
 
-internal float <Search>
+	internal float <Search>
 
 }
 

@@ -5,8 +5,8 @@ public struct int2 : IEquatable<int2>, IFormattable // TypeDefIndex: 7152
 [DebuggerTypeProxyAttribute]
 [Serializable]
 public struct int2 : IEquatable<int2>, IFormattable
-public int x;
-public int y;
+	public int x;
+	public int y;
 
 
 	public void .ctor(int x, int y) { }

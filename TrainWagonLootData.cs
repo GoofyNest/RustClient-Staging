@@ -1,18 +1,18 @@
 public class TrainWagonLootData : ScriptableObject // TypeDefIndex: 11518
 {
-[SerializeField]
-private TrainWagonLootData.LootOption[] oreOptions;
-[SerializeField]
-[ReadOnlyAttribute]
-private TrainWagonLootData.LootOption lootWagonContent;
-[SerializeField]
-private TrainWagonLootData.LootOption fuelWagonContent;
-public static TrainWagonLootData instance;
+	[SerializeField]
+	private TrainWagonLootData.LootOption[] oreOptions;
+	[SerializeField]
+	[ReadOnlyAttribute]
+	private TrainWagonLootData.LootOption lootWagonContent;
+	[SerializeField]
+	private TrainWagonLootData.LootOption fuelWagonContent;
+	public static TrainWagonLootData instance;
 	private const int LOOT_WAGON_INDEX = 1000;
 	private const int FUEL_WAGON_INDEX = 1001;
 
 
-[RuntimeInitializeOnLoadMethodAttribute]
+	[RuntimeInitializeOnLoadMethodAttribute]
 	private static void Init() { }
 
 	public TrainWagonLootData.LootOption GetLootOption(TrainCarUnloadable.WagonType wagonType, out int index) { }
@@ -27,16 +27,16 @@ public static TrainWagonLootData instance;
 
 public class TrainWagonLootData.LootOption // TypeDefIndex: 11519
 {
-public bool showsFX;
-public ItemDefinition lootItem;
-[FormerlySerializedAsAttribute]
-public int maxLootAmount;
-public int minLootAmount;
-public Material lootMaterial;
-public float spawnWeighting;
-public Color fxTint;
-[FormerlySerializedAsAttribute]
-public Color particleFXTint;
+	public bool showsFX;
+	public ItemDefinition lootItem;
+	[FormerlySerializedAsAttribute]
+	public int maxLootAmount;
+	public int minLootAmount;
+	public Material lootMaterial;
+	public float spawnWeighting;
+	public Color fxTint;
+	[FormerlySerializedAsAttribute]
+	public Color particleFXTint;
 
 
 	public void .ctor() { }

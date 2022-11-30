@@ -1,11 +1,11 @@
 public class RustControl : UIBehaviour, IPointerEnterHandler, IEventSystemHandler, IPointerExitHandler // TypeDefIndex: 7058
 {
-protected static bool IsDragging;
-[SerializeField]
-protected StyleAsset _styles;
-public RustWrapper FormField;
-[InspectorFlagsAttribute]
-public RustControl.State CurrentState;
+	protected static bool IsDragging;
+	[SerializeField]
+	protected StyleAsset _styles;
+	public RustWrapper FormField;
+	[InspectorFlagsAttribute]
+	public RustControl.State CurrentState;
 
 	public virtual StyleAsset Styles { get; set; }
 	public RectTransform rectTransform { get; }
@@ -51,7 +51,7 @@ public RustControl.State CurrentState;
 
 public enum RustControl.State // TypeDefIndex: 7059
 {
-public int value__;
+	public int value__;
 	public const RustControl.State Normal = 1;
 	public const RustControl.State Hovered = 2;
 	public const RustControl.State Pressed = 4;

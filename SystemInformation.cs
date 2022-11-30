@@ -1,7 +1,7 @@
 public struct SystemInformation // TypeDefIndex: 6214
 {
-public SystemInformation.Hardware hardware;
-public SystemInformation.Environment environment;
+	public SystemInformation.Hardware hardware;
+	public SystemInformation.Environment environment;
 
 }
 

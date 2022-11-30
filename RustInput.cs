@@ -1,10 +1,10 @@
 public class RustInput : RustControl // TypeDefIndex: 7063
 {
-public TMP_InputField InputField;
-public Image Background;
-public RustInput.ChangedEvent OnValueChanged;
-public RustInput.ChangedEvent OnEndEdit;
-public RustInput.ChangedEvent OnSubmit;
+	public TMP_InputField InputField;
+	public Image Background;
+	public RustInput.ChangedEvent OnValueChanged;
+	public RustInput.ChangedEvent OnEndEdit;
+	public RustInput.ChangedEvent OnSubmit;
 
 	public RustText Placeholder { get; }
 	public bool IsFocused { get; }
@@ -31,20 +31,20 @@ public RustInput.ChangedEvent OnSubmit;
 
 	public void .ctor() { }
 
-[CompilerGeneratedAttribute]
-private void <Awake>
+	[CompilerGeneratedAttribute]
+	private void <Awake>
 
-[CompilerGeneratedAttribute]
-private void <Awake>
+	[CompilerGeneratedAttribute]
+	private void <Awake>
 
-[CompilerGeneratedAttribute]
-private void <Awake>
+	[CompilerGeneratedAttribute]
+	private void <Awake>
 
-[CompilerGeneratedAttribute]
-private void <Awake>
+	[CompilerGeneratedAttribute]
+	private void <Awake>
 
-[CompilerGeneratedAttribute]
-private void <Awake>
+	[CompilerGeneratedAttribute]
+	private void <Awake>
 
 }
 

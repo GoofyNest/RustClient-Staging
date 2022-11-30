@@ -1,7 +1,7 @@
 public class TextureColorPicker : MonoBehaviour, IPointerDownHandler, IEventSystemHandler, IDragHandler // TypeDefIndex: 10977
 {
-public Texture2D texture;
-public TextureColorPicker.onColorSelectedEvent onColorSelected;
+	public Texture2D texture;
+	public TextureColorPicker.onColorSelectedEvent onColorSelected;
 
 
 	public virtual void OnPointerDown(PointerEventData eventData) { }

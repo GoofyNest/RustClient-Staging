@@ -2,7 +2,7 @@ internal struct GetAudioInputDevicesCountOptionsInternal : ISettable<GetAudioInp
 {
 
 internal struct GetAudioInputDevicesCountOptionsInternal : ISettable<GetAudioInputDevicesCountOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref GetAudioInputDevicesCountOptions other) { }

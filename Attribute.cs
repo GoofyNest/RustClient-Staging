@@ -65,7 +65,7 @@ public abstract class Attribute // TypeDefIndex: 174
 
 public enum AttributeTargets // TypeDefIndex: 175
 {
-public int value__;
+	public int value__;
 	public const AttributeTargets Assembly = 1;
 	public const AttributeTargets Module = 2;
 	public const AttributeTargets Class = 4;
@@ -87,10 +87,10 @@ public int value__;
 
 public sealed class AttributeUsageAttribute : Attribute // TypeDefIndex: 176
 {
-internal AttributeTargets m_attributeTarget;
-internal bool m_allowMultiple;
-internal bool m_inherited;
-internal static AttributeUsageAttribute Default;
+	internal AttributeTargets m_attributeTarget;
+	internal bool m_allowMultiple;
+	internal bool m_inherited;
+	internal static AttributeUsageAttribute Default;
 
 	public bool AllowMultiple { get; set; }
 	public bool Inherited { get; set; }
@@ -112,7 +112,7 @@ internal static AttributeUsageAttribute Default;
 
 internal enum AttributeProperties // TypeDefIndex: 1863
 {
-public uint value__;
+	public uint value__;
 	public const AttributeProperties DEFAULT = 0;
 	public const AttributeProperties URI = 1;
 	public const AttributeProperties BOOLEAN = 2;
@@ -122,10 +122,10 @@ public uint value__;
 
 internal class AttributePSVIInfo // TypeDefIndex: 1943
 {
-internal string localName;
-internal string namespaceUri;
-internal object typedAttributeValue;
-internal XmlSchemaInfo attributeSchemaInfo;
+	internal string localName;
+	internal string namespaceUri;
+	internal object typedAttributeValue;
+	internal XmlSchemaInfo attributeSchemaInfo;
 
 
 	internal void .ctor() { }
@@ -136,7 +136,7 @@ internal XmlSchemaInfo attributeSchemaInfo;
 
 internal enum AttributeMatchState // TypeDefIndex: 2279
 {
-public int value__;
+	public int value__;
 	public const AttributeMatchState AttributeFound = 0;
 	public const AttributeMatchState AnyIdAttributeFound = 1;
 	public const AttributeMatchState UndeclaredElementAndAttribute = 2;
@@ -152,12 +152,12 @@ public int value__;
 
 public class AttributeCollection : ICollection, IEnumerable // TypeDefIndex: 2666
 {
-public static readonly AttributeCollection Empty;
-private static Hashtable _defaultAttributes;
-private Attribute[] _attributes;
-private static object internalSyncObject;
-private AttributeCollection.AttributeEntry[] _foundAttributeTypes;
-private int _index;
+	public static readonly AttributeCollection Empty;
+	private static Hashtable _defaultAttributes;
+	private Attribute[] _attributes;
+	private static object internalSyncObject;
+	private AttributeCollection.AttributeEntry[] _foundAttributeTypes;
+	private int _index;
 
 	protected virtual Attribute[] Attributes { get; }
 	public int Count { get; }
@@ -194,15 +194,15 @@ private int _index;
 
 private struct AttributeCollection.AttributeEntry // TypeDefIndex: 2667
 {
-public Type type;
-public int index;
+	public Type type;
+	public int index;
 
 }
 
 public class AttributeProviderAttribute : Attribute // TypeDefIndex: 2668
 {
-private string _typeName;
-private string _propertyName;
+	private string _typeName;
+	private string _propertyName;
 
 	public string TypeName { get; }
 	public string PropertyName { get; }
@@ -216,23 +216,23 @@ private string _propertyName;
 
 internal class AttributeHelperEngine // TypeDefIndex: 3495
 {
-public static DisallowMultipleComponent[] _disallowMultipleComponentArray;
-public static ExecuteInEditMode[] _executeInEditModeArray;
-public static RequireComponent[] _requireComponentArray;
+	public static DisallowMultipleComponent[] _disallowMultipleComponentArray;
+	public static ExecuteInEditMode[] _executeInEditModeArray;
+	public static RequireComponent[] _requireComponentArray;
 
 
-[RequiredByNativeCodeAttribute]
+	[RequiredByNativeCodeAttribute]
 	private static Type GetParentTypeDisallowingMultipleInclusion(Type type) { }
 
-[RequiredByNativeCodeAttribute]
+	[RequiredByNativeCodeAttribute]
 	private static Type[] GetRequiredComponents(Type klass) { }
 
 	private static int GetExecuteMode(Type klass) { }
 
-[RequiredByNativeCodeAttribute]
+	[RequiredByNativeCodeAttribute]
 	private static int CheckIsEditorScript(Type klass) { }
 
-[RequiredByNativeCodeAttribute]
+	[RequiredByNativeCodeAttribute]
 	private static int GetDefaultExecutionOrderFor(Type klass) { }
 
 	private static T GetCustomAttributeOfType<T>(Type klass) { }
@@ -248,7 +248,7 @@ public static RequireComponent[] _requireComponentArray;
 
 public enum AttributeType // TypeDefIndex: 8281
 {
-public int value__;
+	public int value__;
 	public const AttributeType Boolean = 0;
 	public const AttributeType Int64 = 1;
 	public const AttributeType Double = 2;
@@ -258,25 +258,25 @@ public int value__;
 
 public struct AttributeData // TypeDefIndex: 8466
 {
-[CompilerGeneratedAttribute]
-private Utf8String <Key>k__BackingField;
-[CompilerGeneratedAttribute]
-private AttributeDataValue <Value>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Utf8String <Key>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private AttributeDataValue <Value>k__BackingField;
 
 	public Utf8String Key { get; set; }
 	public AttributeDataValue Value { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Utf8String get_Key() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Key(Utf8String value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public AttributeDataValue get_Value() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Value(AttributeDataValue value) { }
 
 	internal void Set(ref AttributeDataInternal other) { }
@@ -285,9 +285,9 @@ private AttributeDataValue <Value>k__BackingField;
 
 internal struct AttributeDataInternal : IGettable<AttributeData>, ISettable<AttributeData>, IDisposable // TypeDefIndex: 8467
 {
-private int m_ApiVersion;
-private IntPtr m_Key;
-private AttributeDataValueInternal m_Value;
+	private int m_ApiVersion;
+	private IntPtr m_Key;
+	private AttributeDataValueInternal m_Value;
 
 	public Utf8String Key { get; set; }
 	public AttributeDataValue Value { get; set; }
@@ -313,11 +313,11 @@ private AttributeDataValueInternal m_Value;
 
 public struct AttributeDataValue // TypeDefIndex: 8468
 {
-private Nullable<long> m_AsInt64;
-private Nullable<double> m_AsDouble;
-private Nullable<bool> m_AsBool;
-private Utf8String m_AsUtf8;
-private AttributeType m_ValueType;
+	private Nullable<long> m_AsInt64;
+	private Nullable<double> m_AsDouble;
+	private Nullable<bool> m_AsBool;
+	private Utf8String m_AsUtf8;
+	private AttributeType m_ValueType;
 
 	public Nullable<long> AsInt64 { get; set; }
 	public Nullable<double> AsDouble { get; set; }
@@ -362,11 +362,11 @@ private AttributeType m_ValueType;
 
 internal struct AttributeDataValueInternal : IGettable<AttributeDataValue>, ISettable<AttributeDataValue>, IDisposable // TypeDefIndex: 8469
 {
-private long m_AsInt64;
-private double m_AsDouble;
-private int m_AsBool;
-private IntPtr m_AsUtf8;
-private AttributeType m_ValueType;
+	private long m_AsInt64;
+	private double m_AsDouble;
+	private int m_AsBool;
+	private IntPtr m_AsUtf8;
+	private AttributeType m_ValueType;
 
 	public Nullable<long> AsInt64 { get; set; }
 	public Nullable<double> AsDouble { get; set; }
@@ -402,25 +402,25 @@ private AttributeType m_ValueType;
 
 public struct Attribute // TypeDefIndex: 9079
 {
-[CompilerGeneratedAttribute]
-private Nullable<AttributeData> <Data>k__BackingField;
-[CompilerGeneratedAttribute]
-private LobbyAttributeVisibility <Visibility>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Nullable<AttributeData> <Data>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private LobbyAttributeVisibility <Visibility>k__BackingField;
 
 	public Nullable<AttributeData> Data { get; set; }
 	public LobbyAttributeVisibility Visibility { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Nullable<AttributeData> get_Data() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Data(Nullable<AttributeData> value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public LobbyAttributeVisibility get_Visibility() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Visibility(LobbyAttributeVisibility value) { }
 
 	internal void Set(ref AttributeInternal other) { }
@@ -429,9 +429,9 @@ private LobbyAttributeVisibility <Visibility>k__BackingField;
 
 internal struct AttributeInternal : IGettable<Attribute>, ISettable<Attribute>, IDisposable // TypeDefIndex: 9080
 {
-private int m_ApiVersion;
-private IntPtr m_Data;
-private LobbyAttributeVisibility m_Visibility;
+	private int m_ApiVersion;
+	private IntPtr m_Data;
+	private LobbyAttributeVisibility m_Visibility;
 
 	public Nullable<AttributeData> Data { get; set; }
 	public LobbyAttributeVisibility Visibility { get; set; }
@@ -457,25 +457,25 @@ private LobbyAttributeVisibility m_Visibility;
 
 public struct AttributeData // TypeDefIndex: 9081
 {
-[CompilerGeneratedAttribute]
-private Utf8String <Key>k__BackingField;
-[CompilerGeneratedAttribute]
-private AttributeDataValue <Value>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Utf8String <Key>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private AttributeDataValue <Value>k__BackingField;
 
 	public Utf8String Key { get; set; }
 	public AttributeDataValue Value { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Utf8String get_Key() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Key(Utf8String value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public AttributeDataValue get_Value() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Value(AttributeDataValue value) { }
 
 	internal void Set(ref AttributeDataInternal other) { }
@@ -484,9 +484,9 @@ private AttributeDataValue <Value>k__BackingField;
 
 internal struct AttributeDataInternal : IGettable<AttributeData>, ISettable<AttributeData>, IDisposable // TypeDefIndex: 9082
 {
-private int m_ApiVersion;
-private IntPtr m_Key;
-private AttributeDataValueInternal m_Value;
+	private int m_ApiVersion;
+	private IntPtr m_Key;
+	private AttributeDataValueInternal m_Value;
 
 	public Utf8String Key { get; set; }
 	public AttributeDataValue Value { get; set; }
@@ -512,11 +512,11 @@ private AttributeDataValueInternal m_Value;
 
 public struct AttributeDataValue // TypeDefIndex: 9083
 {
-private Nullable<long> m_AsInt64;
-private Nullable<double> m_AsDouble;
-private Nullable<bool> m_AsBool;
-private Utf8String m_AsUtf8;
-private AttributeType m_ValueType;
+	private Nullable<long> m_AsInt64;
+	private Nullable<double> m_AsDouble;
+	private Nullable<bool> m_AsBool;
+	private Utf8String m_AsUtf8;
+	private AttributeType m_ValueType;
 
 	public Nullable<long> AsInt64 { get; set; }
 	public Nullable<double> AsDouble { get; set; }
@@ -561,11 +561,11 @@ private AttributeType m_ValueType;
 
 internal struct AttributeDataValueInternal : IGettable<AttributeDataValue>, ISettable<AttributeDataValue>, IDisposable // TypeDefIndex: 9084
 {
-private long m_AsInt64;
-private double m_AsDouble;
-private int m_AsBool;
-private IntPtr m_AsUtf8;
-private AttributeType m_ValueType;
+	private long m_AsInt64;
+	private double m_AsDouble;
+	private int m_AsBool;
+	private IntPtr m_AsUtf8;
+	private AttributeType m_ValueType;
 
 	public Nullable<long> AsInt64 { get; set; }
 	public Nullable<double> AsDouble { get; set; }

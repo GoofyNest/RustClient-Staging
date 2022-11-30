@@ -14992,17 +14992,17 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.SetGenericValueImpl<object>
 	*/
 
-[ReliabilityContractAttribute]
+	[ReliabilityContractAttribute]
 	public int get_Length() { }
 
-[ReliabilityContractAttribute]
+	[ReliabilityContractAttribute]
 	public int get_Rank() { }
 
 	private int GetRank() { }
 
 	public int GetLength(int dimension) { }
 
-[ReliabilityContractAttribute]
+	[ReliabilityContractAttribute]
 	public int GetLowerBound(int dimension) { }
 
 	public object GetValue(int[] indices) { }
@@ -15017,7 +15017,7 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 
 	internal static Array CreateInstanceImpl(Type elementType, int[] lengths, int[] bounds) { }
 
-[ReliabilityContractAttribute]
+	[ReliabilityContractAttribute]
 	public int GetUpperBound(int dimension) { }
 
 	public object GetValue(int index) { }
@@ -15048,22 +15048,22 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 
 	public static Array CreateInstance(Type elementType, int[] lengths, int[] lowerBounds) { }
 
-[ReliabilityContractAttribute]
+	[ReliabilityContractAttribute]
 	public static void Clear(Array array, int index, int length) { }
 
 	private static void ClearInternal(Array a, int index, int count) { }
 
-[ReliabilityContractAttribute]
+	[ReliabilityContractAttribute]
 	public static void Copy(Array sourceArray, Array destinationArray, int length) { }
 
-[ReliabilityContractAttribute]
+	[ReliabilityContractAttribute]
 	public static void Copy(Array sourceArray, int sourceIndex, Array destinationArray, int destinationIndex, int length) { }
 
 	private static Exception CreateArrayTypeMismatchException() { }
 
 	private static bool CanAssignArrayElement(Type source, Type target) { }
 
-[ReliabilityContractAttribute]
+	[ReliabilityContractAttribute]
 	public static void ConstrainedCopy(Array sourceArray, int sourceIndex, Array destinationArray, int destinationIndex, int length) { }
 
 	public static T[] Empty<T>() { }
@@ -15571,9 +15571,9 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 
 private sealed class Array.ArrayEnumerator : IEnumerator, ICloneable // TypeDefIndex: 129
 {
-private Array _array;
-private int _index;
-private int _endIndex;
+	private Array _array;
+	private int _index;
+	private int _endIndex;
 
 	public object Current { get; }
 
@@ -15592,8 +15592,8 @@ private int _endIndex;
 
 internal struct Array.InternalEnumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // TypeDefIndex: 130
 {
-private readonly Array array;
-private int idx;
+	private readonly Array array;
+	private int idx;
 
 	public T Current { get; }
 	private object System.Collections.IEnumerator.Current { get; }
@@ -21567,7 +21567,7 @@ private int idx;
 
 internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // TypeDefIndex: 131
 {
-public static readonly Array.EmptyInternalEnumerator<T> Value;
+	public static readonly Array.EmptyInternalEnumerator<T> Value;
 
 	public T Current { get; }
 	private object System.Collections.IEnumerator.Current { get; }
@@ -27582,9 +27582,9 @@ public static readonly Array.EmptyInternalEnumerator<T> Value;
 
 private struct Array.SorterObjectArray // TypeDefIndex: 132
 {
-private object[] keys;
-private object[] items;
-private IComparer comparer;
+	private object[] keys;
+	private object[] items;
+	private IComparer comparer;
 
 
 	internal void .ctor(object[] keys, object[] items, IComparer comparer) { }
@@ -27611,9 +27611,9 @@ private IComparer comparer;
 
 private struct Array.SorterGenericArray // TypeDefIndex: 133
 {
-private Array keys;
-private Array items;
-private IComparer comparer;
+	private Array keys;
+	private Array items;
+	private IComparer comparer;
 
 
 	internal void .ctor(Array keys, Array items, IComparer comparer) { }
@@ -27640,9 +27640,9 @@ private IComparer comparer;
 
 public struct ArraySegment<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnlyList<T>, IReadOnlyCollection<T> // TypeDefIndex: 170
 {
-private T[] _array;
-private int _offset;
-private int _count;
+	private T[] _array;
+	private int _offset;
+	private int _count;
 
 	public T[] Array { get; }
 	public int Offset { get; }
@@ -27862,10 +27862,10 @@ private int _count;
 
 private sealed class ArraySegment.ArraySegmentEnumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // TypeDefIndex: 171
 {
-private T[] _array;
-private int _start;
-private int _end;
-private int _current;
+	private T[] _array;
+	private int _start;
+	private int _end;
+	private int _current;
 
 	public T Current { get; }
 	private object System.Collections.IEnumerator.Current { get; }
@@ -27938,8 +27938,8 @@ public class ArrayTypeMismatchException : SystemException // TypeDefIndex: 172
 
 internal class ArraySpec : ModifierSpec // TypeDefIndex: 412
 {
-private int dimensions;
-private bool bound;
+	private int dimensions;
+	private bool bound;
 
 
 	internal void .ctor(int dimensions, bool bound) { }
@@ -27954,11 +27954,11 @@ private bool bound;
 
 public class ArrayList : IList, ICollection, IEnumerable, ICloneable // TypeDefIndex: 1375
 {
-private object[] _items;
-private int _size;
-private int _version;
-private object _syncRoot;
-private static readonly object[] emptyArray;
+	private object[] _items;
+	private int _size;
+	private int _version;
+	private object _syncRoot;
+	private static readonly object[] emptyArray;
 
 	public virtual int Capacity { set; }
 	public virtual int Count { get; }
@@ -28038,7 +28038,7 @@ private static readonly object[] emptyArray;
 
 private class ArrayList.IListWrapper : ArrayList // TypeDefIndex: 1376
 {
-private IList _list;
+	private IList _list;
 
 	public override int Capacity { set; }
 	public override int Count { get; }
@@ -28102,7 +28102,7 @@ private IList _list;
 
 private class ArrayList.ReadOnlyArrayList : ArrayList // TypeDefIndex: 1377
 {
-private ArrayList _list;
+	private ArrayList _list;
 
 	public override int Count { get; }
 	public override bool IsReadOnly { get; }
@@ -28166,12 +28166,12 @@ private ArrayList _list;
 
 private sealed class ArrayList.ArrayListEnumeratorSimple : IEnumerator, ICloneable // TypeDefIndex: 1378
 {
-private ArrayList list;
-private int index;
-private int version;
-private object currentElement;
-private bool isArrayList;
-private static object dummyObject;
+	private ArrayList list;
+	private int index;
+	private int version;
+	private object currentElement;
+	private bool isArrayList;
+	private static object dummyObject;
 
 	public object Current { get; }
 
@@ -28197,10 +28197,10 @@ public sealed class BitArray : ICollection, IEnumerable, ICloneable // TypeDefIn
 [ComVisibleAttribute]
 [Serializable]
 public sealed class BitArray : ICollection, IEnumerable, ICloneable
-private int[] m_array;
-private int m_length;
-private int _version;
-private object _syncRoot;
+	private int[] m_array;
+	private int m_length;
+	private int _version;
+	private object _syncRoot;
 
 	public bool Item { get; set; }
 	public int Length { get; set; }
@@ -28244,10 +28244,10 @@ private object _syncRoot;
 
 private class BitArray.BitArrayEnumeratorSimple : IEnumerator, ICloneable // TypeDefIndex: 1381
 {
-private BitArray bitarray;
-private int index;
-private int version;
-private bool currentElement;
+	private BitArray bitarray;
+	private int index;
+	private int version;
+	private bool currentElement;
 
 	public virtual object Current { get; }
 
@@ -31209,7 +31209,7 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 
 internal class ArraySortHelper<TKey, TValue> // TypeDefIndex: 1447
 {
-private static ArraySortHelper<TKey, TValue> s_defaultArraySortHelper;
+	private static ArraySortHelper<TKey, TValue> s_defaultArraySortHelper;
 
 	public static ArraySortHelper<TKey, TValue> Default { get; }
 
@@ -31307,7 +31307,7 @@ private static ArraySortHelper<TKey, TValue> s_defaultArraySortHelper;
 
 internal sealed class ArrayTypeInfo<ElementType> : TraceLoggingTypeInfo<ElementType[]> // TypeDefIndex: 1506
 {
-private readonly TraceLoggingTypeInfo<ElementType> elementInfo;
+	private readonly TraceLoggingTypeInfo<ElementType> elementInfo;
 
 
 	public override void WriteMetadata(TraceLoggingMetadataCollector collector, string name, EventFieldFormat format) { }
@@ -31339,7 +31339,7 @@ public class ArrayConverter : CollectionConverter // TypeDefIndex: 2659
 
 private class ArrayConverter.ArrayPropertyDescriptor : TypeConverter.SimplePropertyDescriptor // TypeDefIndex: 2660
 {
-private int index;
+	private int index;
 
 
 	public void .ctor(Type arrayType, Type elementType, int index) { }
@@ -31352,9 +31352,9 @@ private int index;
 
 internal class ArraySubsetEnumerator : IEnumerator // TypeDefIndex: 2661
 {
-private Array array;
-private int total;
-private int current;
+	private Array array;
+	private int total;
+	private int current;
 
 	public object Current { get; }
 
@@ -31398,7 +31398,7 @@ internal class ArraySliceFilter : PathFilter
 
 public abstract class ArrayPool<T> // TypeDefIndex: 6276
 {
-private static ArrayPool<T> s_sharedInstance;
+	private static ArrayPool<T> s_sharedInstance;
 
 	public static ArrayPool<T> Shared { get; }
 
@@ -31447,16 +31447,16 @@ private static ArrayPool<T> s_sharedInstance;
 
 internal sealed class ArrayPoolEventSource : EventSource // TypeDefIndex: 6277
 {
-internal static readonly ArrayPoolEventSource Log;
+	internal static readonly ArrayPoolEventSource Log;
 
 
-[EventAttribute]
+	[EventAttribute]
 	internal void BufferRented(int bufferId, int bufferSize, int poolId, int bucketId) { }
 
-[EventAttribute]
+	[EventAttribute]
 	internal void BufferAllocated(int bufferId, int bufferSize, int poolId, int bucketId, ArrayPoolEventSource.BufferAllocatedReason reason) { }
 
-[EventAttribute]
+	[EventAttribute]
 	internal void BufferReturned(int bufferId, int bufferSize, int poolId) { }
 
 	public void .ctor() { }
@@ -31467,7 +31467,7 @@ internal static readonly ArrayPoolEventSource Log;
 
 internal enum ArrayPoolEventSource.BufferAllocatedReason // TypeDefIndex: 6278
 {
-public int value__;
+	public int value__;
 	public const ArrayPoolEventSource.BufferAllocatedReason Pooled = 0;
 	public const ArrayPoolEventSource.BufferAllocatedReason OverMaximumSize = 1;
 	public const ArrayPoolEventSource.BufferAllocatedReason PoolExhausted = 2;
@@ -31478,7 +31478,7 @@ public class ArrayIndexIsEnum : PropertyAttribute // TypeDefIndex: 6572
 {
 
 public class ArrayIndexIsEnum : PropertyAttribute
-public Type enumType;
+	public Type enumType;
 
 
 	public void .ctor() { }
@@ -31487,8 +31487,8 @@ public Type enumType;
 
 public class ArrayIndexIsEnumRanged : ArrayIndexIsEnum // TypeDefIndex: 6573
 {
-public float min;
-public float max;
+	public float min;
+	public float max;
 
 
 	public void .ctor() { }
@@ -31497,7 +31497,7 @@ public float max;
 
 public class Array : IEnumerable<Value>, IEnumerable // TypeDefIndex: 8160
 {
-private readonly List<Value> values;
+	private readonly List<Value> values;
 
 	public Value Item { get; set; }
 	public int Length { get; }
@@ -31533,12 +31533,12 @@ private readonly List<Value> values;
 
 public static class Arrays // TypeDefIndex: 8245
 {
-public static ushort[] flushes;
-public static readonly ushort[] unique5;
-public static readonly int[] products;
-public static readonly ushort[] values;
-public static readonly int[] primes;
-public static readonly int[,] perm7;
+	public static ushort[] flushes;
+	public static readonly ushort[] unique5;
+	public static readonly int[] products;
+	public static readonly ushort[] values;
+	public static readonly int[] primes;
+	public static readonly int[,] perm7;
 
 
 	private static void .cctor() { }
@@ -31555,21 +31555,21 @@ public static class ArrayEx // TypeDefIndex: 13146
 	|-ArrayEx.New<object>
 	*/
 
-[ExtensionAttribute]
+	[ExtensionAttribute]
 	public static T GetRandom<T>(T[] array) { }
 	/* GenericInstMethod :
 	|
 	|-ArrayEx.GetRandom<object>
 	*/
 
-[ExtensionAttribute]
+	[ExtensionAttribute]
 	public static T GetRandom<T>(T[] array, uint seed) { }
 	/* GenericInstMethod :
 	|
 	|-ArrayEx.GetRandom<object>
 	*/
 
-[ExtensionAttribute]
+	[ExtensionAttribute]
 	public static T GetRandom<T>(T[] array, ref uint seed) { }
 	/* GenericInstMethod :
 	|
@@ -31580,14 +31580,14 @@ public static class ArrayEx // TypeDefIndex: 13146
 	|-ArrayEx.GetRandom<WeatherPreset>
 	*/
 
-[ExtensionAttribute]
+	[ExtensionAttribute]
 	public static void Shuffle<T>(T[] array, uint seed) { }
 	/* GenericInstMethod :
 	|
 	|-ArrayEx.Shuffle<object>
 	*/
 
-[ExtensionAttribute]
+	[ExtensionAttribute]
 	public static void Shuffle<T>(T[] array, ref uint seed) { }
 	/* GenericInstMethod :
 	|
@@ -31602,7 +31602,7 @@ public static class ArrayEx // TypeDefIndex: 13146
 	|-ArrayEx.Shuffle<Quaternion>
 	*/
 
-[ExtensionAttribute]
+	[ExtensionAttribute]
 	public static void BubbleSort<T>(T[] array) { }
 	/* GenericInstMethod :
 	|

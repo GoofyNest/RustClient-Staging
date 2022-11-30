@@ -1,15 +1,15 @@
 public static class LocalPlayer // TypeDefIndex: 11406
 {
-[CompilerGeneratedAttribute]
-private static BasePlayer <Entity>k__BackingField;
-[CompilerGeneratedAttribute]
-private static ulong <LastAttackerSteamID>k__BackingField;
-[CompilerGeneratedAttribute]
-private static string <LastAttackerName>k__BackingField;
-public static float LastDeathTime;
-public static PetCommandList.PetCommandDesc CurrentPetCommandDesc;
-private static Dictionary<int, int> CraftCounts;
-public static LocalPlayer.ItemBlueprintComparer ItemBluePrintOrdered;
+	[CompilerGeneratedAttribute]
+	private static BasePlayer <Entity>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private static ulong <LastAttackerSteamID>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private static string <LastAttackerName>k__BackingField;
+	public static float LastDeathTime;
+	public static PetCommandList.PetCommandDesc CurrentPetCommandDesc;
+	private static Dictionary<int, int> CraftCounts;
+	public static LocalPlayer.ItemBlueprintComparer ItemBluePrintOrdered;
 
 	public static BasePlayer Entity { get; set; }
 	public static ulong LastAttackerSteamID { get; set; }
@@ -22,22 +22,22 @@ public static LocalPlayer.ItemBlueprintComparer ItemBluePrintOrdered;
 	public static BasePlayer SpectatePlayer { get; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public static BasePlayer get_Entity() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public static void set_Entity(BasePlayer value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public static ulong get_LastAttackerSteamID() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public static void set_LastAttackerSteamID(ulong value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public static string get_LastAttackerName() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public static void set_LastAttackerName(string value) { }
 
 	public static float get_TimeSinceLastDeath() { }
@@ -119,12 +119,12 @@ public class LocalPlayer.ItemBlueprintComparer : IComparer<ItemBlueprint> // Typ
 
 private sealed class LocalPlayer.<>c__DisplayClass40_0 // TypeDefIndex: 11408
 {
-public int id;
+	public int id;
 
 
 	public void .ctor() { }
 
-internal bool <HasInventoryItem>
+	internal bool <HasInventoryItem>
 
 }
 

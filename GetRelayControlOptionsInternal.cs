@@ -2,7 +2,7 @@ internal struct GetRelayControlOptionsInternal : ISettable<GetRelayControlOption
 {
 
 internal struct GetRelayControlOptionsInternal : ISettable<GetRelayControlOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref GetRelayControlOptions other) { }

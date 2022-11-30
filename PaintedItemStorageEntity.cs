@@ -1,11 +1,11 @@
 public class PaintedItemStorageEntity : BaseEntity, IServerFileReceiver, IUGCBrowserEntity // TypeDefIndex: 10335
 {
-private uint _currentImageCrc;
-public List<PaintableItem> Targets;
-private uint _loadingCrc;
-private byte[] _loadedImage;
-private uint _loadedImageCrc;
-private Action _timeoutAction;
+	private uint _currentImageCrc;
+	public List<PaintableItem> Targets;
+	private uint _loadingCrc;
+	private byte[] _loadedImage;
+	private uint _loadedImageCrc;
+	private Action _timeoutAction;
 
 
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
@@ -32,7 +32,7 @@ private Action _timeoutAction;
 
 	public static void RebuildAll() { }
 
-[ConditionalAttribute]
+	[ConditionalAttribute]
 	private void DebugOnlyLog(string str) { }
 
 	public void .ctor() { }
@@ -41,15 +41,15 @@ private Action _timeoutAction;
 
 private sealed class PaintedItemStorageEntity.<>c // TypeDefIndex: 10336
 {
-public static readonly PaintedItemStorageEntity.<>c <>9;
-public static Predicate<PaintableItem> <>9__16_0;
+	public static readonly PaintedItemStorageEntity.<>c <>9;
+	public static Predicate<PaintableItem> <>9__16_0;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-internal bool <RemoveInvalidTargets>
+	internal bool <RemoveInvalidTargets>
 
 }
 

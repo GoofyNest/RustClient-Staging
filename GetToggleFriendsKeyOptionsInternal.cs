@@ -2,7 +2,7 @@ internal struct GetToggleFriendsKeyOptionsInternal : ISettable<GetToggleFriendsK
 {
 
 internal struct GetToggleFriendsKeyOptionsInternal : ISettable<GetToggleFriendsKeyOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref GetToggleFriendsKeyOptions other) { }

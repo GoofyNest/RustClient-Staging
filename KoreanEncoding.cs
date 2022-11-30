@@ -1,6 +1,6 @@
 internal class KoreanEncoding : DbcsEncoding // TypeDefIndex: 7836
 {
-private bool useUHC;
+	private bool useUHC;
 
 
 	public void .ctor(int codepage, bool useUHC) { }
@@ -21,9 +21,9 @@ private bool useUHC;
 
 private sealed class KoreanEncoding.KoreanDecoder : DbcsEncoding.DbcsDecoder // TypeDefIndex: 7837
 {
-private bool useUHC;
-private int last_byte_count;
-private int last_byte_conv;
+	private bool useUHC;
+	private int last_byte_count;
+	private int last_byte_conv;
 
 
 	public void .ctor(DbcsConvert convert, bool useUHC) { }

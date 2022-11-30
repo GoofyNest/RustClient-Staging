@@ -1,11 +1,11 @@
 public class TreeLOD : LODComponent, IComparable<TreeLOD> // TypeDefIndex: 11704
 {
-[HorizontalAttribute]
-public TreeLOD.State[] States;
-private int requestedlod;
-private int curlod;
-private bool force;
-public static Comparison<TreeLOD> Comparison;
+	[HorizontalAttribute]
+	public TreeLOD.State[] States;
+	private int requestedlod;
+	private int curlod;
+	private bool force;
+	public static Comparison<TreeLOD> Comparison;
 
 	public int CulledLOD { get; }
 	public int BillboardLOD { get; }
@@ -47,11 +47,11 @@ public static Comparison<TreeLOD> Comparison;
 
 public class TreeLOD.State // TypeDefIndex: 11705
 {
-public float distance;
-public Renderer renderer;
-public MeshFilter filter;
-public ShadowCastingMode shadowMode;
-public bool isImpostor;
+	public float distance;
+	public Renderer renderer;
+	public MeshFilter filter;
+	public ShadowCastingMode shadowMode;
+	public bool isImpostor;
 
 
 	public void Show() { }
@@ -64,14 +64,14 @@ public bool isImpostor;
 
 private sealed class TreeLOD.<>c // TypeDefIndex: 11706
 {
-public static readonly TreeLOD.<>c <>9;
+	public static readonly TreeLOD.<>c <>9;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-internal int <.cctor>
+	internal int <.cctor>
 
 }
 

@@ -7,7 +7,7 @@ public static class GrowableGenetics // TypeDefIndex: 11286
 
 public enum GrowableGenetics.GeneType // TypeDefIndex: 11287
 {
-public int value__;
+	public int value__;
 	public const GrowableGenetics.GeneType Empty = 0;
 	public const GrowableGenetics.GeneType WaterRequirement = 1;
 	public const GrowableGenetics.GeneType GrowthSpeed = 2;

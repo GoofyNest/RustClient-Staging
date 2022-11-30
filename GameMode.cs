@@ -1,10 +1,10 @@
 public class GameMode : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6408
 {
-public bool ShouldPool;
-private bool _disposed;
-public List<GameMode.TeamInfo> teams;
-public List<GameMode.ScoreColumn> scoreColumns;
-public List<GameMode.PlayerScore> playerScores;
+	public bool ShouldPool;
+	private bool _disposed;
+	public List<GameMode.TeamInfo> teams;
+	public List<GameMode.ScoreColumn> scoreColumns;
+	public List<GameMode.PlayerScore> playerScores;
 
 
 	public static void ResetToPool(GameMode instance) { }
@@ -63,9 +63,9 @@ public List<GameMode.PlayerScore> playerScores;
 
 public class GameMode.TeamInfo : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6409
 {
-public bool ShouldPool;
-private bool _disposed;
-public int score;
+	public bool ShouldPool;
+	private bool _disposed;
+	public int score;
 
 
 	public static void ResetToPool(GameMode.TeamInfo instance) { }
@@ -124,9 +124,9 @@ public int score;
 
 public class GameMode.ScoreColumn : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6410
 {
-public bool ShouldPool;
-private bool _disposed;
-public string name;
+	public bool ShouldPool;
+	private bool _disposed;
+	public string name;
 
 
 	public static void ResetToPool(GameMode.ScoreColumn instance) { }
@@ -185,12 +185,12 @@ public string name;
 
 public class GameMode.PlayerScore : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6411
 {
-public bool ShouldPool;
-private bool _disposed;
-public string playerName;
-public ulong userid;
-public List<int> scores;
-public int team;
+	public bool ShouldPool;
+	private bool _disposed;
+	public string playerName;
+	public ulong userid;
+	public List<int> scores;
+	public int team;
 
 
 	public static void ResetToPool(GameMode.PlayerScore instance) { }

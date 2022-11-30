@@ -2,8 +2,8 @@ public class SubsurfaceProfileTexture // TypeDefIndex: 12422
 {
 	public const int SUBSURFACE_RADIUS_SCALE = 1024;
 	public const int SUBSURFACE_KERNEL_SIZE = 3;
-private List<SubsurfaceProfileTexture.SubsurfaceProfileEntry> entries;
-private Texture2D texture;
+	private List<SubsurfaceProfileTexture.SubsurfaceProfileEntry> entries;
+	private Texture2D texture;
 
 	public Texture2D Texture { get; }
 
@@ -32,8 +32,8 @@ private Texture2D texture;
 
 private struct SubsurfaceProfileTexture.SubsurfaceProfileEntry // TypeDefIndex: 12423
 {
-public SubsurfaceProfileData data;
-public SubsurfaceProfile profile;
+	public SubsurfaceProfileData data;
+	public SubsurfaceProfile profile;
 
 
 	public void .ctor(SubsurfaceProfileData data, SubsurfaceProfile profile) { }

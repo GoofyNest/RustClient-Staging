@@ -21,27 +21,27 @@ internal static class ParsingUtilities // TypeDefIndex: 7648
 
 private sealed class ParsingUtilities.<>c__DisplayClass8_0 // TypeDefIndex: 7649
 {
-public string input;
-public bool ignoreCase;
+	public string input;
+	public bool ignoreCase;
 
 
 	public void .ctor() { }
 
-internal Match <Match>
+	internal Match <Match>
 
 }
 
 private sealed class ParsingUtilities.<>c // TypeDefIndex: 7650
 {
-public static readonly ParsingUtilities.<>c <>9;
-public static Func<Match, bool> <>9__8_1;
+	public static readonly ParsingUtilities.<>c <>9;
+	public static Func<Match, bool> <>9__8_1;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-internal bool <Match>
+	internal bool <Match>
 
 }
 

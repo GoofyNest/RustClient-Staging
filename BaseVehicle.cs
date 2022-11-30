@@ -1,8 +1,8 @@
 public class BaseVehicle : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6336
 {
-public bool ShouldPool;
-private bool _disposed;
-public List<BaseVehicle.MountPoint> mountPoints;
+	public bool ShouldPool;
+	private bool _disposed;
+	public List<BaseVehicle.MountPoint> mountPoints;
 
 
 	public static void ResetToPool(BaseVehicle instance) { }
@@ -61,10 +61,10 @@ public List<BaseVehicle.MountPoint> mountPoints;
 
 public class BaseVehicle.MountPoint : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6337
 {
-public bool ShouldPool;
-private bool _disposed;
-public int index;
-public uint mountableId;
+	public bool ShouldPool;
+	private bool _disposed;
+	public int index;
+	public uint mountableId;
 
 
 	public static void ResetToPool(BaseVehicle.MountPoint instance) { }
@@ -123,10 +123,10 @@ public uint mountableId;
 
 public class Motorboat : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6355
 {
-public bool ShouldPool;
-private bool _disposed;
-public uint storageid;
-public uint fuelStorageID;
+	public bool ShouldPool;
+	private bool _disposed;
+	public uint storageid;
+	public uint fuelStorageID;
 
 
 	public static void ResetToPool(Motorboat instance) { }
@@ -185,9 +185,9 @@ public uint fuelStorageID;
 
 public class ModularVehicle : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6357
 {
-public bool ShouldPool;
-private bool _disposed;
-public bool editable;
+	public bool ShouldPool;
+	private bool _disposed;
+	public bool editable;
 
 
 	public static void ResetToPool(ModularVehicle instance) { }
@@ -246,17 +246,17 @@ public bool editable;
 
 public class ModularCar : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6358
 {
-public bool ShouldPool;
-private bool _disposed;
-public float steerAngle;
-public float driveWheelVel;
-public float throttleInput;
-public float brakeInput;
-public uint fuelStorageID;
-public float fuelFraction;
-public bool hasLock;
-public string lockCode;
-public List<ulong> whitelistUsers;
+	public bool ShouldPool;
+	private bool _disposed;
+	public float steerAngle;
+	public float driveWheelVel;
+	public float throttleInput;
+	public float brakeInput;
+	public uint fuelStorageID;
+	public float fuelFraction;
+	public bool hasLock;
+	public string lockCode;
+	public List<ulong> whitelistUsers;
 
 
 	public static void ResetToPool(ModularCar instance) { }
@@ -315,12 +315,12 @@ public List<ulong> whitelistUsers;
 
 public class VehicleLift : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6361
 {
-public bool ShouldPool;
-private bool _disposed;
-public bool platformIsOccupied;
-public bool editableOccupant;
-public bool driveableOccupant;
-public int occupantLockState;
+	public bool ShouldPool;
+	private bool _disposed;
+	public bool platformIsOccupied;
+	public bool editableOccupant;
+	public bool driveableOccupant;
+	public int occupantLockState;
 
 
 	public static void ResetToPool(VehicleLift instance) { }
@@ -379,12 +379,12 @@ public int occupantLockState;
 
 public class EngineStorage : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6362
 {
-public bool ShouldPool;
-private bool _disposed;
-public bool isUsable;
-public float accelerationBoost;
-public float topSpeedBoost;
-public float fuelEconomyBoost;
+	public bool ShouldPool;
+	private bool _disposed;
+	public bool isUsable;
+	public float accelerationBoost;
+	public float topSpeedBoost;
+	public float fuelEconomyBoost;
 
 
 	public static void ResetToPool(EngineStorage instance) { }
@@ -443,10 +443,10 @@ public float fuelEconomyBoost;
 
 public class VehicleVendor : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6387
 {
-public bool ShouldPool;
-private bool _disposed;
-public List<VehicleVendor.PlayerStorage> playerStorage;
-public uint spawnerRef;
+	public bool ShouldPool;
+	private bool _disposed;
+	public List<VehicleVendor.PlayerStorage> playerStorage;
+	public uint spawnerRef;
 
 
 	public static void ResetToPool(VehicleVendor instance) { }
@@ -505,10 +505,10 @@ public uint spawnerRef;
 
 public class VehicleVendor.PlayerStorage : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6388
 {
-public bool ShouldPool;
-private bool _disposed;
-public ulong userid;
-public List<VehicleVendor.PlayerStorage.PlayerStoredVehicle> storedVehicles;
+	public bool ShouldPool;
+	private bool _disposed;
+	public ulong userid;
+	public List<VehicleVendor.PlayerStorage.PlayerStoredVehicle> storedVehicles;
 
 
 	public static void ResetToPool(VehicleVendor.PlayerStorage instance) { }
@@ -567,11 +567,11 @@ public List<VehicleVendor.PlayerStorage.PlayerStoredVehicle> storedVehicles;
 
 public class VehicleVendor.PlayerStorage.PlayerStoredVehicle : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6389
 {
-public bool ShouldPool;
-private bool _disposed;
-public string shortname;
-public string resourcePath;
-public float health;
+	public bool ShouldPool;
+	private bool _disposed;
+	public string shortname;
+	public string resourcePath;
+	public float health;
 
 
 	public static void ResetToPool(VehicleVendor.PlayerStorage.PlayerStoredVehicle instance) { }
@@ -630,9 +630,9 @@ public float health;
 
 public class VehicleModule : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6394
 {
-public bool ShouldPool;
-private bool _disposed;
-public int socketIndex;
+	public bool ShouldPool;
+	private bool _disposed;
+	public int socketIndex;
 
 
 	public static void ResetToPool(VehicleModule instance) { }
@@ -691,11 +691,11 @@ public int socketIndex;
 
 public class CamperModule : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6431
 {
-public bool ShouldPool;
-private bool _disposed;
-public uint bbqId;
-public uint lockerId;
-public uint storageID;
+	public bool ShouldPool;
+	private bool _disposed;
+	public uint bbqId;
+	public uint lockerId;
+	public uint storageID;
 
 
 	public static void ResetToPool(CamperModule instance) { }
@@ -754,28 +754,28 @@ public uint storageID;
 
 public class BaseVehicle : BaseMountable // TypeDefIndex: 10072
 {
-private Option __menuOption_Menu_Occupied;
-[TooltipAttribute]
-public bool mountChaining;
-public BaseVehicle.ClippingCheckMode clippingChecks;
-public bool checkVehicleClipping;
-public bool shouldShowHudHealth;
-public bool ignoreDamageFromOutside;
-[HeaderAttribute]
-public Rigidbody rigidBody;
-[HeaderAttribute]
-public List<BaseVehicle.MountPointInfo> mountPoints;
-public bool doClippingAndVisChecks;
-[HeaderAttribute]
-public DamageRenderer damageRenderer;
-[FormerlySerializedAsAttribute]
-public float explosionForceMultiplier;
-public float explosionForceMax;
+	private Option __menuOption_Menu_Occupied;
+	[TooltipAttribute]
+	public bool mountChaining;
+	public BaseVehicle.ClippingCheckMode clippingChecks;
+	public bool checkVehicleClipping;
+	public bool shouldShowHudHealth;
+	public bool ignoreDamageFromOutside;
+	[HeaderAttribute]
+	public Rigidbody rigidBody;
+	[HeaderAttribute]
+	public List<BaseVehicle.MountPointInfo> mountPoints;
+	public bool doClippingAndVisChecks;
+	[HeaderAttribute]
+	public DamageRenderer damageRenderer;
+	[FormerlySerializedAsAttribute]
+	public float explosionForceMultiplier;
+	public float explosionForceMax;
 	public const BaseEntity.Flags Flag_OnlyOwnerEntry = 16;
 	public const BaseEntity.Flags Flag_Headlights = 2048;
 	public const BaseEntity.Flags Flag_Stationary = 32768;
 	public const BaseEntity.Flags Flag_SeatsFull = 524288;
-private readonly List<BaseVehicle> childVehicles;
+	private readonly List<BaseVehicle> childVehicles;
 
 	public override bool HasMenuOptions { get; }
 	public bool IsMovingOrOn { get; }
@@ -805,10 +805,10 @@ private readonly List<BaseVehicle> childVehicles;
 
 	public virtual bool Menu_Push_ShowIf(BasePlayer player) { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.ShowIf]
 	private void Menu_Occupied(BasePlayer player) { }
 
 	protected virtual bool Menu_Occupied_ShowIf(BasePlayer player) { }
@@ -857,7 +857,7 @@ private readonly List<BaseVehicle> childVehicles;
 
 public enum BaseVehicle.ClippingCheckMode // TypeDefIndex: 10073
 {
-public int value__;
+	public int value__;
 	public const BaseVehicle.ClippingCheckMode OnMountOnly = 0;
 	public const BaseVehicle.ClippingCheckMode Always = 1;
 	public const BaseVehicle.ClippingCheckMode AlwaysHeadOnly = 2;
@@ -866,11 +866,11 @@ public int value__;
 
 public class BaseVehicle.MountPointInfo // TypeDefIndex: 10074
 {
-public bool isDriver;
-public Vector3 pos;
-public Vector3 rot;
-public string bone;
-public GameObjectRef prefab;
+	public bool isDriver;
+	public Vector3 pos;
+	public Vector3 rot;
+	public string bone;
+	public GameObjectRef prefab;
 
 
 	public void .ctor() { }
@@ -879,7 +879,7 @@ public GameObjectRef prefab;
 
 public struct BaseVehicle.Enumerable : IEnumerable<BaseVehicle.MountPointInfo>, IEnumerable // TypeDefIndex: 10075
 {
-private readonly BaseVehicle _vehicle;
+	private readonly BaseVehicle _vehicle;
 
 
 	public void .ctor(BaseVehicle vehicle) { }
@@ -894,22 +894,22 @@ private readonly BaseVehicle _vehicle;
 
 public struct BaseVehicle.Enumerator : IEnumerator<BaseVehicle.MountPointInfo>, IEnumerator, IDisposable // TypeDefIndex: 10076
 {
-private readonly BaseVehicle _vehicle;
-private BaseVehicle.Enumerator.State _state;
-private int _index;
-private int _childIndex;
-private BaseVehicle.Enumerator.Box _enumerator;
-[CompilerGeneratedAttribute]
-private BaseVehicle.MountPointInfo <Current>k__BackingField;
+	private readonly BaseVehicle _vehicle;
+	private BaseVehicle.Enumerator.State _state;
+	private int _index;
+	private int _childIndex;
+	private BaseVehicle.Enumerator.Box _enumerator;
+	[CompilerGeneratedAttribute]
+	private BaseVehicle.MountPointInfo <Current>k__BackingField;
 
 	public BaseVehicle.MountPointInfo Current { get; set; }
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public BaseVehicle.MountPointInfo get_Current() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_Current(BaseVehicle.MountPointInfo value) { }
 
 	public void .ctor(BaseVehicle vehicle) { }
@@ -926,7 +926,7 @@ private BaseVehicle.MountPointInfo <Current>k__BackingField;
 
 private enum BaseVehicle.Enumerator.State // TypeDefIndex: 10077
 {
-public int value__;
+	public int value__;
 	public const BaseVehicle.Enumerator.State Direct = 0;
 	public const BaseVehicle.Enumerator.State EnterChild = 1;
 	public const BaseVehicle.Enumerator.State EnumerateChild = 2;
@@ -936,7 +936,7 @@ public int value__;
 
 private class BaseVehicle.Enumerator.Box : Pool.IPooled // TypeDefIndex: 10078
 {
-public BaseVehicle.Enumerator Value;
+	public BaseVehicle.Enumerator Value;
 
 
 	public void EnterPool() { }
@@ -949,39 +949,39 @@ public BaseVehicle.Enumerator Value;
 
 public class BaseVehicleModule : BaseVehicle, IPrefabPreProcess // TypeDefIndex: 10079
 {
-private Option __menuOption_Menu_EnterKeycode;
-private Option __menuOption_Menu_Push;
-private Option __menuOption_Menu_Use;
+	private Option __menuOption_Menu_EnterKeycode;
+	private Option __menuOption_Menu_Push;
+	private Option __menuOption_Menu_Use;
 	public const string CAR_KEYCODE_ACTION_NAME = "car_enter_keycode";
-[HeaderAttribute]
-[SerializeField]
-private Transform centreOfMassTransform;
-[SerializeField]
-private float mass;
-public BaseVehicleModule.VisualGroup visualGroup;
-[SerializeField]
-[HideInInspector]
-private VehicleLight[] lights;
-[CompilerGeneratedAttribute]
-private BaseModularVehicle <Vehicle>k__BackingField;
-[CompilerGeneratedAttribute]
-private int <FirstSocketIndex>k__BackingField;
-public BaseVehicleModule.LODLevel[] lodRenderers;
-[SerializeField]
-[HideInInspector]
-private List<ConditionalObject> conditionals;
-[HeaderAttribute]
-[SerializeField]
-private TriggerParent[] triggerParents;
-[HeaderAttribute]
-[SerializeField]
-private VehicleModuleSlidingComponent[] slidingComponents;
-[SerializeField]
-private VehicleModuleButtonComponent[] buttonComponents;
-private TimeSince TimeSinceAddedToVehicle;
-private float prevRefreshHealth;
-private bool prevRefreshVehicleIsDead;
-private bool prevRefreshVehicleIsLockable;
+	[HeaderAttribute]
+	[SerializeField]
+	private Transform centreOfMassTransform;
+	[SerializeField]
+	private float mass;
+	public BaseVehicleModule.VisualGroup visualGroup;
+	[SerializeField]
+	[HideInInspector]
+	private VehicleLight[] lights;
+	[CompilerGeneratedAttribute]
+	private BaseModularVehicle <Vehicle>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private int <FirstSocketIndex>k__BackingField;
+	public BaseVehicleModule.LODLevel[] lodRenderers;
+	[SerializeField]
+	[HideInInspector]
+	private List<ConditionalObject> conditionals;
+	[HeaderAttribute]
+	[SerializeField]
+	private TriggerParent[] triggerParents;
+	[HeaderAttribute]
+	[SerializeField]
+	private VehicleModuleSlidingComponent[] slidingComponents;
+	[SerializeField]
+	private VehicleModuleButtonComponent[] buttonComponents;
+	private TimeSince TimeSinceAddedToVehicle;
+	private float prevRefreshHealth;
+	private bool prevRefreshVehicleIsDead;
+	private bool prevRefreshVehicleIsLockable;
 
 	public override bool HasMenuOptions { get; }
 	public BaseModularVehicle Vehicle { get; set; }
@@ -1027,42 +1027,42 @@ private bool prevRefreshVehicleIsLockable;
 
 	public override void UpdatePlayerModel(BasePlayer player) { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.ShowIf]
 	public void Menu_Push(BasePlayer player) { }
 
 	public override bool Menu_Push_ShowIf(BasePlayer player) { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.ShowIf]
 	public void Menu_Use(BasePlayer player) { }
 
 	public bool Menu_Use_ShowIf(BasePlayer player) { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.ShowIf]
 	public void Menu_EnterKeycode(BasePlayer player) { }
 
 	protected virtual void OnKeypadCodeEntered(string code) { }
 
 	public virtual bool Menu_EnterKeycode_ShowIf(BasePlayer player) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public BaseModularVehicle get_Vehicle() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_Vehicle(BaseModularVehicle value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public int get_FirstSocketIndex() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_FirstSocketIndex(int value) { }
 
 	public Vector3 get_CentreOfMass() { }
@@ -1131,7 +1131,7 @@ private bool prevRefreshVehicleIsLockable;
 
 public enum BaseVehicleModule.DecalType // TypeDefIndex: 10080
 {
-public int value__;
+	public int value__;
 	public const BaseVehicleModule.DecalType All = 0;
 	public const BaseVehicleModule.DecalType Glass = 1;
 
@@ -1139,7 +1139,7 @@ public int value__;
 
 public enum BaseVehicleModule.VisualGroup // TypeDefIndex: 10081
 {
-public int value__;
+	public int value__;
 	public const BaseVehicleModule.VisualGroup None = 0;
 	public const BaseVehicleModule.VisualGroup Engine = 1;
 	public const BaseVehicleModule.VisualGroup Cabin = 2;
@@ -1149,7 +1149,7 @@ public int value__;
 
 public class BaseVehicleModule.LODLevel // TypeDefIndex: 10082
 {
-public Renderer[] renderers;
+	public Renderer[] renderers;
 
 
 	public void .ctor() { }
@@ -1158,8 +1158,8 @@ public Renderer[] renderers;
 
 public class EngineSwitch : BaseEntity // TypeDefIndex: 10109
 {
-private Option __menuOption_Menu_StartEngine;
-private Option __menuOption_Menu_StopEngine;
+	private Option __menuOption_Menu_StartEngine;
+	private Option __menuOption_Menu_StopEngine;
 
 	public override bool HasMenuOptions { get; }
 
@@ -1170,18 +1170,18 @@ private Option __menuOption_Menu_StopEngine;
 
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.ShowIf]
 	public void Menu_StartEngine(BasePlayer player) { }
 
 	public bool Menu_EngineOn_ShowIf(BasePlayer player) { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.ShowIf]
 	public void Menu_StopEngine(BasePlayer player) { }
 
 	public bool Menu_EngineOff_ShowIf(BasePlayer player) { }
@@ -1192,63 +1192,63 @@ private Option __menuOption_Menu_StopEngine;
 
 public class ModularCar : BaseModularVehicle, IVehicleLockUser, VehicleChassisVisuals.IClientWheelUser<ModularCar> // TypeDefIndex: 10135
 {
-private Option __menuOption_Menu_EnterKeycode;
-private Option __menuOption_Menu_FuelStorage;
-[CompilerGeneratedAttribute]
-private VehicleChassisVisuals.ClientWheelData<ModularCar> <WheelDataFL>k__BackingField;
-[CompilerGeneratedAttribute]
-private VehicleChassisVisuals.ClientWheelData<ModularCar> <WheelDataFR>k__BackingField;
-[CompilerGeneratedAttribute]
-private VehicleChassisVisuals.ClientWheelData<ModularCar> <WheelDataRL>k__BackingField;
-[CompilerGeneratedAttribute]
-private VehicleChassisVisuals.ClientWheelData<ModularCar> <WheelDataRR>k__BackingField;
-public TimeSince timeSinceLastUpdate;
-public TimeSince timeSinceFailedStartAttempt;
-private float clientSteerAngle;
-private float clientDriveWheelVelocity;
-private float clientDriveWheelSlip;
-private float clientThrottle;
-private float clientBrake;
-private bool cachedEngineLowPerf;
-private TimeSince timeSinceEnginePerfCheck;
-private bool failedStartWasEngineProblem;
-private bool wasBraking;
+	private Option __menuOption_Menu_EnterKeycode;
+	private Option __menuOption_Menu_FuelStorage;
+	[CompilerGeneratedAttribute]
+	private VehicleChassisVisuals.ClientWheelData<ModularCar> <WheelDataFL>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private VehicleChassisVisuals.ClientWheelData<ModularCar> <WheelDataFR>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private VehicleChassisVisuals.ClientWheelData<ModularCar> <WheelDataRL>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private VehicleChassisVisuals.ClientWheelData<ModularCar> <WheelDataRR>k__BackingField;
+	public TimeSince timeSinceLastUpdate;
+	public TimeSince timeSinceFailedStartAttempt;
+	private float clientSteerAngle;
+	private float clientDriveWheelVelocity;
+	private float clientDriveWheelSlip;
+	private float clientThrottle;
+	private float clientBrake;
+	private bool cachedEngineLowPerf;
+	private TimeSince timeSinceEnginePerfCheck;
+	private bool failedStartWasEngineProblem;
+	private bool wasBraking;
 	private const float FAILED_START_LIGHT_TIME = 1;
-private static int detailColorID;
-[HeaderAttribute]
-public ModularCarChassisVisuals chassisVisuals;
-public VisualCarWheel wheelFL;
-public VisualCarWheel wheelFR;
-public VisualCarWheel wheelRL;
-public VisualCarWheel wheelRR;
-[SerializeField]
-private CarSettings carSettings;
-[SerializeField]
-private float hurtTriggerMinSpeed;
-[SerializeField]
-private TriggerHurtNotChild hurtTriggerFront;
-[SerializeField]
-private TriggerHurtNotChild hurtTriggerRear;
-[SerializeField]
-private ProtectionProperties immortalProtection;
-[SerializeField]
-private ProtectionProperties mortalProtection;
-[SerializeField]
-private BoxCollider mainChassisCollider;
-[SerializeField]
-private ModularCar.SpawnSettings spawnSettings;
-[SerializeField]
-[HideInInspector]
-private MeshRenderer[] damageShowingRenderers;
-[ServerVar]
-public static float population;
-[ServerVar]
-public static float outsidedecayminutes;
+	private static int detailColorID;
+	[HeaderAttribute]
+	public ModularCarChassisVisuals chassisVisuals;
+	public VisualCarWheel wheelFL;
+	public VisualCarWheel wheelFR;
+	public VisualCarWheel wheelRL;
+	public VisualCarWheel wheelRR;
+	[SerializeField]
+	private CarSettings carSettings;
+	[SerializeField]
+	private float hurtTriggerMinSpeed;
+	[SerializeField]
+	private TriggerHurtNotChild hurtTriggerFront;
+	[SerializeField]
+	private TriggerHurtNotChild hurtTriggerRear;
+	[SerializeField]
+	private ProtectionProperties immortalProtection;
+	[SerializeField]
+	private ProtectionProperties mortalProtection;
+	[SerializeField]
+	private BoxCollider mainChassisCollider;
+	[SerializeField]
+	private ModularCar.SpawnSettings spawnSettings;
+	[SerializeField]
+	[HideInInspector]
+	private MeshRenderer[] damageShowingRenderers;
+	[ServerVar]
+	public static float population;
+	[ServerVar]
+	public static float outsidedecayminutes;
 	public const BUTTON RapidSteerButton = 128;
-[CompilerGeneratedAttribute]
-private ModularCarCodeLock <CarLock>k__BackingField;
-private VehicleEngineController.EngineState<GroundVehicle> lastSetEngineState;
-private float cachedFuelFraction;
+	[CompilerGeneratedAttribute]
+	private ModularCarCodeLock <CarLock>k__BackingField;
+	private VehicleEngineController.EngineState<GroundVehicle> lastSetEngineState;
+	private float cachedFuelFraction;
 
 	public override bool HasMenuOptions { get; }
 	public VehicleChassisVisuals.ClientWheelData<ModularCar> WheelDataFL { get; set; }
@@ -1270,28 +1270,28 @@ private float cachedFuelFraction;
 
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public VehicleChassisVisuals.ClientWheelData<ModularCar> get_WheelDataFL() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_WheelDataFL(VehicleChassisVisuals.ClientWheelData<ModularCar> value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public VehicleChassisVisuals.ClientWheelData<ModularCar> get_WheelDataFR() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_WheelDataFR(VehicleChassisVisuals.ClientWheelData<ModularCar> value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public VehicleChassisVisuals.ClientWheelData<ModularCar> get_WheelDataRL() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_WheelDataRL(VehicleChassisVisuals.ClientWheelData<ModularCar> value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public VehicleChassisVisuals.ClientWheelData<ModularCar> get_WheelDataRR() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_WheelDataRR(VehicleChassisVisuals.ClientWheelData<ModularCar> value) { }
 
 	protected override void ClientInit(Entity info) { }
@@ -1314,18 +1314,18 @@ private float cachedFuelFraction;
 
 	protected override bool IsBraking() { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.ShowIf]
 	public void Menu_FuelStorage(BasePlayer player) { }
 
 	public bool Menu_FuelStorage_ShowIf(BasePlayer player) { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.ShowIf]
 	public void Menu_EnterKeycode(BasePlayer player) { }
 
 	private void OnKeypadCodeEntered(string code) { }
@@ -1338,13 +1338,13 @@ private float cachedFuelFraction;
 
 	public override float GetHUDMaxHealth() { }
 
-[BaseEntity.RPC_Client]
+	[BaseEntity.RPC_Client]
 	private void ModularCarUpdate(BaseEntity.RPCMessage msg) { }
 
-[BaseEntity.RPC_Client]
+	[BaseEntity.RPC_Client]
 	private void EngineStartFailed(BaseEntity.RPCMessage msg) { }
 
-[BaseEntity.RPC_Client]
+	[BaseEntity.RPC_Client]
 	private void CodeEntryFailed(BaseEntity.RPCMessage msg) { }
 
 	public override float get_DriveWheelVelocity() { }
@@ -1359,10 +1359,10 @@ private float cachedFuelFraction;
 
 	public override bool get_IsLockable() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public ModularCarCodeLock get_CarLock() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_CarLock(ModularCarCodeLock value) { }
 
 	public override void PreProcess(IPrefabProcessor process, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
@@ -1421,15 +1421,15 @@ private float cachedFuelFraction;
 
 public class ModularCar.SpawnSettings // TypeDefIndex: 10136
 {
-[TooltipAttribute]
-public bool useSpawnSettings;
-[TooltipAttribute]
-public ModularCarPresetConfig[] configurationOptions;
-[TooltipAttribute]
-public float minStartHealthPercent;
-[TooltipAttribute]
-public float maxStartHealthPercent;
-public ModularCar.SpawnSettings.AdminBonus adminBonus;
+	[TooltipAttribute]
+	public bool useSpawnSettings;
+	[TooltipAttribute]
+	public ModularCarPresetConfig[] configurationOptions;
+	[TooltipAttribute]
+	public float minStartHealthPercent;
+	[TooltipAttribute]
+	public float maxStartHealthPercent;
+	public ModularCar.SpawnSettings.AdminBonus adminBonus;
 
 
 	public void .ctor() { }
@@ -1438,7 +1438,7 @@ public ModularCar.SpawnSettings.AdminBonus adminBonus;
 
 public enum ModularCar.SpawnSettings.AdminBonus // TypeDefIndex: 10137
 {
-public int value__;
+	public int value__;
 	public const ModularCar.SpawnSettings.AdminBonus None = 0;
 	public const ModularCar.SpawnSettings.AdminBonus T1PlusFuel = 1;
 	public const ModularCar.SpawnSettings.AdminBonus T2PlusFuel = 2;
@@ -1448,59 +1448,59 @@ public int value__;
 
 public class ModularCarGarage : ContainerIOEntity // TypeDefIndex: 10138
 {
-private Option __menuOption_Menu_EditVehicle;
-private Option __menuOption_Menu_InsufficientPower;
-private TimeSince lastChassisDestroyTime;
-[SerializeField]
-private Transform vehicleLift;
-[SerializeField]
-private Animation vehicleLiftAnim;
-[SerializeField]
-private string animName;
-[SerializeField]
-private VehicleLiftOccupantTrigger occupantTrigger;
-[SerializeField]
-private float liftMoveTime;
-[SerializeField]
-private EmissionToggle poweredLight;
-[SerializeField]
-private EmissionToggle inUseLight;
-[SerializeField]
-private Transform vehicleLiftPos;
-[SerializeField]
-[RangeAttribute]
-private float recycleEfficiency;
-[SerializeField]
-private Transform recycleDropPos;
-[SerializeField]
-private bool needsElectricity;
-[SerializeField]
-private SoundDefinition liftStartSoundDef;
-[SerializeField]
-private SoundDefinition liftStopSoundDef;
-[SerializeField]
-private SoundDefinition liftStopDownSoundDef;
-[SerializeField]
-private SoundDefinition liftLoopSoundDef;
-[SerializeField]
-private GameObjectRef addRemoveLockEffect;
-[SerializeField]
-private GameObjectRef changeLockCodeEffect;
-[SerializeField]
-private GameObjectRef repairEffect;
-public ModularCarGarage.ChassisBuildOption[] chassisBuildOptions;
-public ItemAmount lockResourceCost;
-[CompilerGeneratedAttribute]
-private bool <PlatformIsOccupied>k__BackingField;
-[CompilerGeneratedAttribute]
-private bool <HasEditableOccupant>k__BackingField;
-[CompilerGeneratedAttribute]
-private bool <HasDriveableOccupant>k__BackingField;
-[CompilerGeneratedAttribute]
-private ModularCarGarage.OccupantLock <OccupantLockState>k__BackingField;
-private ModularCarGarage.VehicleLiftState vehicleLiftState;
-private Sound liftLoopSound;
-private Vector3 downPos;
+	private Option __menuOption_Menu_EditVehicle;
+	private Option __menuOption_Menu_InsufficientPower;
+	private TimeSince lastChassisDestroyTime;
+	[SerializeField]
+	private Transform vehicleLift;
+	[SerializeField]
+	private Animation vehicleLiftAnim;
+	[SerializeField]
+	private string animName;
+	[SerializeField]
+	private VehicleLiftOccupantTrigger occupantTrigger;
+	[SerializeField]
+	private float liftMoveTime;
+	[SerializeField]
+	private EmissionToggle poweredLight;
+	[SerializeField]
+	private EmissionToggle inUseLight;
+	[SerializeField]
+	private Transform vehicleLiftPos;
+	[SerializeField]
+	[RangeAttribute]
+	private float recycleEfficiency;
+	[SerializeField]
+	private Transform recycleDropPos;
+	[SerializeField]
+	private bool needsElectricity;
+	[SerializeField]
+	private SoundDefinition liftStartSoundDef;
+	[SerializeField]
+	private SoundDefinition liftStopSoundDef;
+	[SerializeField]
+	private SoundDefinition liftStopDownSoundDef;
+	[SerializeField]
+	private SoundDefinition liftLoopSoundDef;
+	[SerializeField]
+	private GameObjectRef addRemoveLockEffect;
+	[SerializeField]
+	private GameObjectRef changeLockCodeEffect;
+	[SerializeField]
+	private GameObjectRef repairEffect;
+	public ModularCarGarage.ChassisBuildOption[] chassisBuildOptions;
+	public ItemAmount lockResourceCost;
+	[CompilerGeneratedAttribute]
+	private bool <PlatformIsOccupied>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private bool <HasEditableOccupant>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private bool <HasDriveableOccupant>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private ModularCarGarage.OccupantLock <OccupantLockState>k__BackingField;
+	private ModularCarGarage.VehicleLiftState vehicleLiftState;
+	private Sound liftLoopSound;
+	private Vector3 downPos;
 	public const BaseEntity.Flags DestroyingChassis = 16384;
 	public const float TimeToDestroyChassis = 10;
 	public const BaseEntity.Flags EnteringKeycode = 32768;
@@ -1546,18 +1546,18 @@ private Vector3 downPos;
 
 	private void RefreshInUseLightState() { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.ShowIf]
 	public void Menu_EditVehicle(BasePlayer player) { }
 
 	public bool Menu_EditVehicle_ShowIf(BasePlayer player) { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.ShowIf]
 	public void Menu_InsufficientPower(BasePlayer player) { }
 
 	public bool Menu_InsufficientPower_ShowIf(BasePlayer player) { }
@@ -1572,28 +1572,28 @@ private Vector3 downPos;
 
 	private void UpdateLiftSounds() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_PlatformIsOccupied() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_PlatformIsOccupied(bool value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_HasEditableOccupant() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_HasEditableOccupant(bool value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_HasDriveableOccupant() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_HasDriveableOccupant(bool value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public ModularCarGarage.OccupantLock get_OccupantLockState() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_OccupantLockState(ModularCarGarage.OccupantLock value) { }
 
 	private bool get_LiftIsUp() { }
@@ -1630,8 +1630,8 @@ private Vector3 downPos;
 
 public class ModularCarGarage.ChassisBuildOption // TypeDefIndex: 10139
 {
-public GameObjectRef prefab;
-public ItemDefinition itemDef;
+	public GameObjectRef prefab;
+	public ItemDefinition itemDef;
 
 
 	public void .ctor() { }
@@ -1640,7 +1640,7 @@ public ItemDefinition itemDef;
 
 public enum ModularCarGarage.OccupantLock // TypeDefIndex: 10140
 {
-public int value__;
+	public int value__;
 	public const ModularCarGarage.OccupantLock CannotHaveLock = 0;
 	public const ModularCarGarage.OccupantLock NoLock = 1;
 	public const ModularCarGarage.OccupantLock HasLock = 2;
@@ -1649,7 +1649,7 @@ public int value__;
 
 private enum ModularCarGarage.VehicleLiftState // TypeDefIndex: 10141
 {
-public int value__;
+	public int value__;
 	public const ModularCarGarage.VehicleLiftState Down = 0;
 	public const ModularCarGarage.VehicleLiftState Up = 1;
 
@@ -1657,30 +1657,30 @@ public int value__;
 
 public class MotorRowboat : BaseBoat // TypeDefIndex: 10142
 {
-private Option __menuOption_Menu_FuelStorage;
-private Option __menuOption_Menu_StartEngine;
-private Option __menuOption_Menu_StopEngine;
-[HeaderAttribute]
-public BlendedSoundLoops engineLoops;
-public BlendedSoundLoops waterLoops;
-public SoundDefinition engineStartSoundDef;
-public SoundDefinition engineStopSoundDef;
-public SoundDefinition movementSplashAccentSoundDef;
-public SoundDefinition engineSteerSoundDef;
-public GameObjectRef pushLandEffect;
-public GameObjectRef pushWaterEffect;
-public float waterSpeedDivisor;
-public float turnPitchModScale;
-public float tiltPitchModScale;
-public float splashAccentFrequencyMin;
-public float splashAccentFrequencyMax;
-private float directionalPitchModScale;
-private float vol;
-private float pitch;
-private float speed;
-private bool wasEngineOn;
-private float nextSplashAccent;
-private int prevSteering;
+	private Option __menuOption_Menu_FuelStorage;
+	private Option __menuOption_Menu_StartEngine;
+	private Option __menuOption_Menu_StopEngine;
+	[HeaderAttribute]
+	public BlendedSoundLoops engineLoops;
+	public BlendedSoundLoops waterLoops;
+	public SoundDefinition engineStartSoundDef;
+	public SoundDefinition engineStopSoundDef;
+	public SoundDefinition movementSplashAccentSoundDef;
+	public SoundDefinition engineSteerSoundDef;
+	public GameObjectRef pushLandEffect;
+	public GameObjectRef pushWaterEffect;
+	public float waterSpeedDivisor;
+	public float turnPitchModScale;
+	public float tiltPitchModScale;
+	public float splashAccentFrequencyMin;
+	public float splashAccentFrequencyMax;
+	private float directionalPitchModScale;
+	private float vol;
+	private float pitch;
+	private float speed;
+	private bool wasEngineOn;
+	private float nextSplashAccent;
+	private int prevSteering;
 	protected const BaseEntity.Flags Flag_EngineOn = 128;
 	protected const BaseEntity.Flags Flag_ThrottleOn = 256;
 	protected const BaseEntity.Flags Flag_TurnLeft = 512;
@@ -1689,46 +1689,46 @@ private int prevSteering;
 	protected const BaseEntity.Flags Flag_HasFuel = 16384;
 	protected const BaseEntity.Flags Flag_RecentlyPushed = 65536;
 	private const float submergeFractionMinimum = 0,85;
-[HeaderAttribute]
-public GameObjectRef fuelStoragePrefab;
-public float fuelPerSec;
-[HeaderAttribute]
-public GameObjectRef storageUnitPrefab;
-public EntityRef<StorageContainer> storageUnitInstance;
-[HeaderAttribute]
-public Transform boatRear;
-public ParticleSystemContainer wakeEffect;
-public ParticleSystemContainer engineEffectIdle;
-public ParticleSystemContainer engineEffectThrottle;
-public Projector causticsProjector;
-public Transform causticsDepthTest;
-public Transform engineLeftHandPosition;
-public Transform engineRotate;
-public Transform propellerRotate;
-[ServerVar]
-public static float population;
-[ServerVar]
-public static float outsidedecayminutes;
-[ServerVar]
-public static float deepwaterdecayminutes;
-protected EntityFuelSystem fuelSystem;
-public Transform[] stationaryDismounts;
-public Collider mainCollider;
-public float angularDragBase;
-public float angularDragVelocity;
-public float landDrag;
-public float waterDrag;
-public float offAxisDrag;
-public float offAxisDot;
-private AverageVelocity averageVelocity;
-private bool wasWakeOn;
-private bool wasEngineSprayOn;
-private bool wasEngineIdleOn;
-private Material causticsMaterial;
-private Color causticsColor;
-private float causticsAlpha;
-protected float currentEngineRotation;
-protected float propellerRotationSpeed;
+	[HeaderAttribute]
+	public GameObjectRef fuelStoragePrefab;
+	public float fuelPerSec;
+	[HeaderAttribute]
+	public GameObjectRef storageUnitPrefab;
+	public EntityRef<StorageContainer> storageUnitInstance;
+	[HeaderAttribute]
+	public Transform boatRear;
+	public ParticleSystemContainer wakeEffect;
+	public ParticleSystemContainer engineEffectIdle;
+	public ParticleSystemContainer engineEffectThrottle;
+	public Projector causticsProjector;
+	public Transform causticsDepthTest;
+	public Transform engineLeftHandPosition;
+	public Transform engineRotate;
+	public Transform propellerRotate;
+	[ServerVar]
+	public static float population;
+	[ServerVar]
+	public static float outsidedecayminutes;
+	[ServerVar]
+	public static float deepwaterdecayminutes;
+	protected EntityFuelSystem fuelSystem;
+	public Transform[] stationaryDismounts;
+	public Collider mainCollider;
+	public float angularDragBase;
+	public float angularDragVelocity;
+	public float landDrag;
+	public float waterDrag;
+	public float offAxisDrag;
+	public float offAxisDot;
+	private AverageVelocity averageVelocity;
+	private bool wasWakeOn;
+	private bool wasEngineSprayOn;
+	private bool wasEngineIdleOn;
+	private Material causticsMaterial;
+	private Color causticsColor;
+	private float causticsAlpha;
+	protected float currentEngineRotation;
+	protected float propellerRotationSpeed;
 
 	public override bool HasMenuOptions { get; }
 
@@ -1767,26 +1767,26 @@ protected float propellerRotationSpeed;
 
 	public virtual bool LookingAtFuelArea(BasePlayer player) { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.ShowIf]
 	public void Menu_StartEngine(BasePlayer player) { }
 
 	public bool Menu_StartEngine_ShowIf(BasePlayer player) { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.ShowIf]
 	public void Menu_StopEngine(BasePlayer player) { }
 
 	public bool Menu_StopEngine_ShowIf(BasePlayer player) { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.ShowIf]
 	public void Menu_FuelStorage(BasePlayer player) { }
 
 	public bool Menu_FuelStorage_ShowIf(BasePlayer player) { }
@@ -1809,23 +1809,23 @@ protected float propellerRotationSpeed;
 
 public class VehicleModuleCamper : VehicleModuleSeating // TypeDefIndex: 10197
 {
-private Option __menuOption_Menu_AssignToFriend;
-private Option __menuOption_Menu_ClearBedOwner;
-private Option __menuOption_Menu_MakeBed;
-private Option __menuOption_Menu_OpenLocker;
-private Option __menuOption_Menu_OpenStorage;
-private Option __menuOption_Menu_Rename;
-public GameObjectRef SleepingBagEntity;
-public Transform[] SleepingBagPoints;
-public GameObjectRef LockerEntity;
-public Transform LockerPoint;
-public GameObjectRef BbqEntity;
-public Transform BbqPoint;
-public GameObjectRef StorageEntity;
-public Transform StoragePoint;
-private EntityRef<BaseOven> activeBbq;
-private EntityRef<Locker> activeLocker;
-private EntityRef<StorageContainer> activeStorage;
+	private Option __menuOption_Menu_AssignToFriend;
+	private Option __menuOption_Menu_ClearBedOwner;
+	private Option __menuOption_Menu_MakeBed;
+	private Option __menuOption_Menu_OpenLocker;
+	private Option __menuOption_Menu_OpenStorage;
+	private Option __menuOption_Menu_Rename;
+	public GameObjectRef SleepingBagEntity;
+	public Transform[] SleepingBagPoints;
+	public GameObjectRef LockerEntity;
+	public Transform LockerPoint;
+	public GameObjectRef BbqEntity;
+	public Transform BbqPoint;
+	public GameObjectRef StorageEntity;
+	public Transform StoragePoint;
+	private EntityRef<BaseOven> activeBbq;
+	private EntityRef<Locker> activeLocker;
+	private EntityRef<StorageContainer> activeStorage;
 
 	public override bool HasMenuOptions { get; }
 
@@ -1842,52 +1842,52 @@ private EntityRef<StorageContainer> activeStorage;
 
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.ShowIf]
 	public void Menu_MakeBed(BasePlayer player) { }
 
 	public virtual bool Menu_MakeBed_ShowIf(BasePlayer player) { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.ShowIf]
 	public void Menu_ClearBedOwner(BasePlayer player) { }
 
 	public virtual bool Menu_ClearBedOwner_ShowIf(BasePlayer player) { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.ShowIf]
 	public void Menu_AssignToFriend(BasePlayer player) { }
 
 	public virtual bool Menu_AssignToFriend_Test(BasePlayer player) { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.ShowIf]
 	public void Menu_Rename(BasePlayer player) { }
 
 	protected virtual bool CanRename_Test(BasePlayer player) { }
 
 	private SleepingBagCamper GetSleepingBagForPlayer(BasePlayer p) { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.ShowIf]
 	public void Menu_OpenLocker(BasePlayer player) { }
 
 	public bool Menu_OpenLocker_ShowIf(BasePlayer player) { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.ShowIf]
 	public void Menu_OpenStorage(BasePlayer player) { }
 
 	public bool Menu_OpenStorage_ShowIf(BasePlayer player) { }
@@ -1898,43 +1898,43 @@ private EntityRef<StorageContainer> activeStorage;
 
 public class VehicleModuleSeating : BaseVehicleModule, IPrefabPreProcess // TypeDefIndex: 10198
 {
-private Option __menuOption_Menu_DestroyLock;
-[SerializeField]
-private ProtectionProperties passengerProtection;
-[SerializeField]
-private VehicleModuleSeating.Seating seating;
-[SerializeField]
-[HideInInspector]
-private Vector3 steerAngle;
-[SerializeField]
-[HideInInspector]
-private Vector3 accelAngle;
-[SerializeField]
-[HideInInspector]
-private Vector3 brakeAngle;
-[SerializeField]
-[HideInInspector]
-private Vector3 speedometerAngle;
-[SerializeField]
-[HideInInspector]
-private Vector3 fuelAngle;
-[HeaderAttribute]
-[SerializeField]
-private SoundDefinition hornLoop;
-[SerializeField]
-private SoundDefinition hornStart;
-private Sound activeHorn;
+	private Option __menuOption_Menu_DestroyLock;
+	[SerializeField]
+	private ProtectionProperties passengerProtection;
+	[SerializeField]
+	private VehicleModuleSeating.Seating seating;
+	[SerializeField]
+	[HideInInspector]
+	private Vector3 steerAngle;
+	[SerializeField]
+	[HideInInspector]
+	private Vector3 accelAngle;
+	[SerializeField]
+	[HideInInspector]
+	private Vector3 brakeAngle;
+	[SerializeField]
+	[HideInInspector]
+	private Vector3 speedometerAngle;
+	[SerializeField]
+	[HideInInspector]
+	private Vector3 fuelAngle;
+	[HeaderAttribute]
+	[SerializeField]
+	private SoundDefinition hornLoop;
+	[SerializeField]
+	private SoundDefinition hornStart;
+	private Sound activeHorn;
 	private const BaseEntity.Flags FLAG_HORN = 65536;
-private float steerPercent;
-private float throttlePercent;
-private float brakePercent;
-private Nullable<bool> checkEngineLightOn;
-private Nullable<bool> fuelLightOn;
-[CompilerGeneratedAttribute]
-private ModularCar <Car>k__BackingField;
-protected IVehicleLockUser VehicleLockUser;
-private MaterialPropertyBlock dashboardLightPB;
-private static int emissionColorID;
+	private float steerPercent;
+	private float throttlePercent;
+	private float brakePercent;
+	private Nullable<bool> checkEngineLightOn;
+	private Nullable<bool> fuelLightOn;
+	[CompilerGeneratedAttribute]
+	private ModularCar <Car>k__BackingField;
+	protected IVehicleLockUser VehicleLockUser;
+	private MaterialPropertyBlock dashboardLightPB;
+	private static int emissionColorID;
 
 	public override bool HasMenuOptions { get; }
 	public override bool HasSeating { get; }
@@ -1952,10 +1952,10 @@ private static int emissionColorID;
 
 	public override bool get_HasSeating() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	protected ModularCar get_Car() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_Car(ModularCar value) { }
 
 	protected bool get_IsOnACar() { }
@@ -1986,10 +1986,10 @@ private static int emissionColorID;
 
 	private bool LookingAtAMountHotSpot(BasePlayer localPlayer) { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.ShowIf]
 	public void Menu_DestroyLock(BasePlayer player) { }
 
 	public bool Menu_DestroyLock_ShowIf(BasePlayer player) { }
@@ -2012,8 +2012,8 @@ private static int emissionColorID;
 
 public class VehicleModuleSeating.MountHotSpot // TypeDefIndex: 10199
 {
-public Transform transform;
-public Vector2 size;
+	public Transform transform;
+	public Vector2 size;
 
 
 	public void .ctor() { }
@@ -2022,31 +2022,31 @@ public Vector2 size;
 
 public class VehicleModuleSeating.Seating // TypeDefIndex: 10200
 {
-[HeaderAttribute]
-public bool doorsAreLockable;
-[ObsoleteAttribute]
-[HideInInspector]
-public BaseVehicle.MountPointInfo[] mountPoints;
-public Transform steeringWheel;
-public Transform accelPedal;
-public Transform brakePedal;
-public Transform steeringWheelLeftGrip;
-public Transform steeringWheelRightGrip;
-public Transform accelPedalGrip;
-public Transform brakePedalGrip;
-public VehicleModuleSeating.MountHotSpot[] mountHotSpots;
-[HeaderAttribute]
-public Transform speedometer;
-public Transform fuelGauge;
-public Renderer dashboardRenderer;
-[RangeAttribute]
-public int checkEngineLightMatIndex;
-[ColorUsageAttribute]
-public Color checkEngineLightEmission;
-[RangeAttribute]
-public int fuelLightMatIndex;
-[ColorUsageAttribute]
-public Color fuelLightEmission;
+	[HeaderAttribute]
+	public bool doorsAreLockable;
+	[ObsoleteAttribute]
+	[HideInInspector]
+	public BaseVehicle.MountPointInfo[] mountPoints;
+	public Transform steeringWheel;
+	public Transform accelPedal;
+	public Transform brakePedal;
+	public Transform steeringWheelLeftGrip;
+	public Transform steeringWheelRightGrip;
+	public Transform accelPedalGrip;
+	public Transform brakePedalGrip;
+	public VehicleModuleSeating.MountHotSpot[] mountHotSpots;
+	[HeaderAttribute]
+	public Transform speedometer;
+	public Transform fuelGauge;
+	public Renderer dashboardRenderer;
+	[RangeAttribute]
+	public int checkEngineLightMatIndex;
+	[ColorUsageAttribute]
+	public Color checkEngineLightEmission;
+	[RangeAttribute]
+	public int fuelLightMatIndex;
+	[ColorUsageAttribute]
+	public Color fuelLightEmission;
 
 
 	public void .ctor() { }
@@ -2055,10 +2055,10 @@ public Color fuelLightEmission;
 
 public class VehicleModuleStorage : VehicleModuleSeating // TypeDefIndex: 10201
 {
-private Option __menuOption_Menu_Open;
-[SerializeField]
-private VehicleModuleStorage.Storage storage;
-private EntityRef storageUnitInstance;
+	private Option __menuOption_Menu_Open;
+	[SerializeField]
+	private VehicleModuleStorage.Storage storage;
+	private EntityRef storageUnitInstance;
 
 	public override bool HasMenuOptions { get; }
 
@@ -2075,10 +2075,10 @@ private EntityRef storageUnitInstance;
 
 	protected override void OnKeypadCodeEntered(string code) { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.ShowIf]
 	public void Menu_Open(BasePlayer player) { }
 
 	public bool Menu_Open_ShowIf(BasePlayer player) { }
@@ -2089,8 +2089,8 @@ private EntityRef storageUnitInstance;
 
 public class VehicleModuleStorage.Storage // TypeDefIndex: 10202
 {
-public GameObjectRef storageUnitPrefab;
-public Transform storageUnitPoint;
+	public GameObjectRef storageUnitPrefab;
+	public Transform storageUnitPoint;
 
 
 	public void .ctor() { }
@@ -2099,14 +2099,14 @@ public Transform storageUnitPoint;
 
 public class VehicleModuleTaxi : VehicleModuleStorage // TypeDefIndex: 10203
 {
-private Option __menuOption_Menu_Kick_Passengers;
-[HeaderAttribute]
-[SerializeField]
-private SoundDefinition kickButtonSound;
-[SerializeField]
-private SphereCollider kickButtonCollider;
-[SerializeField]
-private float maxKickVelocity;
+	private Option __menuOption_Menu_Kick_Passengers;
+	[HeaderAttribute]
+	[SerializeField]
+	private SoundDefinition kickButtonSound;
+	[SerializeField]
+	private SphereCollider kickButtonCollider;
+	[SerializeField]
+	private float maxKickVelocity;
 
 	public override bool HasMenuOptions { get; }
 	private Vector3 KickButtonPos { get; }
@@ -2122,10 +2122,10 @@ private float maxKickVelocity;
 
 	private bool CanKickPassengers(BasePlayer player) { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.ShowIf]
 	public void Menu_Kick_Passengers(BasePlayer player) { }
 
 	public bool Menu_Kick_Passengers_ShowIf(BasePlayer player) { }
@@ -2136,7 +2136,7 @@ private float maxKickVelocity;
 
 public class ModularCarOven : BaseOven // TypeDefIndex: 10331
 {
-private BaseVehicleModule moduleParent;
+	private BaseVehicleModule moduleParent;
 
 	private BaseVehicleModule ModuleParent { get; }
 
@@ -2159,8 +2159,8 @@ private BaseVehicleModule moduleParent;
 
 public class VehicleVendor : NPCTalking // TypeDefIndex: 10582
 {
-public EntityRef spawnerRef;
-public VehicleSpawner vehicleSpawner;
+	public EntityRef spawnerRef;
+	public VehicleSpawner vehicleSpawner;
 
 
 	public override string GetConversationStartSpeech(BasePlayer player) { }
@@ -2177,12 +2177,12 @@ public VehicleSpawner vehicleSpawner;
 
 public class VehicleSpawner : BaseEntity // TypeDefIndex: 10583
 {
-public float spawnNudgeRadius;
-public float cleanupRadius;
-public float occupyRadius;
-public VehicleSpawner.SpawnPair[] objectsToSpawn;
-public Transform spawnOffset;
-public float safeRadius;
+	public float spawnNudgeRadius;
+	public float cleanupRadius;
+	public float occupyRadius;
+	public VehicleSpawner.SpawnPair[] objectsToSpawn;
+	public Transform spawnOffset;
+	public float safeRadius;
 
 
 	public virtual int GetOccupyLayer() { }
@@ -2195,8 +2195,8 @@ public float safeRadius;
 
 public class VehicleSpawner.SpawnPair // TypeDefIndex: 10584
 {
-public string message;
-public GameObjectRef prefabToSpawn;
+	public string message;
+	public GameObjectRef prefabToSpawn;
 
 
 	public void .ctor() { }
@@ -2205,31 +2205,31 @@ public GameObjectRef prefabToSpawn;
 
 public class EngineAudioClip : MonoBehaviour, IClientComponent // TypeDefIndex: 10718
 {
-public AudioClip granularClip;
-public AudioClip accelerationClip;
-public TextAsset accelerationCyclesJson;
-public List<EngineAudioClip.EngineCycle> accelerationCycles;
-public List<EngineAudioClip.EngineCycleBucket> cycleBuckets;
-public Dictionary<int, EngineAudioClip.EngineCycleBucket> accelerationCyclesByRPM;
-public Dictionary<int, int> rpmBucketLookup;
-public int sampleRate;
-public int samplesUntilNextGrain;
-public int lastCycleId;
-public List<EngineAudioClip.Grain> grains;
-public int currentRPM;
-public int targetRPM;
-public int minRPM;
-public int maxRPM;
-public int cyclePadding;
-[RangeAttribute]
-public float RPMControl;
-public AudioSource source;
-public float rpmLerpSpeed;
-public float rpmLerpSpeedDown;
-private Random random;
-private float[] accelerationAudioData;
-private EngineAudioClip.EngineCycle currentCycle;
-private bool audioDataLoaded;
+	public AudioClip granularClip;
+	public AudioClip accelerationClip;
+	public TextAsset accelerationCyclesJson;
+	public List<EngineAudioClip.EngineCycle> accelerationCycles;
+	public List<EngineAudioClip.EngineCycleBucket> cycleBuckets;
+	public Dictionary<int, EngineAudioClip.EngineCycleBucket> accelerationCyclesByRPM;
+	public Dictionary<int, int> rpmBucketLookup;
+	public int sampleRate;
+	public int samplesUntilNextGrain;
+	public int lastCycleId;
+	public List<EngineAudioClip.Grain> grains;
+	public int currentRPM;
+	public int targetRPM;
+	public int minRPM;
+	public int maxRPM;
+	public int cyclePadding;
+	[RangeAttribute]
+	public float RPMControl;
+	public AudioSource source;
+	public float rpmLerpSpeed;
+	public float rpmLerpSpeedDown;
+	private Random random;
+	private float[] accelerationAudioData;
+	private EngineAudioClip.EngineCycle currentCycle;
+	private bool audioDataLoaded;
 
 
 	private int GetBucketRPM(int RPM) { }
@@ -2256,11 +2256,11 @@ private bool audioDataLoaded;
 
 public class EngineAudioClip.EngineCycle // TypeDefIndex: 10719
 {
-public int RPM;
-public int startSample;
-public int endSample;
-public float period;
-public int id;
+	public int RPM;
+	public int startSample;
+	public int endSample;
+	public float period;
+	public int id;
 
 
 	public void .ctor(int RPM, int startSample, int endSample, float period, int id) { }
@@ -2269,9 +2269,9 @@ public int id;
 
 public class EngineAudioClip.EngineCycleBucket // TypeDefIndex: 10720
 {
-public int RPM;
-public List<EngineAudioClip.EngineCycle> cycles;
-public List<int> remainingCycles;
+	public int RPM;
+	public List<EngineAudioClip.EngineCycle> cycles;
+	public List<int> remainingCycles;
 
 
 	public void .ctor(int RPM) { }
@@ -2286,18 +2286,18 @@ public List<int> remainingCycles;
 
 public class EngineAudioClip.Grain // TypeDefIndex: 10721
 {
-private float[] sourceData;
-private int startSample;
-private int currentSample;
-private int attackTimeSamples;
-private int sustainTimeSamples;
-private int releaseTimeSamples;
-private float gain;
-private float gainPerSampleAttack;
-private float gainPerSampleRelease;
-private int attackEndSample;
-private int releaseStartSample;
-private int endSample;
+	private float[] sourceData;
+	private int startSample;
+	private int currentSample;
+	private int attackTimeSamples;
+	private int sustainTimeSamples;
+	private int releaseTimeSamples;
+	private float gain;
+	private float gainPerSampleAttack;
+	private float gainPerSampleRelease;
+	private int attackEndSample;
+	private int releaseStartSample;
+	private int endSample;
 
 	public bool finished { get; }
 
@@ -2331,9 +2331,9 @@ public class BaseVehicleMountPoint : BaseMountable // TypeDefIndex: 11438
 
 public class BaseVehicleSeat : BaseVehicleMountPoint // TypeDefIndex: 11439
 {
-public float mountedAnimationSpeed;
-public bool sendClientInputToVehicleParent;
-public bool forcePlayerModelUpdate;
+	public float mountedAnimationSpeed;
+	public bool sendClientInputToVehicleParent;
+	public bool forcePlayerModelUpdate;
 
 
 	public override void OnClientInput(BasePlayer player) { }
@@ -2350,22 +2350,22 @@ public bool forcePlayerModelUpdate;
 
 public class EngineAudioSet : ScriptableObject // TypeDefIndex: 11476
 {
-public BlendedEngineLoopDefinition[] engineAudioLoops;
-public int priority;
-public float idleVolume;
-public float maxVolume;
-public float volumeChangeRateUp;
-public float volumeChangeRateDown;
-public float idlePitch;
-public float maxPitch;
-public float idleRpm;
-public float gearUpRpm;
-public float gearDownRpm;
-public int numGears;
-public float maxRpm;
-public float gearUpRpmRate;
-public float gearDownRpmRate;
-public SoundDefinition badPerformanceLoop;
+	public BlendedEngineLoopDefinition[] engineAudioLoops;
+	public int priority;
+	public float idleVolume;
+	public float maxVolume;
+	public float volumeChangeRateUp;
+	public float volumeChangeRateDown;
+	public float idlePitch;
+	public float maxPitch;
+	public float idleRpm;
+	public float gearUpRpm;
+	public float gearDownRpm;
+	public int numGears;
+	public float maxRpm;
+	public float gearUpRpmRate;
+	public float gearDownRpmRate;
+	public SoundDefinition badPerformanceLoop;
 
 
 	public BlendedEngineLoopDefinition GetEngineLoopDef(int numEngines) { }
@@ -2376,9 +2376,9 @@ public SoundDefinition badPerformanceLoop;
 
 public class ModularCarCentralLockingSwitch : VehicleModuleButtonComponent // TypeDefIndex: 11479
 {
-public Transform centralLockingSwitch;
-public Vector3 switchOffPos;
-public Vector3 switchOnPos;
+	public Transform centralLockingSwitch;
+	public Vector3 switchOffPos;
+	public Vector3 switchOnPos;
 
 
 	public override void ClientUse(BasePlayer player, BaseVehicleModule parentModule) { }
@@ -2391,11 +2391,11 @@ public Vector3 switchOnPos;
 
 public class ModularCarChassisVisuals : VehicleChassisVisuals<ModularCar>, IClientComponent // TypeDefIndex: 11480
 {
-public Transform frontAxle;
-public Transform rearAxle;
-public ModularCarChassisVisuals.Steering steering;
-public ModularCarChassisVisuals.LookAtTarget transmission;
-private ModularCar modularCar;
+	public Transform frontAxle;
+	public Transform rearAxle;
+	public ModularCarChassisVisuals.Steering steering;
+	public ModularCarChassisVisuals.LookAtTarget transmission;
+	private ModularCar modularCar;
 
 
 	public override void Init(ModularCar owner, VehicleChassisVisuals.ClientWheelData<ModularCar>[] clientWheelData) { }
@@ -2416,11 +2416,11 @@ private ModularCar modularCar;
 
 public class ModularCarChassisVisuals.Steering // TypeDefIndex: 11481
 {
-public Transform steerL;
-public Transform steerR;
-public ModularCarChassisVisuals.LookAtTarget steerRodL;
-public ModularCarChassisVisuals.LookAtTarget steerRodR;
-public ModularCarChassisVisuals.LookAtTarget steeringArm;
+	public Transform steerL;
+	public Transform steerR;
+	public ModularCarChassisVisuals.LookAtTarget steerRodL;
+	public ModularCarChassisVisuals.LookAtTarget steerRodR;
+	public ModularCarChassisVisuals.LookAtTarget steeringArm;
 
 
 	public void .ctor() { }
@@ -2429,9 +2429,9 @@ public ModularCarChassisVisuals.LookAtTarget steeringArm;
 
 public class ModularCarChassisVisuals.LookAtTarget // TypeDefIndex: 11482
 {
-public Transform aim;
-public Transform target;
-public Vector3 angleAdjust;
+	public Transform aim;
+	public Transform target;
+	public Vector3 angleAdjust;
 
 
 	public void .ctor() { }
@@ -2440,14 +2440,14 @@ public Vector3 angleAdjust;
 
 public class ModularCarCodeLock // TypeDefIndex: 11484
 {
-private bool _clientHasALock;
-private readonly bool isServer;
-private readonly ModularCar owner;
+	private bool _clientHasALock;
+	private readonly bool isServer;
+	private readonly ModularCar owner;
 	public const BaseEntity.Flags FLAG_CENTRAL_LOCKING = 256;
 	public const BaseEntity.Flags FLAG_CODE_ENTRY_BLOCKED = 262144;
 	public const float LOCK_DESTROY_HEALTH = 0,2;
-[CompilerGeneratedAttribute]
-private List<ulong> <WhitelistPlayers>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private List<ulong> <WhitelistPlayers>k__BackingField;
 
 	public bool HasALock { get; }
 	public bool CentralLockingIsOn { get; }
@@ -2458,10 +2458,10 @@ private List<ulong> <WhitelistPlayers>k__BackingField;
 
 	public bool get_CentralLockingIsOn() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public List<ulong> get_WhitelistPlayers() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_WhitelistPlayers(List<ulong> value) { }
 
 	public void .ctor(ModularCar owner, bool isServer) { }
@@ -2480,7 +2480,7 @@ private List<ulong> <WhitelistPlayers>k__BackingField;
 
 public enum ModularCarCodeLock.LockType // TypeDefIndex: 11485
 {
-public int value__;
+	public int value__;
 	public const ModularCarCodeLock.LockType Door = 0;
 	public const ModularCarCodeLock.LockType General = 1;
 
@@ -2488,18 +2488,18 @@ public int value__;
 
 public class ModularCarCodeLockVisuals : VehicleModuleButtonComponent // TypeDefIndex: 11486
 {
-[SerializeField]
-private GameObject lockedVisuals;
-[SerializeField]
-private GameObject unlockedVisuals;
-[SerializeField]
-private GameObject blockedVisuals;
-[SerializeField]
-private GameObjectRef codelockEffectDenied;
-[SerializeField]
-private GameObjectRef codelockEffectShock;
-[SerializeField]
-private float xOffset;
+	[SerializeField]
+	private GameObject lockedVisuals;
+	[SerializeField]
+	private GameObject unlockedVisuals;
+	[SerializeField]
+	private GameObject blockedVisuals;
+	[SerializeField]
+	private GameObjectRef codelockEffectDenied;
+	[SerializeField]
+	private GameObjectRef codelockEffectShock;
+	[SerializeField]
+	private float xOffset;
 
 
 	public void DoFailEffect(BaseEntity ent) { }
@@ -2519,7 +2519,7 @@ public class VehicleLiftOccupantTrigger : TriggerBase // TypeDefIndex: 11487
 
 public class ModularCarPresetConfig : ScriptableObject // TypeDefIndex: 11488
 {
-public ItemModVehicleModule[] socketItemDefs;
+	public ItemModVehicleModule[] socketItemDefs;
 
 
 	public void .ctor() { }
@@ -2528,15 +2528,15 @@ public ItemModVehicleModule[] socketItemDefs;
 
 public class ModularCarSeat : MouseSteerableSeat // TypeDefIndex: 11489
 {
-[SerializeField]
-private Vector3 leftFootIKPos;
-[SerializeField]
-private Vector3 rightFootIKPos;
-[SerializeField]
-private Vector3 leftHandIKPos;
-[SerializeField]
-private Vector3 rightHandIKPos;
-public float providesComfort;
+	[SerializeField]
+	private Vector3 leftFootIKPos;
+	[SerializeField]
+	private Vector3 rightFootIKPos;
+	[SerializeField]
+	private Vector3 leftHandIKPos;
+	[SerializeField]
+	private Vector3 rightHandIKPos;
+	public float providesComfort;
 
 	public bool HasLeftFootIK { get; }
 	public bool HasRightFootIK { get; }
@@ -2570,8 +2570,8 @@ public float providesComfort;
 
 public class ModularVehicleShopFront : ShopFront // TypeDefIndex: 11490
 {
-[SerializeField]
-private float maxUseDistance;
+	[SerializeField]
+	private float maxUseDistance;
 
 
 	public override bool CanBeLooted(BasePlayer player) { }
@@ -2586,9 +2586,9 @@ private float maxUseDistance;
 
 public class CamperSeatConfig : MonoBehaviour // TypeDefIndex: 11491
 {
-public Transform[] SeatPositions;
-public Transform StovePosition;
-public Transform StoragePosition;
+	public Transform[] SeatPositions;
+	public Transform StovePosition;
+	public Transform StoragePosition;
 
 
 	public void .ctor() { }
@@ -2597,8 +2597,8 @@ public Transform StoragePosition;
 
 public abstract class VehicleModuleButtonComponent : MonoBehaviour // TypeDefIndex: 11492
 {
-public string interactionColliderName;
-public SoundDefinition pressSoundDef;
+	public string interactionColliderName;
+	public SoundDefinition pressSoundDef;
 
 
 	public virtual void ClientUse(BasePlayer player, BaseVehicleModule parentModule) { }
@@ -2611,24 +2611,24 @@ public SoundDefinition pressSoundDef;
 
 public class VehicleModuleEngine : VehicleModuleStorage // TypeDefIndex: 11493
 {
-[SerializeField]
-private VehicleModuleEngine.Engine engine;
-[CompilerGeneratedAttribute]
-private bool <IsUsable>k__BackingField;
-[CompilerGeneratedAttribute]
-private float <PerformanceFractionAcceleration>k__BackingField;
-[CompilerGeneratedAttribute]
-private float <PerformanceFractionTopSpeed>k__BackingField;
-[CompilerGeneratedAttribute]
-private float <PerformanceFractionFuelEconomy>k__BackingField;
-[CompilerGeneratedAttribute]
-private float <OverallPerformanceFraction>k__BackingField;
+	[SerializeField]
+	private VehicleModuleEngine.Engine engine;
+	[CompilerGeneratedAttribute]
+	private bool <IsUsable>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private float <PerformanceFractionAcceleration>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private float <PerformanceFractionTopSpeed>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private float <PerformanceFractionFuelEconomy>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private float <OverallPerformanceFraction>k__BackingField;
 	private const float FORCE_MULTIPLIER = 12,75;
 	private const float HEALTH_PERFORMANCE_FRACTION = 0,25;
 	private const float LOW_PERFORMANCE_THRESHOLD = 0,5;
-private Sound badPerformanceLoop;
-private SoundModulation.Modulator badPerformancePitchModulator;
-private float prevSmokePercent;
+	private Sound badPerformanceLoop;
+	private SoundModulation.Modulator badPerformancePitchModulator;
+	private float prevSmokePercent;
 
 	public override bool HasAnEngine { get; }
 	public bool IsUsable { get; set; }
@@ -2645,34 +2645,34 @@ private float prevSmokePercent;
 
 	public override bool get_HasAnEngine() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_IsUsable() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_IsUsable(bool value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public float get_PerformanceFractionAcceleration() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_PerformanceFractionAcceleration(float value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public float get_PerformanceFractionTopSpeed() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_PerformanceFractionTopSpeed(float value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public float get_PerformanceFractionFuelEconomy() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_PerformanceFractionFuelEconomy(float value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public float get_OverallPerformanceFraction() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_OverallPerformanceFraction(float value) { }
 
 	public bool get_AtLowPerformance() { }
@@ -2715,19 +2715,19 @@ private float prevSmokePercent;
 
 public class VehicleModuleEngine.Engine // TypeDefIndex: 11494
 {
-[HeaderAttribute]
-public int engineKW;
-public float idleFuelPerSec;
-public float maxFuelPerSec;
-[HeaderAttribute]
-public EngineAudioSet audioSet;
-[HeaderAttribute]
-public ParticleSystemContainer[] engineParticles;
-public ParticleSystem[] exhaustSmoke;
-public ParticleSystem[] exhaustBackfire;
-public float exhaustSmokeMinOpacity;
-public float exhaustSmokeMaxOpacity;
-public float exhaustSmokeChangeRate;
+	[HeaderAttribute]
+	public int engineKW;
+	public float idleFuelPerSec;
+	public float maxFuelPerSec;
+	[HeaderAttribute]
+	public EngineAudioSet audioSet;
+	[HeaderAttribute]
+	public ParticleSystemContainer[] engineParticles;
+	public ParticleSystem[] exhaustSmoke;
+	public ParticleSystem[] exhaustBackfire;
+	public float exhaustSmokeMinOpacity;
+	public float exhaustSmokeMaxOpacity;
+	public float exhaustSmokeChangeRate;
 
 
 	public void .ctor() { }
@@ -2736,15 +2736,15 @@ public float exhaustSmokeChangeRate;
 
 public class VehicleLight : MonoBehaviour, IClientComponent // TypeDefIndex: 11496
 {
-public bool IsBrake;
-public GameObject toggleObject;
-public VehicleLight.LightRenderer[] renderers;
-[ColorUsageAttribute]
-public Color lightOnColour;
-[ColorUsageAttribute]
-public Color brakesOnColour;
-private static MaterialPropertyBlock materialPB;
-private static int emissionColorID;
+	public bool IsBrake;
+	public GameObject toggleObject;
+	public VehicleLight.LightRenderer[] renderers;
+	[ColorUsageAttribute]
+	public Color lightOnColour;
+	[ColorUsageAttribute]
+	public Color brakesOnColour;
+	private static MaterialPropertyBlock materialPB;
+	private static int emissionColorID;
 
 
 	public void SetLightVisuals(bool headlightsOn, bool brakesOn) { }
@@ -2759,8 +2759,8 @@ private static int emissionColorID;
 
 public class VehicleLight.LightRenderer // TypeDefIndex: 11497
 {
-public Renderer renderer;
-public int matIndex;
+	public Renderer renderer;
+	public int matIndex;
 
 
 	public void .ctor() { }
@@ -2769,10 +2769,10 @@ public int matIndex;
 
 public class EngineDamageOverTime // TypeDefIndex: 11504
 {
-private readonly List<EngineDamageOverTime.RecentDamage> recentDamage;
-private readonly float maxSeconds;
-private readonly float triggerDamage;
-private readonly Action trigger;
+	private readonly List<EngineDamageOverTime.RecentDamage> recentDamage;
+	private readonly float maxSeconds;
+	private readonly float triggerDamage;
+	private readonly Action trigger;
 
 
 	public void .ctor(float triggerDamage, float maxSeconds, Action trigger) { }
@@ -2785,8 +2785,8 @@ private readonly Action trigger;
 
 private struct EngineDamageOverTime.RecentDamage // TypeDefIndex: 11505
 {
-public readonly float time;
-public readonly float amount;
+	public readonly float time;
+	public readonly float amount;
 
 
 	public void .ctor(float time, float amount) { }
@@ -2795,23 +2795,23 @@ public readonly float amount;
 
 public abstract class VehicleChassisVisuals<T> : MonoBehaviour // TypeDefIndex: 11523
 {
-protected T owner;
-[CompilerGeneratedAttribute]
-private VehicleChassisVisuals.ClientWheelData<T>[] <clientWheelData>k__BackingField;
-private float prevSteer;
-private bool isStopped;
+	protected T owner;
+	[CompilerGeneratedAttribute]
+	private VehicleChassisVisuals.ClientWheelData<T>[] <clientWheelData>k__BackingField;
+	private float prevSteer;
+	private bool isStopped;
 
 	public VehicleChassisVisuals.ClientWheelData<T>[] clientWheelData { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public VehicleChassisVisuals.ClientWheelData<T>[] get_clientWheelData() { }
 	/* GenericInstMethod :
 	|
 	|-VehicleChassisVisuals<object>.get_clientWheelData
 	*/
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	protected void set_clientWheelData(VehicleChassisVisuals.ClientWheelData<T>[] value) { }
 	/* GenericInstMethod :
 	|
@@ -2947,8 +2947,8 @@ private bool isStopped;
 	|-VehicleChassisVisuals<object>..ctor
 	*/
 
-[CompilerGeneratedAttribute]
-internal static bool <UpdateWheelSuspensionData>g__GetSuspensionHit|17_0(Vector3 ts, out RaycastHit hit, ref VehicleChassisVisuals.<>c
+	[CompilerGeneratedAttribute]
+	internal static bool <UpdateWheelSuspensionData>g__GetSuspensionHit|17_0(Vector3 ts, out RaycastHit hit, ref VehicleChassisVisuals.<>c
 	/* GenericInstMethod :
 	|
 	|-VehicleChassisVisuals<object>.<UpdateWheelSuspensionData>g__GetSuspensionHit|17_0
@@ -2958,20 +2958,20 @@ internal static bool <UpdateWheelSuspensionData>g__GetSuspensionHit|17_0(Vector3
 
 public class VehicleChassisVisuals.ClientWheelData<T> // TypeDefIndex: 11525
 {
-public VisualCarWheel wheel;
-public Vector3 vehicleLocalPos;
-public Vector3 restingLocalPos;
-public RaycastHit hit;
-public bool isGrounded;
-public bool isOnWater;
-public float spinSlip;
-public TerrainConfig.GroundType groundType;
-public Vector3 latestWorldPos;
-public float extension;
-public float prevExtension;
-public float extensionPercent;
-public Sound sound;
-public SoundModulation.Modulator gainModulator;
+	public VisualCarWheel wheel;
+	public Vector3 vehicleLocalPos;
+	public Vector3 restingLocalPos;
+	public RaycastHit hit;
+	public bool isGrounded;
+	public bool isOnWater;
+	public float spinSlip;
+	public TerrainConfig.GroundType groundType;
+	public Vector3 latestWorldPos;
+	public float extension;
+	public float prevExtension;
+	public float extensionPercent;
+	public Sound sound;
+	public SoundModulation.Modulator gainModulator;
 
 	public bool isOnHardGround { get; }
 
@@ -2995,21 +2995,21 @@ public SoundModulation.Modulator gainModulator;
 
 private struct VehicleChassisVisuals.<>c__DisplayClass17_0<T> // TypeDefIndex: 11527
 {
-public Vector3 vehicleDown;
-public float wheelRadius;
-public float suspensionDistance;
+	public Vector3 vehicleDown;
+	public float wheelRadius;
+	public float suspensionDistance;
 
 }
 
 public class VehicleEngineController<TOwner> // TypeDefIndex: 11529
 {
-[CompilerGeneratedAttribute]
-private EntityFuelSystem <FuelSystem>k__BackingField;
-private readonly TOwner owner;
-private readonly bool isServer;
-private readonly float engineStartupTime;
-private readonly Transform waterloggedPoint;
-private readonly BaseEntity.Flags engineStartingFlag;
+	[CompilerGeneratedAttribute]
+	private EntityFuelSystem <FuelSystem>k__BackingField;
+	private readonly TOwner owner;
+	private readonly bool isServer;
+	private readonly float engineStartupTime;
+	private readonly Transform waterloggedPoint;
+	private readonly BaseEntity.Flags engineStartingFlag;
 
 	public VehicleEngineController.EngineState<TOwner> CurEngineState { get; }
 	public bool IsOn { get; }
@@ -3059,7 +3059,7 @@ private readonly BaseEntity.Flags engineStartingFlag;
 	|-VehicleEngineController<TrainEngine>.get_IsStartingOrOn
 	*/
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public EntityFuelSystem get_FuelSystem() { }
 	/* GenericInstMethod :
 	|
@@ -3070,7 +3070,7 @@ private readonly BaseEntity.Flags engineStartingFlag;
 	|-VehicleEngineController<TrainEngine>.get_FuelSystem
 	*/
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_FuelSystem(EntityFuelSystem value) { }
 	/* GenericInstMethod :
 	|
@@ -3098,7 +3098,7 @@ private readonly BaseEntity.Flags engineStartingFlag;
 
 public enum VehicleEngineController.EngineState<TOwner> // TypeDefIndex: 11530
 {
-public int value__;
+	public int value__;
 	public const VehicleEngineController.EngineState<TOwner> Off = 0;
 	public const VehicleEngineController.EngineState<TOwner> Starting = 1;
 	public const VehicleEngineController.EngineState<TOwner> On = 2;
@@ -3114,20 +3114,20 @@ public class VehicleSpawnPoint : SpaceCheckingSpawnPoint // TypeDefIndex: 11761
 
 public class EngineItemInformationPanel : ItemInformationPanel // TypeDefIndex: 12781
 {
-[SerializeField]
-private Text tier;
-[SerializeField]
-private Translate.Phrase low;
-[SerializeField]
-private Translate.Phrase medium;
-[SerializeField]
-private Translate.Phrase high;
-[SerializeField]
-private GameObject accelerationRoot;
-[SerializeField]
-private GameObject topSpeedRoot;
-[SerializeField]
-private GameObject fuelEconomyRoot;
+	[SerializeField]
+	private Text tier;
+	[SerializeField]
+	private Translate.Phrase low;
+	[SerializeField]
+	private Translate.Phrase medium;
+	[SerializeField]
+	private Translate.Phrase high;
+	[SerializeField]
+	private GameObject accelerationRoot;
+	[SerializeField]
+	private GameObject topSpeedRoot;
+	[SerializeField]
+	private GameObject fuelEconomyRoot;
 
 
 	public override bool EligableForDisplay(ItemDefinition info) { }
@@ -3140,11 +3140,11 @@ private GameObject fuelEconomyRoot;
 
 public class VehicleEditingItemIcon : MonoBehaviour, IInventoryChanged // TypeDefIndex: 12850
 {
-[SerializeField]
-private Image foregroundImage;
-[SerializeField]
-private Image linkImage;
-private ItemIcon itemIcon;
+	[SerializeField]
+	private Image foregroundImage;
+	[SerializeField]
+	private Image linkImage;
+	private ItemIcon itemIcon;
 
 
 	protected void Awake() { }
@@ -3167,90 +3167,90 @@ private ItemIcon itemIcon;
 
 public class VehicleEditingPanel : LootPanel // TypeDefIndex: 12851
 {
-[SerializeField]
-[RangeAttribute]
-private float disabledAlpha;
-[HeaderAttribute]
-[SerializeField]
-private CanvasGroup editGroup;
-[SerializeField]
-private GameObject moduleInternalItemsGroup;
-[SerializeField]
-private GameObject moduleInternalLiquidsGroup;
-[SerializeField]
-private GameObject destroyChassisGroup;
-[SerializeField]
-private Button itemTakeButton;
-[SerializeField]
-private Button liquidTakeButton;
-[SerializeField]
-private GameObject liquidHelp;
-[SerializeField]
-private GameObject liquidButton;
-[SerializeField]
-private Color gotColor;
-[SerializeField]
-private Color notGotColor;
-[SerializeField]
-private Text generalInfoText;
-[SerializeField]
-private Text generalWarningText;
-[SerializeField]
-private Image generalWarningImage;
-[SerializeField]
-private Text repairInfoText;
-[SerializeField]
-private Button repairButton;
-[SerializeField]
-private Text destroyChassisButtonText;
-[SerializeField]
-private Text destroyChassisCountdown;
-[SerializeField]
-private Translate.Phrase phraseEditingInfo;
-[SerializeField]
-private Translate.Phrase phraseNoOccupant;
-[SerializeField]
-private Translate.Phrase phraseBadOccupant;
-[SerializeField]
-private Translate.Phrase phraseNotDriveable;
-[SerializeField]
-private Translate.Phrase phraseNotRepairable;
-[SerializeField]
-private Translate.Phrase phraseRepairNotNeeded;
-[SerializeField]
-private Translate.Phrase phraseRepairSelectInfo;
-[SerializeField]
-private Translate.Phrase phraseRepairEnactInfo;
-[SerializeField]
-private Translate.Phrase phraseHasLock;
-[SerializeField]
-private Translate.Phrase phraseHasNoLock;
-[SerializeField]
-private Translate.Phrase phraseAddLock;
-[SerializeField]
-private Translate.Phrase phraseAddLockButton;
-[SerializeField]
-private Translate.Phrase phraseChangeLockCodeButton;
-[SerializeField]
-private Text carLockInfoText;
-[SerializeField]
-private RustText carLockButtonText;
-[SerializeField]
-private Button actionLockButton;
-[SerializeField]
-private Button removeLockButton;
-[SerializeField]
-private GameObjectRef keyEnterDialog;
-[SerializeField]
-private Translate.Phrase phraseEmptyStorage;
-[HeaderAttribute]
-[SerializeField]
-private VehicleEditingPanel.CreateChassisEntry[] chassisOptions;
-private uint prevSelectedUID;
-private bool platformWasOccupied;
-private bool hadEditableOccupant;
-private bool hasDriveableOccupant;
-private ModularCarGarage.OccupantLock occupantLockState;
+	[SerializeField]
+	[RangeAttribute]
+	private float disabledAlpha;
+	[HeaderAttribute]
+	[SerializeField]
+	private CanvasGroup editGroup;
+	[SerializeField]
+	private GameObject moduleInternalItemsGroup;
+	[SerializeField]
+	private GameObject moduleInternalLiquidsGroup;
+	[SerializeField]
+	private GameObject destroyChassisGroup;
+	[SerializeField]
+	private Button itemTakeButton;
+	[SerializeField]
+	private Button liquidTakeButton;
+	[SerializeField]
+	private GameObject liquidHelp;
+	[SerializeField]
+	private GameObject liquidButton;
+	[SerializeField]
+	private Color gotColor;
+	[SerializeField]
+	private Color notGotColor;
+	[SerializeField]
+	private Text generalInfoText;
+	[SerializeField]
+	private Text generalWarningText;
+	[SerializeField]
+	private Image generalWarningImage;
+	[SerializeField]
+	private Text repairInfoText;
+	[SerializeField]
+	private Button repairButton;
+	[SerializeField]
+	private Text destroyChassisButtonText;
+	[SerializeField]
+	private Text destroyChassisCountdown;
+	[SerializeField]
+	private Translate.Phrase phraseEditingInfo;
+	[SerializeField]
+	private Translate.Phrase phraseNoOccupant;
+	[SerializeField]
+	private Translate.Phrase phraseBadOccupant;
+	[SerializeField]
+	private Translate.Phrase phraseNotDriveable;
+	[SerializeField]
+	private Translate.Phrase phraseNotRepairable;
+	[SerializeField]
+	private Translate.Phrase phraseRepairNotNeeded;
+	[SerializeField]
+	private Translate.Phrase phraseRepairSelectInfo;
+	[SerializeField]
+	private Translate.Phrase phraseRepairEnactInfo;
+	[SerializeField]
+	private Translate.Phrase phraseHasLock;
+	[SerializeField]
+	private Translate.Phrase phraseHasNoLock;
+	[SerializeField]
+	private Translate.Phrase phraseAddLock;
+	[SerializeField]
+	private Translate.Phrase phraseAddLockButton;
+	[SerializeField]
+	private Translate.Phrase phraseChangeLockCodeButton;
+	[SerializeField]
+	private Text carLockInfoText;
+	[SerializeField]
+	private RustText carLockButtonText;
+	[SerializeField]
+	private Button actionLockButton;
+	[SerializeField]
+	private Button removeLockButton;
+	[SerializeField]
+	private GameObjectRef keyEnterDialog;
+	[SerializeField]
+	private Translate.Phrase phraseEmptyStorage;
+	[HeaderAttribute]
+	[SerializeField]
+	private VehicleEditingPanel.CreateChassisEntry[] chassisOptions;
+	private uint prevSelectedUID;
+	private bool platformWasOccupied;
+	private bool hadEditableOccupant;
+	private bool hasDriveableOccupant;
+	private ModularCarGarage.OccupantLock occupantLockState;
 
 	private Item CurSelectedItem { get; }
 	private ItemContainer ModulesContainer { get; }
@@ -3310,17 +3310,17 @@ private ModularCarGarage.OccupantLock occupantLockState;
 
 	public void .ctor() { }
 
-[CompilerGeneratedAttribute]
-private bool <RefreshLockCreation>g__AddResourceInfo|71_0(string prefixText, ItemAmount ingredient, ref VehicleEditingPanel.<>c
+	[CompilerGeneratedAttribute]
+	private bool <RefreshLockCreation>g__AddResourceInfo|71_0(string prefixText, ItemAmount ingredient, ref VehicleEditingPanel.<>c
 
 }
 
 private class VehicleEditingPanel.CreateChassisEntry // TypeDefIndex: 12852
 {
-public byte garageChassisIndex;
-public Button craftButton;
-public Text craftButtonText;
-public Text requirementsText;
+	public byte garageChassisIndex;
+	public Button craftButton;
+	public Text craftButtonText;
+	public Text requirementsText;
 
 
 	public ItemDefinition GetChassisItemDef(ModularCarGarage garage) { }
@@ -3331,15 +3331,15 @@ public Text requirementsText;
 
 private struct VehicleEditingPanel.<>c__DisplayClass71_0 // TypeDefIndex: 12853
 {
-public VehicleEditingPanel <>4__this;
-public string infoText;
+	public VehicleEditingPanel <>4__this;
+	public string infoText;
 
 }
 
 public class VehicleModuleInformationPanel : ItemInformationPanel // TypeDefIndex: 12854
 {
-public ItemStatValue socketsDisplay;
-public ItemStatValue hpDisplay;
+	public ItemStatValue socketsDisplay;
+	public ItemStatValue hpDisplay;
 
 
 	public override bool EligableForDisplay(ItemDefinition info) { }
@@ -3360,42 +3360,42 @@ public class vehicle : ConsoleSystem // TypeDefIndex: 13776
 public static class EngineItemTypeEx // TypeDefIndex: 13917
 {
 
-[ExtensionAttribute]
+	[ExtensionAttribute]
 	public static bool BoostsAcceleration(EngineStorage.EngineItemTypes engineItemType) { }
 
-[ExtensionAttribute]
+	[ExtensionAttribute]
 	public static bool BoostsTopSpeed(EngineStorage.EngineItemTypes engineItemType) { }
 
-[ExtensionAttribute]
+	[ExtensionAttribute]
 	public static bool BoostsFuelEconomy(EngineStorage.EngineItemTypes engineItemType) { }
 
 }
 
 public class EngineStorage : StorageContainer // TypeDefIndex: 13918
 {
-[HeaderAttribute]
-public Sprite engineIcon;
-public float internalDamageMultiplier;
-public EngineStorage.EngineItemTypes[] slotTypes;
-[SerializeField]
-private VehicleModuleEngineItems allEngineItems;
-[SerializeField]
-[ReadOnlyAttribute]
-private int accelerationBoostSlots;
-[SerializeField]
-[ReadOnlyAttribute]
-private int topSpeedBoostSlots;
-[SerializeField]
-[ReadOnlyAttribute]
-private int fuelEconomyBoostSlots;
-[CompilerGeneratedAttribute]
-private bool <isUsable>k__BackingField;
-[CompilerGeneratedAttribute]
-private float <accelerationBoostPercent>k__BackingField;
-[CompilerGeneratedAttribute]
-private float <topSpeedBoostPercent>k__BackingField;
-[CompilerGeneratedAttribute]
-private float <fuelEconomyBoostPercent>k__BackingField;
+	[HeaderAttribute]
+	public Sprite engineIcon;
+	public float internalDamageMultiplier;
+	public EngineStorage.EngineItemTypes[] slotTypes;
+	[SerializeField]
+	private VehicleModuleEngineItems allEngineItems;
+	[SerializeField]
+	[ReadOnlyAttribute]
+	private int accelerationBoostSlots;
+	[SerializeField]
+	[ReadOnlyAttribute]
+	private int topSpeedBoostSlots;
+	[SerializeField]
+	[ReadOnlyAttribute]
+	private int fuelEconomyBoostSlots;
+	[CompilerGeneratedAttribute]
+	private bool <isUsable>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private float <accelerationBoostPercent>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private float <topSpeedBoostPercent>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private float <fuelEconomyBoostPercent>k__BackingField;
 
 	public bool isUsable { get; set; }
 	public float accelerationBoostPercent { get; set; }
@@ -3403,28 +3403,28 @@ private float <fuelEconomyBoostPercent>k__BackingField;
 	public float fuelEconomyBoostPercent { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_isUsable() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_isUsable(bool value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public float get_accelerationBoostPercent() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_accelerationBoostPercent(float value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public float get_topSpeedBoostPercent() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_topSpeedBoostPercent(float value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public float get_fuelEconomyBoostPercent() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_fuelEconomyBoostPercent(float value) { }
 
 	public VehicleModuleEngine GetEngineModule() { }
@@ -3441,7 +3441,7 @@ private float <fuelEconomyBoostPercent>k__BackingField;
 
 public enum EngineStorage.EngineItemTypes // TypeDefIndex: 13919
 {
-public int value__;
+	public int value__;
 	public const EngineStorage.EngineItemTypes Crankshaft = 0;
 	public const EngineStorage.EngineItemTypes Carburetor = 1;
 	public const EngineStorage.EngineItemTypes SparkPlug = 2;
@@ -3452,67 +3452,67 @@ public int value__;
 
 public class ModularCarAudio : GroundVehicleAudio // TypeDefIndex: 13920
 {
-public bool showDebug;
-[HeaderAttribute]
-[SerializeField]
-private SoundDefinition skidSoundLoop;
-[SerializeField]
-private SoundDefinition skidSoundDirtLoop;
-[SerializeField]
-private SoundDefinition skidSoundSnowLoop;
-[SerializeField]
-private float skidMinSlip;
-[SerializeField]
-private float skidMaxSlip;
-[HeaderAttribute]
-[SerializeField]
-private SoundDefinition movementStartOneshot;
-[SerializeField]
-private SoundDefinition movementStopOneshot;
-[SerializeField]
-private float movementStartStopMinTimeBetweenSounds;
-[SerializeField]
-private SoundDefinition movementRattleLoop;
-[SerializeField]
-private float movementRattleMaxSpeed;
-[SerializeField]
-private float movementRattleMaxAngSpeed;
-[SerializeField]
-private float movementRattleIdleGain;
-[SerializeField]
-private SoundDefinition suspensionLurchSound;
-[SerializeField]
-private float suspensionLurchMinExtensionDelta;
-[SerializeField]
-private float suspensionLurchMinTimeBetweenSounds;
-[HeaderAttribute]
-[SerializeField]
-private SoundDefinition tyreRollingSoundDef;
-[SerializeField]
-private SoundDefinition tyreRollingWaterSoundDef;
-[SerializeField]
-private SoundDefinition tyreRollingGrassSoundDef;
-[SerializeField]
-private SoundDefinition tyreRollingSnowSoundDef;
-[SerializeField]
-private AnimationCurve tyreRollGainCurve;
-private EngineAudioSet currentEngineAudioSet;
-private ModularCar modularCar;
-private float skidRatio;
-private Sound skidSound;
-private SoundModulation.Modulator skidGain;
+	public bool showDebug;
+	[HeaderAttribute]
+	[SerializeField]
+	private SoundDefinition skidSoundLoop;
+	[SerializeField]
+	private SoundDefinition skidSoundDirtLoop;
+	[SerializeField]
+	private SoundDefinition skidSoundSnowLoop;
+	[SerializeField]
+	private float skidMinSlip;
+	[SerializeField]
+	private float skidMaxSlip;
+	[HeaderAttribute]
+	[SerializeField]
+	private SoundDefinition movementStartOneshot;
+	[SerializeField]
+	private SoundDefinition movementStopOneshot;
+	[SerializeField]
+	private float movementStartStopMinTimeBetweenSounds;
+	[SerializeField]
+	private SoundDefinition movementRattleLoop;
+	[SerializeField]
+	private float movementRattleMaxSpeed;
+	[SerializeField]
+	private float movementRattleMaxAngSpeed;
+	[SerializeField]
+	private float movementRattleIdleGain;
+	[SerializeField]
+	private SoundDefinition suspensionLurchSound;
+	[SerializeField]
+	private float suspensionLurchMinExtensionDelta;
+	[SerializeField]
+	private float suspensionLurchMinTimeBetweenSounds;
+	[HeaderAttribute]
+	[SerializeField]
+	private SoundDefinition tyreRollingSoundDef;
+	[SerializeField]
+	private SoundDefinition tyreRollingWaterSoundDef;
+	[SerializeField]
+	private SoundDefinition tyreRollingGrassSoundDef;
+	[SerializeField]
+	private SoundDefinition tyreRollingSnowSoundDef;
+	[SerializeField]
+	private AnimationCurve tyreRollGainCurve;
+	private EngineAudioSet currentEngineAudioSet;
+	private ModularCar modularCar;
+	private float skidRatio;
+	private Sound skidSound;
+	private SoundModulation.Modulator skidGain;
 	private const float SKID_RATIO_CHANGE_RATE = 12;
-private Dictionary<VehicleChassisVisuals.ClientWheelData<ModularCar>, float> prevWheelExtensionPercent;
-private Dictionary<VehicleChassisVisuals.ClientWheelData<ModularCar>, bool> wheelWasGrounded;
-private Dictionary<VehicleChassisVisuals.ClientWheelData<ModularCar>, float> lastSuspensionSoundPlayed;
-private Dictionary<EngineAudioSet, byte> attachedEngineCounts;
-private Sound movementRattleSound;
-private SoundModulation.Modulator rattleGain;
-private Quaternion prevRotation;
-private bool wasStationary;
-private float lastMovementStartSoundPlayed;
-private float lastMovementStopSoundPlayed;
-private float noMovementCount;
+	private Dictionary<VehicleChassisVisuals.ClientWheelData<ModularCar>, float> prevWheelExtensionPercent;
+	private Dictionary<VehicleChassisVisuals.ClientWheelData<ModularCar>, bool> wheelWasGrounded;
+	private Dictionary<VehicleChassisVisuals.ClientWheelData<ModularCar>, float> lastSuspensionSoundPlayed;
+	private Dictionary<EngineAudioSet, byte> attachedEngineCounts;
+	private Sound movementRattleSound;
+	private SoundModulation.Modulator rattleGain;
+	private Quaternion prevRotation;
+	private bool wasStationary;
+	private float lastMovementStartSoundPlayed;
+	private float lastMovementStopSoundPlayed;
+	private float noMovementCount;
 
 	protected override EngineAudioSet EngineAudioSet { get; set; }
 	private VehicleChassisVisuals.ClientWheelData<ModularCar> wheelDataFL { get; }
@@ -3569,12 +3569,12 @@ private float noMovementCount;
 
 public class ModularVehicleSocket // TypeDefIndex: 13921
 {
-[SerializeField]
-private Transform socketTransform;
-[SerializeField]
-private ModularVehicleSocket.SocketWheelType wheelType;
-[SerializeField]
-private ModularVehicleSocket.SocketLocationType locationType;
+	[SerializeField]
+	private Transform socketTransform;
+	[SerializeField]
+	private ModularVehicleSocket.SocketWheelType wheelType;
+	[SerializeField]
+	private ModularVehicleSocket.SocketLocationType locationType;
 
 	public Vector3 WorldPosition { get; }
 	public Quaternion WorldRotation { get; }
@@ -3598,7 +3598,7 @@ private ModularVehicleSocket.SocketLocationType locationType;
 
 public enum ModularVehicleSocket.SocketWheelType // TypeDefIndex: 13922
 {
-public int value__;
+	public int value__;
 	public const ModularVehicleSocket.SocketWheelType NoWheel = 0;
 	public const ModularVehicleSocket.SocketWheelType ForwardWheel = 1;
 	public const ModularVehicleSocket.SocketWheelType BackWheel = 2;
@@ -3607,7 +3607,7 @@ public int value__;
 
 public enum ModularVehicleSocket.SocketLocationType // TypeDefIndex: 13923
 {
-public int value__;
+	public int value__;
 	public const ModularVehicleSocket.SocketLocationType Middle = 0;
 	public const ModularVehicleSocket.SocketLocationType Front = 1;
 	public const ModularVehicleSocket.SocketLocationType Back = 2;
@@ -3616,8 +3616,8 @@ public int value__;
 
 public class VehicleModuleEngineItems : ScriptableObject // TypeDefIndex: 13924
 {
-[SerializeField]
-private ItemModEngineItem[] engineItems;
+	[SerializeField]
+	private ItemModEngineItem[] engineItems;
 
 
 	public bool TryGetItem(int tier, EngineStorage.EngineItemTypes type, out ItemModEngineItem output) { }
@@ -3628,14 +3628,14 @@ private ItemModEngineItem[] engineItems;
 
 public class VehicleModuleSlidingComponent // TypeDefIndex: 13925
 {
-public string interactionColliderName;
-public BaseEntity.Flags flag_SliderOpen;
-public float moveTime;
-public VehicleModuleSlidingComponent.SlidingPart[] slidingParts;
-public SoundDefinition openSoundDef;
-public SoundDefinition closeSoundDef;
-private float positionPercent;
-private BaseEntity invokeParentEnt;
+	public string interactionColliderName;
+	public BaseEntity.Flags flag_SliderOpen;
+	public float moveTime;
+	public VehicleModuleSlidingComponent.SlidingPart[] slidingParts;
+	public SoundDefinition openSoundDef;
+	public SoundDefinition closeSoundDef;
+	private float positionPercent;
+	private BaseEntity invokeParentEnt;
 
 
 	public bool WantsOpenPos(BaseEntity parentEntity) { }
@@ -3654,9 +3654,9 @@ private BaseEntity invokeParentEnt;
 
 public class VehicleModuleSlidingComponent.SlidingPart // TypeDefIndex: 13926
 {
-public Transform transform;
-public Vector3 openPosition;
-public Vector3 closedPosition;
+	public Transform transform;
+	public Vector3 openPosition;
+	public Vector3 closedPosition;
 
 
 	public void .ctor() { }

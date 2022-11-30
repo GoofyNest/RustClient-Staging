@@ -2,7 +2,7 @@ internal struct GetLeaderboardDefinitionCountOptionsInternal : ISettable<GetLead
 {
 
 internal struct GetLeaderboardDefinitionCountOptionsInternal : ISettable<GetLeaderboardDefinitionCountOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref GetLeaderboardDefinitionCountOptions other) { }

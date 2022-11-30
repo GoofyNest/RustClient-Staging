@@ -26,11 +26,11 @@ public sealed class Terrain : Behaviour
 	public bool drawInstanced { set; }
 	public bool drawTreesAndFoliage { get; set; }
 	public static Terrain activeTerrain { get; }
-[NativePropertyAttribute]
+	[NativePropertyAttribute]
 	public static Terrain[] activeTerrains { get; }
-[ObsoleteAttribute]
+	[ObsoleteAttribute]
 	public bool castShadows { set; }
-[ObsoleteAttribute]
+	[ObsoleteAttribute]
 	public Terrain.MaterialType materialType { set; }
 
 
@@ -76,7 +76,7 @@ public sealed class Terrain : Behaviour
 
 	public static Terrain[] get_activeTerrains() { }
 
-[UsedByNativeCodeAttribute]
+	[UsedByNativeCodeAttribute]
 	public static GameObject CreateTerrainGameObject(TerrainData assignTerrain) { }
 
 	public void set_castShadows(bool value) { }
@@ -93,7 +93,7 @@ public sealed class Terrain : Behaviour
 
 public enum Terrain.MaterialType // TypeDefIndex: 4094
 {
-public int value__;
+	public int value__;
 	public const Terrain.MaterialType BuiltInStandard = 0;
 	public const Terrain.MaterialType BuiltInLegacyDiffuse = 1;
 	public const Terrain.MaterialType BuiltInLegacySpecular = 2;
@@ -103,8 +103,8 @@ public int value__;
 
 public class Terrain : ConsoleSystem // TypeDefIndex: 13771
 {
-[ClientVar]
-public static float quality;
+	[ClientVar]
+	public static float quality;
 
 
 	public void .ctor() { }

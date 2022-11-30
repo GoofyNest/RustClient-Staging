@@ -1,17 +1,17 @@
 public class BuildInfo // TypeDefIndex: 6178
 {
-[CompilerGeneratedAttribute]
-private int <Date>k__BackingField;
-[CompilerGeneratedAttribute]
-private BuildInfo.ScmInfo <Scm>k__BackingField;
-[CompilerGeneratedAttribute]
-private BuildInfo.BuildDesc <Build>k__BackingField;
-[CompilerGeneratedAttribute]
-private bool <Valid>k__BackingField;
-private static BuildInfo _current;
+	[CompilerGeneratedAttribute]
+	private int <Date>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private BuildInfo.ScmInfo <Scm>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private BuildInfo.BuildDesc <Build>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private bool <Valid>k__BackingField;
+	private static BuildInfo _current;
 
 	public int Date { get; set; }
-[JsonIgnoreAttribute]
+	[JsonIgnoreAttribute]
 	public DateTime BuildDate { get; }
 	public BuildInfo.ScmInfo Scm { get; set; }
 	public BuildInfo.BuildDesc Build { get; set; }
@@ -19,30 +19,30 @@ private static BuildInfo _current;
 	public static BuildInfo Current { get; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public int get_Date() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Date(int value) { }
 
 	public DateTime get_BuildDate() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public BuildInfo.ScmInfo get_Scm() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Scm(BuildInfo.ScmInfo value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public BuildInfo.BuildDesc get_Build() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Build(BuildInfo.BuildDesc value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_Valid() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Valid(bool value) { }
 
 	public static BuildInfo get_Current() { }
@@ -53,20 +53,20 @@ private static BuildInfo _current;
 
 public class BuildInfo.ScmInfo // TypeDefIndex: 6179
 {
-[CompilerGeneratedAttribute]
-private string <Type>k__BackingField;
-[CompilerGeneratedAttribute]
-private string <ChangeId>k__BackingField;
-[CompilerGeneratedAttribute]
-private string <Branch>k__BackingField;
-[CompilerGeneratedAttribute]
-private string <Repo>k__BackingField;
-[CompilerGeneratedAttribute]
-private string <Comment>k__BackingField;
-[CompilerGeneratedAttribute]
-private string <Author>k__BackingField;
-[CompilerGeneratedAttribute]
-private string <Date>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private string <Type>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private string <ChangeId>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private string <Branch>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private string <Repo>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private string <Comment>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private string <Author>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private string <Date>k__BackingField;
 
 	public string Type { get; set; }
 	public string ChangeId { get; set; }
@@ -77,46 +77,46 @@ private string <Date>k__BackingField;
 	public string Date { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public string get_Type() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Type(string value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public string get_ChangeId() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ChangeId(string value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public string get_Branch() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Branch(string value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public string get_Repo() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Repo(string value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public string get_Comment() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Comment(string value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public string get_Author() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Author(string value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public string get_Date() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Date(string value) { }
 
 	public void .ctor() { }
@@ -125,18 +125,18 @@ private string <Date>k__BackingField;
 
 public class BuildInfo.BuildDesc // TypeDefIndex: 6180
 {
-[CompilerGeneratedAttribute]
-private string <Id>k__BackingField;
-[CompilerGeneratedAttribute]
-private string <Number>k__BackingField;
-[CompilerGeneratedAttribute]
-private string <Tag>k__BackingField;
-[CompilerGeneratedAttribute]
-private string <Url>k__BackingField;
-[CompilerGeneratedAttribute]
-private string <Name>k__BackingField;
-[CompilerGeneratedAttribute]
-private string <Node>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private string <Id>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private string <Number>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private string <Tag>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private string <Url>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private string <Name>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private string <Node>k__BackingField;
 
 	public string Id { get; set; }
 	public string Number { get; set; }
@@ -146,40 +146,40 @@ private string <Node>k__BackingField;
 	public string Node { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public string get_Id() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Id(string value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public string get_Number() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Number(string value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public string get_Tag() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Tag(string value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public string get_Url() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Url(string value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public string get_Name() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Name(string value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public string get_Node() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_Node(string value) { }
 
 	public void .ctor() { }
@@ -188,11 +188,11 @@ private string <Node>k__BackingField;
 
 public class BuildingBlock : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6312
 {
-public bool ShouldPool;
-private bool _disposed;
-public int model;
-public int grade;
-public bool beingDemolished;
+	public bool ShouldPool;
+	private bool _disposed;
+	public int model;
+	public int grade;
+	public bool beingDemolished;
 
 
 	public static void ResetToPool(BuildingBlock instance) { }
@@ -251,12 +251,12 @@ public bool beingDemolished;
 
 public class BuildingPrivilege : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6319
 {
-public bool ShouldPool;
-private bool _disposed;
-public List<PlayerNameID> users;
-public float upkeepPeriodMinutes;
-public float costFraction;
-public float protectedMinutes;
+	public bool ShouldPool;
+	private bool _disposed;
+	public List<PlayerNameID> users;
+	public float upkeepPeriodMinutes;
+	public float costFraction;
+	public float protectedMinutes;
 
 
 	public static void ResetToPool(BuildingPrivilege instance) { }
@@ -315,17 +315,17 @@ public float protectedMinutes;
 
 public class BuildingPrivlidge : StorageContainer // TypeDefIndex: 10085
 {
-private Option __menuOption_Menu_MaxAuth;
-private Option __menuOption_Menu_RotateVM;
-private Option __menuOption_MenuAuthorize;
-private Option __menuOption_MenuClearList;
-private Option __menuOption_MenuDeauthorize;
-private float cachedProtectedMinutes;
-private float cachedUpkeepPeriodMinutes;
-private float cachedUpkeepCostFraction;
-public List<PlayerNameID> authorizedPlayers;
+	private Option __menuOption_Menu_MaxAuth;
+	private Option __menuOption_Menu_RotateVM;
+	private Option __menuOption_MenuAuthorize;
+	private Option __menuOption_MenuClearList;
+	private Option __menuOption_MenuDeauthorize;
+	private float cachedProtectedMinutes;
+	private float cachedUpkeepPeriodMinutes;
+	private float cachedUpkeepCostFraction;
+	public List<PlayerNameID> authorizedPlayers;
 	public const BaseEntity.Flags Flag_MaxAuths = 2048;
-public List<ItemDefinition> allowedConstructionItems;
+	public List<ItemDefinition> allowedConstructionItems;
 
 	public override bool HasMenuOptions { get; }
 
@@ -356,44 +356,44 @@ public List<ItemDefinition> allowedConstructionItems;
 
 	public void BuildingDirty() { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.ShowIf]
 	public void Menu_MaxAuth(BasePlayer player) { }
 
 	public bool MenuMaxAuth_ShowIf(BasePlayer player) { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.ShowIf]
 	public void MenuAuthorize(BasePlayer player) { }
 
 	public bool MenuAuthorize_ShowIf(BasePlayer player) { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.ShowIf]
 	public void MenuDeauthorize(BasePlayer player) { }
 
 	public bool MenuDeauthorize_ShowIf(BasePlayer player) { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.ShowIf]
 	public void MenuClearList(BasePlayer player) { }
 
 	public bool MenuClearList_ShowIf(BasePlayer player) { }
 
 	public override bool ShouldShowLootMenus() { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.ShowIf]
 	public void Menu_RotateVM(BasePlayer player) { }
 
 	public bool Menu_RotateTC_ShowIf(BasePlayer player) { }
@@ -406,42 +406,42 @@ public List<ItemDefinition> allowedConstructionItems;
 
 private sealed class BuildingPrivlidge.<>c__DisplayClass20_0 // TypeDefIndex: 10086
 {
-public BasePlayer player;
+	public BasePlayer player;
 
 
 	public void .ctor() { }
 
-internal bool <IsAuthed>
+	internal bool <IsAuthed>
 
 }
 
 private sealed class BuildingPrivlidge.<>c__DisplayClass21_0 // TypeDefIndex: 10087
 {
-public ulong userID;
+	public ulong userID;
 
 
 	public void .ctor() { }
 
-internal bool <IsAuthed>
+	internal bool <IsAuthed>
 
 }
 
 public class BuildingBlock : StabilityEntity // TypeDefIndex: 10261
 {
-private bool forceSkinRefresh;
-private int modelState;
-private int lastModelState;
-public BuildingGrade.Enum grade;
-private BuildingGrade.Enum lastGrade;
-private ConstructionSkin currentSkin;
-private DeferredAction skinChange;
-private MeshRenderer placeholderRenderer;
-private MeshCollider placeholderCollider;
-private static Material HighlightMaterial;
-public static BuildingBlock.UpdateSkinWorkQueue updateSkinQueueClient;
-public bool CullBushes;
-public Construction blockDefinition;
-private static Vector3[] outsideLookupOffsets;
+	private bool forceSkinRefresh;
+	private int modelState;
+	private int lastModelState;
+	public BuildingGrade.Enum grade;
+	private BuildingGrade.Enum lastGrade;
+	private ConstructionSkin currentSkin;
+	private DeferredAction skinChange;
+	private MeshRenderer placeholderRenderer;
+	private MeshCollider placeholderCollider;
+	private static Material HighlightMaterial;
+	public static BuildingBlock.UpdateSkinWorkQueue updateSkinQueueClient;
+	public bool CullBushes;
+	public Construction blockDefinition;
+	private static Vector3[] outsideLookupOffsets;
 
 	public ConstructionGrade currentGrade { get; }
 
@@ -454,7 +454,7 @@ private static Vector3[] outsideLookupOffsets;
 
 	public List<Option> GetBuildMenu(BasePlayer player) { }
 
-[BaseEntity.RPC_Client]
+	[BaseEntity.RPC_Client]
 	private void RefreshSkin(BaseEntity.RPCMessage msg) { }
 
 	protected override void SpawnGibs() { }
@@ -575,13 +575,13 @@ public class BuildingBlock.UpdateSkinWorkQueue : ObjectWorkQueue<BuildingBlock> 
 
 private sealed class BuildingBlock.<>c__DisplayClass31_0 // TypeDefIndex: 10264
 {
-public BuildingGrade.Enum iNewGrade;
-public BuildingBlock <>4__this;
+	public BuildingGrade.Enum iNewGrade;
+	public BuildingBlock <>4__this;
 
 
 	public void .ctor() { }
 
-internal void <GradeChangingOptions>
+	internal void <GradeChangingOptions>
 
 }
 
@@ -607,10 +607,10 @@ public class BuildingProximity : PrefabAttribute // TypeDefIndex: 10780
 
 private struct BuildingProximity.ProximityInfo // TypeDefIndex: 10781
 {
-public bool hit;
-public bool connection;
-public Line line;
-public float sqrDist;
+	public bool hit;
+	public bool connection;
+	public Line line;
+	public float sqrDist;
 
 }
 
@@ -623,7 +623,7 @@ public class BuildingBlockDecay : Decay // TypeDefIndex: 11266
 
 public class BuildingGradeDecay : Decay // TypeDefIndex: 11267
 {
-public BuildingGrade.Enum decayGrade;
+	public BuildingGrade.Enum decayGrade;
 
 
 	public void .ctor() { }
@@ -632,9 +632,9 @@ public BuildingGrade.Enum decayGrade;
 
 public abstract class BuildingManager // TypeDefIndex: 11569
 {
-public static ClientBuildingManager client;
-protected ListHashSet<DecayEntity> decayEntities;
-protected ListDictionary<uint, BuildingManager.Building> buildingDictionary;
+	public static ClientBuildingManager client;
+	protected ListHashSet<DecayEntity> decayEntities;
+	protected ListDictionary<uint, BuildingManager.Building> buildingDictionary;
 
 
 	public BuildingManager.Building GetBuilding(uint buildingID) { }
@@ -657,14 +657,14 @@ protected ListDictionary<uint, BuildingManager.Building> buildingDictionary;
 
 public class BuildingManager.Building // TypeDefIndex: 11570
 {
-public uint ID;
-public ListHashSet<BuildingPrivlidge> buildingPrivileges;
-public ListHashSet<BuildingBlock> buildingBlocks;
-public ListHashSet<DecayEntity> decayEntities;
-public NavMeshObstacle buildingNavMeshObstacle;
-public ListHashSet<NavMeshObstacle> navmeshCarvers;
-public bool isNavMeshCarvingDirty;
-public bool isNavMeshCarveOptimized;
+	public uint ID;
+	public ListHashSet<BuildingPrivlidge> buildingPrivileges;
+	public ListHashSet<BuildingBlock> buildingBlocks;
+	public ListHashSet<DecayEntity> decayEntities;
+	public NavMeshObstacle buildingNavMeshObstacle;
+	public ListHashSet<NavMeshObstacle> navmeshCarvers;
+	public bool isNavMeshCarvingDirty;
+	public bool isNavMeshCarveOptimized;
 
 
 	public bool IsEmpty() { }
@@ -701,12 +701,12 @@ public bool isNavMeshCarveOptimized;
 
 public class BuildingGrade : ScriptableObject // TypeDefIndex: 12475
 {
-public BuildingGrade.Enum type;
-public float baseHealth;
-public List<ItemAmount> baseCost;
-public PhysicMaterial physicMaterial;
-public ProtectionProperties damageProtecton;
-public BaseEntity.Menu.Option upgradeMenu;
+	public BuildingGrade.Enum type;
+	public float baseHealth;
+	public List<ItemAmount> baseCost;
+	public PhysicMaterial physicMaterial;
+	public ProtectionProperties damageProtecton;
+	public BaseEntity.Menu.Option upgradeMenu;
 
 
 	public void .ctor() { }
@@ -715,7 +715,7 @@ public BaseEntity.Menu.Option upgradeMenu;
 
 public enum BuildingGrade.Enum // TypeDefIndex: 12476
 {
-public int value__;
+	public int value__;
 	public const BuildingGrade.Enum None = -1;
 	public const BuildingGrade.Enum Twigs = 0;
 	public const BuildingGrade.Enum Wood = 1;

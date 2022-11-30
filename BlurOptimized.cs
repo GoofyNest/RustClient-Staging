@@ -1,15 +1,15 @@
 public class BlurOptimized : PostEffectsBase, IImageEffect // TypeDefIndex: 8186
 {
-[RangeAttribute]
-public int downsample;
-[RangeAttribute]
-public float blurSize;
-[RangeAttribute]
-public int blurIterations;
-public float fadeToBlurDistance;
-public BlurOptimized.BlurType blurType;
-public Shader blurShader;
-private Material blurMaterial;
+	[RangeAttribute]
+	public int downsample;
+	[RangeAttribute]
+	public float blurSize;
+	[RangeAttribute]
+	public int blurIterations;
+	public float fadeToBlurDistance;
+	public BlurOptimized.BlurType blurType;
+	public Shader blurShader;
+	private Material blurMaterial;
 
 
 	public override bool CheckResources() { }
@@ -26,7 +26,7 @@ private Material blurMaterial;
 
 public enum BlurOptimized.BlurType // TypeDefIndex: 8187
 {
-public int value__;
+	public int value__;
 	public const BlurOptimized.BlurType StandardGauss = 0;
 	public const BlurOptimized.BlurType SgxGauss = 1;
 
@@ -34,14 +34,14 @@ public int value__;
 
 public class BlurOptimized : PostProcessEffectSettings // TypeDefIndex: 11996
 {
-[RangeAttribute]
-public FixedIntParameter downsample;
-[RangeAttribute]
-public FixedIntParameter blurIterations;
-[RangeAttribute]
-public FloatParameter blurSize;
-public FloatParameter fadeToBlurDistance;
-public BlurTypeParameter blurType;
+	[RangeAttribute]
+	public FixedIntParameter downsample;
+	[RangeAttribute]
+	public FixedIntParameter blurIterations;
+	[RangeAttribute]
+	public FloatParameter blurSize;
+	public FloatParameter fadeToBlurDistance;
+	public BlurTypeParameter blurType;
 
 
 	public void .ctor() { }

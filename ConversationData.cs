@@ -1,8 +1,8 @@
 public class ConversationData : ScriptableObject // TypeDefIndex: 10571
 {
-public string shortname;
-public Translate.Phrase providerNameTranslated;
-public ConversationData.SpeechNode[] speeches;
+	public string shortname;
+	public Translate.Phrase providerNameTranslated;
+	public ConversationData.SpeechNode[] speeches;
 
 	public string providerName { get; }
 
@@ -17,10 +17,10 @@ public ConversationData.SpeechNode[] speeches;
 
 public class ConversationData.ConversationCondition // TypeDefIndex: 10572
 {
-public ConversationData.ConversationCondition.ConditionType conditionType;
-public uint conditionAmount;
-public bool inverse;
-public string failedSpeechNode;
+	public ConversationData.ConversationCondition.ConditionType conditionType;
+	public uint conditionAmount;
+	public bool inverse;
+	public string failedSpeechNode;
 
 
 	public bool Passes(BasePlayer player, IConversationProvider provider) { }
@@ -31,7 +31,7 @@ public string failedSpeechNode;
 
 public enum ConversationData.ConversationCondition.ConditionType // TypeDefIndex: 10573
 {
-public int value__;
+	public int value__;
 	public const ConversationData.ConversationCondition.ConditionType NONE = 0;
 	public const ConversationData.ConversationCondition.ConditionType HASHEALTH = 1;
 	public const ConversationData.ConversationCondition.ConditionType HASSCRAP = 2;
@@ -44,10 +44,10 @@ public int value__;
 
 public class ConversationData.ResponseNode // TypeDefIndex: 10574
 {
-public Translate.Phrase responseTextLocalized;
-public ConversationData.ConversationCondition[] conditions;
-public string actionString;
-public string resultingSpeechNode;
+	public Translate.Phrase responseTextLocalized;
+	public ConversationData.ConversationCondition[] conditions;
+	public string actionString;
+	public string resultingSpeechNode;
 
 	public string responseText { get; }
 
@@ -64,10 +64,10 @@ public string resultingSpeechNode;
 
 public class ConversationData.SpeechNode // TypeDefIndex: 10575
 {
-public string shortname;
-public Translate.Phrase statementLocalized;
-public ConversationData.ResponseNode[] responses;
-public Vector2 nodePosition;
+	public string shortname;
+	public Translate.Phrase statementLocalized;
+	public ConversationData.ResponseNode[] responses;
+	public Vector2 nodePosition;
 
 	public string statement { get; }
 

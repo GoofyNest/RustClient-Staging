@@ -1,12 +1,12 @@
 public class FrankensteinTableVisuals : MonoBehaviour // TypeDefIndex: 10421
 {
-public GameObject FXReady;
-public GameObject FXNotReady;
-public GameObject FXWake;
-public Transform HeadVisualAnchor;
-public Transform TorsoVisualAnchor;
-public Transform LegsVisualAnchor;
-public Animator Animator;
+	public GameObject FXReady;
+	public GameObject FXNotReady;
+	public GameObject FXWake;
+	public Transform HeadVisualAnchor;
+	public Transform TorsoVisualAnchor;
+	public Transform LegsVisualAnchor;
+	public Animator Animator;
 
 
 	public void Refresh(List<ItemDefinition> items, FrankensteinTable table) { }
@@ -25,7 +25,7 @@ public Animator Animator;
 
 	public void StartWaking() { }
 
-[IteratorStateMachineAttribute]
+	[IteratorStateMachineAttribute]
 	private IEnumerator Wake() { }
 
 	private void SetTableUp(bool flag) { }
@@ -38,29 +38,29 @@ public Animator Animator;
 
 private sealed class FrankensteinTableVisuals.<Wake>d__15 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 10422
 {
-private int <>1__state;
-private object <>2__current;
-public FrankensteinTableVisuals <>4__this;
+	private int <>1__state;
+	private object <>2__current;
+	public FrankensteinTableVisuals <>4__this;
 
 	private object System.Collections.Generic.IEnumerator<System.Object>.Current { get; }
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	public void .ctor(int <>1__state) { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private void System.Collections.IEnumerator.Reset() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }

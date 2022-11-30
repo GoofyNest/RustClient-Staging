@@ -6,7 +6,7 @@ public interface INotifyPropertyChanging
 
 [PreserveAttribute]
 public enum NotifyCollectionChangedAction
-public int value__;
+	public int value__;
 	public const NotifyCollectionChangedAction Add = 0;
 	public const NotifyCollectionChangedAction Remove = 1;
 	public const NotifyCollectionChangedAction Replace = 2;

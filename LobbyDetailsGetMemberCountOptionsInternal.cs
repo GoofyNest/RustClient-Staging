@@ -2,7 +2,7 @@ internal struct LobbyDetailsGetMemberCountOptionsInternal : ISettable<LobbyDetai
 {
 
 internal struct LobbyDetailsGetMemberCountOptionsInternal : ISettable<LobbyDetailsGetMemberCountOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref LobbyDetailsGetMemberCountOptions other) { }

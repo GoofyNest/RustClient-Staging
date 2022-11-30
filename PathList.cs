@@ -1,6 +1,6 @@
 internal class PathList // TypeDefIndex: 2945
 {
-private SortedList m_list;
+	private SortedList m_list;
 
 	public int Count { get; }
 	public ICollection Values { get; }
@@ -28,7 +28,7 @@ private SortedList m_list;
 
 private class PathList.PathListComparer : IComparer // TypeDefIndex: 2946
 {
-internal static readonly PathList.PathListComparer StaticInstance;
+	internal static readonly PathList.PathListComparer StaticInstance;
 
 
 	private int System.Collections.IComparer.Compare(object ol, object or) { }
@@ -41,29 +41,29 @@ internal static readonly PathList.PathListComparer StaticInstance;
 
 public class PathList // TypeDefIndex: 12049
 {
-private static Quaternion rot90;
-private static Quaternion rot180;
-private static Quaternion rot270;
-public string Name;
-public PathInterpolator Path;
-public bool Spline;
-public bool Start;
-public bool End;
-public float Width;
-public float InnerPadding;
-public float OuterPadding;
-public float InnerFade;
-public float OuterFade;
-public float RandomScale;
-public float MeshOffset;
-public float TerrainOffset;
-public int Topology;
-public int Splat;
-public int Hierarchy;
-public PathFinder.Node ProcgenStartNode;
-public PathFinder.Node ProcgenEndNode;
+	private static Quaternion rot90;
+	private static Quaternion rot180;
+	private static Quaternion rot270;
+	public string Name;
+	public PathInterpolator Path;
+	public bool Spline;
+	public bool Start;
+	public bool End;
+	public float Width;
+	public float InnerPadding;
+	public float OuterPadding;
+	public float InnerFade;
+	public float OuterFade;
+	public float RandomScale;
+	public float MeshOffset;
+	public float TerrainOffset;
+	public int Topology;
+	public int Splat;
+	public int Hierarchy;
+	public PathFinder.Node ProcgenStartNode;
+	public PathFinder.Node ProcgenEndNode;
 	public const float StepSize = 1;
-private static float[] placements;
+	private static float[] placements;
 
 
 	public void .ctor(string name, Vector3[] points) { }
@@ -114,7 +114,7 @@ private static float[] placements;
 
 public enum PathList.Side // TypeDefIndex: 12050
 {
-public int value__;
+	public int value__;
 	public const PathList.Side Both = 0;
 	public const PathList.Side Left = 1;
 	public const PathList.Side Right = 2;
@@ -124,7 +124,7 @@ public int value__;
 
 public enum PathList.Placement // TypeDefIndex: 12051
 {
-public int value__;
+	public int value__;
 	public const PathList.Placement Center = 0;
 	public const PathList.Placement Side = 1;
 
@@ -132,7 +132,7 @@ public int value__;
 
 public enum PathList.Alignment // TypeDefIndex: 12052
 {
-public int value__;
+	public int value__;
 	public const PathList.Alignment None = 0;
 	public const PathList.Alignment Neighbor = 1;
 	public const PathList.Alignment Forward = 2;
@@ -142,12 +142,12 @@ public int value__;
 
 public class PathList.BasicObject // TypeDefIndex: 12053
 {
-public string Folder;
-public SpawnFilter Filter;
-public PathList.Placement Placement;
-public bool AlignToNormal;
-public bool HeightToTerrain;
-public float Offset;
+	public string Folder;
+	public SpawnFilter Filter;
+	public PathList.Placement Placement;
+	public bool AlignToNormal;
+	public bool HeightToTerrain;
+	public float Offset;
 
 
 	public void .ctor() { }
@@ -156,13 +156,13 @@ public float Offset;
 
 public class PathList.SideObject // TypeDefIndex: 12054
 {
-public string Folder;
-public SpawnFilter Filter;
-public PathList.Side Side;
-public PathList.Alignment Alignment;
-public float Density;
-public float Distance;
-public float Offset;
+	public string Folder;
+	public SpawnFilter Filter;
+	public PathList.Side Side;
+	public PathList.Alignment Alignment;
+	public float Density;
+	public float Distance;
+	public float Offset;
 
 
 	public void .ctor() { }
@@ -171,12 +171,12 @@ public float Offset;
 
 public class PathList.PathObject // TypeDefIndex: 12055
 {
-public string Folder;
-public SpawnFilter Filter;
-public PathList.Alignment Alignment;
-public float Density;
-public float Distance;
-public float Dithering;
+	public string Folder;
+	public SpawnFilter Filter;
+	public PathList.Alignment Alignment;
+	public float Density;
+	public float Distance;
+	public float Dithering;
 
 
 	public void .ctor() { }
@@ -185,8 +185,8 @@ public float Dithering;
 
 public class PathList.BridgeObject // TypeDefIndex: 12056
 {
-public string Folder;
-public float Distance;
+	public string Folder;
+	public float Distance;
 
 
 	public void .ctor() { }
@@ -195,8 +195,8 @@ public float Distance;
 
 public class PathList.MeshObject // TypeDefIndex: 12057
 {
-public Vector3 Position;
-public Mesh[] Meshes;
+	public Vector3 Position;
+	public Mesh[] Meshes;
 
 
 	public void .ctor(Vector3 meshPivot, MeshData[] meshData) { }
@@ -205,15 +205,15 @@ public Mesh[] Meshes;
 
 private sealed class PathList.<>c__DisplayClass47_0 // TypeDefIndex: 12058
 {
-public TerrainHeightMap heightmap;
-public Line prev_line;
-public Line cur_line;
-public float outerPadding;
-public float outerFade;
-public float innerPadding;
-public float innerFade;
-public float offset01;
-public float intensity;
+	public TerrainHeightMap heightmap;
+	public Line prev_line;
+	public Line cur_line;
+	public float outerPadding;
+	public float outerFade;
+	public float innerPadding;
+	public float innerFade;
+	public float offset01;
+	public float intensity;
 
 
 	public void .ctor() { }
@@ -222,25 +222,25 @@ public float intensity;
 
 private sealed class PathList.<>c__DisplayClass47_1 // TypeDefIndex: 12059
 {
-public float yn;
-public Line next_line;
-public float radius;
-public float opacity;
-public PathList.<>c
+	public float yn;
+	public Line next_line;
+	public float radius;
+	public float opacity;
+	public PathList.<>c
 
 
 	public void .ctor() { }
 
-internal void <AdjustTerrainHeight>
+	internal void <AdjustTerrainHeight>
 
 }
 
 private sealed class PathList.<>c__DisplayClass48_0 // TypeDefIndex: 12060
 {
-public TerrainSplatMap splatmap;
-public float outerPadding;
-public float innerPadding;
-public PathList <>4__this;
+	public TerrainSplatMap splatmap;
+	public float outerPadding;
+	public float innerPadding;
+	public PathList <>4__this;
 
 
 	public void .ctor() { }
@@ -249,25 +249,25 @@ public PathList <>4__this;
 
 private sealed class PathList.<>c__DisplayClass48_1 // TypeDefIndex: 12061
 {
-public float yn;
-public Ray ray;
-public float radius;
-public float opacity;
-public PathList.<>c
+	public float yn;
+	public Ray ray;
+	public float radius;
+	public float opacity;
+	public PathList.<>c
 
 
 	public void .ctor() { }
 
-internal void <AdjustTerrainTexture>
+	internal void <AdjustTerrainTexture>
 
 }
 
 private sealed class PathList.<>c__DisplayClass49_0 // TypeDefIndex: 12062
 {
-public TerrainTopologyMap topomap;
-public float outerPadding;
-public float innerPadding;
-public PathList <>4__this;
+	public TerrainTopologyMap topomap;
+	public float outerPadding;
+	public float innerPadding;
+	public PathList <>4__this;
 
 
 	public void .ctor() { }
@@ -276,23 +276,23 @@ public PathList <>4__this;
 
 private sealed class PathList.<>c__DisplayClass49_1 // TypeDefIndex: 12063
 {
-public float yn;
-public Ray ray;
-public float radius;
-public float opacity;
-public PathList.<>c
+	public float yn;
+	public Ray ray;
+	public float radius;
+	public float opacity;
+	public PathList.<>c
 
 
 	public void .ctor() { }
 
-internal void <AdjustTerrainTopology>
+	internal void <AdjustTerrainTopology>
 
 }
 
 private sealed class PathList.<>c__DisplayClass50_0 // TypeDefIndex: 12064
 {
-public TerrainPlacementMap placementmap;
-public float radius;
+	public TerrainPlacementMap placementmap;
+	public float radius;
 
 
 	public void .ctor() { }
@@ -301,14 +301,14 @@ public float radius;
 
 private sealed class PathList.<>c__DisplayClass50_1 // TypeDefIndex: 12065
 {
-public float yn;
-public Ray ray;
-public PathList.<>c
+	public float yn;
+	public Ray ray;
+	public PathList.<>c
 
 
 	public void .ctor() { }
 
-internal void <AdjustPlacementMap>
+	internal void <AdjustPlacementMap>
 
 }
 

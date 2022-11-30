@@ -1,9 +1,9 @@
 public class PostProcessVolumeLOD : MonoBehaviour, ILOD, IClientComponent // TypeDefIndex: 12030
 {
-public float distance;
-private LODCell cell;
-private PostProcessVolume postProcessVolume;
-private LODEnvironmentMode environmentMode;
+	public float distance;
+	private LODCell cell;
+	private PostProcessVolume postProcessVolume;
+	private LODEnvironmentMode environmentMode;
 
 
 	private void Awake() { }
@@ -25,72 +25,72 @@ private LODEnvironmentMode environmentMode;
 public class PostProcessLayer : MonoBehaviour // TypeDefIndex: 13542
 {
 	private const float updateRate = 0,1;
-private RenderTexture colorBuffer;
-private RenderTexture depthBuffer;
-private RenderTexture motionBuffer;
-private RenderTexture colorOutput;
-private Camera renderingCamera;
-private Material renderScaleMaterial;
-private HashSet<Shader> mipmapShaders;
-private Nullable<PostProcessLayer.ScalingMode> scalingMode;
-private float prevRenderScale;
-private NVSDK_NGX_PerfQuality_Value prevPerfQuality;
-private uint prevScreenWidth;
-private uint prevScreenHeight;
-private float prevUpdateTime;
-private bool screenshotMode;
-private bool firstDLSSPass;
-private DlSSRecommendedSettings dlssRecommendedSettings;
-private GCHandle dlssDataHandle;
-private CommandBuffer afterEverythingCommandBuffer;
-public Transform volumeTrigger;
-public LayerMask volumeLayer;
-public bool stopNaNPropagation;
-public bool finalBlitToCameraTarget;
-public PostProcessLayer.Antialiasing antialiasingMode;
-public TemporalAntialiasing temporalAntialiasing;
-public SubpixelMorphologicalAntialiasing subpixelMorphologicalAntialiasing;
-public FastApproximateAntialiasing fastApproximateAntialiasing;
-public Fog fog;
-private Dithering dithering;
-public PostProcessDebugLayer debugLayer;
-public RenderTextureFormat intermediateFormat;
-private RenderTextureFormat prevIntermediateFormat;
-private bool supportsIntermediateFormat;
-[SerializeField]
-private PostProcessResources m_Resources;
-[PreserveAttribute]
-[SerializeField]
-private bool m_ShowToolkit;
-[PreserveAttribute]
-[SerializeField]
-private bool m_ShowCustomSorter;
-public bool breakBeforeColorGrading;
-[SerializeField]
-private List<PostProcessLayer.SerializedBundleRef> m_BeforeTransparentBundles;
-[SerializeField]
-private List<PostProcessLayer.SerializedBundleRef> m_BeforeStackBundles;
-[SerializeField]
-private List<PostProcessLayer.SerializedBundleRef> m_AfterStackBundles;
-[CompilerGeneratedAttribute]
-private Dictionary<PostProcessEvent, List<PostProcessLayer.SerializedBundleRef>> <sortedBundles>k__BackingField;
-[CompilerGeneratedAttribute]
-private bool <haveBundlesBeenInited>k__BackingField;
-private Dictionary<Type, PostProcessBundle> m_Bundles;
-private PropertySheetFactory m_PropertySheetFactory;
-private CommandBuffer m_LegacyCmdBufferBeforeReflections;
-private CommandBuffer m_LegacyCmdBufferBeforeLighting;
-private CommandBuffer m_LegacyCmdBufferOpaque;
-private CommandBuffer m_LegacyCmdBuffer;
-private Camera m_Camera;
-private PostProcessRenderContext m_CurrentContext;
-private LogHistogram m_LogHistogram;
-private bool m_SettingsUpdateNeeded;
-private bool m_IsRenderingInSceneView;
-private TargetPool m_TargetPool;
-private bool m_NaNKilled;
-private readonly List<PostProcessEffectRenderer> m_ActiveEffects;
-private readonly List<RenderTargetIdentifier> m_Targets;
+	private RenderTexture colorBuffer;
+	private RenderTexture depthBuffer;
+	private RenderTexture motionBuffer;
+	private RenderTexture colorOutput;
+	private Camera renderingCamera;
+	private Material renderScaleMaterial;
+	private HashSet<Shader> mipmapShaders;
+	private Nullable<PostProcessLayer.ScalingMode> scalingMode;
+	private float prevRenderScale;
+	private NVSDK_NGX_PerfQuality_Value prevPerfQuality;
+	private uint prevScreenWidth;
+	private uint prevScreenHeight;
+	private float prevUpdateTime;
+	private bool screenshotMode;
+	private bool firstDLSSPass;
+	private DlSSRecommendedSettings dlssRecommendedSettings;
+	private GCHandle dlssDataHandle;
+	private CommandBuffer afterEverythingCommandBuffer;
+	public Transform volumeTrigger;
+	public LayerMask volumeLayer;
+	public bool stopNaNPropagation;
+	public bool finalBlitToCameraTarget;
+	public PostProcessLayer.Antialiasing antialiasingMode;
+	public TemporalAntialiasing temporalAntialiasing;
+	public SubpixelMorphologicalAntialiasing subpixelMorphologicalAntialiasing;
+	public FastApproximateAntialiasing fastApproximateAntialiasing;
+	public Fog fog;
+	private Dithering dithering;
+	public PostProcessDebugLayer debugLayer;
+	public RenderTextureFormat intermediateFormat;
+	private RenderTextureFormat prevIntermediateFormat;
+	private bool supportsIntermediateFormat;
+	[SerializeField]
+	private PostProcessResources m_Resources;
+	[PreserveAttribute]
+	[SerializeField]
+	private bool m_ShowToolkit;
+	[PreserveAttribute]
+	[SerializeField]
+	private bool m_ShowCustomSorter;
+	public bool breakBeforeColorGrading;
+	[SerializeField]
+	private List<PostProcessLayer.SerializedBundleRef> m_BeforeTransparentBundles;
+	[SerializeField]
+	private List<PostProcessLayer.SerializedBundleRef> m_BeforeStackBundles;
+	[SerializeField]
+	private List<PostProcessLayer.SerializedBundleRef> m_AfterStackBundles;
+	[CompilerGeneratedAttribute]
+	private Dictionary<PostProcessEvent, List<PostProcessLayer.SerializedBundleRef>> <sortedBundles>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private bool <haveBundlesBeenInited>k__BackingField;
+	private Dictionary<Type, PostProcessBundle> m_Bundles;
+	private PropertySheetFactory m_PropertySheetFactory;
+	private CommandBuffer m_LegacyCmdBufferBeforeReflections;
+	private CommandBuffer m_LegacyCmdBufferBeforeLighting;
+	private CommandBuffer m_LegacyCmdBufferOpaque;
+	private CommandBuffer m_LegacyCmdBuffer;
+	private Camera m_Camera;
+	private PostProcessRenderContext m_CurrentContext;
+	private LogHistogram m_LogHistogram;
+	private bool m_SettingsUpdateNeeded;
+	private bool m_IsRenderingInSceneView;
+	private TargetPool m_TargetPool;
+	private bool m_NaNKilled;
+	private readonly List<PostProcessEffectRenderer> m_ActiveEffects;
+	private readonly List<RenderTargetIdentifier> m_Targets;
 
 	public bool ScreenshotMode { get; set; }
 	public uint ScreenWidth { get; }
@@ -143,23 +143,23 @@ private readonly List<RenderTargetIdentifier> m_Targets;
 
 	private void StopDLSS() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Dictionary<PostProcessEvent, List<PostProcessLayer.SerializedBundleRef>> get_sortedBundles() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_sortedBundles(Dictionary<PostProcessEvent, List<PostProcessLayer.SerializedBundleRef>> value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_haveBundlesBeenInited() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_haveBundlesBeenInited(bool value) { }
 
 	private void OnEnable() { }
 
 	private void InitLegacy() { }
 
-[ImageEffectUsesCommandBuffer]
+	[ImageEffectUsesCommandBuffer]
 	private void OnRenderImage(RenderTexture src, RenderTexture dst) { }
 
 	public void Init(PostProcessResources resources) { }
@@ -260,7 +260,7 @@ private readonly List<RenderTargetIdentifier> m_Targets;
 
 private enum PostProcessLayer.ScalingMode // TypeDefIndex: 13543
 {
-public int value__;
+	public int value__;
 	public const PostProcessLayer.ScalingMode NATIVE = 0;
 	public const PostProcessLayer.ScalingMode BILINEAR = 1;
 	public const PostProcessLayer.ScalingMode DLSS = 2;
@@ -269,7 +269,7 @@ public int value__;
 
 public enum PostProcessLayer.Antialiasing // TypeDefIndex: 13544
 {
-public int value__;
+	public int value__;
 	public const PostProcessLayer.Antialiasing None = 0;
 	public const PostProcessLayer.Antialiasing FastApproximateAntialiasing = 1;
 	public const PostProcessLayer.Antialiasing SubpixelMorphologicalAntialiasing = 2;
@@ -279,8 +279,8 @@ public int value__;
 
 public sealed class PostProcessLayer.SerializedBundleRef // TypeDefIndex: 13545
 {
-public string assemblyQualifiedName;
-public PostProcessBundle bundle;
+	public string assemblyQualifiedName;
+	public PostProcessBundle bundle;
 
 
 	public void .ctor() { }
@@ -289,138 +289,138 @@ public PostProcessBundle bundle;
 
 private sealed class PostProcessLayer.<>c // TypeDefIndex: 13546
 {
-public static readonly PostProcessLayer.<>c <>9;
-public static Predicate<Shader> <>9__31_0;
-public static Predicate<Shader> <>9__31_1;
-public static Predicate<Shader> <>9__31_2;
-public static Predicate<Shader> <>9__31_3;
-public static Predicate<Shader> <>9__31_4;
-public static Predicate<Shader> <>9__31_5;
-public static Predicate<Shader> <>9__31_6;
-public static Func<KeyValuePair<Type, PostProcessBundle>, PostProcessBundle> <>9__97_1;
+	public static readonly PostProcessLayer.<>c <>9;
+	public static Predicate<Shader> <>9__31_0;
+	public static Predicate<Shader> <>9__31_1;
+	public static Predicate<Shader> <>9__31_2;
+	public static Predicate<Shader> <>9__31_3;
+	public static Predicate<Shader> <>9__31_4;
+	public static Predicate<Shader> <>9__31_5;
+	public static Predicate<Shader> <>9__31_6;
+	public static Func<KeyValuePair<Type, PostProcessBundle>, PostProcessBundle> <>9__97_1;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-internal bool <OnEnableRenderScale>
+	internal bool <OnEnableRenderScale>
 
-internal bool <OnEnableRenderScale>
+	internal bool <OnEnableRenderScale>
 
-internal bool <OnEnableRenderScale>
+	internal bool <OnEnableRenderScale>
 
-internal bool <OnEnableRenderScale>
+	internal bool <OnEnableRenderScale>
 
-internal bool <OnEnableRenderScale>
+	internal bool <OnEnableRenderScale>
 
-internal bool <OnEnableRenderScale>
+	internal bool <OnEnableRenderScale>
 
-internal bool <OnEnableRenderScale>
+	internal bool <OnEnableRenderScale>
 
-internal PostProcessBundle <UpdateBundleSortList>
+	internal PostProcessBundle <UpdateBundleSortList>
 
 }
 
 private sealed class PostProcessLayer.<>c__DisplayClass97_0 // TypeDefIndex: 13547
 {
-public PostProcessEvent evt;
-public List<PostProcessBundle> effects;
+	public PostProcessEvent evt;
+	public List<PostProcessBundle> effects;
 
 
 	public void .ctor() { }
 
-internal bool <UpdateBundleSortList>
+	internal bool <UpdateBundleSortList>
 
-internal bool <UpdateBundleSortList>
+	internal bool <UpdateBundleSortList>
 
 }
 
 private sealed class PostProcessLayer.<>c__DisplayClass97_1 // TypeDefIndex: 13548
 {
-public string searchStr;
+	public string searchStr;
 
 
 	public void .ctor() { }
 
-internal bool <UpdateBundleSortList>
+	internal bool <UpdateBundleSortList>
 
 }
 
 private sealed class PostProcessLayer.<>c__DisplayClass97_2 // TypeDefIndex: 13549
 {
-public string typeName;
+	public string typeName;
 
 
 	public void .ctor() { }
 
-internal bool <UpdateBundleSortList>
+	internal bool <UpdateBundleSortList>
 
 }
 
 private sealed class PostProcessLayer.<>c__DisplayClass97_3 // TypeDefIndex: 13550
 {
-public string typeName;
+	public string typeName;
 
 
 	public void .ctor() { }
 
-internal bool <UpdateBundleSortList>
+	internal bool <UpdateBundleSortList>
 
 }
 
 public class PostProcessRenderContext // TypeDefIndex: 13551
 {
-public bool dlssEnabled;
-private Camera m_Camera;
-[CompilerGeneratedAttribute]
-private CommandBuffer <command>k__BackingField;
-[CompilerGeneratedAttribute]
-private RenderTargetIdentifier <source>k__BackingField;
-[CompilerGeneratedAttribute]
-private RenderTargetIdentifier <destination>k__BackingField;
-[CompilerGeneratedAttribute]
-private RenderTextureFormat <sourceFormat>k__BackingField;
-[CompilerGeneratedAttribute]
-private bool <flip>k__BackingField;
-[CompilerGeneratedAttribute]
-private PostProcessResources <resources>k__BackingField;
-[CompilerGeneratedAttribute]
-private PropertySheetFactory <propertySheets>k__BackingField;
-[CompilerGeneratedAttribute]
-private Dictionary<string, object> <userData>k__BackingField;
-[CompilerGeneratedAttribute]
-private PostProcessDebugLayer <debugLayer>k__BackingField;
-[CompilerGeneratedAttribute]
-private int <width>k__BackingField;
-[CompilerGeneratedAttribute]
-private int <height>k__BackingField;
-[CompilerGeneratedAttribute]
-private bool <stereoActive>k__BackingField;
-[CompilerGeneratedAttribute]
-private int <xrActiveEye>k__BackingField;
-[CompilerGeneratedAttribute]
-private int <numberOfEyes>k__BackingField;
-[CompilerGeneratedAttribute]
-private PostProcessRenderContext.StereoRenderingMode <stereoRenderingMode>k__BackingField;
-[CompilerGeneratedAttribute]
-private int <screenWidth>k__BackingField;
-[CompilerGeneratedAttribute]
-private int <screenHeight>k__BackingField;
-[CompilerGeneratedAttribute]
-private bool <isSceneView>k__BackingField;
-[CompilerGeneratedAttribute]
-private PostProcessLayer.Antialiasing <antialiasing>k__BackingField;
-[CompilerGeneratedAttribute]
-private TemporalAntialiasing <temporalAntialiasing>k__BackingField;
-internal PropertySheet uberSheet;
-internal Texture autoExposureTexture;
-internal LogHistogram logHistogram;
-internal Texture logLut;
-internal AutoExposure autoExposure;
-internal int bloomBufferNameID;
-internal bool physicalCamera;
-private RenderTextureDescriptor m_sourceDescriptor;
+	public bool dlssEnabled;
+	private Camera m_Camera;
+	[CompilerGeneratedAttribute]
+	private CommandBuffer <command>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private RenderTargetIdentifier <source>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private RenderTargetIdentifier <destination>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private RenderTextureFormat <sourceFormat>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private bool <flip>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private PostProcessResources <resources>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private PropertySheetFactory <propertySheets>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Dictionary<string, object> <userData>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private PostProcessDebugLayer <debugLayer>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private int <width>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private int <height>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private bool <stereoActive>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private int <xrActiveEye>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private int <numberOfEyes>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private PostProcessRenderContext.StereoRenderingMode <stereoRenderingMode>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private int <screenWidth>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private int <screenHeight>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private bool <isSceneView>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private PostProcessLayer.Antialiasing <antialiasing>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private TemporalAntialiasing <temporalAntialiasing>k__BackingField;
+	internal PropertySheet uberSheet;
+	internal Texture autoExposureTexture;
+	internal LogHistogram logHistogram;
+	internal Texture logLut;
+	internal AutoExposure autoExposure;
+	internal int bloomBufferNameID;
+	internal bool physicalCamera;
+	private RenderTextureDescriptor m_sourceDescriptor;
 
 	public Camera camera { get; set; }
 	public CommandBuffer command { get; set; }
@@ -451,124 +451,124 @@ private RenderTextureDescriptor m_sourceDescriptor;
 
 	public void set_camera(Camera value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public CommandBuffer get_command() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_command(CommandBuffer value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public RenderTargetIdentifier get_source() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_source(RenderTargetIdentifier value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public RenderTargetIdentifier get_destination() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_destination(RenderTargetIdentifier value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public RenderTextureFormat get_sourceFormat() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_sourceFormat(RenderTextureFormat value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_flip() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_flip(bool value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public PostProcessResources get_resources() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	internal void set_resources(PostProcessResources value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public PropertySheetFactory get_propertySheets() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	internal void set_propertySheets(PropertySheetFactory value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Dictionary<string, object> get_userData() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_userData(Dictionary<string, object> value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public PostProcessDebugLayer get_debugLayer() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	internal void set_debugLayer(PostProcessDebugLayer value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public int get_width() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_width(int value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public int get_height() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_height(int value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_stereoActive() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_stereoActive(bool value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public int get_xrActiveEye() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_xrActiveEye(int value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public int get_numberOfEyes() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_numberOfEyes(int value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public PostProcessRenderContext.StereoRenderingMode get_stereoRenderingMode() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_stereoRenderingMode(PostProcessRenderContext.StereoRenderingMode value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public int get_screenWidth() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_screenWidth(int value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public int get_screenHeight() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_screenHeight(int value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_isSceneView() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	internal void set_isSceneView(bool value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public PostProcessLayer.Antialiasing get_antialiasing() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	internal void set_antialiasing(PostProcessLayer.Antialiasing value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public TemporalAntialiasing get_temporalAntialiasing() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	internal void set_temporalAntialiasing(TemporalAntialiasing value) { }
 
 	public void Reset() { }
@@ -591,7 +591,7 @@ private RenderTextureDescriptor m_sourceDescriptor;
 
 public enum PostProcessRenderContext.StereoRenderingMode // TypeDefIndex: 13552
 {
-public int value__;
+	public int value__;
 	public const PostProcessRenderContext.StereoRenderingMode MultiPass = 0;
 	public const PostProcessRenderContext.StereoRenderingMode SinglePass = 1;
 	public const PostProcessRenderContext.StereoRenderingMode SinglePassInstanced = 2;
@@ -601,11 +601,11 @@ public int value__;
 
 public sealed class PostProcessAttribute : Attribute // TypeDefIndex: 13557
 {
-public readonly Type renderer;
-public readonly PostProcessEvent eventType;
-public readonly string menuItem;
-public readonly bool allowInSceneView;
-internal readonly bool builtinEffect;
+	public readonly Type renderer;
+	public readonly PostProcessEvent eventType;
+	public readonly string menuItem;
+	public readonly bool allowInSceneView;
+	internal readonly bool builtinEffect;
 
 
 	public void .ctor(Type renderer, PostProcessEvent eventType, string menuItem, bool allowInSceneView = True) { }
@@ -616,27 +616,27 @@ internal readonly bool builtinEffect;
 
 public sealed class PostProcessBundle // TypeDefIndex: 13640
 {
-[CompilerGeneratedAttribute]
-private PostProcessAttribute <attribute>k__BackingField;
-[CompilerGeneratedAttribute]
-private PostProcessEffectSettings <settings>k__BackingField;
-private PostProcessEffectRenderer m_Renderer;
+	[CompilerGeneratedAttribute]
+	private PostProcessAttribute <attribute>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private PostProcessEffectSettings <settings>k__BackingField;
+	private PostProcessEffectRenderer m_Renderer;
 
 	public PostProcessAttribute attribute { get; set; }
 	public PostProcessEffectSettings settings { get; set; }
 	internal PostProcessEffectRenderer renderer { get; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public PostProcessAttribute get_attribute() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_attribute(PostProcessAttribute value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public PostProcessEffectSettings get_settings() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_settings(PostProcessEffectSettings value) { }
 
 	internal PostProcessEffectRenderer get_renderer() { }
@@ -665,15 +665,15 @@ private PostProcessEffectRenderer m_Renderer;
 
 public sealed class PostProcessDebug : MonoBehaviour // TypeDefIndex: 13641
 {
-public PostProcessLayer postProcessLayer;
-private PostProcessLayer m_PreviousPostProcessLayer;
-public bool lightMeter;
-public bool histogram;
-public bool waveform;
-public bool vectorscope;
-public DebugOverlay debugOverlay;
-private Camera m_CurrentCamera;
-private CommandBuffer m_CmdAfterEverything;
+	public PostProcessLayer postProcessLayer;
+	private PostProcessLayer m_PreviousPostProcessLayer;
+	public bool lightMeter;
+	public bool histogram;
+	public bool waveform;
+	public bool vectorscope;
+	public DebugOverlay debugOverlay;
+	private Camera m_CurrentCamera;
+	private CommandBuffer m_CmdAfterEverything;
 
 
 	private void OnEnable() { }
@@ -698,42 +698,42 @@ private CommandBuffer m_CmdAfterEverything;
 
 public sealed class PostProcessDebugLayer // TypeDefIndex: 13644
 {
-public LightMeterMonitor lightMeter;
-public HistogramMonitor histogram;
-public WaveformMonitor waveform;
-public VectorscopeMonitor vectorscope;
-private Dictionary<MonitorType, Monitor> m_Monitors;
-private int frameWidth;
-private int frameHeight;
-[CompilerGeneratedAttribute]
-private RenderTexture <debugOverlayTarget>k__BackingField;
-[CompilerGeneratedAttribute]
-private bool <debugOverlayActive>k__BackingField;
-[CompilerGeneratedAttribute]
-private DebugOverlay <debugOverlay>k__BackingField;
-public PostProcessDebugLayer.OverlaySettings overlaySettings;
+	public LightMeterMonitor lightMeter;
+	public HistogramMonitor histogram;
+	public WaveformMonitor waveform;
+	public VectorscopeMonitor vectorscope;
+	private Dictionary<MonitorType, Monitor> m_Monitors;
+	private int frameWidth;
+	private int frameHeight;
+	[CompilerGeneratedAttribute]
+	private RenderTexture <debugOverlayTarget>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private bool <debugOverlayActive>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private DebugOverlay <debugOverlay>k__BackingField;
+	public PostProcessDebugLayer.OverlaySettings overlaySettings;
 
 	public RenderTexture debugOverlayTarget { get; set; }
 	public bool debugOverlayActive { get; set; }
 	public DebugOverlay debugOverlay { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public RenderTexture get_debugOverlayTarget() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_debugOverlayTarget(RenderTexture value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_debugOverlayActive() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_debugOverlayActive(bool value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public DebugOverlay get_debugOverlay() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_debugOverlay(DebugOverlay value) { }
 
 	internal void OnEnable() { }
@@ -764,14 +764,14 @@ public PostProcessDebugLayer.OverlaySettings overlaySettings;
 
 public class PostProcessDebugLayer.OverlaySettings // TypeDefIndex: 13645
 {
-public bool linearDepth;
-[RangeAttribute]
-public float motionColorIntensity;
-[RangeAttribute]
-public int motionGridSize;
-public ColorBlindnessType colorBlindnessType;
-[RangeAttribute]
-public float colorBlindnessStrength;
+	public bool linearDepth;
+	[RangeAttribute]
+	public float motionColorIntensity;
+	[RangeAttribute]
+	public int motionGridSize;
+	public ColorBlindnessType colorBlindnessType;
+	[RangeAttribute]
+	public float colorBlindnessStrength;
 
 
 	public void .ctor() { }
@@ -780,7 +780,7 @@ public float colorBlindnessStrength;
 
 public abstract class PostProcessEffectRenderer // TypeDefIndex: 13646
 {
-protected bool m_ResetHistory;
+	protected bool m_ResetHistory;
 
 
 	public virtual void Init() { }
@@ -801,13 +801,13 @@ protected bool m_ResetHistory;
 
 public abstract class PostProcessEffectRenderer<T> : PostProcessEffectRenderer // TypeDefIndex: 13647
 {
-[CompilerGeneratedAttribute]
-private T <settings>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private T <settings>k__BackingField;
 
 	public T settings { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public T get_settings() { }
 	/* GenericInstMethod :
 	|
@@ -837,7 +837,7 @@ private T <settings>k__BackingField;
 	|-PostProcessEffectRenderer<Wiggle>.get_settings
 	*/
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	internal void set_settings(T value) { }
 	/* GenericInstMethod :
 	|
@@ -906,9 +906,9 @@ private T <settings>k__BackingField;
 
 public class PostProcessEffectSettings : ScriptableObject // TypeDefIndex: 13648
 {
-public bool active;
-public BoolParameter enabled;
-internal ReadOnlyCollection<ParameterOverride> parameters;
+	public bool active;
+	public BoolParameter enabled;
+	internal ReadOnlyCollection<ParameterOverride> parameters;
 
 
 	private void OnEnable() { }
@@ -923,31 +923,31 @@ internal ReadOnlyCollection<ParameterOverride> parameters;
 
 	public void .ctor() { }
 
-[CompilerGeneratedAttribute]
-private ParameterOverride <OnEnable>
+	[CompilerGeneratedAttribute]
+	private ParameterOverride <OnEnable>
 
 }
 
 private sealed class PostProcessEffectSettings.<>c // TypeDefIndex: 13649
 {
-public static readonly PostProcessEffectSettings.<>c <>9;
-public static Func<FieldInfo, bool> <>9__3_0;
-public static Func<FieldInfo, int> <>9__3_1;
+	public static readonly PostProcessEffectSettings.<>c <>9;
+	public static Func<FieldInfo, bool> <>9__3_0;
+	public static Func<FieldInfo, int> <>9__3_1;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-internal bool <OnEnable>
+	internal bool <OnEnable>
 
-internal int <OnEnable>
+	internal int <OnEnable>
 
 }
 
 public enum PostProcessEvent // TypeDefIndex: 13650
 {
-public int value__;
+	public int value__;
 	public const PostProcessEvent BeforeTransparent = 0;
 	public const PostProcessEvent BeforeStack = 1;
 	public const PostProcessEvent AfterStack = 2;
@@ -965,13 +965,13 @@ internal struct PostProcessEventComparer : IEqualityComparer<PostProcessEvent> /
 
 public sealed class PostProcessManager // TypeDefIndex: 13652
 {
-private static PostProcessManager s_Instance;
+	private static PostProcessManager s_Instance;
 	private const int k_MaxLayerCount = 32;
-private readonly Dictionary<int, List<PostProcessVolume>> m_SortedVolumes;
-private readonly List<PostProcessVolume> m_Volumes;
-private readonly Dictionary<int, bool> m_SortNeeded;
-private readonly List<PostProcessEffectSettings> m_BaseSettings;
-public readonly Dictionary<Type, PostProcessAttribute> settingsTypes;
+	private readonly Dictionary<int, List<PostProcessVolume>> m_SortedVolumes;
+	private readonly List<PostProcessVolume> m_Volumes;
+	private readonly Dictionary<int, bool> m_SortNeeded;
+	private readonly List<PostProcessEffectSettings> m_BaseSettings;
+	public readonly Dictionary<Type, PostProcessAttribute> settingsTypes;
 
 	public static PostProcessManager instance { get; }
 
@@ -1018,23 +1018,23 @@ public readonly Dictionary<Type, PostProcessAttribute> settingsTypes;
 
 private sealed class PostProcessManager.<>c // TypeDefIndex: 13653
 {
-public static readonly PostProcessManager.<>c <>9;
-public static Func<Type, bool> <>9__11_0;
+	public static readonly PostProcessManager.<>c <>9;
+	public static Func<Type, bool> <>9__11_0;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-internal bool <ReloadBaseTypes>
+	internal bool <ReloadBaseTypes>
 
 }
 
 public sealed class PostProcessProfile : ScriptableObject // TypeDefIndex: 13654
 {
-[TooltipAttribute]
-public List<PostProcessEffectSettings> settings;
-public bool isDirty;
+	[TooltipAttribute]
+	public List<PostProcessEffectSettings> settings;
+	public bool isDirty;
 
 
 	private void OnEnable() { }
@@ -1092,25 +1092,25 @@ public bool isDirty;
 
 private sealed class PostProcessProfile.<>c // TypeDefIndex: 13655
 {
-public static readonly PostProcessProfile.<>c <>9;
-public static Predicate<PostProcessEffectSettings> <>9__2_0;
+	public static readonly PostProcessProfile.<>c <>9;
+	public static Predicate<PostProcessEffectSettings> <>9__2_0;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-internal bool <OnEnable>
+	internal bool <OnEnable>
 
 }
 
 public sealed class PostProcessResources : ScriptableObject // TypeDefIndex: 13656
 {
-public Texture2D[] blueNoise64;
-public Texture2D[] blueNoise256;
-public PostProcessResources.SMAALuts smaaLuts;
-public PostProcessResources.Shaders shaders;
-public PostProcessResources.ComputeShaders computeShaders;
+	public Texture2D[] blueNoise64;
+	public Texture2D[] blueNoise256;
+	public PostProcessResources.SMAALuts smaaLuts;
+	public PostProcessResources.Shaders shaders;
+	public PostProcessResources.ComputeShaders computeShaders;
 
 
 	public void .ctor() { }
@@ -1119,30 +1119,30 @@ public PostProcessResources.ComputeShaders computeShaders;
 
 public sealed class PostProcessResources.Shaders // TypeDefIndex: 13657
 {
-public Shader bloom;
-public Shader copy;
-public Shader copyStd;
-public Shader copyStdFromTexArray;
-public Shader copyStdFromDoubleWide;
-public Shader discardAlpha;
-public Shader depthOfField;
-public Shader finalPass;
-public Shader grainBaker;
-public Shader motionBlur;
-public Shader temporalAntialiasing;
-public Shader subpixelMorphologicalAntialiasing;
-public Shader texture2dLerp;
-public Shader uber;
-public Shader lut2DBaker;
-public Shader lightMeter;
-public Shader gammaHistogram;
-public Shader waveform;
-public Shader vectorscope;
-public Shader debugOverlays;
-public Shader deferredFog;
-public Shader scalableAO;
-public Shader multiScaleAO;
-public Shader screenSpaceReflections;
+	public Shader bloom;
+	public Shader copy;
+	public Shader copyStd;
+	public Shader copyStdFromTexArray;
+	public Shader copyStdFromDoubleWide;
+	public Shader discardAlpha;
+	public Shader depthOfField;
+	public Shader finalPass;
+	public Shader grainBaker;
+	public Shader motionBlur;
+	public Shader temporalAntialiasing;
+	public Shader subpixelMorphologicalAntialiasing;
+	public Shader texture2dLerp;
+	public Shader uber;
+	public Shader lut2DBaker;
+	public Shader lightMeter;
+	public Shader gammaHistogram;
+	public Shader waveform;
+	public Shader vectorscope;
+	public Shader debugOverlays;
+	public Shader deferredFog;
+	public Shader scalableAO;
+	public Shader multiScaleAO;
+	public Shader screenSpaceReflections;
 
 
 	public PostProcessResources.Shaders Clone() { }
@@ -1153,18 +1153,18 @@ public Shader screenSpaceReflections;
 
 public sealed class PostProcessResources.ComputeShaders // TypeDefIndex: 13658
 {
-public ComputeShader autoExposure;
-public ComputeShader exposureHistogram;
-public ComputeShader lut3DBaker;
-public ComputeShader texture3dLerp;
-public ComputeShader gammaHistogram;
-public ComputeShader waveform;
-public ComputeShader vectorscope;
-public ComputeShader multiScaleAODownsample1;
-public ComputeShader multiScaleAODownsample2;
-public ComputeShader multiScaleAORender;
-public ComputeShader multiScaleAOUpsample;
-public ComputeShader gaussianDownsample;
+	public ComputeShader autoExposure;
+	public ComputeShader exposureHistogram;
+	public ComputeShader lut3DBaker;
+	public ComputeShader texture3dLerp;
+	public ComputeShader gammaHistogram;
+	public ComputeShader waveform;
+	public ComputeShader vectorscope;
+	public ComputeShader multiScaleAODownsample1;
+	public ComputeShader multiScaleAODownsample2;
+	public ComputeShader multiScaleAORender;
+	public ComputeShader multiScaleAOUpsample;
+	public ComputeShader gaussianDownsample;
 
 
 	public PostProcessResources.ComputeShaders Clone() { }
@@ -1175,8 +1175,8 @@ public ComputeShader gaussianDownsample;
 
 public sealed class PostProcessResources.SMAALuts // TypeDefIndex: 13659
 {
-public Texture2D area;
-public Texture2D search;
+	public Texture2D area;
+	public Texture2D search;
 
 
 	public void .ctor() { }
@@ -1185,21 +1185,21 @@ public Texture2D search;
 
 public sealed class PostProcessVolume : MonoBehaviour // TypeDefIndex: 13660
 {
-public PostProcessProfile sharedProfile;
-[TooltipAttribute]
-public bool isGlobal;
-public Bounds bounds;
-[MinAttribute]
-[TooltipAttribute]
-public float blendDistance;
-[RangeAttribute]
-[TooltipAttribute]
-public float weight;
-[TooltipAttribute]
-public float priority;
-private int m_PreviousLayer;
-private float m_PreviousPriority;
-private PostProcessProfile m_InternalProfile;
+	public PostProcessProfile sharedProfile;
+	[TooltipAttribute]
+	public bool isGlobal;
+	public Bounds bounds;
+	[MinAttribute]
+	[TooltipAttribute]
+	public float blendDistance;
+	[RangeAttribute]
+	[TooltipAttribute]
+	public float weight;
+	[TooltipAttribute]
+	public float priority;
+	private int m_PreviousLayer;
+	private float m_PreviousPriority;
+	private PostProcessProfile m_InternalProfile;
 
 	public PostProcessProfile profile { get; set; }
 	internal PostProcessProfile profileRef { get; }

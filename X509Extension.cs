@@ -1,8 +1,8 @@
 internal class X509Extension // TypeDefIndex: 61
 {
-protected string extnOid;
-protected bool extnCritical;
-protected ASN1 extnValue;
+	protected string extnOid;
+	protected bool extnCritical;
+	protected ASN1 extnValue;
 
 
 	public void .ctor(ASN1 asn1) { }
@@ -21,9 +21,9 @@ protected ASN1 extnValue;
 
 public class X509Extension // TypeDefIndex: 1719
 {
-protected string extnOid;
-protected bool extnCritical;
-protected ASN1 extnValue;
+	protected string extnOid;
+	protected bool extnCritical;
+	protected ASN1 extnValue;
 
 	public string Oid { get; }
 	public bool Critical { get; }
@@ -56,7 +56,7 @@ protected ASN1 extnValue;
 
 public class X509Extension : AsnEncodedData // TypeDefIndex: 2831
 {
-private bool _critical;
+	private bool _critical;
 
 	public bool Critical { get; set; }
 

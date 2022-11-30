@@ -2,7 +2,7 @@ internal struct AddNotifyMessageToPeerOptionsInternal : ISettable<AddNotifyMessa
 {
 
 internal struct AddNotifyMessageToPeerOptionsInternal : ISettable<AddNotifyMessageToPeerOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref AddNotifyMessageToPeerOptions other) { }

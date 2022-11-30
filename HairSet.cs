@@ -1,6 +1,6 @@
 public class HairSet : ScriptableObject // TypeDefIndex: 12491
 {
-public HairSet.MeshReplace[] MeshReplacements;
+	public HairSet.MeshReplace[] MeshReplacements;
 
 
 	public void Process(PlayerModelHair playerModelHair, HairDyeCollection dyeCollection, HairDye dye, MaterialPropertyBlock block) { }
@@ -13,10 +13,10 @@ public HairSet.MeshReplace[] MeshReplacements;
 
 public class HairSet.MeshReplace // TypeDefIndex: 12492
 {
-[HideInInspector]
-public string FindName;
-public Mesh Find;
-public Mesh[] ReplaceShapes;
+	[HideInInspector]
+	public string FindName;
+	public Mesh Find;
+	public Mesh[] ReplaceShapes;
 
 
 	public bool Test(string materialName) { }

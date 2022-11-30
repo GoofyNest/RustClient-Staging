@@ -2,7 +2,7 @@ internal struct CreateIntegratedPlatformOptionsContainerOptionsInternal : ISetta
 {
 
 internal struct CreateIntegratedPlatformOptionsContainerOptionsInternal : ISettable<CreateIntegratedPlatformOptionsContainerOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref CreateIntegratedPlatformOptionsContainerOptions other) { }

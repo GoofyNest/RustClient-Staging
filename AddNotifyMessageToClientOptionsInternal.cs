@@ -2,7 +2,7 @@ internal struct AddNotifyMessageToClientOptionsInternal : ISettable<AddNotifyMes
 {
 
 internal struct AddNotifyMessageToClientOptionsInternal : ISettable<AddNotifyMessageToClientOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref AddNotifyMessageToClientOptions other) { }

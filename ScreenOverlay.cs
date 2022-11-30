@@ -1,10 +1,10 @@
 public class ScreenOverlay : PostEffectsBase, IImageEffect // TypeDefIndex: 8219
 {
-public ScreenOverlay.OverlayBlendMode blendMode;
-public float intensity;
-public Texture texture;
-public Shader overlayShader;
-private Material overlayMaterial;
+	public ScreenOverlay.OverlayBlendMode blendMode;
+	public float intensity;
+	public Texture texture;
+	public Shader overlayShader;
+	private Material overlayMaterial;
 
 
 	public override bool CheckResources() { }
@@ -19,7 +19,7 @@ private Material overlayMaterial;
 
 public enum ScreenOverlay.OverlayBlendMode // TypeDefIndex: 8220
 {
-public int value__;
+	public int value__;
 	public const ScreenOverlay.OverlayBlendMode Additive = 0;
 	public const ScreenOverlay.OverlayBlendMode ScreenBlend = 1;
 	public const ScreenOverlay.OverlayBlendMode Multiply = 2;
@@ -30,10 +30,10 @@ public int value__;
 
 public class ScreenOverlay : PostProcessEffectSettings // TypeDefIndex: 12024
 {
-public OverlayBlendModeParameter blendMode;
-public FloatParameter intensity;
-public TextureParameter texture;
-public TextureParameter normals;
+	public OverlayBlendModeParameter blendMode;
+	public FloatParameter intensity;
+	public TextureParameter texture;
+	public TextureParameter normals;
 
 
 	public void .ctor() { }

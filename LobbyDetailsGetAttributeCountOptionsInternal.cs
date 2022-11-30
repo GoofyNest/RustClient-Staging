@@ -2,7 +2,7 @@ internal struct LobbyDetailsGetAttributeCountOptionsInternal : ISettable<LobbyDe
 {
 
 internal struct LobbyDetailsGetAttributeCountOptionsInternal : ISettable<LobbyDetailsGetAttributeCountOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref LobbyDetailsGetAttributeCountOptions other) { }

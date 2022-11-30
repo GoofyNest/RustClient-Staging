@@ -1,9 +1,9 @@
 internal struct LoginCallbackInfoInternal : ICallbackInfoInternal, IGettable<LoginCallbackInfo>, ISettable<LoginCallbackInfo>, IDisposable // TypeDefIndex: 9596
 {
-private Result m_ResultCode;
-private IntPtr m_ClientData;
-private IntPtr m_LocalUserId;
-private IntPtr m_ContinuanceToken;
+	private Result m_ResultCode;
+	private IntPtr m_ClientData;
+	private IntPtr m_LocalUserId;
+	private IntPtr m_ContinuanceToken;
 
 	public Result ResultCode { get; set; }
 	public object ClientData { get; set; }
@@ -42,13 +42,13 @@ private IntPtr m_ContinuanceToken;
 
 internal struct LoginCallbackInfoInternal : ICallbackInfoInternal, IGettable<LoginCallbackInfo>, ISettable<LoginCallbackInfo>, IDisposable // TypeDefIndex: 9672
 {
-private Result m_ResultCode;
-private IntPtr m_ClientData;
-private IntPtr m_LocalUserId;
-private IntPtr m_PinGrantInfo;
-private IntPtr m_ContinuanceToken;
-private IntPtr m_AccountFeatureRestrictedInfo;
-private IntPtr m_SelectedAccountId;
+	private Result m_ResultCode;
+	private IntPtr m_ClientData;
+	private IntPtr m_LocalUserId;
+	private IntPtr m_PinGrantInfo;
+	private IntPtr m_ContinuanceToken;
+	private IntPtr m_AccountFeatureRestrictedInfo;
+	private IntPtr m_SelectedAccountId;
 
 	public Result ResultCode { get; set; }
 	public object ClientData { get; set; }

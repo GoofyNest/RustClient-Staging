@@ -1,11 +1,11 @@
 internal struct ColorTween : ITweenValue // TypeDefIndex: 5045
 {
-private ColorTween.ColorTweenCallback m_Target;
-private Color m_StartColor;
-private Color m_TargetColor;
-private ColorTween.ColorTweenMode m_TweenMode;
-private float m_Duration;
-private bool m_IgnoreTimeScale;
+	private ColorTween.ColorTweenCallback m_Target;
+	private Color m_StartColor;
+	private Color m_TargetColor;
+	private ColorTween.ColorTweenMode m_TweenMode;
+	private float m_Duration;
+	private bool m_IgnoreTimeScale;
 
 	public Color startColor { get; set; }
 	public Color targetColor { get; set; }
@@ -48,7 +48,7 @@ private bool m_IgnoreTimeScale;
 
 public enum ColorTween.ColorTweenMode // TypeDefIndex: 5046
 {
-public int value__;
+	public int value__;
 	public const ColorTween.ColorTweenMode All = 0;
 	public const ColorTween.ColorTweenMode RGB = 1;
 	public const ColorTween.ColorTweenMode Alpha = 2;
@@ -64,12 +64,12 @@ public class ColorTween.ColorTweenCallback : UnityEvent<Color> // TypeDefIndex: 
 
 internal struct ColorTween : ITweenValue // TypeDefIndex: 6692
 {
-private ColorTween.ColorTweenCallback m_Target;
-private Color m_StartColor;
-private Color m_TargetColor;
-private ColorTween.ColorTweenMode m_TweenMode;
-private float m_Duration;
-private bool m_IgnoreTimeScale;
+	private ColorTween.ColorTweenCallback m_Target;
+	private Color m_StartColor;
+	private Color m_TargetColor;
+	private ColorTween.ColorTweenMode m_TweenMode;
+	private float m_Duration;
+	private bool m_IgnoreTimeScale;
 
 	public Color startColor { get; set; }
 	public Color targetColor { get; set; }
@@ -112,7 +112,7 @@ private bool m_IgnoreTimeScale;
 
 public enum ColorTween.ColorTweenMode // TypeDefIndex: 6693
 {
-public int value__;
+	public int value__;
 	public const ColorTween.ColorTweenMode All = 0;
 	public const ColorTween.ColorTweenMode RGB = 1;
 	public const ColorTween.ColorTweenMode Alpha = 2;

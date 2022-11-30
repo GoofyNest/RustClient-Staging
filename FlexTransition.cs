@@ -1,8 +1,8 @@
 public class FlexTransition : MonoBehaviour // TypeDefIndex: 6833
 {
-public FlexTransition.Definition[] Transitions;
-private readonly List<int> _pendingIds;
-private bool _currentState;
+	public FlexTransition.Definition[] Transitions;
+	private readonly List<int> _pendingIds;
+	private bool _currentState;
 
 
 	public void Start() { }
@@ -23,7 +23,7 @@ private bool _currentState;
 
 public enum FlexTransition.TransitionProperty // TypeDefIndex: 6834
 {
-public int value__;
+	public int value__;
 	public const FlexTransition.TransitionProperty PaddingLeft = 0;
 	public const FlexTransition.TransitionProperty PaddingRight = 1;
 	public const FlexTransition.TransitionProperty PaddingTop = 2;
@@ -44,70 +44,70 @@ public int value__;
 
 public struct FlexTransition.Definition // TypeDefIndex: 6835
 {
-public FlexTransition.TransitionProperty Property;
-public Object Object;
-public float FromFloat;
-public float ToFloat;
-public Color FromColor;
-public Color ToColor;
-[MinAttribute]
-public float Duration;
-public LeanTweenType Ease;
+	public FlexTransition.TransitionProperty Property;
+	public Object Object;
+	public float FromFloat;
+	public float ToFloat;
+	public Color FromColor;
+	public Color ToColor;
+	[MinAttribute]
+	public float Duration;
+	public LeanTweenType Ease;
 
 }
 
 private sealed class FlexTransition.<>c__DisplayClass9_0 // TypeDefIndex: 6836
 {
-public Image image;
-public Color startValue;
-public Color targetValue;
+	public Image image;
+	public Color startValue;
+	public Color targetValue;
 
 
 	public void .ctor() { }
 
-internal void <RunTransitionImpl>
+	internal void <RunTransitionImpl>
 
 }
 
 private sealed class FlexTransition.<>c__DisplayClass9_1 // TypeDefIndex: 6837
 {
-public TMP_Text text;
-public Color startValue;
-public Color targetValue;
+	public TMP_Text text;
+	public Color startValue;
+	public Color targetValue;
 
 
 	public void .ctor() { }
 
-internal void <RunTransitionImpl>
+	internal void <RunTransitionImpl>
 
 }
 
 private sealed class FlexTransition.<>c__DisplayClass9_2 // TypeDefIndex: 6838
 {
-public FlexElement element;
-public FlexTransition.TransitionProperty property;
+	public FlexElement element;
+	public FlexTransition.TransitionProperty property;
 
 
 	public void .ctor() { }
 
-internal void <RunTransitionImpl>
+	internal void <RunTransitionImpl>
 
 }
 
 private sealed class FlexTransition.<>c // TypeDefIndex: 6839
 {
-public static readonly FlexTransition.<>c <>9;
-public static Action<float, object> <>9__9_0;
-public static Action<float, object> <>9__9_1;
+	public static readonly FlexTransition.<>c <>9;
+	public static Action<float, object> <>9__9_0;
+	public static Action<float, object> <>9__9_1;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-internal void <RunTransitionImpl>
+	internal void <RunTransitionImpl>
 
-internal void <RunTransitionImpl>
+	internal void <RunTransitionImpl>
 
 }
 

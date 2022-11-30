@@ -1,9 +1,9 @@
 public class ReclaimManager : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6412
 {
-public bool ShouldPool;
-private bool _disposed;
-public List<ReclaimManager.ReclaimInfo> reclaimEntries;
-public int lastReclaimID;
+	public bool ShouldPool;
+	private bool _disposed;
+	public List<ReclaimManager.ReclaimInfo> reclaimEntries;
+	public int lastReclaimID;
 
 
 	public static void ResetToPool(ReclaimManager instance) { }
@@ -62,12 +62,12 @@ public int lastReclaimID;
 
 public class ReclaimManager.ReclaimInfo : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6413
 {
-public bool ShouldPool;
-private bool _disposed;
-public ulong victimID;
-public ulong killerID;
-public string killerString;
-public ItemContainer inventory;
+	public bool ShouldPool;
+	private bool _disposed;
+	public ulong victimID;
+	public ulong killerID;
+	public string killerString;
+	public ItemContainer inventory;
 
 
 	public static void ResetToPool(ReclaimManager.ReclaimInfo instance) { }

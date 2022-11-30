@@ -1,18 +1,18 @@
 public class PropRenderer : MonoBehaviour, IClientComponent // TypeDefIndex: 6635
 {
-public bool HideLowLods;
-public bool HideUnskinnable;
-public bool Outline;
-[HeaderAttribute]
-public Vector3 Rotation;
-public Vector3 PostRotation;
-[HeaderAttribute]
-public Vector3 PositionalTweak;
-[HeaderAttribute]
-public float FieldOfView;
-public Vector3 LookDirection;
-public Vector3 UpDirection;
-public GameObject[] HideDuringRender;
+	public bool HideLowLods;
+	public bool HideUnskinnable;
+	public bool Outline;
+	[HeaderAttribute]
+	public Vector3 Rotation;
+	public Vector3 PostRotation;
+	[HeaderAttribute]
+	public Vector3 PositionalTweak;
+	[HeaderAttribute]
+	public float FieldOfView;
+	public Vector3 LookDirection;
+	public Vector3 UpDirection;
+	public GameObject[] HideDuringRender;
 
 
 	public void DebugAlign() { }
@@ -23,10 +23,10 @@ public GameObject[] HideDuringRender;
 
 	public void PostRender() { }
 
-[ContextMenu]
+	[ContextMenu]
 	public void CreateIcon() { }
 
-[ContextMenu]
+	[ContextMenu]
 	public void CreateRender() { }
 
 	private static float DefaultLightIntensityScale(float intensity) { }

@@ -4,7 +4,7 @@ public abstract class MulticastDelegate : Delegate // TypeDefIndex: 377
 [ComVisibleAttribute]
 [Serializable]
 public abstract class MulticastDelegate : Delegate
-private Delegate[] delegates;
+	private Delegate[] delegates;
 
 
 	public override void GetObjectData(SerializationInfo info, StreamingContext context) { }

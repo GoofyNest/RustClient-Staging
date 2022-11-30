@@ -1,7 +1,7 @@
 internal class Peer // TypeDefIndex: 7348
 {
-private IntPtr ptr;
-private static byte[] ByteBuffer;
+	private IntPtr ptr;
+	private static byte[] ByteBuffer;
 
 	public virtual ulong incomingGUID { get; }
 	public virtual uint incomingAddressInt { get; }
@@ -101,7 +101,7 @@ private static byte[] ByteBuffer;
 
 public enum Peer.PacketPriority // TypeDefIndex: 7349
 {
-public int value__;
+	public int value__;
 	public const Peer.PacketPriority IMMEDIATE_PRIORITY = 0;
 	public const Peer.PacketPriority HIGH_PRIORITY = 1;
 	public const Peer.PacketPriority MEDIUM_PRIORITY = 2;
@@ -111,7 +111,7 @@ public int value__;
 
 public enum Peer.PacketReliability // TypeDefIndex: 7350
 {
-public int value__;
+	public int value__;
 	public const Peer.PacketReliability UNRELIABLE = 0;
 	public const Peer.PacketReliability UNRELIABLE_SEQUENCED = 1;
 	public const Peer.PacketReliability RELIABLE = 2;

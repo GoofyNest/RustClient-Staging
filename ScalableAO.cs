@@ -1,10 +1,10 @@
 internal sealed class ScalableAO : IAmbientOcclusionMethod // TypeDefIndex: 13602
 {
-private RenderTexture m_Result;
-private PropertySheet m_PropertySheet;
-private AmbientOcclusion m_Settings;
-private readonly RenderTargetIdentifier[] m_MRT;
-private readonly int[] m_SampleCount;
+	private RenderTexture m_Result;
+	private PropertySheet m_PropertySheet;
+	private AmbientOcclusion m_Settings;
+	private readonly RenderTargetIdentifier[] m_MRT;
+	private readonly int[] m_SampleCount;
 
 
 	public void .ctor(AmbientOcclusion settings) { }
@@ -27,7 +27,7 @@ private readonly int[] m_SampleCount;
 
 private enum ScalableAO.Pass // TypeDefIndex: 13603
 {
-public int value__;
+	public int value__;
 	public const ScalableAO.Pass OcclusionEstimationForward = 0;
 	public const ScalableAO.Pass OcclusionEstimationDeferred = 1;
 	public const ScalableAO.Pass HorizontalBlurForward = 2;

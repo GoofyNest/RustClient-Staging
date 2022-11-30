@@ -1,6 +1,6 @@
 public class TerrainPlacementMap : TerrainMap<bool> // TypeDefIndex: 12169
 {
-private bool isEnabled;
+	private bool isEnabled;
 
 
 	public override void Setup() { }
@@ -35,8 +35,8 @@ private bool isEnabled;
 
 	public void .ctor() { }
 
-[CompilerGeneratedAttribute]
-private void <SetBlocked>
+	[CompilerGeneratedAttribute]
+	private void <SetBlocked>
 
 }
 

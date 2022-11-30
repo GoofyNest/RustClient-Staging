@@ -15,15 +15,15 @@ internal class <Module>
 
 [RequiredByNativeCodeAttribute]
 public class ITilemap
-internal static ITilemap s_Instance;
-internal Tilemap m_Tilemap;
+	internal static ITilemap s_Instance;
+	internal Tilemap m_Tilemap;
 
 
 	internal void .ctor() { }
 
 	public void RefreshTile(Vector3Int position) { }
 
-[RequiredByNativeCodeAttribute]
+	[RequiredByNativeCodeAttribute]
 	private static ITilemap CreateInstance() { }
 
 }

@@ -1,6 +1,6 @@
 public enum ColorMode // TypeDefIndex: 6689
 {
-public int value__;
+	public int value__;
 	public const ColorMode Single = 0;
 	public const ColorMode HorizontalGradient = 1;
 	public const ColorMode VerticalGradient = 2;
@@ -10,7 +10,7 @@ public int value__;
 
 public enum ColorMode // TypeDefIndex: 13345
 {
-public int value__;
+	public int value__;
 	public const ColorMode Flat = 0;
 	public const ColorMode Gradient = 1;
 

@@ -4,7 +4,7 @@ public static class Import // TypeDefIndex: 7810
 internal class <Module>
 
 public static class Import
-private static Regex regex;
+	private static Regex regex;
 
 
 	public static T[] FromUrl<T>(string sheetId) { }
@@ -23,52 +23,52 @@ private static Regex regex;
 
 private sealed class Import.<>c__DisplayClass0_0<T> // TypeDefIndex: 7811
 {
-public string[] columnNames;
+	public string[] columnNames;
 
 
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-|-Import.<>c
+	|-Import.<>c
 	*/
 
 }
 
 private sealed class Import.<>c__DisplayClass0_1<T> // TypeDefIndex: 7812
 {
-public int i;
-public Import.<>c
-public Func<PropertyInfo, bool> <>9__0;
+	public int i;
+	public Import.<>c
+	public Func<PropertyInfo, bool> <>9__0;
 
 
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-|-Import.<>c
+	|-Import.<>c
 	*/
 
-internal bool <FromUrl>
+	internal bool <FromUrl>
 	/* GenericInstMethod :
 	|
-|-Import.<>c
+	|-Import.<>c
 	*/
 
 }
 
 private sealed class Import.<>c // TypeDefIndex: 7813
 {
-public static readonly Import.<>c <>9;
-public static Func<Match, string> <>9__2_0;
-public static RemoteCertificateValidationCallback <>9__3_0;
+	public static readonly Import.<>c <>9;
+	public static Func<Match, string> <>9__2_0;
+	public static RemoteCertificateValidationCallback <>9__3_0;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-internal string <GetCSVColumns>
+	internal string <GetCSVColumns>
 
-internal bool <MonoSecurityBullshitHack>
+	internal bool <MonoSecurityBullshitHack>
 
 }
 

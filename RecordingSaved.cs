@@ -1,13 +1,13 @@
 public class RecordingSaved : SingletonComponent<RecordingSaved> // TypeDefIndex: 13004
 {
-public RustText Label;
+	public RustText Label;
 
 
 	protected override void Awake() { }
 
 	public void Popup(string recordingName) { }
 
-[IteratorStateMachineAttribute]
+	[IteratorStateMachineAttribute]
 	private IEnumerator FadeInOut() { }
 
 	public void .ctor() { }
@@ -16,29 +16,29 @@ public RustText Label;
 
 private sealed class RecordingSaved.<FadeInOut>d__3 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 13005
 {
-private int <>1__state;
-private object <>2__current;
-public RecordingSaved <>4__this;
+	private int <>1__state;
+	private object <>2__current;
+	public RecordingSaved <>4__this;
 
 	private object System.Collections.Generic.IEnumerator<System.Object>.Current { get; }
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	public void .ctor(int <>1__state) { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private void System.Collections.IEnumerator.Reset() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }

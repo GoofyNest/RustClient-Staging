@@ -1,12 +1,12 @@
 internal class ChannelData // TypeDefIndex: 1139
 {
-internal string Ref;
-internal string Type;
-internal string Id;
-internal string DelayLoadAsClientChannel;
-private ArrayList _serverProviders;
-private ArrayList _clientProviders;
-private Hashtable _customProperties;
+	internal string Ref;
+	internal string Type;
+	internal string Id;
+	internal string DelayLoadAsClientChannel;
+	private ArrayList _serverProviders;
+	private ArrayList _clientProviders;
+	private Hashtable _customProperties;
 
 	internal ArrayList ServerProviders { get; }
 	public ArrayList ClientProviders { get; }
@@ -27,8 +27,8 @@ private Hashtable _customProperties;
 
 public class ChannelData // TypeDefIndex: 7425
 {
-internal GranuleInfo[] Granules;
-internal int[] ScaleFactorBits;
+	internal GranuleInfo[] Granules;
+	internal int[] ScaleFactorBits;
 
 
 	internal void .ctor() { }

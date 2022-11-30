@@ -24,7 +24,7 @@ public class WheelCollider : Collider
 
 	public void set_steerAngle(float value) { }
 
-[NativeNameAttribute]
+	[NativeNameAttribute]
 	public bool get_isGrounded() { }
 
 }

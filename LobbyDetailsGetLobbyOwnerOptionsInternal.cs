@@ -2,7 +2,7 @@ internal struct LobbyDetailsGetLobbyOwnerOptionsInternal : ISettable<LobbyDetail
 {
 
 internal struct LobbyDetailsGetLobbyOwnerOptionsInternal : ISettable<LobbyDetailsGetLobbyOwnerOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref LobbyDetailsGetLobbyOwnerOptions other) { }

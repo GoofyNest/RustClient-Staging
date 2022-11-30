@@ -1,18 +1,18 @@
 public class Scoreboard : MonoBehaviour, IClientComponent // TypeDefIndex: 13008
 {
-public static Scoreboard instance;
-public RustText scoreboardTitle;
-public RectTransform scoreboardRootContents;
-public RustText scoreLimitText;
-public GameObject teamPrefab;
-public GameObject columnPrefab;
-public GameObject dividerPrefab;
-public Color localPlayerColor;
-public Color otherPlayerColor;
-public Scoreboard.TeamColumn[] teamColumns;
-public GameObject[] TeamPanels;
-private GameObject divider;
-private bool dirty;
+	public static Scoreboard instance;
+	public RustText scoreboardTitle;
+	public RectTransform scoreboardRootContents;
+	public RustText scoreLimitText;
+	public GameObject teamPrefab;
+	public GameObject columnPrefab;
+	public GameObject dividerPrefab;
+	public Color localPlayerColor;
+	public Color otherPlayerColor;
+	public Scoreboard.TeamColumn[] teamColumns;
+	public GameObject[] TeamPanels;
+	private GameObject divider;
+	private bool dirty;
 
 
 	private void Awake() { }
@@ -39,8 +39,8 @@ private bool dirty;
 
 public class Scoreboard.TeamColumn // TypeDefIndex: 13009
 {
-public GameObject nameColumn;
-public GameObject[] activeColumns;
+	public GameObject nameColumn;
+	public GameObject[] activeColumns;
 
 
 	public void .ctor() { }

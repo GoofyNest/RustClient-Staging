@@ -2,7 +2,7 @@ internal struct AddNotifyLoginStatusChangedOptionsInternal : ISettable<AddNotify
 {
 
 internal struct AddNotifyLoginStatusChangedOptionsInternal : ISettable<AddNotifyLoginStatusChangedOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref AddNotifyLoginStatusChangedOptions other) { }
@@ -17,7 +17,7 @@ internal struct AddNotifyLoginStatusChangedOptionsInternal : ISettable<AddNotify
 {
 
 internal struct AddNotifyLoginStatusChangedOptionsInternal : ISettable<AddNotifyLoginStatusChangedOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref AddNotifyLoginStatusChangedOptions other) { }

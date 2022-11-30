@@ -2,10 +2,10 @@ internal sealed class BitReserve // TypeDefIndex: 7399
 {
 	private const int BUFSIZE = 32768;
 	private const int BUFSIZE_MASK = 32767;
-private int[] _Buffer;
-private int _Offset;
-private int _Totbit;
-private int _BufByteIdx;
+	private int[] _Buffer;
+	private int _Offset;
+	private int _Totbit;
+	private int _BufByteIdx;
 
 
 	internal void .ctor() { }

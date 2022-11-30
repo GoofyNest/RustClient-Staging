@@ -1,6 +1,6 @@
 public class HowToExamineHeld : BaseTip // TypeDefIndex: 13396
 {
-public static Translate.Phrase Phrase;
+	public static Translate.Phrase Phrase;
 
 	public int ExaminedTimes { get; }
 	public float SecondsLastExamined { get; }
@@ -23,8 +23,8 @@ public static Translate.Phrase Phrase;
 
 public class HowToHammerUpgrade : BaseTip // TypeDefIndex: 13397
 {
-public static Translate.Phrase Phrase;
-public static float lastBuildChangeTime;
+	public static Translate.Phrase Phrase;
+	public static float lastBuildChangeTime;
 
 	public float TimeSinceBuildChanged { get; }
 	public static bool HasHammerEquipped { get; }
@@ -49,8 +49,8 @@ public static float lastBuildChangeTime;
 
 public class HowToOpenBuildOptions : BaseTip // TypeDefIndex: 13398
 {
-public static Translate.Phrase Phrase;
-public static float lastBuildChangeTime;
+	public static Translate.Phrase Phrase;
+	public static float lastBuildChangeTime;
 
 	public float TimeSinceBuildChanged { get; }
 	public static bool HasBuildingPlanEquipped { get; }
@@ -75,7 +75,7 @@ public static float lastBuildChangeTime;
 
 public class HowToOpenCrafting : BaseTip // TypeDefIndex: 13399
 {
-public static Translate.Phrase Phrase;
+	public static Translate.Phrase Phrase;
 
 	public int CraftingOpenedTimes { get; }
 	public float CraftingOpenedSecondsAgo { get; }
@@ -98,7 +98,7 @@ public static Translate.Phrase Phrase;
 
 public class HowToOpenInventory : BaseTip // TypeDefIndex: 13400
 {
-public static Translate.Phrase Phrase;
+	public static Translate.Phrase Phrase;
 
 	public int InventoryOpenedTimes { get; }
 	public float IntentoryOpenedSecondsAgo { get; }
@@ -121,7 +121,7 @@ public static Translate.Phrase Phrase;
 
 public class HowToOpenMap : BaseTip // TypeDefIndex: 13401
 {
-public static Translate.Phrase Phrase;
+	public static Translate.Phrase Phrase;
 
 	public int MapOpenedTimes { get; }
 	public float MapOpenedSecondsAgo { get; }
@@ -144,8 +144,8 @@ public static Translate.Phrase Phrase;
 
 public class HowToOreMinigame : BaseTip // TypeDefIndex: 13402
 {
-public static Translate.Phrase Phrase;
-public static float lastOreHitTime;
+	public static Translate.Phrase Phrase;
+	public static float lastOreHitTime;
 
 	public int OreSpotsHit { get; }
 	public float OreHitSecondsAgo { get; }
@@ -170,7 +170,7 @@ public static float lastOreHitTime;
 
 public class HowToRegenWithComfort : BaseTip // TypeDefIndex: 13403
 {
-public static Translate.Phrase Phrase;
+	public static Translate.Phrase Phrase;
 
 	public static bool IsComfortable { get; }
 	public static float TimeComfortableTotal { get; }
@@ -193,7 +193,7 @@ public static Translate.Phrase Phrase;
 
 public class HowToRetrieveThrown : BaseTip // TypeDefIndex: 13404
 {
-public static Translate.Phrase Phrase;
+	public static Translate.Phrase Phrase;
 
 	public static bool HasThrowableItemEquipped { get; }
 	public override bool ShouldShow { get; }
@@ -213,9 +213,9 @@ public static Translate.Phrase Phrase;
 
 public class HowToThrow : BaseTip // TypeDefIndex: 13405
 {
-public static Translate.Phrase Phrase;
-public static bool itemThrown;
-public static float lastThrownTime;
+	public static Translate.Phrase Phrase;
+	public static bool itemThrown;
+	public static float lastThrownTime;
 
 	public static bool HasThrowableItemEquipped { get; }
 	public override bool ShouldShow { get; }
@@ -239,8 +239,8 @@ public static float lastThrownTime;
 
 public class HowToTreeMinigame : BaseTip // TypeDefIndex: 13406
 {
-public static Translate.Phrase Phrase;
-public static float lastTreeHitTime;
+	public static Translate.Phrase Phrase;
+	public static float lastTreeHitTime;
 
 	public int TreeSpotsHit { get; }
 	public float TreeHitSecondsAgo { get; }
@@ -265,7 +265,7 @@ public static float lastTreeHitTime;
 
 public class HowToUseBow : BaseTip // TypeDefIndex: 13407
 {
-public static Translate.Phrase Phrase;
+	public static Translate.Phrase Phrase;
 
 	public static bool HasBowItemEquipped { get; }
 	public override bool ShouldShow { get; }
@@ -285,7 +285,7 @@ public static Translate.Phrase Phrase;
 
 public class HowToUseGrenade : BaseTip // TypeDefIndex: 13408
 {
-public static Translate.Phrase Phrase;
+	public static Translate.Phrase Phrase;
 
 	private static bool HasGrenadeItemEquipped { get; }
 	public override bool ShouldShow { get; }
@@ -305,9 +305,9 @@ public static Translate.Phrase Phrase;
 
 public class HowToUseWave : BaseTip // TypeDefIndex: 13409
 {
-public static Translate.Phrase Phrase;
-public static float lastWavedAtTime;
-public static float lastLocalWaveTime;
+	public static Translate.Phrase Phrase;
+	public static float lastWavedAtTime;
+	public static float lastLocalWaveTime;
 
 	public override bool ShouldShow { get; }
 
@@ -332,7 +332,7 @@ public static float lastLocalWaveTime;
 
 public class HowToVoiceChat : BaseTip // TypeDefIndex: 13410
 {
-public static Translate.Phrase Phrase;
+	public static Translate.Phrase Phrase;
 
 	public float SecondsSpeaking { get; }
 	public override bool ShouldShow { get; }
@@ -352,7 +352,7 @@ public static Translate.Phrase Phrase;
 
 public class HowToWorldDrink : BaseTip // TypeDefIndex: 13411
 {
-public static Translate.Phrase Phrase;
+	public static Translate.Phrase Phrase;
 
 	public bool NearFreshWater { get; }
 	public float ConsumedWater { get; }
@@ -375,7 +375,7 @@ public static Translate.Phrase Phrase;
 
 public class TipInstrumentFullKeyboard : InstrumentTip // TypeDefIndex: 13413
 {
-public static Translate.Phrase Phrase;
+	public static Translate.Phrase Phrase;
 
 	public override bool ShouldShow { get; }
 
@@ -392,7 +392,7 @@ public static Translate.Phrase Phrase;
 
 public class TipInstrumentNumlock : InstrumentTip // TypeDefIndex: 13414
 {
-public static Translate.Phrase Phrase;
+	public static Translate.Phrase Phrase;
 
 	public override bool ShouldShow { get; }
 
@@ -409,7 +409,7 @@ public static Translate.Phrase Phrase;
 
 public class TipInstrumentPlay : InstrumentTip // TypeDefIndex: 13415
 {
-public static Translate.Phrase Phrase;
+	public static Translate.Phrase Phrase;
 
 	public override bool ShouldShow { get; }
 
@@ -426,9 +426,9 @@ public static Translate.Phrase Phrase;
 
 public class TipBreakCarLock : BaseTip // TypeDefIndex: 13417
 {
-public static Translate.Phrase Phrase;
-public static bool wasShowing;
-public static float nextTipTime;
+	public static Translate.Phrase Phrase;
+	public static bool wasShowing;
+	public static float nextTipTime;
 	public const float MIN_TIME_BETWEEN_TIPS = 300;
 
 	public override bool ShouldShow { get; }
@@ -448,8 +448,8 @@ public static float nextTipTime;
 
 public class TipCannotHarvest : BaseTip // TypeDefIndex: 13418
 {
-public static Translate.Phrase Phrase;
-public static float nonEntityHitTime;
+	public static Translate.Phrase Phrase;
+	public static float nonEntityHitTime;
 
 	public float TimeSinceHitNonEntity { get; }
 	public static bool HasToolItemEquipped { get; }
@@ -474,9 +474,9 @@ public static float nonEntityHitTime;
 
 public class TipConsumeFood : BaseTip // TypeDefIndex: 13419
 {
-public static Translate.Phrase Phrase;
-public float lastFoodPickupTime;
-public int lastFoodPickupCount;
+	public static Translate.Phrase Phrase;
+	public float lastFoodPickupTime;
+	public int lastFoodPickupCount;
 
 	public float ConsumedFood { get; }
 	public float ConsumedWater { get; }
@@ -508,9 +508,9 @@ public int lastFoodPickupCount;
 
 public class TipControllingMagnetCrane : BaseTip // TypeDefIndex: 13420
 {
-public static Translate.Phrase Phrase;
-private bool wasMounted;
-private TimeSince timeSinceShown;
+	public static Translate.Phrase Phrase;
+	private bool wasMounted;
+	private TimeSince timeSinceShown;
 
 	public override bool ShouldShow { get; }
 
@@ -527,9 +527,9 @@ private TimeSince timeSinceShown;
 
 public class TipDrivingSubmarine : BaseTip // TypeDefIndex: 13421
 {
-public static Translate.Phrase Phrase;
-private bool wasMounted;
-private bool haveShown;
+	public static Translate.Phrase Phrase;
+	private bool wasMounted;
+	private bool haveShown;
 
 	public override bool ShouldShow { get; }
 
@@ -546,8 +546,8 @@ private bool haveShown;
 
 public class TipEquipTorch : BaseTip // TypeDefIndex: 13422
 {
-public static Translate.Phrase Phrase;
-public static float nextTorchTipTime;
+	public static Translate.Phrase Phrase;
+	public static float nextTorchTipTime;
 
 	public static bool IsDark { get; }
 	public static float TimeComfortableTotal { get; }
@@ -575,7 +575,7 @@ public static float nextTorchTipTime;
 
 public class TipFillToolCupboard : BaseTip // TypeDefIndex: 13423
 {
-public static Translate.Phrase Phrase;
+	public static Translate.Phrase Phrase;
 
 	public int CupboardOpenedTimes { get; }
 	public override bool ShouldShow { get; }
@@ -595,7 +595,7 @@ public static Translate.Phrase Phrase;
 
 public class TipFishingControls : BaseTip // TypeDefIndex: 13424
 {
-public static Translate.Phrase Phrase;
+	public static Translate.Phrase Phrase;
 
 	public override bool ShouldShow { get; }
 
@@ -612,9 +612,9 @@ public static Translate.Phrase Phrase;
 
 public class TipFishingFail : BaseTip // TypeDefIndex: 13425
 {
-public static Translate.Phrase StrainPhrase;
-public static Translate.Phrase AnglePhrase;
-public static Translate.Phrase ObstructedPhrase;
+	public static Translate.Phrase StrainPhrase;
+	public static Translate.Phrase AnglePhrase;
+	public static Translate.Phrase ObstructedPhrase;
 
 	public override bool ShouldShow { get; }
 
@@ -631,7 +631,7 @@ public static Translate.Phrase ObstructedPhrase;
 
 public class TipFlashlight : BaseTip // TypeDefIndex: 13426
 {
-public static Translate.Phrase Phrase;
+	public static Translate.Phrase Phrase;
 
 	public override bool ShouldShow { get; }
 	private bool HasShownPrompt { get; set; }
@@ -653,9 +653,9 @@ public static Translate.Phrase Phrase;
 
 public class TipHealAtCampfire : BaseTip // TypeDefIndex: 13427
 {
-public static Translate.Phrase Phrase;
-public float oldHealth;
-public float lastHurtTime;
+	public static Translate.Phrase Phrase;
+	public float oldHealth;
+	public float lastHurtTime;
 
 	public bool IsHurt { get; }
 	public float TimeComfortableTotal { get; }
@@ -684,9 +684,9 @@ public float lastHurtTime;
 
 public class TipKayakPaddle : BaseTip // TypeDefIndex: 13428
 {
-public static Translate.Phrase Phrase;
-[CompilerGeneratedAttribute]
-private static bool <hasPaddledWithoutOar>k__BackingField;
+	public static Translate.Phrase Phrase;
+	[CompilerGeneratedAttribute]
+	private static bool <hasPaddledWithoutOar>k__BackingField;
 
 	public override bool ShouldShow { get; }
 	public static bool hasPaddledWithoutOar { get; set; }
@@ -696,10 +696,10 @@ private static bool <hasPaddledWithoutOar>k__BackingField;
 
 	public override bool get_ShouldShow() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public static bool get_hasPaddledWithoutOar() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public static void set_hasPaddledWithoutOar(bool value) { }
 
 	public void .ctor() { }
@@ -710,9 +710,9 @@ private static bool <hasPaddledWithoutOar>k__BackingField;
 
 public class TipMLRSAimingModule : BaseTip // TypeDefIndex: 13429
 {
-public static Translate.Phrase Phrase;
-public static bool wasMounted;
-public static float nextTipTime;
+	public static Translate.Phrase Phrase;
+	public static bool wasMounted;
+	public static float nextTipTime;
 
 	public override bool ShouldShow { get; }
 
@@ -729,9 +729,9 @@ public static float nextTipTime;
 
 public class TipMLRSBrokenDown : BaseTip // TypeDefIndex: 13430
 {
-public static Translate.Phrase Phrase;
-public static bool wasMounted;
-public static float nextTipTime;
+	public static Translate.Phrase Phrase;
+	public static bool wasMounted;
+	public static float nextTipTime;
 
 	public override bool ShouldShow { get; }
 
@@ -748,9 +748,9 @@ public static float nextTipTime;
 
 public class TipMLRSNoRockets : BaseTip // TypeDefIndex: 13431
 {
-public static Translate.Phrase Phrase;
-public static bool wasMounted;
-public static float nextTipTime;
+	public static Translate.Phrase Phrase;
+	public static bool wasMounted;
+	public static float nextTipTime;
 
 	public override bool ShouldShow { get; }
 
@@ -767,7 +767,7 @@ public static float nextTipTime;
 
 public class TipMissingLure : BaseTip // TypeDefIndex: 13432
 {
-public static Translate.Phrase Phrase;
+	public static Translate.Phrase Phrase;
 
 	public override bool ShouldShow { get; }
 
@@ -784,7 +784,7 @@ public static Translate.Phrase Phrase;
 
 public class TipNoBuild : BaseTip // TypeDefIndex: 13433
 {
-public static Translate.Phrase Phrase;
+	public static Translate.Phrase Phrase;
 
 	public static bool HasBuildingPlanEquipped { get; }
 	public override bool ShouldShow { get; }
@@ -806,8 +806,8 @@ public static Translate.Phrase Phrase;
 
 public class TipPetControlWheel : BaseTip // TypeDefIndex: 13434
 {
-public static Translate.Phrase Phrase;
-public static bool haveShown;
+	public static Translate.Phrase Phrase;
+	public static bool haveShown;
 
 	public override bool ShouldShow { get; }
 
@@ -824,7 +824,7 @@ public static bool haveShown;
 
 public class TipPlaceSleepingBag : BaseTip // TypeDefIndex: 13435
 {
-public static Translate.Phrase Phrase;
+	public static Translate.Phrase Phrase;
 
 	public override bool ShouldShow { get; }
 
@@ -841,7 +841,7 @@ public static Translate.Phrase Phrase;
 
 public class TipPlaceToolCupboard : BaseTip // TypeDefIndex: 13436
 {
-public static Translate.Phrase Phrase;
+	public static Translate.Phrase Phrase;
 
 	public int CupboardOpenedTimes { get; }
 	public int NumBlocksPlaced { get; }
@@ -867,7 +867,7 @@ public static Translate.Phrase Phrase;
 
 public class TipPokerWinnings : BaseTip // TypeDefIndex: 13437
 {
-public static Translate.Phrase Phrase;
+	public static Translate.Phrase Phrase;
 
 	public override bool ShouldShow { get; }
 
@@ -884,7 +884,7 @@ public static Translate.Phrase Phrase;
 
 public class TipRads : BaseTip // TypeDefIndex: 13438
 {
-public static Translate.Phrase Phrase;
+	public static Translate.Phrase Phrase;
 
 	public float RadDuration { get; }
 	public bool HasRads { get; }
@@ -907,7 +907,7 @@ public static Translate.Phrase Phrase;
 
 public class TipRemoveRads : BaseTip // TypeDefIndex: 13439
 {
-public static Translate.Phrase Phrase;
+	public static Translate.Phrase Phrase;
 
 	public float RadDuration { get; }
 	public bool HasRads { get; }
@@ -933,7 +933,7 @@ public static Translate.Phrase Phrase;
 
 public class TipReskinObject : BaseTip // TypeDefIndex: 13440
 {
-public static Translate.Phrase Phrase;
+	public static Translate.Phrase Phrase;
 
 	public override bool ShouldShow { get; }
 
@@ -950,7 +950,7 @@ public static Translate.Phrase Phrase;
 
 public class TipSledPlacement : BaseTip // TypeDefIndex: 13441
 {
-public static Translate.Phrase Phrase;
+	public static Translate.Phrase Phrase;
 
 	public override bool ShouldShow { get; }
 
@@ -967,7 +967,7 @@ public static Translate.Phrase Phrase;
 
 public class TipSleepingBagPlacement : BaseTip // TypeDefIndex: 13442
 {
-public static Translate.Phrase Phrase;
+	public static Translate.Phrase Phrase;
 
 	public override bool ShouldShow { get; }
 
@@ -984,9 +984,9 @@ public static Translate.Phrase Phrase;
 
 public class TipSnapAttractionPoint : BaseTip // TypeDefIndex: 13443
 {
-public static Translate.Phrase Phrase;
-[CompilerGeneratedAttribute]
-private static bool <HasDismissedSnap>k__BackingField;
+	public static Translate.Phrase Phrase;
+	[CompilerGeneratedAttribute]
+	private static bool <HasDismissedSnap>k__BackingField;
 
 	public override bool ShouldShow { get; }
 	public static bool HasDismissedSnap { get; set; }
@@ -996,10 +996,10 @@ private static bool <HasDismissedSnap>k__BackingField;
 
 	public override bool get_ShouldShow() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public static bool get_HasDismissedSnap() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public static void set_HasDismissedSnap(bool value) { }
 
 	public void .ctor() { }
@@ -1010,9 +1010,9 @@ private static bool <HasDismissedSnap>k__BackingField;
 
 public class TipSnowmobileSurface : BaseTip // TypeDefIndex: 13444
 {
-public static Translate.Phrase Phrase;
-public static bool showedMessage;
-public static float nextTipTime;
+	public static Translate.Phrase Phrase;
+	public static bool showedMessage;
+	public static float nextTipTime;
 
 	public override bool ShouldShow { get; }
 
@@ -1029,7 +1029,7 @@ public static float nextTipTime;
 
 public class TipSprayControls : BaseTip // TypeDefIndex: 13445
 {
-public static Translate.Phrase Phrase;
+	public static Translate.Phrase Phrase;
 
 	public override bool ShouldShow { get; }
 
@@ -1046,7 +1046,7 @@ public static Translate.Phrase Phrase;
 
 public class TipTooCold : BaseTip // TypeDefIndex: 13446
 {
-public static Translate.Phrase Phrase;
+	public static Translate.Phrase Phrase;
 
 	public float ColdDuration { get; }
 	public bool IsCold { get; }
@@ -1069,7 +1069,7 @@ public static Translate.Phrase Phrase;
 
 public class TipTooHot : BaseTip // TypeDefIndex: 13447
 {
-public static Translate.Phrase Phrase;
+	public static Translate.Phrase Phrase;
 
 	public float HotDuration { get; }
 	public bool IsHot { get; }
@@ -1092,7 +1092,7 @@ public static Translate.Phrase Phrase;
 
 public class TipZipline : BaseTip // TypeDefIndex: 13448
 {
-public static Translate.Phrase Phrase;
+	public static Translate.Phrase Phrase;
 
 	public override bool ShouldShow { get; }
 

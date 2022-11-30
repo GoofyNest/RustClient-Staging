@@ -1,14 +1,14 @@
 public class ConstructionSocket : Socket_Base // TypeDefIndex: 10791
 {
-public ConstructionSocket.Type socketType;
-public int rotationDegrees;
-public int rotationOffset;
-public bool restrictPlacementRotation;
-public bool restrictPlacementAngle;
-public float faceAngle;
-public float angleAllowed;
-[RangeAttribute]
-public float support;
+	public ConstructionSocket.Type socketType;
+	public int rotationDegrees;
+	public int rotationOffset;
+	public bool restrictPlacementRotation;
+	public bool restrictPlacementAngle;
+	public float faceAngle;
+	public float angleAllowed;
+	[RangeAttribute]
+	public float support;
 
 
 	private void OnDrawGizmos() { }
@@ -33,7 +33,7 @@ public float support;
 
 public enum ConstructionSocket.Type // TypeDefIndex: 10792
 {
-public int value__;
+	public int value__;
 	public const ConstructionSocket.Type None = 0;
 	public const ConstructionSocket.Type Foundation = 1;
 	public const ConstructionSocket.Type Floor = 2;
@@ -58,7 +58,7 @@ public int value__;
 
 public class ConstructionSocket_Elevator : ConstructionSocket // TypeDefIndex: 10793
 {
-public int MaxFloor;
+	public int MaxFloor;
 
 
 	protected override bool CanConnectToEntity(Construction.Target target) { }

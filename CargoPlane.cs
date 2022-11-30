@@ -1,13 +1,13 @@
 public class CargoPlane : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6439
 {
-public bool ShouldPool;
-private bool _disposed;
-public Vector3 startPos;
-public Vector3 endPos;
-public float secondsToTake;
-public float secondsTaken;
-public bool dropped;
-public Vector3 dropPosition;
+	public bool ShouldPool;
+	private bool _disposed;
+	public Vector3 startPos;
+	public Vector3 endPos;
+	public float secondsToTake;
+	public float secondsTaken;
+	public bool dropped;
+	public Vector3 dropPosition;
 
 
 	public static void ResetToPool(CargoPlane instance) { }
@@ -66,8 +66,8 @@ public Vector3 dropPosition;
 
 public class CargoPlane : BaseEntity // TypeDefIndex: 11559
 {
-public GameObjectRef prefabDrop;
-public SpawnFilter filter;
+	public GameObjectRef prefabDrop;
+	public SpawnFilter filter;
 
 
 	public void .ctor() { }

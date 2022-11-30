@@ -2,7 +2,7 @@ internal struct QueryAgeGateOptionsInternal : ISettable<QueryAgeGateOptions>, ID
 {
 
 internal struct QueryAgeGateOptionsInternal : ISettable<QueryAgeGateOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref QueryAgeGateOptions other) { }

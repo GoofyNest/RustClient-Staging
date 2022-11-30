@@ -5,9 +5,9 @@ internal class RemoteActivator : MarshalByRefObject
 
 [ComVisibleAttribute]
 public class SoapAttribute : Attribute
-private bool _useAttribute;
-protected string ProtXmlNamespace;
-protected object ReflectInfo;
+	private bool _useAttribute;
+	protected string ProtXmlNamespace;
+	protected object ReflectInfo;
 
 	public virtual bool UseAttribute { get; }
 	public virtual string XmlNamespace { get; }

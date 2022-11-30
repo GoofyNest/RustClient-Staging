@@ -8,7 +8,7 @@ public struct VideoClipPlayable : IEquatable<VideoClipPlayable> // TypeDefIndex:
 [NativeHeaderAttribute]
 [NativeHeaderAttribute]
 public struct VideoClipPlayable : IEquatable<VideoClipPlayable>
-private PlayableHandle m_Handle;
+	private PlayableHandle m_Handle;
 
 
 	public PlayableHandle GetHandle() { }

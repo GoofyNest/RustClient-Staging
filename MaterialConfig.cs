@@ -1,13 +1,13 @@
 public class MaterialConfig : ScriptableObject // TypeDefIndex: 13109
 {
-[HorizontalAttribute]
-public MaterialConfig.ShaderParametersFloat[] Floats;
-[HorizontalAttribute]
-public MaterialConfig.ShaderParametersColor[] Colors;
-[HorizontalAttribute]
-public MaterialConfig.ShaderParametersTexture[] Textures;
-public string[] ScaleUV;
-private MaterialPropertyBlock properties;
+	[HorizontalAttribute]
+	public MaterialConfig.ShaderParametersFloat[] Floats;
+	[HorizontalAttribute]
+	public MaterialConfig.ShaderParametersColor[] Colors;
+	[HorizontalAttribute]
+	public MaterialConfig.ShaderParametersTexture[] Textures;
+	public string[] ScaleUV;
+	private MaterialPropertyBlock properties;
 
 
 	public MaterialPropertyBlock GetMaterialPropertyBlock(Material mat, Vector3 pos, Vector3 scale) { }
@@ -18,12 +18,12 @@ private MaterialPropertyBlock properties;
 
 public class MaterialConfig.ShaderParameters<T> // TypeDefIndex: 13110
 {
-public string Name;
-public T Arid;
-public T Temperate;
-public T Tundra;
-public T Arctic;
-private T[] climates;
+	public string Name;
+	public T Arid;
+	public T Temperate;
+	public T Tundra;
+	public T Arctic;
+	private T[] climates;
 
 
 	public float FindBlendParameters(Vector3 pos, out T src, out T dst) { }

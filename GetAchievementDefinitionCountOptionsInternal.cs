@@ -2,7 +2,7 @@ internal struct GetAchievementDefinitionCountOptionsInternal : ISettable<GetAchi
 {
 
 internal struct GetAchievementDefinitionCountOptionsInternal : ISettable<GetAchievementDefinitionCountOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref GetAchievementDefinitionCountOptions other) { }

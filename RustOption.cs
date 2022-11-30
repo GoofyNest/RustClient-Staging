@@ -1,11 +1,11 @@
 public class RustOption : RustControl // TypeDefIndex: 7067
 {
-public RustButton Left;
-public RustButton Right;
-public RustText Text;
-public Option[] Options;
-private int CurrentOption;
-public RustOption.ChangedEvent OnChanged;
+	public RustButton Left;
+	public RustButton Right;
+	public RustText Text;
+	public Option[] Options;
+	private int CurrentOption;
+	public RustOption.ChangedEvent OnChanged;
 
 	public Option Value { get; }
 

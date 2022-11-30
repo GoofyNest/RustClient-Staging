@@ -2,7 +2,7 @@ public enum Headset.EFFECT_TYPE // TypeDefIndex: 7676
 {
 
 public enum Headset.EFFECT_TYPE
-public int value__;
+	public int value__;
 	public const Headset.EFFECT_TYPE CHROMA_NONE = 0;
 	public const Headset.EFFECT_TYPE CHROMA_STATIC = 1;
 	public const Headset.EFFECT_TYPE CHROMA_BREATHING = 2;
@@ -14,7 +14,7 @@ public int value__;
 
 public struct Headset.STATIC_EFFECT_TYPE // TypeDefIndex: 7677
 {
-public int Color;
+	public int Color;
 
 }
 

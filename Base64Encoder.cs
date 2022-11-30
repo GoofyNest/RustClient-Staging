@@ -1,8 +1,8 @@
 internal abstract class Base64Encoder // TypeDefIndex: 1813
 {
-private byte[] leftOverBytes;
-private int leftOverBytesCount;
-private char[] charsLine;
+	private byte[] leftOverBytes;
+	private int leftOverBytesCount;
+	private char[] charsLine;
 
 
 	internal void .ctor() { }
@@ -17,10 +17,10 @@ private char[] charsLine;
 
 internal class Base64Encoder // TypeDefIndex: 5926
 {
-private readonly char[] _charsLine;
-private readonly TextWriter _writer;
-private byte[] _leftOverBytes;
-private int _leftOverBytesCount;
+	private readonly char[] _charsLine;
+	private readonly TextWriter _writer;
+	private byte[] _leftOverBytes;
+	private int _leftOverBytesCount;
 
 
 	public void .ctor(TextWriter writer) { }

@@ -2,9 +2,9 @@ internal sealed class AutoExposureRenderer : PostProcessEffectRenderer<AutoExpos
 {
 	private const int k_NumEyes = 2;
 	private const int k_NumAutoExposureTextures = 2;
-private readonly RenderTexture[][] m_AutoExposurePool;
-private int[] m_AutoExposurePingPong;
-private RenderTexture m_CurrentAutoExposure;
+	private readonly RenderTexture[][] m_AutoExposurePool;
+	private int[] m_AutoExposurePingPong;
+	private RenderTexture m_CurrentAutoExposure;
 
 
 	public void .ctor() { }

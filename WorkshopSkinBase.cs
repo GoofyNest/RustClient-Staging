@@ -1,13 +1,13 @@
 public class WorkshopSkinBase : WorkshopBase // TypeDefIndex: 7736
 {
-public static string[] itemName;
-[HeaderAttribute]
-public WorkshopSkinBase.SkinType skinType;
-[FormerlySerializedAsAttribute]
-public Material skinMaterial0;
-public Material skinMaterial1;
-public Material skinMaterial2;
-public Material skinMaterial3;
+	public static string[] itemName;
+	[HeaderAttribute]
+	public WorkshopSkinBase.SkinType skinType;
+	[FormerlySerializedAsAttribute]
+	public Material skinMaterial0;
+	public Material skinMaterial1;
+	public Material skinMaterial2;
+	public Material skinMaterial3;
 
 
 	public void .ctor() { }
@@ -18,7 +18,7 @@ public Material skinMaterial3;
 
 public enum WorkshopSkinBase.SkinType // TypeDefIndex: 7737
 {
-public int value__;
+	public int value__;
 	public const WorkshopSkinBase.SkinType TShirt = 0;
 	public const WorkshopSkinBase.SkinType Pants = 1;
 	public const WorkshopSkinBase.SkinType SleepingBag = 2;

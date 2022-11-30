@@ -1,8 +1,8 @@
 public class HitboxSystem : MonoBehaviour, IPrefabPreProcess // TypeDefIndex: 11003
 {
-private float rebuildTime;
+	private float rebuildTime;
 	private const float rebuildDeltaTime = 0,03333334;
-public List<HitboxSystem.HitboxShape> hitboxes;
+	public List<HitboxSystem.HitboxShape> hitboxes;
 
 
 	public void PreProcess(IPrefabProcessor preProcess, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
@@ -19,14 +19,14 @@ public List<HitboxSystem.HitboxShape> hitboxes;
 
 public class HitboxSystem.HitboxShape // TypeDefIndex: 11004
 {
-public Transform bone;
-public HitboxDefinition.Type type;
-public Matrix4x4 localTransform;
-public PhysicMaterial colliderMaterial;
-private Matrix4x4 transform;
-private Matrix4x4 inverseTransform;
-[CompilerGeneratedAttribute]
-private Vector3 <Size>k__BackingField;
+	public Transform bone;
+	public HitboxDefinition.Type type;
+	public Matrix4x4 localTransform;
+	public PhysicMaterial colliderMaterial;
+	private Matrix4x4 transform;
+	private Matrix4x4 inverseTransform;
+	[CompilerGeneratedAttribute]
+	private Vector3 <Size>k__BackingField;
 
 	public Matrix4x4 Transform { get; }
 	public Vector3 Position { get; }
@@ -40,10 +40,10 @@ private Vector3 <Size>k__BackingField;
 
 	public Quaternion get_Rotation() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Vector3 get_Size() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_Size(Vector3 value) { }
 
 	public void UpdateTransform() { }
@@ -66,15 +66,15 @@ private Vector3 <Size>k__BackingField;
 
 private sealed class HitboxSystem.<>c // TypeDefIndex: 11005
 {
-public static readonly HitboxSystem.<>c <>9;
-public static Func<HitboxDefinition, int> <>9__4_0;
+	public static readonly HitboxSystem.<>c <>9;
+	public static Func<HitboxDefinition, int> <>9__4_0;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-internal int <PreProcess>
+	internal int <PreProcess>
 
 }
 

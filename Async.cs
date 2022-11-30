@@ -13,7 +13,7 @@ public sealed class AsyncCallback : MulticastDelegate // TypeDefIndex: 173
 
 public sealed class AsyncLocal<T> : IAsyncLocal // TypeDefIndex: 774
 {
-private readonly Action<AsyncLocalValueChangedArgs<T>> m_valueChangedHandler;
+	private readonly Action<AsyncLocalValueChangedArgs<T>> m_valueChangedHandler;
 
 	public T Value { get; set; }
 
@@ -51,19 +51,19 @@ private readonly Action<AsyncLocalValueChangedArgs<T>> m_valueChangedHandler;
 
 public struct AsyncLocalValueChangedArgs<T> // TypeDefIndex: 776
 {
-[CompilerGeneratedAttribute]
-private T <PreviousValue>k__BackingField;
-[CompilerGeneratedAttribute]
-private T <CurrentValue>k__BackingField;
-[CompilerGeneratedAttribute]
-private bool <ThreadContextChanged>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private T <PreviousValue>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private T <CurrentValue>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private bool <ThreadContextChanged>k__BackingField;
 
 	public T PreviousValue { get; set; }
 	public T CurrentValue { get; set; }
 	private bool ThreadContextChanged { set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public T get_PreviousValue() { }
 	/* GenericInstMethod :
 	|
@@ -71,14 +71,14 @@ private bool <ThreadContextChanged>k__BackingField;
 	|-AsyncLocalValueChangedArgs<object>.get_PreviousValue
 	*/
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_PreviousValue(T value) { }
 	/* GenericInstMethod :
 	|
 	|-AsyncLocalValueChangedArgs<object>.set_PreviousValue
 	*/
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public T get_CurrentValue() { }
 	/* GenericInstMethod :
 	|
@@ -87,14 +87,14 @@ private bool <ThreadContextChanged>k__BackingField;
 	|-AsyncLocalValueChangedArgs<object>.get_CurrentValue
 	*/
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_CurrentValue(T value) { }
 	/* GenericInstMethod :
 	|
 	|-AsyncLocalValueChangedArgs<object>.set_CurrentValue
 	*/
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_ThreadContextChanged(bool value) { }
 	/* GenericInstMethod :
 	|
@@ -111,7 +111,7 @@ private bool <ThreadContextChanged>k__BackingField;
 
 internal enum AsyncCausalityStatus // TypeDefIndex: 838
 {
-public int value__;
+	public int value__;
 	public const AsyncCausalityStatus Started = 0;
 	public const AsyncCausalityStatus Completed = 1;
 	public const AsyncCausalityStatus Canceled = 2;
@@ -121,17 +121,17 @@ public int value__;
 
 internal static class AsyncCausalityTracer // TypeDefIndex: 841
 {
-[FriendAccessAllowedAttribute]
+	[FriendAccessAllowedAttribute]
 	internal static bool LoggingOn { get; }
 
 
-[FriendAccessAllowedAttribute]
+	[FriendAccessAllowedAttribute]
 	internal static bool get_LoggingOn() { }
 
-[FriendAccessAllowedAttribute]
+	[FriendAccessAllowedAttribute]
 	internal static void TraceOperationCreation(CausalityTraceLevel traceLevel, int taskId, string operationName, ulong relatedContext) { }
 
-[FriendAccessAllowedAttribute]
+	[FriendAccessAllowedAttribute]
 	internal static void TraceOperationCompletion(CausalityTraceLevel traceLevel, int taskId, AsyncCausalityStatus status) { }
 
 	internal static void TraceOperationRelation(CausalityTraceLevel traceLevel, int taskId, CausalityRelation relation) { }
@@ -144,8 +144,8 @@ internal static class AsyncCausalityTracer // TypeDefIndex: 841
 
 internal class AsyncRequest // TypeDefIndex: 1193
 {
-internal IMessageSink ReplySink;
-internal IMessage MsgRequest;
+	internal IMessageSink ReplySink;
+	internal IMessage MsgRequest;
 
 
 	public void .ctor(IMessage msgRequest, IMessageSink replySink) { }
@@ -154,23 +154,23 @@ internal IMessage MsgRequest;
 
 public class AsyncResult : IAsyncResult, IMessageSink, IThreadPoolWorkItem // TypeDefIndex: 1223
 {
-private object async_state;
-private WaitHandle handle;
-private object async_delegate;
-private IntPtr data;
-private object object_data;
-private bool sync_completed;
-private bool completed;
-private bool endinvoke_called;
-private object async_callback;
-private ExecutionContext current;
-private ExecutionContext original;
-private long add_time;
-private MonoMethodMessage call_message;
-private IMessageCtrl message_ctrl;
-private IMessage reply_message;
-private WaitCallback orig_cb;
-internal static ContextCallback ccb;
+	private object async_state;
+	private WaitHandle handle;
+	private object async_delegate;
+	private IntPtr data;
+	private object object_data;
+	private bool sync_completed;
+	private bool completed;
+	private bool endinvoke_called;
+	private object async_callback;
+	private ExecutionContext current;
+	private ExecutionContext original;
+	private long add_time;
+	private MonoMethodMessage call_message;
+	private IMessageCtrl message_ctrl;
+	private IMessage reply_message;
+	private WaitCallback orig_cb;
+	internal static ContextCallback ccb;
 
 	public virtual object AsyncState { get; }
 	public virtual WaitHandle AsyncWaitHandle { get; }
@@ -228,23 +228,23 @@ internal static ContextCallback ccb;
 
 	private static void .cctor() { }
 
-[CompilerGeneratedAttribute]
-private void <.ctor>
+	[CompilerGeneratedAttribute]
+	private void <.ctor>
 
 }
 
 public struct AsyncVoidMethodBuilder // TypeDefIndex: 1273
 {
-private SynchronizationContext m_synchronizationContext;
-private AsyncMethodBuilderCore m_coreState;
-private Task m_task;
+	private SynchronizationContext m_synchronizationContext;
+	private AsyncMethodBuilderCore m_coreState;
+	private Task m_task;
 
 	private Task Task { get; }
 
 
 	public static AsyncVoidMethodBuilder Create() { }
 
-[DebuggerStepThroughAttribute]
+	[DebuggerStepThroughAttribute]
 	public void Start<TStateMachine>(ref TStateMachine stateMachine) { }
 	/* GenericInstMethod :
 	|
@@ -361,15 +361,15 @@ private Task m_task;
 
 public struct AsyncTaskMethodBuilder // TypeDefIndex: 1274
 {
-private static readonly Task<VoidTaskResult> s_cachedCompleted;
-private AsyncTaskMethodBuilder<VoidTaskResult> m_builder;
+	private static readonly Task<VoidTaskResult> s_cachedCompleted;
+	private AsyncTaskMethodBuilder<VoidTaskResult> m_builder;
 
 	public Task Task { get; }
 
 
 	public static AsyncTaskMethodBuilder Create() { }
 
-[DebuggerStepThroughAttribute]
+	[DebuggerStepThroughAttribute]
 	public void Start<TStateMachine>(ref TStateMachine stateMachine) { }
 	/* GenericInstMethod :
 	|
@@ -651,9 +651,9 @@ private AsyncTaskMethodBuilder<VoidTaskResult> m_builder;
 
 public struct AsyncTaskMethodBuilder<TResult> // TypeDefIndex: 1275
 {
-internal static readonly Task<TResult> s_defaultResultTask;
-private AsyncMethodBuilderCore m_coreState;
-private Task<TResult> m_task;
+	internal static readonly Task<TResult> s_defaultResultTask;
+	private AsyncMethodBuilderCore m_coreState;
+	private Task<TResult> m_task;
 
 	public Task<TResult> Task { get; }
 
@@ -691,7 +691,7 @@ private Task<TResult> m_task;
 	|-AsyncTaskMethodBuilder<VoidTaskResult>.Create
 	*/
 
-[DebuggerStepThroughAttribute]
+	[DebuggerStepThroughAttribute]
 	public void Start<TStateMachine>(ref TStateMachine stateMachine) { }
 	/* GenericInstMethod :
 	|
@@ -1461,9 +1461,9 @@ private Task<TResult> m_task;
 
 internal static class AsyncTaskCache // TypeDefIndex: 1276
 {
-internal static readonly Task<bool> TrueTask;
-internal static readonly Task<bool> FalseTask;
-internal static readonly Task<int>[] Int32Tasks;
+	internal static readonly Task<bool> TrueTask;
+	internal static readonly Task<bool> FalseTask;
+	internal static readonly Task<int>[] Int32Tasks;
 
 
 	private static Task<int>[] CreateInt32Tasks() { }
@@ -1501,8 +1501,8 @@ internal static readonly Task<int>[] Int32Tasks;
 
 internal struct AsyncMethodBuilderCore // TypeDefIndex: 1277
 {
-internal IAsyncStateMachine m_stateMachine;
-internal Action m_defaultContextAction;
+	internal IAsyncStateMachine m_stateMachine;
+	internal Action m_defaultContextAction;
 
 
 	public void SetStateMachine(IAsyncStateMachine stateMachine) { }
@@ -1523,9 +1523,9 @@ internal Action m_defaultContextAction;
 
 internal sealed class AsyncMethodBuilderCore.MoveNextRunner // TypeDefIndex: 1278
 {
-private readonly ExecutionContext m_context;
-internal IAsyncStateMachine m_stateMachine;
-private static ContextCallback s_invokeMoveNext;
+	private readonly ExecutionContext m_context;
+	internal IAsyncStateMachine m_stateMachine;
+	private static ContextCallback s_invokeMoveNext;
 
 
 	internal void .ctor(ExecutionContext context, IAsyncStateMachine stateMachine) { }
@@ -1538,9 +1538,9 @@ private static ContextCallback s_invokeMoveNext;
 
 private class AsyncMethodBuilderCore.ContinuationWrapper // TypeDefIndex: 1279
 {
-internal readonly Action m_continuation;
-private readonly Action m_invokeAction;
-internal readonly Task m_innerTask;
+	internal readonly Action m_continuation;
+	private readonly Action m_invokeAction;
+	internal readonly Task m_innerTask;
 
 
 	internal void .ctor(Action continuation, Action invokeAction, Task innerTask) { }
@@ -1551,30 +1551,30 @@ internal readonly Task m_innerTask;
 
 private sealed class AsyncMethodBuilderCore.<>c__DisplayClass4_0 // TypeDefIndex: 1280
 {
-public Task innerTask;
-public Action continuation;
+	public Task innerTask;
+	public Action continuation;
 
 
 	public void .ctor() { }
 
-internal void <OutputAsyncCausalityEvents>
+	internal void <OutputAsyncCausalityEvents>
 
 }
 
 private sealed class AsyncMethodBuilderCore.<>c // TypeDefIndex: 1281
 {
-public static readonly AsyncMethodBuilderCore.<>c <>9;
-public static SendOrPostCallback <>9__6_0;
-public static WaitCallback <>9__6_1;
+	public static readonly AsyncMethodBuilderCore.<>c <>9;
+	public static SendOrPostCallback <>9__6_0;
+	public static WaitCallback <>9__6_1;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-internal void <ThrowAsync>
+	internal void <ThrowAsync>
 
-internal void <ThrowAsync>
+	internal void <ThrowAsync>
 
 }
 
@@ -1587,10 +1587,10 @@ public sealed class AsyncStateMachineAttribute : StateMachineAttribute // TypeDe
 
 internal static class AsyncHelper // TypeDefIndex: 1812
 {
-public static readonly Task DoneTask;
-public static readonly Task<bool> DoneTaskTrue;
-public static readonly Task<bool> DoneTaskFalse;
-public static readonly Task<int> DoneTaskZero;
+	public static readonly Task DoneTask;
+	public static readonly Task<bool> DoneTaskTrue;
+	public static readonly Task<bool> DoneTaskFalse;
+	public static readonly Task<int> DoneTaskZero;
 
 
 	private static void .cctor() { }
@@ -1599,7 +1599,7 @@ public static readonly Task<int> DoneTaskZero;
 
 internal enum AsyncOperationStatus // TypeDefIndex: 2532
 {
-public int value__;
+	public int value__;
 	public const AsyncOperationStatus Initialize = 0;
 	public const AsyncOperationStatus Continue = 1;
 	public const AsyncOperationStatus ReadDone = 2;
@@ -1609,19 +1609,19 @@ public int value__;
 
 internal class AsyncProtocolResult // TypeDefIndex: 2533
 {
-[CompilerGeneratedAttribute]
-private readonly int <UserResult>k__BackingField;
-[CompilerGeneratedAttribute]
-private readonly ExceptionDispatchInfo <Error>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private readonly int <UserResult>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private readonly ExceptionDispatchInfo <Error>k__BackingField;
 
 	public int UserResult { get; }
 	public ExceptionDispatchInfo Error { get; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public int get_UserResult() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public ExceptionDispatchInfo get_Error() { }
 
 	public void .ctor(int result) { }
@@ -1632,16 +1632,16 @@ private readonly ExceptionDispatchInfo <Error>k__BackingField;
 
 internal abstract class AsyncProtocolRequest // TypeDefIndex: 2534
 {
-[CompilerGeneratedAttribute]
-private readonly MobileAuthenticatedStream <Parent>k__BackingField;
-[CompilerGeneratedAttribute]
-private readonly bool <RunSynchronously>k__BackingField;
-[CompilerGeneratedAttribute]
-private int <UserResult>k__BackingField;
-private int Started;
-private int RequestedSize;
-private int WriteRequested;
-private readonly object locker;
+	[CompilerGeneratedAttribute]
+	private readonly MobileAuthenticatedStream <Parent>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private readonly bool <RunSynchronously>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private int <UserResult>k__BackingField;
+	private int Started;
+	private int RequestedSize;
+	private int WriteRequested;
+	private readonly object locker;
 
 	public MobileAuthenticatedStream Parent { get; }
 	public bool RunSynchronously { get; }
@@ -1649,18 +1649,18 @@ private readonly object locker;
 	public int UserResult { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public MobileAuthenticatedStream get_Parent() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public bool get_RunSynchronously() { }
 
 	public string get_Name() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public int get_UserResult() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	protected void set_UserResult(int value) { }
 
 	public void .ctor(MobileAuthenticatedStream parent, bool sync) { }
@@ -1669,13 +1669,13 @@ private readonly object locker;
 
 	internal void RequestWrite() { }
 
-[AsyncStateMachineAttribute]
+	[AsyncStateMachineAttribute]
 	internal Task<AsyncProtocolResult> StartOperation(CancellationToken cancellationToken) { }
 
-[AsyncStateMachineAttribute]
+	[AsyncStateMachineAttribute]
 	private Task ProcessOperation(CancellationToken cancellationToken) { }
 
-[AsyncStateMachineAttribute]
+	[AsyncStateMachineAttribute]
 	private Task<Nullable<int>> InnerRead(CancellationToken cancellationToken) { }
 
 	protected abstract AsyncOperationStatus Run(AsyncOperationStatus status);
@@ -1686,53 +1686,53 @@ private readonly object locker;
 
 private struct AsyncProtocolRequest.<StartOperation>d__23 : IAsyncStateMachine // TypeDefIndex: 2535
 {
-public int <>1__state;
-public AsyncTaskMethodBuilder<AsyncProtocolResult> <>t__builder;
-public AsyncProtocolRequest <>4__this;
-public CancellationToken cancellationToken;
-private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter <>u__1;
+	public int <>1__state;
+	public AsyncTaskMethodBuilder<AsyncProtocolResult> <>t__builder;
+	public AsyncProtocolRequest <>4__this;
+	public CancellationToken cancellationToken;
+	private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter <>u__1;
 
 
 	private void MoveNext() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
 private struct AsyncProtocolRequest.<ProcessOperation>d__24 : IAsyncStateMachine // TypeDefIndex: 2536
 {
-public int <>1__state;
-public AsyncTaskMethodBuilder <>t__builder;
-public CancellationToken cancellationToken;
-public AsyncProtocolRequest <>4__this;
-private AsyncOperationStatus <status>5__1;
-private AsyncOperationStatus <newStatus>5__2;
-private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<Nullable<int>> <>u__1;
-private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter <>u__2;
+	public int <>1__state;
+	public AsyncTaskMethodBuilder <>t__builder;
+	public CancellationToken cancellationToken;
+	public AsyncProtocolRequest <>4__this;
+	private AsyncOperationStatus <status>5__1;
+	private AsyncOperationStatus <newStatus>5__2;
+	private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<Nullable<int>> <>u__1;
+	private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter <>u__2;
 
 
 	private void MoveNext() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
 private struct AsyncProtocolRequest.<InnerRead>d__25 : IAsyncStateMachine // TypeDefIndex: 2537
 {
-public int <>1__state;
-public AsyncTaskMethodBuilder<Nullable<int>> <>t__builder;
-public AsyncProtocolRequest <>4__this;
-public CancellationToken cancellationToken;
-private int <requestedSize>5__1;
-private Nullable<int> <totalRead>5__2;
-private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<int> <>u__1;
+	public int <>1__state;
+	public AsyncTaskMethodBuilder<Nullable<int>> <>t__builder;
+	public AsyncProtocolRequest <>4__this;
+	public CancellationToken cancellationToken;
+	private int <requestedSize>5__1;
+	private Nullable<int> <totalRead>5__2;
+	private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<int> <>u__1;
 
 
 	private void MoveNext() { }
 
-[DebuggerHiddenAttribute]
+	[DebuggerHiddenAttribute]
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -1748,22 +1748,22 @@ internal class AsyncHandshakeRequest : AsyncProtocolRequest // TypeDefIndex: 253
 
 internal abstract class AsyncReadOrWriteRequest : AsyncProtocolRequest // TypeDefIndex: 2539
 {
-[CompilerGeneratedAttribute]
-private readonly BufferOffsetSize <UserBuffer>k__BackingField;
-[CompilerGeneratedAttribute]
-private int <CurrentSize>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private readonly BufferOffsetSize <UserBuffer>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private int <CurrentSize>k__BackingField;
 
 	protected BufferOffsetSize UserBuffer { get; }
 	protected int CurrentSize { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	protected BufferOffsetSize get_UserBuffer() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	protected int get_CurrentSize() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	protected void set_CurrentSize(int value) { }
 
 	public void .ctor(MobileAuthenticatedStream parent, bool sync, byte[] buffer, int offset, int size) { }
@@ -1792,14 +1792,14 @@ internal class AsyncWriteRequest : AsyncReadOrWriteRequest // TypeDefIndex: 2541
 
 internal class AsyncStreamReader // TypeDefIndex: 2647
 {
-private Stream stream;
-private Encoding encoding;
-private Decoder decoder;
-private byte[] byteBuffer;
-private char[] charBuffer;
-private bool cancelOperation;
-private ManualResetEvent eofEvent;
-private object syncObject;
+	private Stream stream;
+	private Encoding encoding;
+	private Decoder decoder;
+	private byte[] byteBuffer;
+	private char[] charBuffer;
+	private bool cancelOperation;
+	private ManualResetEvent eofEvent;
+	private object syncObject;
 
 
 	public virtual void Close() { }
@@ -1812,13 +1812,13 @@ private object syncObject;
 
 public class AsyncCompletedEventArgs : EventArgs // TypeDefIndex: 2662
 {
-private readonly Exception error;
-private readonly bool cancelled;
-private readonly object userState;
+	private readonly Exception error;
+	private readonly bool cancelled;
+	private readonly object userState;
 
-[SRDescriptionAttribute]
+	[SRDescriptionAttribute]
 	public bool Cancelled { get; }
-[SRDescriptionAttribute]
+	[SRDescriptionAttribute]
 	public Exception Error { get; }
 
 
@@ -1847,9 +1847,9 @@ public sealed class AsyncCompletedEventHandler : MulticastDelegate // TypeDefInd
 
 public sealed class AsyncOperation // TypeDefIndex: 2664
 {
-private SynchronizationContext syncContext;
-private object userSuppliedState;
-private bool alreadyCompleted;
+	private SynchronizationContext syncContext;
+	private object userSuppliedState;
+	private bool alreadyCompleted;
 
 	public object UserSuppliedState { get; }
 
@@ -1876,7 +1876,7 @@ private bool alreadyCompleted;
 
 public static class AsyncOperationManager // TypeDefIndex: 2665
 {
-[EditorBrowsableAttribute]
+	[EditorBrowsableAttribute]
 	public static SynchronizationContext SynchronizationContext { get; }
 
 
@@ -1888,26 +1888,26 @@ public static class AsyncOperationManager // TypeDefIndex: 2665
 
 public class AsyncOperation : YieldInstruction // TypeDefIndex: 3494
 {
-internal IntPtr m_Ptr;
-private Action<AsyncOperation> m_completeCallback;
+	internal IntPtr m_Ptr;
+	private Action<AsyncOperation> m_completeCallback;
 
 	public bool isDone { get; }
 	public int priority { set; }
 
 
-[NativeMethodAttribute]
-[StaticAccessorAttribute]
+	[NativeMethodAttribute]
+	[StaticAccessorAttribute]
 	private static void InternalDestroy(IntPtr ptr) { }
 
-[NativeMethodAttribute]
+	[NativeMethodAttribute]
 	public bool get_isDone() { }
 
-[NativeMethodAttribute]
+	[NativeMethodAttribute]
 	public void set_priority(int value) { }
 
 	protected override void Finalize() { }
 
-[RequiredByNativeCodeAttribute]
+	[RequiredByNativeCodeAttribute]
 	internal void InvokeCompletionEvent() { }
 
 	public void .ctor() { }
@@ -1916,8 +1916,8 @@ private Action<AsyncOperation> m_completeCallback;
 
 public struct AsyncGPUReadbackRequest // TypeDefIndex: 3805
 {
-internal IntPtr m_Ptr;
-internal int m_Version;
+	internal IntPtr m_Ptr;
+	internal int m_Version;
 
 	public bool done { get; }
 	public bool hasError { get; }
@@ -1974,10 +1974,10 @@ public static class AsyncGPUReadback // TypeDefIndex: 3806
 
 	public static AsyncGPUReadbackRequest Request(Texture src, int mipIndex = 0, Action<AsyncGPUReadbackRequest> callback) { }
 
-[NativeMethodAttribute]
+	[NativeMethodAttribute]
 	private static AsyncGPUReadbackRequest Request_Internal_ComputeBuffer_1(ComputeBuffer buffer) { }
 
-[NativeMethodAttribute]
+	[NativeMethodAttribute]
 	private static AsyncGPUReadbackRequest Request_Internal_Texture_1(Texture src, int mipIndex) { }
 
 	private static void Request_Internal_ComputeBuffer_1_Injected(ComputeBuffer buffer, out AsyncGPUReadbackRequest ret) { }
@@ -1988,17 +1988,17 @@ public static class AsyncGPUReadback // TypeDefIndex: 3806
 
 public class AsyncTextureLoad : CustomYieldInstruction // TypeDefIndex: 6639
 {
-private IntPtr buffer;
-private int size;
-private int width;
-private int height;
-private int format;
-public string filename;
-public bool normal;
-public bool dither;
-public bool hqmode;
-public bool cache;
-private Action worker;
+	private IntPtr buffer;
+	private int size;
+	private int width;
+	private int height;
+	private int format;
+	public string filename;
+	public bool normal;
+	public bool dither;
+	public bool hqmode;
+	public bool cache;
+	private Action worker;
 
 	public override bool keepWaiting { get; }
 	public bool isDone { get; }
@@ -2038,8 +2038,8 @@ private Action worker;
 
 public sealed class AsyncMethodBuilderAttribute : Attribute // TypeDefIndex: 7133
 {
-[CompilerGeneratedAttribute]
-private readonly Type <BuilderType>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private readonly Type <BuilderType>k__BackingField;
 
 
 	public void .ctor(Type builderType) { }
@@ -2048,9 +2048,9 @@ private readonly Type <BuilderType>k__BackingField;
 
 public struct AsyncValueTaskMethodBuilder // TypeDefIndex: 7134
 {
-private AsyncTaskMethodBuilder _methodBuilder;
-private bool _haveResult;
-private bool _useBuilder;
+	private AsyncTaskMethodBuilder _methodBuilder;
+	private bool _haveResult;
+	private bool _useBuilder;
 
 	public ValueTask Task { get; }
 
@@ -2114,10 +2114,10 @@ private bool _useBuilder;
 
 public struct AsyncValueTaskMethodBuilder<TResult> // TypeDefIndex: 7135
 {
-private AsyncTaskMethodBuilder<TResult> _methodBuilder;
-private TResult _result;
-private bool _haveResult;
-private bool _useBuilder;
+	private AsyncTaskMethodBuilder<TResult> _methodBuilder;
+	private TResult _result;
+	private bool _haveResult;
+	private bool _useBuilder;
 
 	public ValueTask<TResult> Task { get; }
 
@@ -2183,16 +2183,16 @@ private bool _useBuilder;
 
 public class AsyncTerrainNavMeshBake : CustomYieldInstruction // TypeDefIndex: 12071
 {
-private List<int> indices;
-private List<Vector3> vertices;
-private List<Vector3> normals;
-private List<int> triangles;
-private Vector3 pivot;
-private int width;
-private int height;
-private bool normal;
-private bool alpha;
-private Action worker;
+	private List<int> indices;
+	private List<Vector3> vertices;
+	private List<Vector3> normals;
+	private List<int> triangles;
+	private Vector3 pivot;
+	private int width;
+	private int height;
+	private bool normal;
+	private bool alpha;
+	private Action worker;
 
 	public override bool keepWaiting { get; }
 	public bool isDone { get; }

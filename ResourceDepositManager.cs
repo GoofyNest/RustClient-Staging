@@ -1,8 +1,8 @@
 public class ResourceDepositManager : BaseEntity // TypeDefIndex: 11312
 {
-public static ResourceDepositManager _manager;
+	public static ResourceDepositManager _manager;
 	private const int resolution = 20;
-public Dictionary<Vector2i, ResourceDepositManager.ResourceDeposit> _deposits;
+	public Dictionary<Vector2i, ResourceDepositManager.ResourceDeposit> _deposits;
 
 
 	public void .ctor() { }
@@ -11,9 +11,9 @@ public Dictionary<Vector2i, ResourceDepositManager.ResourceDeposit> _deposits;
 
 public class ResourceDepositManager.ResourceDeposit // TypeDefIndex: 11313
 {
-public float lastSurveyTime;
-public Vector3 origin;
-public List<ResourceDepositManager.ResourceDeposit.ResourceDepositEntry> _resources;
+	public float lastSurveyTime;
+	public Vector3 origin;
+	public List<ResourceDepositManager.ResourceDeposit.ResourceDepositEntry> _resources;
 
 
 	public void .ctor() { }
@@ -24,7 +24,7 @@ public List<ResourceDepositManager.ResourceDeposit.ResourceDepositEntry> _resour
 
 public enum ResourceDepositManager.ResourceDeposit.surveySpawnType // TypeDefIndex: 11314
 {
-public int value__;
+	public int value__;
 	public const ResourceDepositManager.ResourceDeposit.surveySpawnType ITEM = 0;
 	public const ResourceDepositManager.ResourceDeposit.surveySpawnType OIL = 1;
 	public const ResourceDepositManager.ResourceDeposit.surveySpawnType WATER = 2;
@@ -33,14 +33,14 @@ public int value__;
 
 public class ResourceDepositManager.ResourceDeposit.ResourceDepositEntry // TypeDefIndex: 11315
 {
-public ItemDefinition type;
-public float efficiency;
-public int amount;
-public int startAmount;
-public float workNeeded;
-public float workDone;
-public ResourceDepositManager.ResourceDeposit.surveySpawnType spawnType;
-public bool isLiquid;
+	public ItemDefinition type;
+	public float efficiency;
+	public int amount;
+	public int startAmount;
+	public float workNeeded;
+	public float workDone;
+	public ResourceDepositManager.ResourceDeposit.surveySpawnType spawnType;
+	public bool isLiquid;
 
 
 	public void Subtract(int subamount) { }

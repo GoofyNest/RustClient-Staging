@@ -6,7 +6,7 @@ public class GridLayout : Behaviour // TypeDefIndex: 4028
 [RequireComponent]
 public class GridLayout : Behaviour
 
-[RequiredByNativeCodeAttribute]
+	[RequiredByNativeCodeAttribute]
 	private void DoNothing() { }
 
 }

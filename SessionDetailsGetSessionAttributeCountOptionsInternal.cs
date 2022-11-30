@@ -2,7 +2,7 @@ internal struct SessionDetailsGetSessionAttributeCountOptionsInternal : ISettabl
 {
 
 internal struct SessionDetailsGetSessionAttributeCountOptionsInternal : ISettable<SessionDetailsGetSessionAttributeCountOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref SessionDetailsGetSessionAttributeCountOptions other) { }

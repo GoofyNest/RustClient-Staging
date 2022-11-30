@@ -1,6 +1,6 @@
 public class AddNewStateUIButton : MonoBehaviour // TypeDefIndex: 12549
 {
-private UIAIDesignerScreen designerUI;
+	private UIAIDesignerScreen designerUI;
 
 
 	public void Init(UIAIDesignerScreen designerUI) { }
@@ -15,15 +15,15 @@ private UIAIDesignerScreen designerUI;
 
 private sealed class AddNewStateUIButton.<>c // TypeDefIndex: 12550
 {
-public static readonly AddNewStateUIButton.<>c <>9;
-public static Func<object, string> <>9__2_0;
+	public static readonly AddNewStateUIButton.<>c <>9;
+	public static Func<object, string> <>9__2_0;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-internal string <Clicked>
+	internal string <Clicked>
 
 }
 

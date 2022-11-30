@@ -2,7 +2,7 @@ internal struct AddNotifyClientAuthStatusChangedOptionsInternal : ISettable<AddN
 {
 
 internal struct AddNotifyClientAuthStatusChangedOptionsInternal : ISettable<AddNotifyClientAuthStatusChangedOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref AddNotifyClientAuthStatusChangedOptions other) { }

@@ -1,8 +1,8 @@
 public class ResearchTable : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6330
 {
-public bool ShouldPool;
-private bool _disposed;
-public float researchTimeLeft;
+	public bool ShouldPool;
+	private bool _disposed;
+	public float researchTimeLeft;
 
 
 	public static void ResetToPool(ResearchTable instance) { }
@@ -61,14 +61,14 @@ public float researchTimeLeft;
 
 public class ResearchTable : StorageContainer // TypeDefIndex: 10358
 {
-public float researchFinishedTime;
-public float researchCostFraction;
-public float researchDuration;
-public int requiredPaper;
-public GameObjectRef researchStartEffect;
-public GameObjectRef researchFailEffect;
-public GameObjectRef researchSuccessEffect;
-public ItemDefinition researchResource;
+	public float researchFinishedTime;
+	public float researchCostFraction;
+	public float researchDuration;
+	public int requiredPaper;
+	public GameObjectRef researchStartEffect;
+	public GameObjectRef researchFailEffect;
+	public GameObjectRef researchSuccessEffect;
+	public ItemDefinition researchResource;
 
 
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
@@ -97,7 +97,7 @@ public ItemDefinition researchResource;
 
 public enum ResearchTable.ResearchType // TypeDefIndex: 10359
 {
-public int value__;
+	public int value__;
 	public const ResearchTable.ResearchType ResearchTable = 0;
 	public const ResearchTable.ResearchType TechTree = 1;
 

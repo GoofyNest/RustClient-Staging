@@ -1,7 +1,7 @@
 public class DefaultSerializationBinder : SerializationBinder // TypeDefIndex: 6009
 {
-internal static readonly DefaultSerializationBinder Instance;
-private readonly ThreadSafeStore<DefaultSerializationBinder.TypeNameKey, Type> _typeCache;
+	internal static readonly DefaultSerializationBinder Instance;
+	private readonly ThreadSafeStore<DefaultSerializationBinder.TypeNameKey, Type> _typeCache;
 
 
 	private static Type GetTypeFromTypeNameKey(DefaultSerializationBinder.TypeNameKey typeNameKey) { }
@@ -16,8 +16,8 @@ private readonly ThreadSafeStore<DefaultSerializationBinder.TypeNameKey, Type> _
 
 internal struct DefaultSerializationBinder.TypeNameKey // TypeDefIndex: 6010
 {
-internal readonly string AssemblyName;
-internal readonly string TypeName;
+	internal readonly string AssemblyName;
+	internal readonly string TypeName;
 
 
 	public void .ctor(string assemblyName, string typeName) { }

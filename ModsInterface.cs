@@ -23,16 +23,16 @@ public sealed class ModsInterface : Handle // TypeDefIndex: 9026
 
 	public void UpdateMod(ref UpdateModOptions options, object clientData, OnUpdateModCallback completionDelegate) { }
 
-[MonoPInvokeCallbackAttribute]
+	[MonoPInvokeCallbackAttribute]
 	internal static void OnEnumerateModsCallbackInternalImplementation(ref EnumerateModsCallbackInfoInternal data) { }
 
-[MonoPInvokeCallbackAttribute]
+	[MonoPInvokeCallbackAttribute]
 	internal static void OnInstallModCallbackInternalImplementation(ref InstallModCallbackInfoInternal data) { }
 
-[MonoPInvokeCallbackAttribute]
+	[MonoPInvokeCallbackAttribute]
 	internal static void OnUninstallModCallbackInternalImplementation(ref UninstallModCallbackInfoInternal data) { }
 
-[MonoPInvokeCallbackAttribute]
+	[MonoPInvokeCallbackAttribute]
 	internal static void OnUpdateModCallbackInternalImplementation(ref UpdateModCallbackInfoInternal data) { }
 
 }

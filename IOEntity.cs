@@ -1,17 +1,17 @@
 public class IOEntity : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6363
 {
-public bool ShouldPool;
-private bool _disposed;
-public List<IOEntity.IOConnection> inputs;
-public List<IOEntity.IOConnection> outputs;
-public uint genericEntRef1;
-public uint genericEntRef2;
-public uint genericEntRef3;
-public int genericInt1;
-public int genericInt2;
-public float genericFloat1;
-public float genericFloat2;
-public int genericInt3;
+	public bool ShouldPool;
+	private bool _disposed;
+	public List<IOEntity.IOConnection> inputs;
+	public List<IOEntity.IOConnection> outputs;
+	public uint genericEntRef1;
+	public uint genericEntRef2;
+	public uint genericEntRef3;
+	public int genericInt1;
+	public int genericInt2;
+	public float genericFloat1;
+	public float genericFloat2;
+	public int genericInt3;
 
 
 	public static void ResetToPool(IOEntity instance) { }
@@ -70,15 +70,15 @@ public int genericInt3;
 
 public class IOEntity.IOConnection : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6364
 {
-public bool ShouldPool;
-private bool _disposed;
-public string niceName;
-public int type;
-public uint connectedID;
-public int connectedToSlot;
-public bool inUse;
-public List<IOEntity.IOConnection.LineVec> linePointList;
-public int colour;
+	public bool ShouldPool;
+	private bool _disposed;
+	public string niceName;
+	public int type;
+	public uint connectedID;
+	public int connectedToSlot;
+	public bool inUse;
+	public List<IOEntity.IOConnection.LineVec> linePointList;
+	public int colour;
 
 
 	public static void ResetToPool(IOEntity.IOConnection instance) { }
@@ -137,9 +137,9 @@ public int colour;
 
 public class IOEntity.IOConnection.LineVec : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6365
 {
-public bool ShouldPool;
-private bool _disposed;
-public Vector4 vec;
+	public bool ShouldPool;
+	private bool _disposed;
+	public Vector4 vec;
 
 
 	public static void ResetToPool(IOEntity.IOConnection.LineVec instance) { }
@@ -198,16 +198,16 @@ public Vector4 vec;
 
 public class IOEntity.IOConnection.LinePointList : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6366
 {
-public bool ShouldPool;
-private bool _disposed;
-public Vector4 a;
-public Vector4 b;
-public Vector4 c;
-public Vector4 d;
-public Vector4 e;
-public Vector4 f;
-public Vector4 g;
-public Vector4 h;
+	public bool ShouldPool;
+	private bool _disposed;
+	public Vector4 a;
+	public Vector4 b;
+	public Vector4 c;
+	public Vector4 d;
+	public Vector4 e;
+	public Vector4 f;
+	public Vector4 g;
+	public Vector4 h;
 
 
 	public static void ResetToPool(IOEntity.IOConnection.LinePointList instance) { }
@@ -266,28 +266,28 @@ public Vector4 h;
 
 public class IOEntity : DecayEntity // TypeDefIndex: 10310
 {
-[HeaderAttribute]
-public Transform debugOrigin;
-public ItemDefinition sourceItem;
-[ServerVar]
-[HelpAttribute]
-public static float framebudgetms;
-[ServerVar]
-public static float responsetime;
-[ServerVar]
-public static int backtracking;
-[ServerVar]
-public static bool debugBudget;
-[ServerVar]
-public static float debugBudgetThreshold;
+	[HeaderAttribute]
+	public Transform debugOrigin;
+	public ItemDefinition sourceItem;
+	[ServerVar]
+	[HelpAttribute]
+	public static float framebudgetms;
+	[ServerVar]
+	public static float responsetime;
+	[ServerVar]
+	public static int backtracking;
+	[ServerVar]
+	public static bool debugBudget;
+	[ServerVar]
+	public static float debugBudgetThreshold;
 	public const BaseEntity.Flags Flag_ShortCircuit = 32768;
 	public const BaseEntity.Flags Flag_HasPower = 65536;
-public IOEntity.IOSlot[] inputs;
-public IOEntity.IOSlot[] outputs;
-public IOEntity.IOType ioType;
-public int client_powerin;
-public int client_slotpower;
-public bool client_extradata_dirty;
+	public IOEntity.IOSlot[] inputs;
+	public IOEntity.IOSlot[] outputs;
+	public IOEntity.IOType ioType;
+	public int client_powerin;
+	public int client_slotpower;
+	public bool client_extradata_dirty;
 
 	public virtual bool IsGravitySource { get; }
 	protected virtual float LiquidPassthroughGravityThreshold { get; }
@@ -333,7 +333,7 @@ public bool client_extradata_dirty;
 
 	public void RequestAdditionalData(int slot, bool input) { }
 
-[BaseEntity.RPC_Client]
+	[BaseEntity.RPC_Client]
 	private void Client_ReceiveAdditionalData(BaseEntity.RPCMessage msg) { }
 
 	public virtual void ProcessAdditionalData(int first, int second, float third, float fourth) { }
@@ -364,7 +364,7 @@ public bool client_extradata_dirty;
 
 public enum IOEntity.IOType // TypeDefIndex: 10311
 {
-public int value__;
+	public int value__;
 	public const IOEntity.IOType Electric = 0;
 	public const IOEntity.IOType Fluidic = 1;
 	public const IOEntity.IOType Kinetic = 2;
@@ -374,8 +374,8 @@ public int value__;
 
 public class IOEntity.IORef // TypeDefIndex: 10312
 {
-public EntityRef entityRef;
-public IOEntity ioEnt;
+	public EntityRef entityRef;
+	public IOEntity ioEnt;
 
 
 	public void Init() { }
@@ -394,17 +394,17 @@ public IOEntity ioEnt;
 
 public class IOEntity.IOSlot // TypeDefIndex: 10313
 {
-public string niceName;
-public IOEntity.IOType type;
-public IOEntity.IORef connectedTo;
-public int connectedToSlot;
-public Vector3[] linePoints;
-public float[] slackLevels;
-public ClientIOLine line;
-public Vector3 handlePosition;
-public bool rootConnectionsOnly;
-public bool mainPowerSlot;
-public WireTool.WireColour wireColour;
+	public string niceName;
+	public IOEntity.IOType type;
+	public IOEntity.IORef connectedTo;
+	public int connectedToSlot;
+	public Vector3[] linePoints;
+	public float[] slackLevels;
+	public ClientIOLine line;
+	public Vector3 handlePosition;
+	public bool rootConnectionsOnly;
+	public bool mainPowerSlot;
+	public WireTool.WireColour wireColour;
 
 
 	public void OnDestroy() { }

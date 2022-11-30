@@ -11,15 +11,15 @@ public class GenerateRoadTopology : ProceduralComponent // TypeDefIndex: 12280
 
 private sealed class GenerateRoadTopology.<>c__DisplayClass1_0 // TypeDefIndex: 12281
 {
-public int[] map;
-public int res;
-public TerrainTopologyMap topomap;
-public TerrainHeightMap heightmap;
+	public int[] map;
+	public int res;
+	public TerrainTopologyMap topomap;
+	public TerrainHeightMap heightmap;
 
 
 	public void .ctor() { }
 
-internal void <MarkRoadside>
+	internal void <MarkRoadside>
 
 }
 

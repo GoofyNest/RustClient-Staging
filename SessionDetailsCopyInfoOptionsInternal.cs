@@ -2,7 +2,7 @@ internal struct SessionDetailsCopyInfoOptionsInternal : ISettable<SessionDetails
 {
 
 internal struct SessionDetailsCopyInfoOptionsInternal : ISettable<SessionDetailsCopyInfoOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref SessionDetailsCopyInfoOptions other) { }

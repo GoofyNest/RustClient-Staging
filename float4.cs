@@ -5,27 +5,27 @@ public struct float4 : IEquatable<float4>, IFormattable // TypeDefIndex: 7147
 [DefaultMemberAttribute]
 [Serializable]
 public struct float4 : IEquatable<float4>, IFormattable
-public float x;
-public float y;
-public float z;
-public float w;
-public static readonly float4 zero;
+	public float x;
+	public float y;
+	public float z;
+	public float w;
+	public static readonly float4 zero;
 
-[EditorBrowsableAttribute]
+	[EditorBrowsableAttribute]
 	public float4 xyzx { get; }
-[EditorBrowsableAttribute]
+	[EditorBrowsableAttribute]
 	public float4 yzxy { get; }
-[EditorBrowsableAttribute]
+	[EditorBrowsableAttribute]
 	public float4 yzxz { get; }
-[EditorBrowsableAttribute]
+	[EditorBrowsableAttribute]
 	public float4 zxyy { get; }
-[EditorBrowsableAttribute]
+	[EditorBrowsableAttribute]
 	public float4 zxyz { get; }
-[EditorBrowsableAttribute]
+	[EditorBrowsableAttribute]
 	public float4 wwwx { get; }
-[EditorBrowsableAttribute]
+	[EditorBrowsableAttribute]
 	public float4 wwww { get; }
-[EditorBrowsableAttribute]
+	[EditorBrowsableAttribute]
 	public float3 xyz { get; }
 
 

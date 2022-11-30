@@ -1,11 +1,11 @@
 public class OccludeeState : OcclusionCulling.SmartListValue // TypeDefIndex: 13312
 {
-public int slot;
-public bool isStatic;
-public int layer;
-public OcclusionCulling.OnVisibilityChanged onVisibilityChanged;
-public OcclusionCulling.Cell cell;
-public OcclusionCulling.SimpleList<OccludeeState.State> states;
+	public int slot;
+	public bool isStatic;
+	public int layer;
+	public OcclusionCulling.OnVisibilityChanged onVisibilityChanged;
+	public OcclusionCulling.Cell cell;
+	public OcclusionCulling.SimpleList<OccludeeState.State> states;
 
 	public bool isVisible { get; }
 
@@ -24,15 +24,15 @@ public OcclusionCulling.SimpleList<OccludeeState.State> states;
 
 public struct OccludeeState.State // TypeDefIndex: 13313
 {
-public Vector4 sphereBounds;
-public float minTimeVisible;
-public float waitTime;
-public uint waitFrame;
-public byte isVisible;
-public byte active;
-public byte callback;
-public byte pad1;
-public static OccludeeState.State Unused;
+	public Vector4 sphereBounds;
+	public float minTimeVisible;
+	public float waitTime;
+	public uint waitFrame;
+	public byte isVisible;
+	public byte active;
+	public byte callback;
+	public byte pad1;
+	public static OccludeeState.State Unused;
 
 
 	private static void .cctor() { }

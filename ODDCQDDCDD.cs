@@ -23,8 +23,8 @@ public class ODDCQDDCDD : MonoBehaviour // TypeDefIndex: 7266
 
 public class ODDCQDDCDD.OOCOCQCQOQ // TypeDefIndex: 7267
 {
-public int start;
-public int end;
+	public int start;
+	public int end;
 
 
 	public void .ctor(int startV3, int endV3) { }

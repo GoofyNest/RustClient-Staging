@@ -11,23 +11,23 @@ public static class Leaderboard // TypeDefIndex: 6205
 
 private sealed class Leaderboard.<>c__DisplayClass1_0 // TypeDefIndex: 6206
 {
-public Action<Rank> result;
+	public Action<Rank> result;
 
 
 	public void .ctor() { }
 
-internal void <GetRank>
+	internal void <GetRank>
 
 }
 
 private sealed class Leaderboard.<>c__DisplayClass2_0 // TypeDefIndex: 6207
 {
-public Action<Entry[]> result;
+	public Action<Entry[]> result;
 
 
 	public void .ctor() { }
 
-internal void <GetPage>
+	internal void <GetPage>
 
 }
 

@@ -1,10 +1,10 @@
 public static class Make // TypeDefIndex: 7091
 {
-public static string PrefabRoot;
-public static Translate.Phrase phrase_on;
-public static Translate.Phrase phrase_off;
-public static Translate.Phrase phrase_enabled;
-public static Translate.Phrase phrase_disabled;
+	public static string PrefabRoot;
+	public static Translate.Phrase phrase_on;
+	public static Translate.Phrase phrase_off;
+	public static Translate.Phrase phrase_enabled;
+	public static Translate.Phrase phrase_disabled;
 
 
 	public static LayoutElement Flex() { }

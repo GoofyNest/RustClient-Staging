@@ -1,6 +1,6 @@
 public class AStarNodeList : List<AStarNode> // TypeDefIndex: 13962
 {
-private readonly AStarNodeList.AStarNodeComparer comparer;
+	private readonly AStarNodeList.AStarNodeComparer comparer;
 
 
 	public bool Contains(BasePathNode n) { }

@@ -2,7 +2,7 @@ internal struct AddNotifyFriendsUpdateOptionsInternal : ISettable<AddNotifyFrien
 {
 
 internal struct AddNotifyFriendsUpdateOptionsInternal : ISettable<AddNotifyFriendsUpdateOptions>, IDisposable
-private int m_ApiVersion;
+	private int m_ApiVersion;
 
 
 	public void Set(ref AddNotifyFriendsUpdateOptions other) { }

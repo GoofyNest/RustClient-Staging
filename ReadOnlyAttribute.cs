@@ -1,9 +1,9 @@
 public sealed class ReadOnlyAttribute : Attribute // TypeDefIndex: 2738
 {
-private bool isReadOnly;
-public static readonly ReadOnlyAttribute Yes;
-public static readonly ReadOnlyAttribute No;
-public static readonly ReadOnlyAttribute Default;
+	private bool isReadOnly;
+	public static readonly ReadOnlyAttribute Yes;
+	public static readonly ReadOnlyAttribute No;
+	public static readonly ReadOnlyAttribute Default;
 
 	public bool IsReadOnly { get; }
 

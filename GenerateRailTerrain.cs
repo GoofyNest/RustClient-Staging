@@ -15,15 +15,15 @@ public class GenerateRailTerrain : ProceduralComponent // TypeDefIndex: 12252
 
 private sealed class GenerateRailTerrain.<>c // TypeDefIndex: 12253
 {
-public static readonly GenerateRailTerrain.<>c <>9;
-public static Func<int, float> <>9__5_0;
+	public static readonly GenerateRailTerrain.<>c <>9;
+	public static Func<int, float> <>9__5_0;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-internal float <Process>
+	internal float <Process>
 
 }
 

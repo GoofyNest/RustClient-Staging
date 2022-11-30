@@ -1,10 +1,10 @@
 internal class HeaderInfo // TypeDefIndex: 2915
 {
-internal readonly bool IsRequestRestricted;
-internal readonly bool IsResponseRestricted;
-internal readonly HeaderParser Parser;
-internal readonly string HeaderName;
-internal readonly bool AllowMultiValues;
+	internal readonly bool IsRequestRestricted;
+	internal readonly bool IsResponseRestricted;
+	internal readonly HeaderParser Parser;
+	internal readonly string HeaderName;
+	internal readonly bool AllowMultiValues;
 
 
 	internal void .ctor(string name, bool requestRestricted, bool responseRestricted, bool multi, HeaderParser p) { }
@@ -13,11 +13,11 @@ internal readonly bool AllowMultiValues;
 
 internal abstract class HeaderInfo // TypeDefIndex: 5778
 {
-public bool AllowsMany;
-public readonly HttpHeaderKind HeaderKind;
-public readonly string Name;
-[CompilerGeneratedAttribute]
-private Func<object, string> <CustomToString>k__BackingField;
+	public bool AllowsMany;
+	public readonly HttpHeaderKind HeaderKind;
+	public readonly string Name;
+	[CompilerGeneratedAttribute]
+	private Func<object, string> <CustomToString>k__BackingField;
 
 	public Func<object, string> CustomToString { get; set; }
 	public virtual string Separator { get; }
@@ -68,10 +68,10 @@ private Func<object, string> <CustomToString>k__BackingField;
 
 	public object CreateCollection(HttpHeaders headers) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Func<object, string> get_CustomToString() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	private void set_CustomToString(Func<object, string> value) { }
 
 	public virtual string get_Separator() { }
@@ -88,7 +88,7 @@ private Func<object, string> <CustomToString>k__BackingField;
 
 private class HeaderInfo.HeaderTypeInfo<T, U> : HeaderInfo // TypeDefIndex: 5779
 {
-private readonly TryParseDelegate<T> parser;
+	private readonly TryParseDelegate<T> parser;
 
 
 	public void .ctor(string name, TryParseDelegate<T> parser, HttpHeaderKind headerKind) { }
@@ -152,9 +152,9 @@ private readonly TryParseDelegate<T> parser;
 
 private class HeaderInfo.CollectionHeaderTypeInfo<T, U> : HeaderInfo.HeaderTypeInfo<T, U> // TypeDefIndex: 5780
 {
-private readonly int minimalCount;
-private readonly string separator;
-private readonly TryParseListDelegate<T> parser;
+	private readonly int minimalCount;
+	private readonly string separator;
+	private readonly TryParseListDelegate<T> parser;
 
 	public override string Separator { get; }
 

@@ -1,8 +1,8 @@
 public class SpinnerWheel : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6346
 {
-public bool ShouldPool;
-private bool _disposed;
-public Vector3 spin;
+	public bool ShouldPool;
+	private bool _disposed;
+	public Vector3 spin;
 
 
 	public static void ResetToPool(SpinnerWheel instance) { }
@@ -61,24 +61,24 @@ public Vector3 spin;
 
 public class SpinnerWheel : Signage // TypeDefIndex: 10172
 {
-private Option __menuOption_Menu_LockSpin;
-private Option __menuOption_Menu_Spin;
-private Option __menuOption_Menu_UnlockSpin;
-public Transform wheel;
-public float velocity;
-public Quaternion targetRotation;
-[HeaderAttribute]
-public SoundDefinition spinLoopSoundDef;
-public SoundDefinition spinStartSoundDef;
-public SoundDefinition spinAccentSoundDef;
-public SoundDefinition spinStopSoundDef;
-public float minTimeBetweenSpinAccentSounds;
-public float spinAccentAngleDelta;
-private Sound spinSound;
-private SoundModulation.Modulator spinSoundGain;
-private float angleRotated;
-private float lastSpinSound;
-private float clientSpinSpeed;
+	private Option __menuOption_Menu_LockSpin;
+	private Option __menuOption_Menu_Spin;
+	private Option __menuOption_Menu_UnlockSpin;
+	public Transform wheel;
+	public float velocity;
+	public Quaternion targetRotation;
+	[HeaderAttribute]
+	public SoundDefinition spinLoopSoundDef;
+	public SoundDefinition spinStartSoundDef;
+	public SoundDefinition spinAccentSoundDef;
+	public SoundDefinition spinStopSoundDef;
+	public float minTimeBetweenSpinAccentSounds;
+	public float spinAccentAngleDelta;
+	private Sound spinSound;
+	private SoundModulation.Modulator spinSoundGain;
+	private float angleRotated;
+	private float lastSpinSound;
+	private float clientSpinSpeed;
 
 	public override bool HasMenuOptions { get; }
 
@@ -105,26 +105,26 @@ private float clientSpinSpeed;
 
 	public bool AnyoneSpin() { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.ShowIf]
 	public void Menu_Spin(BasePlayer player) { }
 
 	public bool Menu_Spin_ShowIf(BasePlayer player) { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.ShowIf]
 	public void Menu_UnlockSpin(BasePlayer player) { }
 
 	public bool Menu_UnlockSpin_ShowIf(BasePlayer player) { }
 
-[BaseEntity.Menu]
-[BaseEntity.Menu.Description]
-[BaseEntity.Menu.Icon]
-[BaseEntity.Menu.ShowIf]
+	[BaseEntity.Menu]
+	[BaseEntity.Menu.Description]
+	[BaseEntity.Menu.Icon]
+	[BaseEntity.Menu.ShowIf]
 	public void Menu_LockSpin(BasePlayer player) { }
 
 	public bool Menu_LockSpin_ShowIf(BasePlayer player) { }

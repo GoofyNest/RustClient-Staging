@@ -13,29 +13,29 @@ public static class KeyCombos // TypeDefIndex: 8250
 
 private sealed class KeyCombos.<>c // TypeDefIndex: 8251
 {
-public static readonly KeyCombos.<>c <>9;
-public static Func<KeyCode, string> <>9__0_0;
-public static Func<string, string> <>9__0_1;
+	public static readonly KeyCombos.<>c <>9;
+	public static Func<KeyCode, string> <>9__0_0;
+	public static Func<string, string> <>9__0_1;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-internal string <TryParse>
+	internal string <TryParse>
 
-internal string <TryParse>
+	internal string <TryParse>
 
 }
 
 private sealed class KeyCombos.<>c__DisplayClass1_0 // TypeDefIndex: 8252
 {
-public List<KeyCode> keys;
+	public List<KeyCode> keys;
 
 
 	public void .ctor() { }
 
-internal bool <RegisterButton>
+	internal bool <RegisterButton>
 
 }
 

@@ -2,13 +2,13 @@ public class ModelState : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 628
 {
 
 public class ModelState : IDisposable, Pool.IPooled, IProto
-public bool ShouldPool;
-private bool _disposed;
-public float waterLevel;
-public Vector3 lookDir;
-public int flags;
-public int poseType;
-public Vector3 inheritedVelocity;
+	public bool ShouldPool;
+	private bool _disposed;
+	public float waterLevel;
+	public Vector3 lookDir;
+	public int flags;
+	public int poseType;
+	public Vector3 inheritedVelocity;
 
 	public bool ducked { get; set; }
 	public bool jumped { get; set; }
@@ -144,7 +144,7 @@ public Vector3 inheritedVelocity;
 
 public enum ModelState.Flag // TypeDefIndex: 6284
 {
-public int value__;
+	public int value__;
 	public const ModelState.Flag Ducked = 1;
 	public const ModelState.Flag Jumped = 2;
 	public const ModelState.Flag OnGround = 4;

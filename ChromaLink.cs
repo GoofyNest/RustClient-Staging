@@ -2,7 +2,7 @@ public enum ChromaLink.EFFECT_TYPE // TypeDefIndex: 7685
 {
 
 public enum ChromaLink.EFFECT_TYPE
-public int value__;
+	public int value__;
 	public const ChromaLink.EFFECT_TYPE CHROMA_NONE = 0;
 	public const ChromaLink.EFFECT_TYPE CHROMA_CUSTOM = 1;
 	public const ChromaLink.EFFECT_TYPE CHROMA_STATIC = 2;
@@ -12,7 +12,7 @@ public int value__;
 
 public struct ChromaLink.STATIC_EFFECT_TYPE // TypeDefIndex: 7686
 {
-public int Color;
+	public int Color;
 
 }
 

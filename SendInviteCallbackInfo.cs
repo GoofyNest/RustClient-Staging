@@ -1,24 +1,24 @@
 public struct SendInviteCallbackInfo : ICallbackInfo // TypeDefIndex: 8544
 {
-[CompilerGeneratedAttribute]
-private Result <ResultCode>k__BackingField;
-[CompilerGeneratedAttribute]
-private object <ClientData>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Result <ResultCode>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private object <ClientData>k__BackingField;
 
 	public Result ResultCode { get; set; }
 	public object ClientData { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Result get_ResultCode() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ResultCode(Result value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public object get_ClientData() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ClientData(object value) { }
 
 	public Nullable<Result> GetResultCode() { }
@@ -29,34 +29,34 @@ private object <ClientData>k__BackingField;
 
 public struct SendInviteCallbackInfo : ICallbackInfo // TypeDefIndex: 9266
 {
-[CompilerGeneratedAttribute]
-private Result <ResultCode>k__BackingField;
-[CompilerGeneratedAttribute]
-private object <ClientData>k__BackingField;
-[CompilerGeneratedAttribute]
-private Utf8String <LobbyId>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Result <ResultCode>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private object <ClientData>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Utf8String <LobbyId>k__BackingField;
 
 	public Result ResultCode { get; set; }
 	public object ClientData { get; set; }
 	public Utf8String LobbyId { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Result get_ResultCode() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ResultCode(Result value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public object get_ClientData() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ClientData(object value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Utf8String get_LobbyId() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_LobbyId(Utf8String value) { }
 
 	public Nullable<Result> GetResultCode() { }
@@ -67,14 +67,14 @@ private Utf8String <LobbyId>k__BackingField;
 
 public struct SendInviteCallbackInfo : ICallbackInfo // TypeDefIndex: 9415
 {
-[CompilerGeneratedAttribute]
-private Result <ResultCode>k__BackingField;
-[CompilerGeneratedAttribute]
-private object <ClientData>k__BackingField;
-[CompilerGeneratedAttribute]
-private EpicAccountId <LocalUserId>k__BackingField;
-[CompilerGeneratedAttribute]
-private EpicAccountId <TargetUserId>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private Result <ResultCode>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private object <ClientData>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private EpicAccountId <LocalUserId>k__BackingField;
+	[CompilerGeneratedAttribute]
+	private EpicAccountId <TargetUserId>k__BackingField;
 
 	public Result ResultCode { get; set; }
 	public object ClientData { get; set; }
@@ -82,28 +82,28 @@ private EpicAccountId <TargetUserId>k__BackingField;
 	public EpicAccountId TargetUserId { get; set; }
 
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public Result get_ResultCode() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ResultCode(Result value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public object get_ClientData() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_ClientData(object value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public EpicAccountId get_LocalUserId() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_LocalUserId(EpicAccountId value) { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public EpicAccountId get_TargetUserId() { }
 
-[CompilerGeneratedAttribute]
+	[CompilerGeneratedAttribute]
 	public void set_TargetUserId(EpicAccountId value) { }
 
 	public Nullable<Result> GetResultCode() { }

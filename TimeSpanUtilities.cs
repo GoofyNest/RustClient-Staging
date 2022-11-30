@@ -1,8 +1,8 @@
 public static class TimeSpanUtilities // TypeDefIndex: 7515
 {
-private static readonly Dictionary<TimeSpanType, Parsing<ITimeSpan>> Parsers;
-private static readonly Dictionary<TimeSpanType, ITimeSpan> MaximumTimeSpans;
-private static readonly Dictionary<TimeSpanType, ITimeSpan> ZeroTimeSpans;
+	private static readonly Dictionary<TimeSpanType, Parsing<ITimeSpan>> Parsers;
+	private static readonly Dictionary<TimeSpanType, ITimeSpan> MaximumTimeSpans;
+	private static readonly Dictionary<TimeSpanType, ITimeSpan> ZeroTimeSpans;
 
 
 	internal static ITimeSpan Subtract(ITimeSpan timeSpan1, ITimeSpan timeSpan2, TimeSpanMode mode) { }
@@ -24,19 +24,19 @@ private static readonly Dictionary<TimeSpanType, ITimeSpan> ZeroTimeSpans;
 
 private sealed class TimeSpanUtilities.<>c__DisplayClass12_0<TTimeSpan> // TypeDefIndex: 7516
 {
-public Parsing<TTimeSpan> parsing;
+	public Parsing<TTimeSpan> parsing;
 
 
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-|-TimeSpanUtilities.<>c
+	|-TimeSpanUtilities.<>c
 	*/
 
-internal ParsingResult <GetParsing>
+	internal ParsingResult <GetParsing>
 	/* GenericInstMethod :
 	|
-|-TimeSpanUtilities.<>c
+	|-TimeSpanUtilities.<>c
 	*/
 
 }
