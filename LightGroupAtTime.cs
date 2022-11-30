@@ -9,6 +9,7 @@ public bool requiresPower;
 public Transform powerOverrideTransform;
 public LayerMask checkLayers;
 public GameObject enableWhenLightsOn;
+public float timeBetweenPowerLookup;
 private List<KeyValuePair<Light, float>> lights;
 private List<KeyValuePair<AmbientLightLOD, float>> lightLODs;
 private List<KeyValuePair<Renderer, LightGroupAtTime.EmissiveCols[]>> renderers;

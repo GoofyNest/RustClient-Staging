@@ -58893,7 +58893,6 @@ private static readonly T[] _emptyArray;
 	|-List<HeldEntity.PunchEntry>.get_Count
 	|-List<HitboxSystem.HitboxShape>.get_Count
 	|-List<IImageEffect>.get_Count
-	|-List<IOEntity>.get_Count
 	|-List<IOnParentDestroying>.get_Count
 	|-List<IOnParentSpawning>.get_Count
 	|-List<IOnPostNetworkUpdate>.get_Count
@@ -60256,7 +60255,6 @@ private static readonly T[] _emptyArray;
 	|-List<IInventoryChanged>.get_Item
 	|-List<IItemAmountChanged>.get_Item
 	|-List<IItemIconChanged>.get_Item
-	|-List<IOEntity>.get_Item
 	|-List<IOnParentDestroying>.get_Item
 	|-List<IOnParentSpawning>.get_Item
 	|-List<IOnPostNetworkUpdate>.get_Item
@@ -66100,6 +66098,7 @@ private static readonly T[] _emptyArray;
 	|-List<IEffect>.GetEnumerator
 	|-List<IItemSetup>.GetEnumerator
 	|-List<IItemUpdate>.GetEnumerator
+	|-List<IOEntity>.GetEnumerator
 	|-List<IPlayerItemDefinition>.GetEnumerator
 	|-List<IPrefabPostProcess>.GetEnumerator
 	|-List<IPrefabPreProcess>.GetEnumerator

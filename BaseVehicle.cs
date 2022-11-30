@@ -1482,6 +1482,12 @@ private SoundDefinition liftStopSoundDef;
 private SoundDefinition liftStopDownSoundDef;
 [SerializeField]
 private SoundDefinition liftLoopSoundDef;
+[SerializeField]
+private GameObjectRef addRemoveLockEffect;
+[SerializeField]
+private GameObjectRef changeLockCodeEffect;
+[SerializeField]
+private GameObjectRef repairEffect;
 public ModularCarGarage.ChassisBuildOption[] chassisBuildOptions;
 public ItemAmount lockResourceCost;
 [CompilerGeneratedAttribute]

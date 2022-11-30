@@ -350,6 +350,7 @@ private T current;
 	|-List.Enumerator<IEffect>.Dispose
 	|-List.Enumerator<IItemSetup>.Dispose
 	|-List.Enumerator<IItemUpdate>.Dispose
+	|-List.Enumerator<IOEntity>.Dispose
 	|-List.Enumerator<IPlayerItemDefinition>.Dispose
 	|-List.Enumerator<IPrefabPostProcess>.Dispose
 	|-List.Enumerator<IPrefabPreProcess>.Dispose
@@ -761,6 +762,7 @@ private T current;
 	|-List.Enumerator<IEffect>.MoveNext
 	|-List.Enumerator<IItemSetup>.MoveNext
 	|-List.Enumerator<IItemUpdate>.MoveNext
+	|-List.Enumerator<IOEntity>.MoveNext
 	|-List.Enumerator<IPlayerItemDefinition>.MoveNext
 	|-List.Enumerator<IPrefabPostProcess>.MoveNext
 	|-List.Enumerator<IPrefabPreProcess>.MoveNext
@@ -1472,6 +1474,7 @@ private T current;
 	|-List.Enumerator<IEffect>.get_Current
 	|-List.Enumerator<IItemSetup>.get_Current
 	|-List.Enumerator<IItemUpdate>.get_Current
+	|-List.Enumerator<IOEntity>.get_Current
 	|-List.Enumerator<IPlayerItemDefinition>.get_Current
 	|-List.Enumerator<IPrefabPostProcess>.get_Current
 	|-List.Enumerator<IPrefabPreProcess>.get_Current
