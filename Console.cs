@@ -3037,6 +3037,10 @@ private sealed class ConsoleGen.<>c // TypeDefIndex: 10016
 
 	internal void <.cctor>
 
+	internal string <.cctor>
+
+	internal void <.cctor>
+
 	internal void <.cctor>
 
 	internal string <.cctor>

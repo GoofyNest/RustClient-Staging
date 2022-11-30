@@ -5,6 +5,8 @@ public class GameTip : SingletonComponent<GameTip> // TypeDefIndex: 12716
 	public Image background;
 	public RustText text;
 	public GameTip.Theme[] themes;
+	[ClientVar]
+	public static bool Server_Event_Tips;
 	public static BaseTip[] Tips;
 	[ClientVar]
 	public static bool showgametips;
@@ -51,6 +53,7 @@ public enum GameTip.Styles // TypeDefIndex: 12717
 	public const GameTip.Styles Red_Normal = 1;
 	public const GameTip.Styles Blue_Long = 2;
 	public const GameTip.Styles Blue_Short = 3;
+	public const GameTip.Styles Server_Event = 4;
 
 }
 
@@ -63,7 +66,7 @@ public struct GameTip.Theme // TypeDefIndex: 12718
 
 }
 
-private sealed class GameTip.<Think>d__11 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 12719
+private sealed class GameTip.<Think>d__12 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 12719
 {
 	private int <>1__state;
 	private object <>2__current;
