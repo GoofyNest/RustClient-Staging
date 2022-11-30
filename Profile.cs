@@ -14,7 +14,7 @@ public float warnTime;
 
 }
 
-public class Profile : ConsoleSystem // TypeDefIndex: 13760
+public class Profile : ConsoleSystem // TypeDefIndex: 13761
 {
 
 	private static void NeedProfileFolder() { }

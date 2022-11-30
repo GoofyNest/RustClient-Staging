@@ -4582,7 +4582,7 @@ public class PlayerDetectedEventUI : BaseEventUI // TypeDefIndex: 12574
 
 }
 
-public class Player : ConsoleSystem // TypeDefIndex: 13756
+public class Player : ConsoleSystem // TypeDefIndex: 13757
 {
 [ServerVar]
 public static int tickrate_cl;
@@ -4635,7 +4635,7 @@ public static float noclipspeedfast;
 
 }
 
-public class PlayerCull : ConsoleSystem // TypeDefIndex: 13757
+public class PlayerCull : ConsoleSystem // TypeDefIndex: 13758
 {
 private static bool _enabled;
 [ClientVar]
@@ -4665,7 +4665,7 @@ public static bool debug;
 
 }
 
-public enum PlayerMenuAnimation.Layers // TypeDefIndex: 13965
+public enum PlayerMenuAnimation.Layers // TypeDefIndex: 13966
 {
 
 public enum PlayerMenuAnimation.Layers

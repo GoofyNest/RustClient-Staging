@@ -272,7 +272,7 @@ private int <i>5__3;
 
 }
 
-public class World : ConsoleSystem // TypeDefIndex: 13782
+public class World : ConsoleSystem // TypeDefIndex: 13783
 {
 [ServerVar]
 [ClientVar]

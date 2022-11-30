@@ -364,7 +364,7 @@ private bool queuedState;
 
 }
 
-public enum AmbientOcclusionMode // TypeDefIndex: 13559
+public enum AmbientOcclusionMode // TypeDefIndex: 13560
 {
 public int value__;
 	public const AmbientOcclusionMode ScalableAmbientObscurance = 0;
@@ -372,7 +372,7 @@ public int value__;
 
 }
 
-public enum AmbientOcclusionQuality // TypeDefIndex: 13560
+public enum AmbientOcclusionQuality // TypeDefIndex: 13561
 {
 public int value__;
 	public const AmbientOcclusionQuality Lowest = 0;
@@ -383,21 +383,21 @@ public int value__;
 
 }
 
-public sealed class AmbientOcclusionModeParameter : ParameterOverride<AmbientOcclusionMode> // TypeDefIndex: 13561
+public sealed class AmbientOcclusionModeParameter : ParameterOverride<AmbientOcclusionMode> // TypeDefIndex: 13562
 {
 
 	public void .ctor() { }
 
 }
 
-public sealed class AmbientOcclusionQualityParameter : ParameterOverride<AmbientOcclusionQuality> // TypeDefIndex: 13562
+public sealed class AmbientOcclusionQualityParameter : ParameterOverride<AmbientOcclusionQuality> // TypeDefIndex: 13563
 {
 
 	public void .ctor() { }
 
 }
 
-public sealed class AmbientOcclusion : PostProcessEffectSettings // TypeDefIndex: 13563
+public sealed class AmbientOcclusion : PostProcessEffectSettings // TypeDefIndex: 13564
 {
 [TooltipAttribute]
 public AmbientOcclusionModeParameter mode;
@@ -433,7 +433,7 @@ public AmbientOcclusionQualityParameter quality;
 
 }
 
-internal sealed class AmbientOcclusionRenderer : PostProcessEffectRenderer<AmbientOcclusion> // TypeDefIndex: 13565
+internal sealed class AmbientOcclusionRenderer : PostProcessEffectRenderer<AmbientOcclusion> // TypeDefIndex: 13566
 {
 private IAmbientOcclusionMethod[] m_Methods;
 

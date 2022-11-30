@@ -977,14 +977,14 @@ private TaskAwaiter<HttpResponseMessage> <>u__1;
 
 }
 
-public static class Client // TypeDefIndex: 13453
+public static class Client // TypeDefIndex: 13454
 {
 	public const byte Default = 0;
 	public const byte Tick = 1;
 
 }
 
-public class Client : ConsoleSystem // TypeDefIndex: 13695
+public class Client : ConsoleSystem // TypeDefIndex: 13696
 {
 public static string anticheatid;
 public static string anticheatkey;
@@ -1156,7 +1156,7 @@ public static int TorchSkin;
 
 }
 
-public enum Client.CameraSensorType // TypeDefIndex: 13696
+public enum Client.CameraSensorType // TypeDefIndex: 13697
 {
 public int value__;
 	public const Client.CameraSensorType _8Mm = 0;
@@ -1175,7 +1175,7 @@ public int value__;
 
 }
 
-public static class Client // TypeDefIndex: 13852
+public static class Client // TypeDefIndex: 13853
 {
 	public const float UseDistance = 2;
 private static Scene _entityScene;

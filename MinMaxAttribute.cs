@@ -8,7 +8,7 @@ public float max;
 
 }
 
-public sealed class MinMaxAttribute : Attribute // TypeDefIndex: 13555
+public sealed class MinMaxAttribute : Attribute // TypeDefIndex: 13556
 {
 public readonly float min;
 public readonly float max;

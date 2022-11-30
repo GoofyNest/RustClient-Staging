@@ -1,4 +1,4 @@
-public sealed class MaxAttribute : Attribute // TypeDefIndex: 13553
+public sealed class MaxAttribute : Attribute // TypeDefIndex: 13554
 {
 public readonly float max;
 

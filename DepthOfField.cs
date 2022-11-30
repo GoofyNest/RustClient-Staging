@@ -70,7 +70,7 @@ public int value__;
 
 }
 
-public sealed class DepthOfField : PostProcessEffectSettings // TypeDefIndex: 13585
+public sealed class DepthOfField : PostProcessEffectSettings // TypeDefIndex: 13586
 {
 [MinAttribute]
 [TooltipAttribute]

@@ -2046,7 +2046,7 @@ public static class FileEx // TypeDefIndex: 13150
 
 }
 
-public class FileConVar : ConsoleSystem // TypeDefIndex: 13725
+public class FileConVar : ConsoleSystem // TypeDefIndex: 13726
 {
 [ClientVar]
 	public static bool debug { get; set; }

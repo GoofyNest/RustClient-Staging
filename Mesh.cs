@@ -366,7 +366,7 @@ public Vector2 max;
 
 }
 
-public class Mesh : ConsoleSystem // TypeDefIndex: 13748
+public class Mesh : ConsoleSystem // TypeDefIndex: 13749
 {
 private static float m_quality;
 

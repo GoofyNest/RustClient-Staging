@@ -457,7 +457,7 @@ private Action recycleAction;
 
 }
 
-public class Effects : ConsoleSystem // TypeDefIndex: 13713
+public class Effects : ConsoleSystem // TypeDefIndex: 13714
 {
 private static int _antialiasing;
 [ClientVar]
@@ -517,7 +517,7 @@ public static bool showoutlines;
 
 }
 
-public enum Effects.AntiAliasingType // TypeDefIndex: 13714
+public enum Effects.AntiAliasingType // TypeDefIndex: 13715
 {
 public int value__;
 	public const Effects.AntiAliasingType None = 0;

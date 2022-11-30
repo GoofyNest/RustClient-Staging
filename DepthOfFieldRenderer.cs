@@ -1,4 +1,4 @@
-internal sealed class DepthOfFieldRenderer : PostProcessEffectRenderer<DepthOfField> // TypeDefIndex: 13586
+internal sealed class DepthOfFieldRenderer : PostProcessEffectRenderer<DepthOfField> // TypeDefIndex: 13587
 {
 	private const int k_NumEyes = 2;
 	private const int k_NumCoCHistoryTextures = 2;
@@ -23,7 +23,7 @@ private int[] m_HistoryPingPong;
 
 }
 
-private enum DepthOfFieldRenderer.Pass // TypeDefIndex: 13587
+private enum DepthOfFieldRenderer.Pass // TypeDefIndex: 13588
 {
 public int value__;
 	public const DepthOfFieldRenderer.Pass CoCCalculation = 0;

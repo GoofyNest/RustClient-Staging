@@ -1,4 +1,4 @@
-public enum DebugOverlay // TypeDefIndex: 13641
+public enum DebugOverlay // TypeDefIndex: 13642
 {
 public int value__;
 	public const DebugOverlay None = 0;

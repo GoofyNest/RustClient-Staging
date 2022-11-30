@@ -1,4 +1,4 @@
-public sealed class SplineParameter : ParameterOverride<Spline> // TypeDefIndex: 13636
+public sealed class SplineParameter : ParameterOverride<Spline> // TypeDefIndex: 13637
 {
 
 	protected internal override void OnEnable() { }

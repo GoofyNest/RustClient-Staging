@@ -94,7 +94,7 @@ internal StaticTree staticTree;
 
 }
 
-public class Tree : ConsoleSystem // TypeDefIndex: 13773
+public class Tree : ConsoleSystem // TypeDefIndex: 13774
 {
 private static float m_quality;
 private static int m_meshes;

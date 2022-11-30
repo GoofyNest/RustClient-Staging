@@ -49,7 +49,7 @@ public class Time // TypeDefIndex: 3561
 
 }
 
-public class Time : ConsoleSystem // TypeDefIndex: 13772
+public class Time : ConsoleSystem // TypeDefIndex: 13773
 {
 
 	public void .ctor() { }

@@ -47,7 +47,7 @@ internal static readonly object EPHEMERON_TOMBSTONE;
 
 }
 
-public class GC : ConsoleSystem // TypeDefIndex: 13728
+public class GC : ConsoleSystem // TypeDefIndex: 13729
 {
 [ClientVar]
 public static bool buffer_enabled;
@@ -102,7 +102,7 @@ private static int m_buffer;
 
 }
 
-public class GC : MonoBehaviour, IClientComponent // TypeDefIndex: 13842
+public class GC : MonoBehaviour, IClientComponent // TypeDefIndex: 13843
 {
 private static float gcTime;
 private static GarbageCollector.Mode gcMode;

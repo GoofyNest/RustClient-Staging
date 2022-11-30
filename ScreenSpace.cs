@@ -69,7 +69,7 @@ public int value__;
 
 }
 
-public enum ScreenSpaceReflectionPreset // TypeDefIndex: 13603
+public enum ScreenSpaceReflectionPreset // TypeDefIndex: 13604
 {
 public int value__;
 	public const ScreenSpaceReflectionPreset Lower = 0;
@@ -83,7 +83,7 @@ public int value__;
 
 }
 
-public enum ScreenSpaceReflectionResolution // TypeDefIndex: 13604
+public enum ScreenSpaceReflectionResolution // TypeDefIndex: 13605
 {
 public int value__;
 	public const ScreenSpaceReflectionResolution Downsampled = 0;
@@ -92,21 +92,21 @@ public int value__;
 
 }
 
-public sealed class ScreenSpaceReflectionPresetParameter : ParameterOverride<ScreenSpaceReflectionPreset> // TypeDefIndex: 13605
+public sealed class ScreenSpaceReflectionPresetParameter : ParameterOverride<ScreenSpaceReflectionPreset> // TypeDefIndex: 13606
 {
 
 	public void .ctor() { }
 
 }
 
-public sealed class ScreenSpaceReflectionResolutionParameter : ParameterOverride<ScreenSpaceReflectionResolution> // TypeDefIndex: 13606
+public sealed class ScreenSpaceReflectionResolutionParameter : ParameterOverride<ScreenSpaceReflectionResolution> // TypeDefIndex: 13607
 {
 
 	public void .ctor() { }
 
 }
 
-public sealed class ScreenSpaceReflections : PostProcessEffectSettings // TypeDefIndex: 13607
+public sealed class ScreenSpaceReflections : PostProcessEffectSettings // TypeDefIndex: 13608
 {
 [TooltipAttribute]
 public ScreenSpaceReflectionPresetParameter preset;
@@ -134,7 +134,7 @@ public FloatParameter vignette;
 
 }
 
-internal sealed class ScreenSpaceReflectionsRenderer : PostProcessEffectRenderer<ScreenSpaceReflections> // TypeDefIndex: 13608
+internal sealed class ScreenSpaceReflectionsRenderer : PostProcessEffectRenderer<ScreenSpaceReflections> // TypeDefIndex: 13609
 {
 private RenderTexture m_Resolve;
 private RenderTexture m_History;
@@ -154,7 +154,7 @@ private readonly ScreenSpaceReflectionsRenderer.QualityPreset[] m_Presets;
 
 }
 
-private class ScreenSpaceReflectionsRenderer.QualityPreset // TypeDefIndex: 13609
+private class ScreenSpaceReflectionsRenderer.QualityPreset // TypeDefIndex: 13610
 {
 public int maximumIterationCount;
 public float thickness;
@@ -165,7 +165,7 @@ public ScreenSpaceReflectionResolution downsampling;
 
 }
 
-private enum ScreenSpaceReflectionsRenderer.Pass // TypeDefIndex: 13610
+private enum ScreenSpaceReflectionsRenderer.Pass // TypeDefIndex: 13611
 {
 public int value__;
 	public const ScreenSpaceReflectionsRenderer.Pass Test = 0;

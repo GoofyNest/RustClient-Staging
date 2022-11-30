@@ -1,4 +1,4 @@
-public class RCon // TypeDefIndex: 13793
+public class RCon // TypeDefIndex: 13794
 {
 public static string Password;
 [ServerVar]
@@ -49,7 +49,7 @@ internal static int SERVERDATA_SWITCH_UTF8;
 
 }
 
-public struct RCon.Command // TypeDefIndex: 13794
+public struct RCon.Command // TypeDefIndex: 13795
 {
 public IPAddress Ip;
 public int ConnectionId;
@@ -59,7 +59,7 @@ public int Identifier;
 
 }
 
-public enum RCon.LogType // TypeDefIndex: 13795
+public enum RCon.LogType // TypeDefIndex: 13796
 {
 public int value__;
 	public const RCon.LogType Generic = 0;
@@ -71,7 +71,7 @@ public int value__;
 
 }
 
-public struct RCon.Response // TypeDefIndex: 13796
+public struct RCon.Response // TypeDefIndex: 13797
 {
 public string Message;
 public int Identifier;
@@ -81,14 +81,14 @@ public string Stacktrace;
 
 }
 
-internal struct RCon.BannedAddresses // TypeDefIndex: 13797
+internal struct RCon.BannedAddresses // TypeDefIndex: 13798
 {
 public IPAddress addr;
 public float banTime;
 
 }
 
-internal class RCon.RConClient // TypeDefIndex: 13798
+internal class RCon.RConClient // TypeDefIndex: 13799
 {
 private Socket socket;
 private bool isAuthorised;
@@ -118,7 +118,7 @@ private bool utf8Mode;
 
 }
 
-internal class RCon.RConListener // TypeDefIndex: 13799
+internal class RCon.RConListener // TypeDefIndex: 13800
 {
 private TcpListener server;
 private List<RCon.RConClient> clients;
@@ -138,7 +138,7 @@ private List<RCon.RConClient> clients;
 
 }
 
-private sealed class RCon.RConListener.<>c // TypeDefIndex: 13800
+private sealed class RCon.RConListener.<>c // TypeDefIndex: 13801
 {
 public static readonly RCon.RConListener.<>c <>9;
 public static Predicate<RCon.RConClient> <>9__7_0;
@@ -152,7 +152,7 @@ internal bool <RemoveDeadClients>
 
 }
 
-private sealed class RCon.<>c // TypeDefIndex: 13801
+private sealed class RCon.<>c // TypeDefIndex: 13802
 {
 public static readonly RCon.<>c <>9;
 public static Action<IPAddress, int, string> <>9__11_0;
@@ -169,7 +169,7 @@ internal bool <Update>
 
 }
 
-private sealed class RCon.<>c__DisplayClass19_0 // TypeDefIndex: 13802
+private sealed class RCon.<>c__DisplayClass19_0 // TypeDefIndex: 13803
 {
 public IPAddress addr;
 
@@ -180,7 +180,7 @@ internal bool <BanIP>
 
 }
 
-private sealed class RCon.<>c__DisplayClass20_0 // TypeDefIndex: 13803
+private sealed class RCon.<>c__DisplayClass20_0 // TypeDefIndex: 13804
 {
 public IPAddress addr;
 

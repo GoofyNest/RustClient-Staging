@@ -317,7 +317,7 @@ public int Port;
 
 }
 
-public class Manifest // TypeDefIndex: 13746
+public class Manifest // TypeDefIndex: 13747
 {
 
 [ClientVar]

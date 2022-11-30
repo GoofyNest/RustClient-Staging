@@ -3522,7 +3522,7 @@ private void <Hide>
 
 }
 
-public class ItemModEngineItem : ItemMod // TypeDefIndex: 13926
+public class ItemModEngineItem : ItemMod // TypeDefIndex: 13927
 {
 public EngineStorage.EngineItemTypes engineItemType;
 [RangeAttribute]
@@ -3533,7 +3533,7 @@ public int tier;
 
 }
 
-public class ItemModVehicleChassis : ItemMod, VehicleModuleInformationPanel.IVehicleModuleInfo // TypeDefIndex: 13927
+public class ItemModVehicleChassis : ItemMod, VehicleModuleInformationPanel.IVehicleModuleInfo // TypeDefIndex: 13928
 {
 public GameObjectRef entityPrefab;
 [RangeAttribute]
@@ -3552,7 +3552,7 @@ public int socketsTaken;
 
 }
 
-public class ItemModVehicleModule : ItemMod, VehicleModuleInformationPanel.IVehicleModuleInfo // TypeDefIndex: 13928
+public class ItemModVehicleModule : ItemMod, VehicleModuleInformationPanel.IVehicleModuleInfo // TypeDefIndex: 13929
 {
 public GameObjectRef entityPrefab;
 [RangeAttribute]

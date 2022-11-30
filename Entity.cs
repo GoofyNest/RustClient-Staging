@@ -893,7 +893,7 @@ internal BaseEntity cachedEntity;
 
 }
 
-public class Entity : ConsoleSystem // TypeDefIndex: 13715
+public class Entity : ConsoleSystem // TypeDefIndex: 13716
 {
 
 [ClientVar]
@@ -953,7 +953,7 @@ public class Entity : ConsoleSystem // TypeDefIndex: 13715
 
 }
 
-private struct Entity.EntityInfo // TypeDefIndex: 13716
+private struct Entity.EntityInfo // TypeDefIndex: 13717
 {
 public BaseNetworkable entity;
 public uint entityID;
@@ -966,7 +966,7 @@ public string status;
 
 }
 
-private sealed class Entity.<>c__DisplayClass3_0 // TypeDefIndex: 13717
+private sealed class Entity.<>c__DisplayClass3_0 // TypeDefIndex: 13718
 {
 public string filter;
 
@@ -977,7 +977,7 @@ internal bool <find_entity>
 
 }
 
-private sealed class Entity.<>c__DisplayClass4_0 // TypeDefIndex: 13718
+private sealed class Entity.<>c__DisplayClass4_0 // TypeDefIndex: 13719
 {
 public uint filter;
 
@@ -988,7 +988,7 @@ internal bool <find_id>
 
 }
 
-private sealed class Entity.<>c__DisplayClass5_0 // TypeDefIndex: 13719
+private sealed class Entity.<>c__DisplayClass5_0 // TypeDefIndex: 13720
 {
 public uint filter;
 
@@ -999,7 +999,7 @@ internal bool <find_group>
 
 }
 
-private sealed class Entity.<>c__DisplayClass6_0 // TypeDefIndex: 13720
+private sealed class Entity.<>c__DisplayClass6_0 // TypeDefIndex: 13721
 {
 public uint filter;
 
@@ -1010,7 +1010,7 @@ internal bool <find_parent>
 
 }
 
-private sealed class Entity.<>c__DisplayClass7_0 // TypeDefIndex: 13721
+private sealed class Entity.<>c__DisplayClass7_0 // TypeDefIndex: 13722
 {
 public string filter;
 
@@ -1021,7 +1021,7 @@ internal bool <find_status>
 
 }
 
-private sealed class Entity.<>c__DisplayClass8_0 // TypeDefIndex: 13722
+private sealed class Entity.<>c__DisplayClass8_0 // TypeDefIndex: 13723
 {
 public BasePlayer player;
 public uint filter;
@@ -1033,7 +1033,7 @@ internal bool <find_radius>
 
 }
 
-private sealed class Entity.<>c__DisplayClass9_0 // TypeDefIndex: 13723
+private sealed class Entity.<>c__DisplayClass9_0 // TypeDefIndex: 13724
 {
 public uint filter;
 

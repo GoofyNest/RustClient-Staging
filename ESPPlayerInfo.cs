@@ -1,4 +1,4 @@
-public class ESPPlayerInfo : MonoBehaviour // TypeDefIndex: 13810
+public class ESPPlayerInfo : MonoBehaviour // TypeDefIndex: 13811
 {
 public Vector3 WorldOffset;
 public TextMeshProUGUI Text;
@@ -66,7 +66,7 @@ private TimeSince lastHealthUpdate;
 
 }
 
-public class ESPPlayerInfo.ESPWorkQueue : ObjectWorkQueue<ESPPlayerInfo> // TypeDefIndex: 13811
+public class ESPPlayerInfo.ESPWorkQueue : ObjectWorkQueue<ESPPlayerInfo> // TypeDefIndex: 13812
 {
 
 	protected override void RunJob(ESPPlayerInfo entity) { }

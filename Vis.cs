@@ -82,7 +82,7 @@ private static Collider[] colBuffer;
 
 }
 
-public class Vis : ConsoleSystem // TypeDefIndex: 13776
+public class Vis : ConsoleSystem // TypeDefIndex: 13777
 {
 [ClientVar]
 [HelpAttribute]

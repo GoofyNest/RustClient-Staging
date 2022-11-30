@@ -629,7 +629,29 @@ public static Translate.Phrase ObstructedPhrase;
 
 }
 
-public class TipHealAtCampfire : BaseTip // TypeDefIndex: 13426
+public class TipFlashlight : BaseTip // TypeDefIndex: 13426
+{
+public static Translate.Phrase Phrase;
+
+	public override bool ShouldShow { get; }
+	private bool HasShownPrompt { get; set; }
+
+
+	public override Translate.Phrase GetPhrase() { }
+
+	public override bool get_ShouldShow() { }
+
+	private bool get_HasShownPrompt() { }
+
+	private void set_HasShownPrompt(bool value) { }
+
+	public void .ctor() { }
+
+	private static void .cctor() { }
+
+}
+
+public class TipHealAtCampfire : BaseTip // TypeDefIndex: 13427
 {
 public static Translate.Phrase Phrase;
 public float oldHealth;
@@ -660,7 +682,7 @@ public float lastHurtTime;
 
 }
 
-public class TipKayakPaddle : BaseTip // TypeDefIndex: 13427
+public class TipKayakPaddle : BaseTip // TypeDefIndex: 13428
 {
 public static Translate.Phrase Phrase;
 [CompilerGeneratedAttribute]
@@ -686,7 +708,7 @@ private static bool <hasPaddledWithoutOar>k__BackingField;
 
 }
 
-public class TipMLRSAimingModule : BaseTip // TypeDefIndex: 13428
+public class TipMLRSAimingModule : BaseTip // TypeDefIndex: 13429
 {
 public static Translate.Phrase Phrase;
 public static bool wasMounted;
@@ -705,7 +727,7 @@ public static float nextTipTime;
 
 }
 
-public class TipMLRSBrokenDown : BaseTip // TypeDefIndex: 13429
+public class TipMLRSBrokenDown : BaseTip // TypeDefIndex: 13430
 {
 public static Translate.Phrase Phrase;
 public static bool wasMounted;
@@ -724,7 +746,7 @@ public static float nextTipTime;
 
 }
 
-public class TipMLRSNoRockets : BaseTip // TypeDefIndex: 13430
+public class TipMLRSNoRockets : BaseTip // TypeDefIndex: 13431
 {
 public static Translate.Phrase Phrase;
 public static bool wasMounted;
@@ -743,7 +765,7 @@ public static float nextTipTime;
 
 }
 
-public class TipMissingLure : BaseTip // TypeDefIndex: 13431
+public class TipMissingLure : BaseTip // TypeDefIndex: 13432
 {
 public static Translate.Phrase Phrase;
 
@@ -760,7 +782,7 @@ public static Translate.Phrase Phrase;
 
 }
 
-public class TipNoBuild : BaseTip // TypeDefIndex: 13432
+public class TipNoBuild : BaseTip // TypeDefIndex: 13433
 {
 public static Translate.Phrase Phrase;
 
@@ -782,7 +804,7 @@ public static Translate.Phrase Phrase;
 
 }
 
-public class TipPetControlWheel : BaseTip // TypeDefIndex: 13433
+public class TipPetControlWheel : BaseTip // TypeDefIndex: 13434
 {
 public static Translate.Phrase Phrase;
 public static bool haveShown;
@@ -800,7 +822,7 @@ public static bool haveShown;
 
 }
 
-public class TipPlaceSleepingBag : BaseTip // TypeDefIndex: 13434
+public class TipPlaceSleepingBag : BaseTip // TypeDefIndex: 13435
 {
 public static Translate.Phrase Phrase;
 
@@ -817,7 +839,7 @@ public static Translate.Phrase Phrase;
 
 }
 
-public class TipPlaceToolCupboard : BaseTip // TypeDefIndex: 13435
+public class TipPlaceToolCupboard : BaseTip // TypeDefIndex: 13436
 {
 public static Translate.Phrase Phrase;
 
@@ -843,7 +865,7 @@ public static Translate.Phrase Phrase;
 
 }
 
-public class TipPokerWinnings : BaseTip // TypeDefIndex: 13436
+public class TipPokerWinnings : BaseTip // TypeDefIndex: 13437
 {
 public static Translate.Phrase Phrase;
 
@@ -860,7 +882,7 @@ public static Translate.Phrase Phrase;
 
 }
 
-public class TipRads : BaseTip // TypeDefIndex: 13437
+public class TipRads : BaseTip // TypeDefIndex: 13438
 {
 public static Translate.Phrase Phrase;
 
@@ -883,7 +905,7 @@ public static Translate.Phrase Phrase;
 
 }
 
-public class TipRemoveRads : BaseTip // TypeDefIndex: 13438
+public class TipRemoveRads : BaseTip // TypeDefIndex: 13439
 {
 public static Translate.Phrase Phrase;
 
@@ -909,7 +931,7 @@ public static Translate.Phrase Phrase;
 
 }
 
-public class TipReskinObject : BaseTip // TypeDefIndex: 13439
+public class TipReskinObject : BaseTip // TypeDefIndex: 13440
 {
 public static Translate.Phrase Phrase;
 
@@ -926,7 +948,7 @@ public static Translate.Phrase Phrase;
 
 }
 
-public class TipSledPlacement : BaseTip // TypeDefIndex: 13440
+public class TipSledPlacement : BaseTip // TypeDefIndex: 13441
 {
 public static Translate.Phrase Phrase;
 
@@ -943,7 +965,7 @@ public static Translate.Phrase Phrase;
 
 }
 
-public class TipSleepingBagPlacement : BaseTip // TypeDefIndex: 13441
+public class TipSleepingBagPlacement : BaseTip // TypeDefIndex: 13442
 {
 public static Translate.Phrase Phrase;
 
@@ -960,7 +982,7 @@ public static Translate.Phrase Phrase;
 
 }
 
-public class TipSnapAttractionPoint : BaseTip // TypeDefIndex: 13442
+public class TipSnapAttractionPoint : BaseTip // TypeDefIndex: 13443
 {
 public static Translate.Phrase Phrase;
 [CompilerGeneratedAttribute]
@@ -986,7 +1008,7 @@ private static bool <HasDismissedSnap>k__BackingField;
 
 }
 
-public class TipSnowmobileSurface : BaseTip // TypeDefIndex: 13443
+public class TipSnowmobileSurface : BaseTip // TypeDefIndex: 13444
 {
 public static Translate.Phrase Phrase;
 public static bool showedMessage;
@@ -1005,7 +1027,7 @@ public static float nextTipTime;
 
 }
 
-public class TipSprayControls : BaseTip // TypeDefIndex: 13444
+public class TipSprayControls : BaseTip // TypeDefIndex: 13445
 {
 public static Translate.Phrase Phrase;
 
@@ -1022,7 +1044,7 @@ public static Translate.Phrase Phrase;
 
 }
 
-public class TipTooCold : BaseTip // TypeDefIndex: 13445
+public class TipTooCold : BaseTip // TypeDefIndex: 13446
 {
 public static Translate.Phrase Phrase;
 
@@ -1045,7 +1067,7 @@ public static Translate.Phrase Phrase;
 
 }
 
-public class TipTooHot : BaseTip // TypeDefIndex: 13446
+public class TipTooHot : BaseTip // TypeDefIndex: 13447
 {
 public static Translate.Phrase Phrase;
 
@@ -1068,7 +1090,7 @@ public static Translate.Phrase Phrase;
 
 }
 
-public class TipZipline : BaseTip // TypeDefIndex: 13447
+public class TipZipline : BaseTip // TypeDefIndex: 13448
 {
 public static Translate.Phrase Phrase;
 

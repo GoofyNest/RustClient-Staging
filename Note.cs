@@ -123,7 +123,7 @@ private readonly TimedEvent <TimedNoteOffEvent>k__BackingField;
 
 }
 
-public class Note : ConsoleSystem // TypeDefIndex: 13752
+public class Note : ConsoleSystem // TypeDefIndex: 13753
 {
 
 [ClientVar]

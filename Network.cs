@@ -2264,7 +2264,7 @@ private readonly string value;
 
 }
 
-public class ConnectionLimiter // TypeDefIndex: 13448
+public class ConnectionLimiter // TypeDefIndex: 13449
 {
 private readonly object _sync;
 private readonly Dictionary<IPAddress, int> _addressCounts;
@@ -2283,7 +2283,7 @@ private int _overallCount;
 
 }
 
-private sealed class ConnectionLimiter.<>c // TypeDefIndex: 13449
+private sealed class ConnectionLimiter.<>c // TypeDefIndex: 13450
 {
 public static readonly ConnectionLimiter.<>c <>9;
 public static Func<KeyValuePair<IPAddress, int>, int> <>9__7_0;
@@ -2297,7 +2297,7 @@ internal int <ToString>
 
 }
 
-public static class NetworkPacketEx // TypeDefIndex: 13506
+public static class NetworkPacketEx // TypeDefIndex: 13507
 {
 
 [ExtensionAttribute]
@@ -2308,7 +2308,7 @@ public static class NetworkPacketEx
 
 }
 
-public class Net : ConsoleSystem // TypeDefIndex: 13750
+public class Net : ConsoleSystem // TypeDefIndex: 13751
 {
 [ServerVar]
 public static bool visdebug;
@@ -2326,7 +2326,7 @@ public static int visibilityRadiusNearOverride;
 
 }
 
-public class Netgraph : ConsoleSystem // TypeDefIndex: 13751
+public class Netgraph : ConsoleSystem // TypeDefIndex: 13752
 {
 [ClientVar]
 public static bool enabled;

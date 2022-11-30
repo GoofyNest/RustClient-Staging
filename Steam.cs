@@ -3796,7 +3796,7 @@ private TaskAwaiter<IPlayerInfo> <>u__1;
 
 }
 
-public class Steam // TypeDefIndex: 13767
+public class Steam // TypeDefIndex: 13768
 {
 
 [ClientVar]
@@ -3809,7 +3809,7 @@ public class Steam // TypeDefIndex: 13767
 
 }
 
-private sealed class Steam.<>c // TypeDefIndex: 13768
+private sealed class Steam.<>c // TypeDefIndex: 13769
 {
 public static readonly Steam.<>c <>9;
 public static Func<Achievement, <>f__AnonymousType0<string, string, bool>> <>9__0_0;
@@ -3823,7 +3823,7 @@ internal <>f__AnonymousType0<string, string, bool> <achievements>
 
 }
 
-public class SteamInventoryCrafting : MonoBehaviour // TypeDefIndex: 13864
+public class SteamInventoryCrafting : MonoBehaviour // TypeDefIndex: 13865
 {
 public GameObject Container;
 public Button ConvertToItem;
@@ -3896,7 +3896,7 @@ private readonly Dictionary<int, Task<SteamInventoryCrafting.MarketPrice>> price
 
 }
 
-public class SteamInventoryCrafting.MarketPrice // TypeDefIndex: 13865
+public class SteamInventoryCrafting.MarketPrice // TypeDefIndex: 13866
 {
 [CompilerGeneratedAttribute]
 private bool <success>k__BackingField;
@@ -3941,7 +3941,7 @@ private double <lowest_price_value>k__BackingField;
 
 }
 
-private sealed class SteamInventoryCrafting.<>c__DisplayClass20_0 // TypeDefIndex: 13866
+private sealed class SteamInventoryCrafting.<>c__DisplayClass20_0 // TypeDefIndex: 13867
 {
 public IPlayerItemDefinition x;
 public SteamInventoryCrafting <>4__this;
@@ -3953,7 +3953,7 @@ internal void <FillCraftingContainer>
 
 }
 
-private sealed class SteamInventoryCrafting.<>c // TypeDefIndex: 13867
+private sealed class SteamInventoryCrafting.<>c // TypeDefIndex: 13868
 {
 public static readonly SteamInventoryCrafting.<>c <>9;
 public static Func<IPlayerItemDefinition, bool> <>9__20_0;
@@ -4018,7 +4018,7 @@ internal int <OnRefreshed>
 
 }
 
-private sealed class SteamInventoryCrafting.<>c__DisplayClass23_0 // TypeDefIndex: 13868
+private sealed class SteamInventoryCrafting.<>c__DisplayClass23_0 // TypeDefIndex: 13869
 {
 public IPlayerItemDefinition itemType;
 
@@ -4029,7 +4029,7 @@ internal bool <OnChanged>
 
 }
 
-private struct SteamInventoryCrafting.<GetMarketPrice>d__29 : IAsyncStateMachine // TypeDefIndex: 13869
+private struct SteamInventoryCrafting.<GetMarketPrice>d__29 : IAsyncStateMachine // TypeDefIndex: 13870
 {
 public int <>1__state;
 public AsyncTaskMethodBuilder<SteamInventoryCrafting.MarketPrice> <>t__builder;
@@ -4045,7 +4045,7 @@ private TaskAwaiter<SteamInventoryCrafting.MarketPrice> <>u__1;
 
 }
 
-private struct SteamInventoryCrafting.<GetMarketPriceImpl>d__30 : IAsyncStateMachine // TypeDefIndex: 13870
+private struct SteamInventoryCrafting.<GetMarketPriceImpl>d__30 : IAsyncStateMachine // TypeDefIndex: 13871
 {
 public int <>1__state;
 public AsyncTaskMethodBuilder<SteamInventoryCrafting.MarketPrice> <>t__builder;
@@ -4061,7 +4061,7 @@ private TaskAwaiter<string> <>u__1;
 
 }
 
-private sealed class SteamInventoryCrafting.<>c__DisplayClass31_0 // TypeDefIndex: 13871
+private sealed class SteamInventoryCrafting.<>c__DisplayClass31_0 // TypeDefIndex: 13872
 {
 public Task<SteamInventoryCrafting.MarketPrice> task;
 
@@ -4072,7 +4072,7 @@ internal bool <LoadMarketPrice>
 
 }
 
-private sealed class SteamInventoryCrafting.<LoadMarketPrice>d__31 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 13872
+private sealed class SteamInventoryCrafting.<LoadMarketPrice>d__31 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 13873
 {
 private int <>1__state;
 private object <>2__current;
@@ -4103,7 +4103,7 @@ private SteamInventoryCrafting.<>c
 
 }
 
-private sealed class SteamInventoryCrafting.<>c__DisplayClass33_0 // TypeDefIndex: 13873
+private sealed class SteamInventoryCrafting.<>c__DisplayClass33_0 // TypeDefIndex: 13874
 {
 public SteamInventoryItem[] selected;
 
@@ -4114,7 +4114,7 @@ internal bool <ExchangeItems>
 
 }
 
-private sealed class SteamInventoryCrafting.<>c__DisplayClass33_1 // TypeDefIndex: 13874
+private sealed class SteamInventoryCrafting.<>c__DisplayClass33_1 // TypeDefIndex: 13875
 {
 public IPlayerItemDefinition targetItem;
 
@@ -4125,7 +4125,7 @@ internal Task<IPlayerInventory> <ExchangeItems>
 
 }
 
-private struct SteamInventoryCrafting.<ExchangeItems>d__33 : IAsyncStateMachine // TypeDefIndex: 13875
+private struct SteamInventoryCrafting.<ExchangeItems>d__33 : IAsyncStateMachine // TypeDefIndex: 13876
 {
 public int <>1__state;
 public AsyncTaskMethodBuilder <>t__builder;
@@ -4146,7 +4146,7 @@ private TaskAwaiter<IPlayerInventory[]> <>u__3;
 
 }
 
-public class SteamInventoryCrateOpen : MonoBehaviour // TypeDefIndex: 13876
+public class SteamInventoryCrateOpen : MonoBehaviour // TypeDefIndex: 13877
 {
 public TextMeshProUGUI Name;
 public TextMeshProUGUI Requirements;
@@ -4173,7 +4173,7 @@ private InventoryRecipe Recipe;
 
 }
 
-private sealed class SteamInventoryCrateOpen.<>c__DisplayClass10_0 // TypeDefIndex: 13877
+private sealed class SteamInventoryCrateOpen.<>c__DisplayClass10_0 // TypeDefIndex: 13878
 {
 public InventoryRecipe.Ingredient i;
 
@@ -4184,7 +4184,7 @@ internal bool <Open>
 
 }
 
-private sealed class SteamInventoryCrateOpen.<>c // TypeDefIndex: 13878
+private sealed class SteamInventoryCrateOpen.<>c // TypeDefIndex: 13879
 {
 public static readonly SteamInventoryCrateOpen.<>c <>9;
 public static Func<InventoryRecipe.Ingredient, string> <>9__10_0;
@@ -4204,7 +4204,7 @@ internal int <DoCraftAsync>
 
 }
 
-private sealed class SteamInventoryCrateOpen.<>c__DisplayClass12_0 // TypeDefIndex: 13879
+private sealed class SteamInventoryCrateOpen.<>c__DisplayClass12_0 // TypeDefIndex: 13880
 {
 public List<InventoryItem.Amount> items;
 
@@ -4215,7 +4215,7 @@ internal bool <DoCraftAsync>
 
 }
 
-private sealed class SteamInventoryCrateOpen.<>c__DisplayClass12_1 // TypeDefIndex: 13880
+private sealed class SteamInventoryCrateOpen.<>c__DisplayClass12_1 // TypeDefIndex: 13881
 {
 public InventoryRecipe.Ingredient i;
 
@@ -4226,7 +4226,7 @@ internal bool <DoCraftAsync>
 
 }
 
-private sealed class SteamInventoryCrateOpen.<>c__DisplayClass12_2 // TypeDefIndex: 13881
+private sealed class SteamInventoryCrateOpen.<>c__DisplayClass12_2 // TypeDefIndex: 13882
 {
 public InventoryItem x;
 
@@ -4237,7 +4237,7 @@ internal bool <DoCraftAsync>
 
 }
 
-private struct SteamInventoryCrateOpen.<DoCraftAsync>d__12 : IAsyncStateMachine // TypeDefIndex: 13882
+private struct SteamInventoryCrateOpen.<DoCraftAsync>d__12 : IAsyncStateMachine // TypeDefIndex: 13883
 {
 public int <>1__state;
 public AsyncTaskMethodBuilder <>t__builder;
@@ -4255,7 +4255,7 @@ private TaskAwaiter <>u__2;
 
 }
 
-public class SteamInventoryIcon : MonoBehaviour // TypeDefIndex: 13883
+public class SteamInventoryIcon : MonoBehaviour // TypeDefIndex: 13884
 {
 
 	public void Setup(IPlayerItem item, ItemSkinDirectory.Skin skin) { }
@@ -4266,7 +4266,7 @@ public class SteamInventoryIcon : MonoBehaviour // TypeDefIndex: 13883
 
 }
 
-public class SteamInventoryItem : MonoBehaviour // TypeDefIndex: 13884
+public class SteamInventoryItem : MonoBehaviour // TypeDefIndex: 13885
 {
 public IPlayerItem Item;
 public HttpImage Image;
@@ -4278,7 +4278,7 @@ public HttpImage Image;
 
 }
 
-public class SteamInventoryManager : SingletonComponent<SteamInventoryManager> // TypeDefIndex: 13885
+public class SteamInventoryManager : SingletonComponent<SteamInventoryManager> // TypeDefIndex: 13886
 {
 public GameObject inventoryItemPrefab;
 public GameObject inventoryCanvas;
@@ -4302,7 +4302,7 @@ public GameObject LoadingOverlay;
 
 }
 
-private sealed class SteamInventoryManager.<>c // TypeDefIndex: 13886
+private sealed class SteamInventoryManager.<>c // TypeDefIndex: 13887
 {
 public static readonly SteamInventoryManager.<>c <>9;
 public static Func<IPlayerItem, DateTimeOffset> <>9__8_0;
@@ -4328,7 +4328,7 @@ internal InventoryDefId <FixStacks>
 
 }
 
-private struct SteamInventoryManager.<Refresh>d__8 : IAsyncStateMachine // TypeDefIndex: 13887
+private struct SteamInventoryManager.<Refresh>d__8 : IAsyncStateMachine // TypeDefIndex: 13888
 {
 public int <>1__state;
 public AsyncTaskMethodBuilder <>t__builder;
@@ -4348,7 +4348,7 @@ private TaskAwaiter <>u__2;
 
 }
 
-private struct SteamInventoryManager.<FixStacks>d__9 : IAsyncStateMachine // TypeDefIndex: 13888
+private struct SteamInventoryManager.<FixStacks>d__9 : IAsyncStateMachine // TypeDefIndex: 13889
 {
 public int <>1__state;
 public AsyncTaskMethodBuilder <>t__builder;
@@ -4371,7 +4371,7 @@ private IEnumerator<InventoryItem> <>7__wrap6;
 
 }
 
-public class SteamInventoryNewItem : MonoBehaviour // TypeDefIndex: 13889
+public class SteamInventoryNewItem : MonoBehaviour // TypeDefIndex: 13890
 {
 
 [AsyncStateMachineAttribute]
@@ -4381,7 +4381,7 @@ public class SteamInventoryNewItem : MonoBehaviour // TypeDefIndex: 13889
 
 }
 
-private struct SteamInventoryNewItem.<Open>d__0 : IAsyncStateMachine // TypeDefIndex: 13890
+private struct SteamInventoryNewItem.<Open>d__0 : IAsyncStateMachine // TypeDefIndex: 13891
 {
 public int <>1__state;
 public AsyncTaskMethodBuilder <>t__builder;

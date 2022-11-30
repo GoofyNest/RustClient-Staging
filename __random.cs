@@ -82899,7 +82899,7 @@ private T _cachedObject;
 
 }
 
-public class ParameterOverride<T> : ParameterOverride // TypeDefIndex: 13628
+public class ParameterOverride<T> : ParameterOverride // TypeDefIndex: 13629
 {
 public T value;
 
@@ -83166,7 +83166,7 @@ public T value;
 
 }
 
-public class FPNativeList<T> : Pool.IPooled // TypeDefIndex: 13808
+public class FPNativeList<T> : Pool.IPooled // TypeDefIndex: 13809
 {
 private NativeArray<T> _array;
 private int _length;
@@ -83260,7 +83260,7 @@ private int _length;
 
 }
 
-public class GenericLerp<T> : IDisposable // TypeDefIndex: 13934
+public class GenericLerp<T> : IDisposable // TypeDefIndex: 13935
 {
 private Interpolator<T> interpolator;
 private IGenericLerpTarget<T> target;
@@ -83383,7 +83383,7 @@ private float extrapolatedTime;
 
 }
 
-public class Interpolator<T> // TypeDefIndex: 13936
+public class Interpolator<T> // TypeDefIndex: 13937
 {
 public List<T> list;
 public T last;

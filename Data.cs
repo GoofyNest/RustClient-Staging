@@ -6354,7 +6354,7 @@ private IntPtr m_Value;
 
 }
 
-public class Data : ConsoleSystem // TypeDefIndex: 13701
+public class Data : ConsoleSystem // TypeDefIndex: 13702
 {
 
 [ServerVar]

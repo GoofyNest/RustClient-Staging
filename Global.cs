@@ -24,7 +24,7 @@ private static int <LaunchCountThisVersion>k__BackingField;
 
 }
 
-public class Global : ConsoleSystem // TypeDefIndex: 13729
+public class Global : ConsoleSystem // TypeDefIndex: 13730
 {
 private static int _developer;
 [ServerVar]
@@ -238,7 +238,7 @@ private static float _consoleScale;
 
 }
 
-private sealed class Global.<>c // TypeDefIndex: 13730
+private sealed class Global.<>c // TypeDefIndex: 13731
 {
 public static readonly Global.<>c <>9;
 public static Func<KeyValuePair<Type, long>, long> <>9__49_0;

@@ -101,7 +101,7 @@ public int value__;
 
 }
 
-public class Terrain : ConsoleSystem // TypeDefIndex: 13770
+public class Terrain : ConsoleSystem // TypeDefIndex: 13771
 {
 [ClientVar]
 public static float quality;

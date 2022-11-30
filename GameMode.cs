@@ -247,7 +247,7 @@ public int team;
 
 }
 
-public class gamemode : ConsoleSystem // TypeDefIndex: 13727
+public class gamemode : ConsoleSystem // TypeDefIndex: 13728
 {
 
 	public void .ctor() { }

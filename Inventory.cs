@@ -1,4 +1,4 @@
-public class Inventory : ConsoleSystem // TypeDefIndex: 13741
+public class Inventory : ConsoleSystem // TypeDefIndex: 13742
 {
 private static float _quickCraftDelay;
 
@@ -39,7 +39,7 @@ private static float _quickCraftDelay;
 
 }
 
-private sealed class Inventory.<>c // TypeDefIndex: 13742
+private sealed class Inventory.<>c // TypeDefIndex: 13743
 {
 public static readonly Inventory.<>c <>9;
 public static Func<InventoryDef, string> <>9__0_0;

@@ -15,7 +15,7 @@ private RenderTexture accumTexture;
 
 }
 
-public sealed class MotionBlur : PostProcessEffectSettings // TypeDefIndex: 13595
+public sealed class MotionBlur : PostProcessEffectSettings // TypeDefIndex: 13596
 {
 [RangeAttribute]
 [TooltipAttribute]

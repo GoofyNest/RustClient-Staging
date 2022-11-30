@@ -29,7 +29,7 @@ public bool AllowInDemo;
 
 }
 
-public class Admin : ConsoleSystem // TypeDefIndex: 13678
+public class Admin : ConsoleSystem // TypeDefIndex: 13679
 {
 [ClientVar]
 public static float admintime;
@@ -201,7 +201,7 @@ public static bool ddraw_netupdate;
 
 }
 
-public struct Admin.PlayerInfo // TypeDefIndex: 13679
+public struct Admin.PlayerInfo // TypeDefIndex: 13680
 {
 public string SteamID;
 public string OwnerSteamID;
@@ -216,7 +216,7 @@ public float Health;
 
 }
 
-public struct Admin.ServerInfoOutput // TypeDefIndex: 13680
+public struct Admin.ServerInfoOutput // TypeDefIndex: 13681
 {
 public string Hostname;
 public int MaxPlayers;
@@ -239,7 +239,7 @@ public string Protocol;
 
 }
 
-public struct Admin.ServerConvarInfo // TypeDefIndex: 13681
+public struct Admin.ServerConvarInfo // TypeDefIndex: 13682
 {
 public string FullName;
 public string Value;
@@ -247,7 +247,7 @@ public string Help;
 
 }
 
-public struct Admin.ServerUGCInfo // TypeDefIndex: 13682
+public struct Admin.ServerUGCInfo // TypeDefIndex: 13683
 {
 public uint entityId;
 public uint[] crcs;

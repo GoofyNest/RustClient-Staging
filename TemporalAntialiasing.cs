@@ -1,4 +1,4 @@
-public sealed class TemporalAntialiasing // TypeDefIndex: 13614
+public sealed class TemporalAntialiasing // TypeDefIndex: 13615
 {
 [TooltipAttribute]
 [RangeAttribute]
@@ -84,7 +84,7 @@ private readonly int[] m_HistoryPingPong;
 
 }
 
-private enum TemporalAntialiasing.Pass // TypeDefIndex: 13615
+private enum TemporalAntialiasing.Pass // TypeDefIndex: 13616
 {
 public int value__;
 	public const TemporalAntialiasing.Pass SolverDilate = 0;

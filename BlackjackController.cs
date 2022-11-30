@@ -1,4 +1,4 @@
-public class BlackjackController : CardGameController // TypeDefIndex: 13812
+public class BlackjackController : CardGameController // TypeDefIndex: 13813
 {
 public List<PlayingCard> dealerCards;
 	public const float BLACKJACK_PAYOUT_RATIO = 1,5;
@@ -131,7 +131,7 @@ private void <SubGetAvailableInputs>
 
 }
 
-public enum BlackjackController.BlackjackInputOption // TypeDefIndex: 13813
+public enum BlackjackController.BlackjackInputOption // TypeDefIndex: 13814
 {
 public int value__;
 	public const BlackjackController.BlackjackInputOption None = 0;
@@ -146,7 +146,7 @@ public int value__;
 
 }
 
-public enum BlackjackController.BlackjackRoundResult // TypeDefIndex: 13814
+public enum BlackjackController.BlackjackRoundResult // TypeDefIndex: 13815
 {
 public int value__;
 	public const BlackjackController.BlackjackRoundResult None = 0;
@@ -158,7 +158,7 @@ public int value__;
 
 }
 
-public enum BlackjackController.CardsValueMode // TypeDefIndex: 13815
+public enum BlackjackController.CardsValueMode // TypeDefIndex: 13816
 {
 public int value__;
 	public const BlackjackController.CardsValueMode Low = 0;
@@ -166,7 +166,7 @@ public int value__;
 
 }
 
-public enum BlackjackController.DealerOpinion // TypeDefIndex: 13816
+public enum BlackjackController.DealerOpinion // TypeDefIndex: 13817
 {
 public int value__;
 	public const BlackjackController.DealerOpinion Neutral = 0;

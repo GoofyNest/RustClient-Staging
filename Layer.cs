@@ -36,7 +36,7 @@ public int value__;
 
 }
 
-public class Layer : ConsoleSystem // TypeDefIndex: 13743
+public class Layer : ConsoleSystem // TypeDefIndex: 13744
 {
 
 [ClientVar]

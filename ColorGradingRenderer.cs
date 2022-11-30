@@ -1,4 +1,4 @@
-internal sealed class ColorGradingRenderer : PostProcessEffectRenderer<ColorGrading> // TypeDefIndex: 13581
+internal sealed class ColorGradingRenderer : PostProcessEffectRenderer<ColorGrading> // TypeDefIndex: 13582
 {
 private Texture2D m_GradingCurves;
 private readonly Color[] m_Pixels;
@@ -37,7 +37,7 @@ private readonly HableCurve m_HableCurve;
 
 }
 
-private enum ColorGradingRenderer.Pass // TypeDefIndex: 13582
+private enum ColorGradingRenderer.Pass // TypeDefIndex: 13583
 {
 public int value__;
 	public const ColorGradingRenderer.Pass LutGenLDRFromScratch = 0;

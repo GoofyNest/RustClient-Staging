@@ -70,7 +70,7 @@ private double <Chance>k__BackingField;
 
 }
 
-public class Hero : ConsoleSystem // TypeDefIndex: 13737
+public class Hero : ConsoleSystem // TypeDefIndex: 13738
 {
 [ClientVar]
 public static string ident;
@@ -97,7 +97,7 @@ public static string url;
 
 }
 
-public class Hero : SingletonComponent<Hero> // TypeDefIndex: 13906
+public class Hero : SingletonComponent<Hero> // TypeDefIndex: 13907
 {
 public CanvasGroup CanvasGroup;
 public Video VideoPlayer;
@@ -130,7 +130,7 @@ private bool canShowHero;
 
 }
 
-private sealed class Hero.<>c // TypeDefIndex: 13907
+private sealed class Hero.<>c // TypeDefIndex: 13908
 {
 public static readonly Hero.<>c <>9;
 public static Func<Hero, Guid> <>9__9_0;
@@ -144,7 +144,7 @@ internal Guid <Roll>
 
 }
 
-private struct Hero.<ShowAsync>d__10 : IAsyncStateMachine // TypeDefIndex: 13908
+private struct Hero.<ShowAsync>d__10 : IAsyncStateMachine // TypeDefIndex: 13909
 {
 public int <>1__state;
 public AsyncTaskMethodBuilder <>t__builder;

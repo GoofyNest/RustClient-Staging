@@ -88,7 +88,7 @@ private Utf8String <IntegratedPlatform>k__BackingField;
 
 }
 
-public struct Info // TypeDefIndex: 13476
+public struct Info // TypeDefIndex: 13477
 {
 public string action;
 public string icon;

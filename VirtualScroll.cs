@@ -1,4 +1,4 @@
-public class VirtualScroll : MonoBehaviour // TypeDefIndex: 13804
+public class VirtualScroll : MonoBehaviour // TypeDefIndex: 13805
 {
 public int ItemHeight;
 public int ItemSpacing;
@@ -43,7 +43,7 @@ private Stack<GameObject> InactivePool;
 
 }
 
-private sealed class VirtualScroll.<>c__DisplayClass20_0 // TypeDefIndex: 13806
+private sealed class VirtualScroll.<>c__DisplayClass20_0 // TypeDefIndex: 13807
 {
 public int startVisible;
 public float endVisible;
@@ -55,7 +55,7 @@ internal bool <RecycleOutOfRange>
 
 }
 
-private sealed class VirtualScroll.<>c // TypeDefIndex: 13807
+private sealed class VirtualScroll.<>c // TypeDefIndex: 13808
 {
 public static readonly VirtualScroll.<>c <>9;
 public static Func<int, int> <>9__20_1;

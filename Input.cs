@@ -245,7 +245,7 @@ internal bool <GetButtonObjectWithBind>
 
 }
 
-public class Input : ConsoleSystem // TypeDefIndex: 13739
+public class Input : ConsoleSystem // TypeDefIndex: 13740
 {
 [ClientVar]
 public static bool flipy;

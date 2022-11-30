@@ -6965,7 +6965,7 @@ public interface IItemIconChanged // TypeDefIndex: 13188
 
 }
 
-public interface IProvider // TypeDefIndex: 13478
+public interface IProvider // TypeDefIndex: 13479
 {
 
 	public abstract Info GetMenuInformation(GameObject primaryObject, BasePlayer player);
@@ -6974,7 +6974,7 @@ public interface IProvider // TypeDefIndex: 13478
 
 }
 
-public static class UIEx // TypeDefIndex: 13513
+public static class UIEx // TypeDefIndex: 13514
 {
 
 [ExtensionAttribute]
@@ -6988,7 +6988,7 @@ public static class UIEx // TypeDefIndex: 13513
 
 }
 
-public class UICircle : UIPrimitiveBase // TypeDefIndex: 13519
+public class UICircle : UIPrimitiveBase // TypeDefIndex: 13520
 {
 [TooltipAttribute]
 public bool ArcInvert;
@@ -7042,7 +7042,7 @@ private Vector2 uvCenter;
 
 }
 
-public class UICircleSimple : UIPrimitiveBase // TypeDefIndex: 13520
+public class UICircleSimple : UIPrimitiveBase // TypeDefIndex: 13521
 {
 [TooltipAttribute]
 [RangeAttribute]
@@ -7071,7 +7071,7 @@ private Vector2 uvCenter;
 
 }
 
-public class UICornerCut : UIPrimitiveBase // TypeDefIndex: 13521
+public class UICornerCut : UIPrimitiveBase // TypeDefIndex: 13522
 {
 public Vector2 cornerSize;
 [HeaderAttribute]
@@ -7155,7 +7155,7 @@ private Color32 m_colorDown;
 
 }
 
-public class UIGoldenRatioRenderer : UILineRenderer // TypeDefIndex: 13522
+public class UIGoldenRatioRenderer : UILineRenderer // TypeDefIndex: 13523
 {
 private readonly List<Vector2> _points;
 private readonly List<Rect> _rects;
@@ -7176,7 +7176,7 @@ public float lineThickness2;
 
 }
 
-private enum UIGoldenRatioRenderer.Orientations // TypeDefIndex: 13523
+private enum UIGoldenRatioRenderer.Orientations // TypeDefIndex: 13524
 {
 public int value__;
 	public const UIGoldenRatioRenderer.Orientations Left = 0;
@@ -7186,7 +7186,7 @@ public int value__;
 
 }
 
-public class UIGridRenderer : UILineRenderer // TypeDefIndex: 13524
+public class UIGridRenderer : UILineRenderer // TypeDefIndex: 13525
 {
 [SerializeField]
 private int m_GridColumns;
@@ -7211,7 +7211,7 @@ private int m_GridRows;
 
 }
 
-public class UILineRenderer : UIPrimitiveBase // TypeDefIndex: 13525
+public class UILineRenderer : UIPrimitiveBase // TypeDefIndex: 13526
 {
 	private const float MIN_MITER_JOIN = 0,2617994;
 	private const float MIN_BEVEL_NICE_JOIN = 0,5235988;
@@ -7316,7 +7316,7 @@ public bool drivenExternally;
 
 }
 
-private enum UILineRenderer.SegmentType // TypeDefIndex: 13526
+private enum UILineRenderer.SegmentType // TypeDefIndex: 13527
 {
 public int value__;
 	public const UILineRenderer.SegmentType Start = 0;
@@ -7326,7 +7326,7 @@ public int value__;
 
 }
 
-public enum UILineRenderer.JoinType // TypeDefIndex: 13527
+public enum UILineRenderer.JoinType // TypeDefIndex: 13528
 {
 public int value__;
 	public const UILineRenderer.JoinType Bevel = 0;
@@ -7334,7 +7334,7 @@ public int value__;
 
 }
 
-public enum UILineRenderer.BezierType // TypeDefIndex: 13528
+public enum UILineRenderer.BezierType // TypeDefIndex: 13529
 {
 public int value__;
 	public const UILineRenderer.BezierType None = 0;
@@ -7345,7 +7345,7 @@ public int value__;
 
 }
 
-public class UILineRendererList : UIPrimitiveBase // TypeDefIndex: 13529
+public class UILineRendererList : UIPrimitiveBase // TypeDefIndex: 13530
 {
 	private const float MIN_MITER_JOIN = 0,2617994;
 	private const float MIN_BEVEL_NICE_JOIN = 0,5235988;
@@ -7440,7 +7440,7 @@ public bool drivenExternally;
 
 }
 
-private enum UILineRendererList.SegmentType // TypeDefIndex: 13530
+private enum UILineRendererList.SegmentType // TypeDefIndex: 13531
 {
 public int value__;
 	public const UILineRendererList.SegmentType Start = 0;
@@ -7450,7 +7450,7 @@ public int value__;
 
 }
 
-public enum UILineRendererList.JoinType // TypeDefIndex: 13531
+public enum UILineRendererList.JoinType // TypeDefIndex: 13532
 {
 public int value__;
 	public const UILineRendererList.JoinType Bevel = 0;
@@ -7458,7 +7458,7 @@ public int value__;
 
 }
 
-public enum UILineRendererList.BezierType // TypeDefIndex: 13532
+public enum UILineRendererList.BezierType // TypeDefIndex: 13533
 {
 public int value__;
 	public const UILineRendererList.BezierType None = 0;
@@ -7469,7 +7469,7 @@ public int value__;
 
 }
 
-public class UILineTextureRenderer : UIPrimitiveBase // TypeDefIndex: 13533
+public class UILineTextureRenderer : UIPrimitiveBase // TypeDefIndex: 13534
 {
 [SerializeField]
 private Rect m_UVRect;
@@ -7500,7 +7500,7 @@ public bool relativeSize;
 
 }
 
-public class UIPolygon : UIPrimitiveBase // TypeDefIndex: 13534
+public class UIPolygon : UIPrimitiveBase // TypeDefIndex: 13535
 {
 public bool fill;
 public float thickness;
@@ -7527,7 +7527,7 @@ private float size;
 
 }
 
-public class UIPrimitiveBase : MaskableGraphic, ILayoutElement, ICanvasRaycastFilter // TypeDefIndex: 13537
+public class UIPrimitiveBase : MaskableGraphic, ILayoutElement, ICanvasRaycastFilter // TypeDefIndex: 13538
 {
 protected static Material s_ETC1DefaultUI;
 private List<Vector2> outputList;
@@ -7643,7 +7643,7 @@ private bool m_useNativeSize;
 
 }
 
-public class UIRing : UIPrimitiveBase // TypeDefIndex: 13538
+public class UIRing : UIPrimitiveBase // TypeDefIndex: 13539
 {
 public float innerRadius;
 public float outerRadius;
@@ -7666,7 +7666,7 @@ private List<UIVertex> vertices;
 
 }
 
-internal interface IAmbientOcclusionMethod // TypeDefIndex: 13564
+internal interface IAmbientOcclusionMethod // TypeDefIndex: 13565
 {
 
 	public abstract DepthTextureMode GetCameraFlags();
@@ -7681,7 +7681,7 @@ internal interface IAmbientOcclusionMethod // TypeDefIndex: 13564
 
 }
 
-public class UI : ConsoleSystem // TypeDefIndex: 13774
+public class UI : ConsoleSystem // TypeDefIndex: 13775
 {
 [ClientVar]
 public static bool showinventoryplayer;
@@ -7695,7 +7695,7 @@ public static bool autoswitchchannel;
 
 }
 
-public interface VirtualScroll.IDataSource // TypeDefIndex: 13805
+public interface VirtualScroll.IDataSource // TypeDefIndex: 13806
 {
 
 	public abstract int GetItemCount();
@@ -7704,7 +7704,7 @@ public interface VirtualScroll.IDataSource // TypeDefIndex: 13805
 
 }
 
-public interface IGenericLerpTarget<T> : ILerpInfo // TypeDefIndex: 13933
+public interface IGenericLerpTarget<T> : ILerpInfo // TypeDefIndex: 13934
 {
 
 	public abstract void SetFrom(T snapshot);
@@ -7727,7 +7727,7 @@ public interface IGenericLerpTarget<T> : ILerpInfo // TypeDefIndex: 13933
 
 }
 
-public interface ISnapshot<T> // TypeDefIndex: 13935
+public interface ISnapshot<T> // TypeDefIndex: 13936
 {
 	public abstract float Time { get; set; }
 

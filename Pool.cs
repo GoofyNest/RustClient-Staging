@@ -1270,7 +1270,7 @@ private long <ItemsSpilled>k__BackingField;
 
 }
 
-public class Pool : ConsoleSystem // TypeDefIndex: 13758
+public class Pool : ConsoleSystem // TypeDefIndex: 13759
 {
 [ServerVar]
 [ClientVar]
@@ -1320,7 +1320,7 @@ public static bool debug;
 
 }
 
-private sealed class Pool.<>c // TypeDefIndex: 13759
+private sealed class Pool.<>c // TypeDefIndex: 13760
 {
 public static readonly Pool.<>c <>9;
 public static Func<KeyValuePair<Type, Pool.ICollection>, long> <>9__4_0;

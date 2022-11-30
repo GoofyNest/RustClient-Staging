@@ -1332,7 +1332,7 @@ public PlayerInventoryProperties[] Loadouts;
 
 }
 
-public class AI : ConsoleSystem // TypeDefIndex: 13683
+public class AI : ConsoleSystem // TypeDefIndex: 13684
 {
 [ReplicatedVar]
 public static bool allowdesigning;
@@ -1366,7 +1366,7 @@ private static HitTest lookingAtNpcCache;
 
 }
 
-public class AiManagedAgent : FacepunchBehaviour, IServerComponent // TypeDefIndex: 13947
+public class AiManagedAgent : FacepunchBehaviour, IServerComponent // TypeDefIndex: 13948
 {
 [TooltipAttribute]
 public int AgentTypeIndex;
@@ -1376,7 +1376,7 @@ public int AgentTypeIndex;
 
 }
 
-public class AiManager : SingletonComponent<AiManager>, IServerComponent // TypeDefIndex: 13948
+public class AiManager : SingletonComponent<AiManager>, IServerComponent // TypeDefIndex: 13949
 {
 [HeaderAttribute]
 [SerializeField]
@@ -1400,7 +1400,7 @@ private WorldSpaceGrid<CoverPointVolume> coverPointVolumeGrid;
 
 }
 
-public class ScientistSpawner : SpawnGroup // TypeDefIndex: 13950
+public class ScientistSpawner : SpawnGroup // TypeDefIndex: 13951
 {
 [HeaderAttribute]
 public bool Mobile;
@@ -1422,7 +1422,7 @@ private AiLocationManager _mgr;
 
 }
 
-public class AiLocationManager : FacepunchBehaviour, IServerComponent // TypeDefIndex: 13951
+public class AiLocationManager : FacepunchBehaviour, IServerComponent // TypeDefIndex: 13952
 {
 public static List<AiLocationManager> Managers;
 [SerializeField]
@@ -1445,7 +1445,7 @@ public bool SnapCoverPointsToGround;
 
 }
 
-public class AiLocationSpawner : SpawnGroup // TypeDefIndex: 13952
+public class AiLocationSpawner : SpawnGroup // TypeDefIndex: 13953
 {
 public AiLocationSpawner.SquadSpawnerLocation Location;
 public AiLocationManager Manager;
@@ -1461,7 +1461,7 @@ private int defaultNumToSpawnPerTickMin;
 
 }
 
-public enum AiLocationSpawner.SquadSpawnerLocation // TypeDefIndex: 13953
+public enum AiLocationSpawner.SquadSpawnerLocation // TypeDefIndex: 13954
 {
 public int value__;
 	public const AiLocationSpawner.SquadSpawnerLocation MilitaryTunnels = 0;
@@ -1475,7 +1475,7 @@ public int value__;
 
 }
 
-public class ScientistJunkpileSpawner : MonoBehaviour, IServerComponent // TypeDefIndex: 13957
+public class ScientistJunkpileSpawner : MonoBehaviour, IServerComponent // TypeDefIndex: 13958
 {
 public GameObjectRef ScientistPrefab;
 public List<BaseCombatEntity> Spawned;
@@ -1495,7 +1495,7 @@ public float SpawnBaseChance;
 
 }
 
-public enum ScientistJunkpileSpawner.JunkpileType // TypeDefIndex: 13958
+public enum ScientistJunkpileSpawner.JunkpileType // TypeDefIndex: 13959
 {
 public int value__;
 	public const ScientistJunkpileSpawner.JunkpileType A = 0;

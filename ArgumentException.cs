@@ -148,7 +148,7 @@ private bool m_BoolArgument;
 
 }
 
-public static class ArgEx // TypeDefIndex: 13498
+public static class ArgEx // TypeDefIndex: 13499
 {
 
 [ExtensionAttribute]

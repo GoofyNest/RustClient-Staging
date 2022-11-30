@@ -1480,7 +1480,7 @@ public static bool debugChannels;
 
 }
 
-public class Audio : ConsoleSystem // TypeDefIndex: 13686
+public class Audio : ConsoleSystem // TypeDefIndex: 13687
 {
 [ClientVar]
 public static float master;

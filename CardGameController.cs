@@ -1,4 +1,4 @@
-public abstract class CardGameController : IDisposable // TypeDefIndex: 13817
+public abstract class CardGameController : IDisposable // TypeDefIndex: 13818
 {
 [CompilerGeneratedAttribute]
 private CardGameController.CardGameState <State>k__BackingField;
@@ -176,7 +176,7 @@ private int <ClientScrapInPot>k__BackingField;
 
 }
 
-public enum CardGameController.CardGameState // TypeDefIndex: 13818
+public enum CardGameController.CardGameState // TypeDefIndex: 13819
 {
 public int value__;
 	public const CardGameController.CardGameState NotPlaying = 0;
@@ -186,7 +186,7 @@ public int value__;
 
 }
 
-public enum CardGameController.Playability // TypeDefIndex: 13819
+public enum CardGameController.Playability // TypeDefIndex: 13820
 {
 public int value__;
 	public const CardGameController.Playability OK = 0;
@@ -198,7 +198,7 @@ public int value__;
 
 }
 
-private sealed class CardGameController.<PlayersInRound>d__51 : IEnumerable<CardPlayerData>, IEnumerable, IEnumerator<CardPlayerData>, IEnumerator, IDisposable // TypeDefIndex: 13820
+private sealed class CardGameController.<PlayersInRound>d__51 : IEnumerable<CardPlayerData>, IEnumerable, IEnumerator<CardPlayerData>, IEnumerator, IDisposable // TypeDefIndex: 13821
 {
 private int <>1__state;
 private CardPlayerData <>2__current;
@@ -236,7 +236,7 @@ private int <>7__wrap2;
 
 }
 
-private sealed class CardGameController.<>c__DisplayClass63_0 // TypeDefIndex: 13821
+private sealed class CardGameController.<>c__DisplayClass63_0 // TypeDefIndex: 13822
 {
 public BasePlayer player;
 
@@ -247,7 +247,7 @@ internal bool <PlayerIsInGame>
 
 }
 
-private sealed class CardGameController.<>c__DisplayClass67_0 // TypeDefIndex: 13822
+private sealed class CardGameController.<>c__DisplayClass67_0 // TypeDefIndex: 13823
 {
 public ulong userID;
 
@@ -258,7 +258,7 @@ internal bool <IsAtTable>
 
 }
 
-private sealed class CardGameController.<>c // TypeDefIndex: 13823
+private sealed class CardGameController.<>c // TypeDefIndex: 13824
 {
 public static readonly CardGameController.<>c <>9;
 public static Func<PlayingCard, bool> <>9__85_0;

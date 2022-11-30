@@ -92,7 +92,7 @@ public int value__;
 
 }
 
-public sealed class Bloom : PostProcessEffectSettings // TypeDefIndex: 13570
+public sealed class Bloom : PostProcessEffectSettings // TypeDefIndex: 13571
 {
 [MinAttribute]
 [TooltipAttribute]

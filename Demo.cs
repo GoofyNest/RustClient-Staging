@@ -1394,7 +1394,7 @@ internal bool <DeleteItem>
 
 }
 
-public class Demo : ConsoleSystem // TypeDefIndex: 13710
+public class Demo : ConsoleSystem // TypeDefIndex: 13711
 {
 public static uint Version;
 private static bool _hud;
@@ -1475,7 +1475,7 @@ public static bool showCommunityUI;
 
 }
 
-public class Demo.Header : DemoHeader, IDemoHeader // TypeDefIndex: 13711
+public class Demo.Header : DemoHeader, IDemoHeader // TypeDefIndex: 13712
 {
 	private long Network.IDemoHeader.Length { get; set; }
 

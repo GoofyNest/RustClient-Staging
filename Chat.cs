@@ -46,7 +46,7 @@ private Action<ChatEntry> clickedAction;
 
 }
 
-public class Chat : ConsoleSystem // TypeDefIndex: 13689
+public class Chat : ConsoleSystem // TypeDefIndex: 13690
 {
 [ServerVar]
 public static float localChatRange;
@@ -108,7 +108,7 @@ public static Chat.MuteList muted;
 
 }
 
-public enum Chat.ChatChannel // TypeDefIndex: 13690
+public enum Chat.ChatChannel // TypeDefIndex: 13691
 {
 public int value__;
 	public const Chat.ChatChannel Global = 0;
@@ -119,7 +119,7 @@ public int value__;
 
 }
 
-public struct Chat.ChatEntry // TypeDefIndex: 13691
+public struct Chat.ChatEntry // TypeDefIndex: 13692
 {
 [CompilerGeneratedAttribute]
 private Chat.ChatChannel <Channel>k__BackingField;
@@ -180,7 +180,7 @@ private int <Time>k__BackingField;
 
 }
 
-public struct Chat.MuteEntry // TypeDefIndex: 13692
+public struct Chat.MuteEntry // TypeDefIndex: 13693
 {
 public ulong UserID;
 public string UserName;
@@ -191,7 +191,7 @@ public string DateTime;
 
 }
 
-public class Chat.MuteList // TypeDefIndex: 13693
+public class Chat.MuteList // TypeDefIndex: 13694
 {
 private Dictionary<ulong, Chat.MuteEntry> entries;
 
@@ -221,7 +221,7 @@ private Dictionary<ulong, Chat.MuteEntry> entries;
 
 }
 
-private sealed class Chat.<>c // TypeDefIndex: 13694
+private sealed class Chat.<>c // TypeDefIndex: 13695
 {
 public static readonly Chat.<>c <>9;
 public static Action<UIChat> <>9__25_0;

@@ -1483,14 +1483,14 @@ private TaskAwaiter <>u__2;
 
 }
 
-public static class Server // TypeDefIndex: 13454
+public static class Server // TypeDefIndex: 13455
 {
 	public const byte Default = 0;
 	public const byte Positions = 14;
 
 }
 
-public class Server : ConsoleSystem // TypeDefIndex: 13763
+public class Server : ConsoleSystem // TypeDefIndex: 13764
 {
 [ServerVar]
 public static string ip;

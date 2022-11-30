@@ -1,4 +1,4 @@
-public class Water : ConsoleSystem // TypeDefIndex: 13778
+public class Water : ConsoleSystem // TypeDefIndex: 13779
 {
 [ClientVar]
 public static int quality;

@@ -17,7 +17,7 @@ public DateTime Created;
 
 }
 
-public enum Rank // TypeDefIndex: 13827
+public enum Rank // TypeDefIndex: 13828
 {
 public int value__;
 	public const Rank Two = 0;

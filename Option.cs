@@ -14,7 +14,7 @@ public bool Default;
 
 }
 
-public struct Option // TypeDefIndex: 13477
+public struct Option // TypeDefIndex: 13478
 {
 public string title;
 public string desc;
