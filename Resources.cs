@@ -7,8 +7,8 @@ public sealed class Resources // TypeDefIndex: 3493
 	|-Resources.ConvertObjects<object>
 	*/
 
-	[FreeFunctionAttribute]
 	[TypeInferenceRuleAttribute]
+	[FreeFunctionAttribute]
 	public static Object[] FindObjectsOfTypeAll(Type type) { }
 
 	public static T[] FindObjectsOfTypeAll<T>() { }

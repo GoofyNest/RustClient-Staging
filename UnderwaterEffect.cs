@@ -1,4 +1,4 @@
-public class UnderwaterEffect : WeatherEffect // TypeDefIndex: 11827
+public class UnderwaterEffect : WeatherEffect // TypeDefIndex: 11835
 {
 
 	protected override float GetCurrentIntensity() { }

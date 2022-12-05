@@ -1,4 +1,4 @@
-public class SquareBorder : MonoBehaviour // TypeDefIndex: 12841
+public class SquareBorder : MonoBehaviour // TypeDefIndex: 12849
 {
 	public float Size;
 	public Color Color;

@@ -1,4 +1,4 @@
-public class GameModeHardcore : GameModeVanilla // TypeDefIndex: 11631
+public class GameModeHardcore : GameModeVanilla // TypeDefIndex: 11639
 {
 
 	protected override void OnCreated() { }

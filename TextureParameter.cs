@@ -1,4 +1,4 @@
-public sealed class TextureParameter : ParameterOverride<Texture> // TypeDefIndex: 13640
+public sealed class TextureParameter : ParameterOverride<Texture> // TypeDefIndex: 13648
 {
 	public TextureParameterDefault defaultState;
 

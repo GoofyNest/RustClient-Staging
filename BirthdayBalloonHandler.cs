@@ -1,4 +1,4 @@
-public class BirthdayBalloonHandler : MonoBehaviour // TypeDefIndex: 11321
+public class BirthdayBalloonHandler : MonoBehaviour // TypeDefIndex: 11329
 {
 	public float checkOffset;
 	public float checkRadius;

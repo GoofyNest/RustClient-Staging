@@ -1,4 +1,4 @@
-public static class Global // TypeDefIndex: 6633
+public static class Global // TypeDefIndex: 6635
 {
 	public static Func<string, GameObject> LoadPrefab;
 	public static Func<string, GameObject> FindPrefab;
@@ -24,7 +24,7 @@ public static class Global // TypeDefIndex: 6633
 
 }
 
-public class Global : ConsoleSystem // TypeDefIndex: 13731
+public class Global : ConsoleSystem // TypeDefIndex: 13739
 {
 	private static int _developer;
 	[ServerVar]
@@ -238,7 +238,7 @@ public class Global : ConsoleSystem // TypeDefIndex: 13731
 
 }
 
-private sealed class Global.<>c // TypeDefIndex: 13732
+private sealed class Global.<>c // TypeDefIndex: 13740
 {
 	public static readonly Global.<>c <>9;
 	public static Func<KeyValuePair<Type, long>, long> <>9__49_0;

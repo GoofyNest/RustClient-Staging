@@ -1,4 +1,4 @@
-internal class ForceWeather : MonoBehaviour // TypeDefIndex: 13911
+internal class ForceWeather : MonoBehaviour // TypeDefIndex: 13919
 {
 	private Toggle component;
 	public bool Rain;

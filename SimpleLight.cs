@@ -1,4 +1,4 @@
-public class SimpleLight : IOEntity // TypeDefIndex: 11547
+public class SimpleLight : IOEntity // TypeDefIndex: 11555
 {
 
 	public void .ctor() { }

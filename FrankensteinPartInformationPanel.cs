@@ -1,4 +1,4 @@
-public class FrankensteinPartInformationPanel : ItemInformationPanel // TypeDefIndex: 12784
+public class FrankensteinPartInformationPanel : ItemInformationPanel // TypeDefIndex: 12792
 {
 	public ItemTextValue healthDisplay;
 	public ItemTextValue speedDisplay;

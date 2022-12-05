@@ -1,4 +1,4 @@
-public class ColdBreath : BaseMonoBehaviour // TypeDefIndex: 11071
+public class ColdBreath : BaseMonoBehaviour // TypeDefIndex: 11078
 {
 	public GameObjectRef effect;
 	private BasePlayer player;

@@ -1,4 +1,4 @@
-public class RotateObject : MonoBehaviour // TypeDefIndex: 11028
+public class RotateObject : MonoBehaviour // TypeDefIndex: 11035
 {
 	public float rotateSpeed_X;
 	public float rotateSpeed_Y;

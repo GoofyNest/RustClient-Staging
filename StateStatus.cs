@@ -1,4 +1,4 @@
-public enum StateStatus // TypeDefIndex: 11165
+public enum StateStatus // TypeDefIndex: 11172
 {
 	public int value__;
 	public const StateStatus Running = 0;

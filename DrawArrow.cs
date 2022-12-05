@@ -1,4 +1,4 @@
-public class DrawArrow : MonoBehaviour // TypeDefIndex: 11016
+public class DrawArrow : MonoBehaviour // TypeDefIndex: 11023
 {
 	public Color color;
 	public float length;

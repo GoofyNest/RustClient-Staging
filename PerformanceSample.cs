@@ -1,4 +1,4 @@
-public enum PerformanceSample // TypeDefIndex: 13132
+public enum PerformanceSample // TypeDefIndex: 13140
 {
 	public int value__;
 	public const PerformanceSample Update = 0;

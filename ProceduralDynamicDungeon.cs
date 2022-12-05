@@ -1,4 +1,4 @@
-public class ProceduralDynamicDungeon : BaseEntity // TypeDefIndex: 10571
+public class ProceduralDynamicDungeon : BaseEntity // TypeDefIndex: 10573
 {
 	public int gridResolution;
 	public float gridSpacing;
@@ -13,16 +13,18 @@ public class ProceduralDynamicDungeon : BaseEntity // TypeDefIndex: 10571
 	public TriggerRadiation exitRadiation;
 	public uint seed;
 	public uint baseseed;
+	public Vector3 mapOffset;
+	public static readonly List<ProceduralDynamicDungeon> dungeons;
 	public ProceduralDungeonCell entranceHack;
 
+
+	public override void InitShared() { }
 
 	public override void DestroyShared() { }
 
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
 	protected override void ClientInit(Entity info) { }
-
-	public override void InitShared() { }
 
 	[ContextMenu]
 	[ExecuteInEditMode]
@@ -57,6 +59,8 @@ public class ProceduralDynamicDungeon : BaseEntity // TypeDefIndex: 10571
 	public int GetGridIndex(int x, int y) { }
 
 	public void .ctor() { }
+
+	private static void .cctor() { }
 
 }
 

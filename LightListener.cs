@@ -1,4 +1,4 @@
-public class LightListener : BaseEntity // TypeDefIndex: 11378
+public class LightListener : BaseEntity // TypeDefIndex: 11386
 {
 	public string onMessage;
 	public string offMessage;

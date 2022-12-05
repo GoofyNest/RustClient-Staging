@@ -1,4 +1,4 @@
-public class CameraSettings : MonoBehaviour, IClientComponent // TypeDefIndex: 10877
+public class CameraSettings : MonoBehaviour, IClientComponent // TypeDefIndex: 10884
 {
 	private Camera cam;
 

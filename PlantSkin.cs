@@ -1,4 +1,4 @@
-public class PlantSkin : MonoBehaviour, IClientComponent // TypeDefIndex: 11385
+public class PlantSkin : MonoBehaviour, IClientComponent // TypeDefIndex: 11393
 {
 	internal List<FruitScale> FruitscaleComponents;
 	internal List<LifeScale> LifescaleComponents;

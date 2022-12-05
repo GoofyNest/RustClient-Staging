@@ -1,4 +1,4 @@
-public class TriggerParentElevator : TriggerParentEnclosed // TypeDefIndex: 11788
+public class TriggerParentElevator : TriggerParentEnclosed // TypeDefIndex: 11796
 {
 	public bool AllowHorsesToBypassClippingChecks;
 

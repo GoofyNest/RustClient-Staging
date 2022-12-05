@@ -543,6 +543,7 @@ public class Component : Object // TypeDefIndex: 3511
 	public void GetComponentsInChildren<T>(List<T> results) { }
 	/* GenericInstMethod :
 	|
+	|-Component.GetComponentsInChildren<BlendShapeController>
 	|-Component.GetComponentsInChildren<BurstClothCollider>
 	|-Component.GetComponentsInChildren<HitboxDefinition>
 	|-Component.GetComponentsInChildren<ServerAdminUGCEntry>

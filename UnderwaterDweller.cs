@@ -1,4 +1,4 @@
-public class UnderwaterDweller : HumanNPC // TypeDefIndex: 10669
+public class UnderwaterDweller : HumanNPC // TypeDefIndex: 10673
 {
 
 	public void .ctor() { }

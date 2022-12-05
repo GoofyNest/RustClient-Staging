@@ -1,4 +1,4 @@
-public class DontBecomeSolidWithPlayerInside : MonoBehaviour, IClientComponent // TypeDefIndex: 10918
+public class DontBecomeSolidWithPlayerInside : MonoBehaviour, IClientComponent // TypeDefIndex: 10925
 {
 
 	public void .ctor() { }

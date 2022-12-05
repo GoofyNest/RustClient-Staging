@@ -1,4 +1,4 @@
-public class MonumentInfo : LandmarkInfo, IPrefabPreProcess // TypeDefIndex: 11715
+public class MonumentInfo : LandmarkInfo, IPrefabPreProcess // TypeDefIndex: 11723
 {
 	[HeaderAttribute]
 	public MonumentType Type;

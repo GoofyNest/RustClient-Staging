@@ -1,4 +1,4 @@
-public class TeamMemberMapMarker : MonoBehaviour // TypeDefIndex: 12739
+public class TeamMemberMapMarker : MonoBehaviour // TypeDefIndex: 12747
 {
 	public RectTransform rectTransform;
 	public Text nameTagText;

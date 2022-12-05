@@ -1,4 +1,4 @@
-public class DebrisEntity : BaseCombatEntity // TypeDefIndex: 11266
+public class DebrisEntity : BaseCombatEntity // TypeDefIndex: 11274
 {
 	public float DebrisDespawnOverride;
 

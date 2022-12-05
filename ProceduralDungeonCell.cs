@@ -1,4 +1,4 @@
-public class ProceduralDungeonCell : BaseMonoBehaviour // TypeDefIndex: 10570
+public class ProceduralDungeonCell : BaseMonoBehaviour // TypeDefIndex: 10572
 {
 	public bool north;
 	public bool east;
@@ -8,6 +8,7 @@ public class ProceduralDungeonCell : BaseMonoBehaviour // TypeDefIndex: 10570
 	public bool hasSpawn;
 	public Transform exitPointHack;
 	public SpawnGroup[] spawnGroups;
+	public MeshRenderer[] mapRenderers;
 
 
 	public void Awake() { }

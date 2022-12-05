@@ -1,4 +1,4 @@
-public class BaseMountable : BaseCombatEntity // TypeDefIndex: 10049
+public class BaseMountable : BaseCombatEntity // TypeDefIndex: 10051
 {
 	private Option __menuOption_Menu_Mount;
 	public static Translate.Phrase dismountPhrase;
@@ -166,7 +166,7 @@ public class BaseMountable : BaseCombatEntity // TypeDefIndex: 10049
 
 }
 
-public enum BaseMountable.MountStatType // TypeDefIndex: 10050
+public enum BaseMountable.MountStatType // TypeDefIndex: 10052
 {
 	public int value__;
 	public const BaseMountable.MountStatType None = 0;
@@ -176,7 +176,7 @@ public enum BaseMountable.MountStatType // TypeDefIndex: 10050
 
 }
 
-public enum BaseMountable.MountGestureType // TypeDefIndex: 10051
+public enum BaseMountable.MountGestureType // TypeDefIndex: 10053
 {
 	public int value__;
 	public const BaseMountable.MountGestureType None = 0;
