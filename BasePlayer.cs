@@ -4176,6 +4176,7 @@ public enum PlayerModel.MountPoses // TypeDefIndex: 11401
 	public const PlayerModel.MountPoses Driving_Snowmobile = 26;
 	public const PlayerModel.MountPoses ZiplineHold = 27;
 	public const PlayerModel.MountPoses Sit_Locomotive = 28;
+	public const PlayerModel.MountPoses Sit_Throne = 29;
 	public const PlayerModel.MountPoses Standing = 128;
 
 }
