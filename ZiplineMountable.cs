@@ -84,7 +84,7 @@ public class ZiplineMountable : BaseMountable // TypeDefIndex: 10399
 
 	private Vector3 ProcessBezierMovement(float distanceToTravel) { }
 
-	private Vector3 GetLineEndPoint() { }
+	private Vector3 GetLineEndPoint(bool applyDismountOffset = False) { }
 
 	private Vector3 GetNextLinePoint(Transform forTransform) { }
 
