@@ -1,4 +1,4 @@
-public static class AniamtorEx // TypeDefIndex: 13509
+public static class AniamtorEx // TypeDefIndex: 13507
 {
 
 	[ExtensionAttribute]

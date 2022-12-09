@@ -1,4 +1,4 @@
-public class Binocular : AttackEntity // TypeDefIndex: 11212
+public class Binocular : AttackEntity // TypeDefIndex: 11211
 {
 	public float[] fovs;
 	public GameObjectRef fovChangeEffect;

@@ -1,4 +1,4 @@
-public class TrainBarricade : BaseCombatEntity, ITrainCollidable // TypeDefIndex: 11519
+public class TrainBarricade : BaseCombatEntity, ITrainCollidable // TypeDefIndex: 11518
 {
 	[FormerlySerializedAsAttribute]
 	[SerializeField]

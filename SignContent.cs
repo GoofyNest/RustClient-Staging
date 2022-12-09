@@ -1,4 +1,4 @@
-public class SignContent : ImageStorageEntity, IUGCBrowserEntity // TypeDefIndex: 11267
+public class SignContent : ImageStorageEntity, IUGCBrowserEntity // TypeDefIndex: 11266
 {
 	private uint[] textureIDs;
 	private List<ulong> editHistory;

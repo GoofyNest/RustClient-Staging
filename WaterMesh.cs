@@ -1,4 +1,4 @@
-public class WaterMesh // TypeDefIndex: 12386
+public class WaterMesh // TypeDefIndex: 12384
 {
 	private Mesh borderMesh;
 	private Mesh centerPatch;

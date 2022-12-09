@@ -1,4 +1,4 @@
-public abstract class BaseScreenShake : MonoBehaviour // TypeDefIndex: 11114
+public abstract class BaseScreenShake : MonoBehaviour // TypeDefIndex: 11113
 {
 	public static List<BaseScreenShake> list;
 	internal static float punchFadeScale;

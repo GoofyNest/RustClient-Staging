@@ -1,4 +1,4 @@
-public class TriggerAchievement : TriggerBase // TypeDefIndex: 11777
+public class TriggerAchievement : TriggerBase // TypeDefIndex: 11776
 {
 	public string statToIncrease;
 	public string achievementOnEnter;

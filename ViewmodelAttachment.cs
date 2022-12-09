@@ -1,10 +1,9 @@
-public class ViewmodelAttachment : EntityComponent<BaseEntity>, IClientComponent, IViewModeChanged, IViewModelUpdated // TypeDefIndex: 13270
+public class ViewmodelAttachment : EntityComponent<BaseEntity>, IClientComponent, IViewModeChanged, IViewModelUpdated // TypeDefIndex: 13268
 {
 	public GameObjectRef modelObject;
 	public string targetBone;
 	public bool hideViewModelIronSights;
 	public GameObject spawnedGameObject;
-	private BaseEntity cachedFlagUpdate;
 
 
 	public void OnEnable() { }

@@ -14,7 +14,7 @@ public class AdminExistingSellOrder : MonoBehaviour // TypeDefIndex: 10457
 
 }
 
-public class AdminUI : MonoBehaviour // TypeDefIndex: 12603
+public class AdminUI : MonoBehaviour // TypeDefIndex: 12601
 {
 	public bool AllowInDemo;
 
@@ -29,7 +29,7 @@ public class AdminUI : MonoBehaviour // TypeDefIndex: 12603
 
 }
 
-public class Admin : ConsoleSystem // TypeDefIndex: 13690
+public class Admin : ConsoleSystem // TypeDefIndex: 13688
 {
 	[ClientVar]
 	public static float admintime;
@@ -201,7 +201,7 @@ public class Admin : ConsoleSystem // TypeDefIndex: 13690
 
 }
 
-public struct Admin.PlayerInfo // TypeDefIndex: 13691
+public struct Admin.PlayerInfo // TypeDefIndex: 13689
 {
 	public string SteamID;
 	public string OwnerSteamID;
@@ -216,7 +216,7 @@ public struct Admin.PlayerInfo // TypeDefIndex: 13691
 
 }
 
-public struct Admin.ServerInfoOutput // TypeDefIndex: 13692
+public struct Admin.ServerInfoOutput // TypeDefIndex: 13690
 {
 	public string Hostname;
 	public int MaxPlayers;
@@ -239,7 +239,7 @@ public struct Admin.ServerInfoOutput // TypeDefIndex: 13692
 
 }
 
-public struct Admin.ServerConvarInfo // TypeDefIndex: 13693
+public struct Admin.ServerConvarInfo // TypeDefIndex: 13691
 {
 	public string FullName;
 	public string Value;
@@ -247,7 +247,7 @@ public struct Admin.ServerConvarInfo // TypeDefIndex: 13693
 
 }
 
-public struct Admin.ServerUGCInfo // TypeDefIndex: 13694
+public struct Admin.ServerUGCInfo // TypeDefIndex: 13692
 {
 	public uint entityId;
 	public uint[] crcs;

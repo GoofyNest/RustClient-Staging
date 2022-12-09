@@ -1,4 +1,4 @@
-public class TerrainQuality : TerrainExtension // TypeDefIndex: 12199
+public class TerrainQuality : TerrainExtension // TypeDefIndex: 12197
 {
 	internal float HeightMapError;
 	internal float BaseMapDistance;

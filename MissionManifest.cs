@@ -1,4 +1,4 @@
-public class MissionManifest : ScriptableObject // TypeDefIndex: 11978
+public class MissionManifest : ScriptableObject // TypeDefIndex: 11976
 {
 	public ScriptableObjectRef[] missionList;
 	public WorldPositionGenerator[] positionGenerators;

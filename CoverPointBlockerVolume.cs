@@ -1,4 +1,4 @@
-public class CoverPointBlockerVolume : MonoBehaviour // TypeDefIndex: 13955
+public class CoverPointBlockerVolume : MonoBehaviour // TypeDefIndex: 13953
 {
 
 	public void .ctor() { }

@@ -47,7 +47,7 @@ public static class GC // TypeDefIndex: 224
 
 }
 
-public class GC : ConsoleSystem // TypeDefIndex: 13740
+public class GC : ConsoleSystem // TypeDefIndex: 13738
 {
 	[ClientVar]
 	public static bool buffer_enabled;
@@ -102,7 +102,7 @@ public class GC : ConsoleSystem // TypeDefIndex: 13740
 
 }
 
-public class GC : MonoBehaviour, IClientComponent // TypeDefIndex: 13854
+public class GC : MonoBehaviour, IClientComponent // TypeDefIndex: 13852
 {
 	private static float gcTime;
 	private static GarbageCollector.Mode gcMode;

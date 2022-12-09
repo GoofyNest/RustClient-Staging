@@ -1,4 +1,4 @@
-public class LookAtPlanter : MonoBehaviour // TypeDefIndex: 12882
+public class LookAtPlanter : MonoBehaviour // TypeDefIndex: 12880
 {
 	public CanvasGroup group;
 	public Text waterText;

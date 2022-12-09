@@ -1,4 +1,4 @@
-public class FlashbangEffect : PostProcessEffectSettings // TypeDefIndex: 12016
+public class FlashbangEffect : PostProcessEffectSettings // TypeDefIndex: 12014
 {
 	[RangeAttribute]
 	public FloatParameter burnIntensity;

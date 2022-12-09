@@ -1,4 +1,4 @@
-public class MenuServerPanel : MonoBehaviour // TypeDefIndex: 12926
+public class MenuServerPanel : MonoBehaviour // TypeDefIndex: 12924
 {
 
 	private void Start() { }

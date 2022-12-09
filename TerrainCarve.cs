@@ -1,4 +1,4 @@
-public class TerrainCarve : TerrainModifier // TypeDefIndex: 12344
+public class TerrainCarve : TerrainModifier // TypeDefIndex: 12342
 {
 
 	protected override void Apply(Vector3 position, float opacity, float radius, float fade) { }

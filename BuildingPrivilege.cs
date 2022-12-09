@@ -585,7 +585,7 @@ private sealed class BuildingBlock.<>c__DisplayClass31_0 // TypeDefIndex: 10267
 
 }
 
-public class BuildingProximity : PrefabAttribute // TypeDefIndex: 10786
+public class BuildingProximity : PrefabAttribute // TypeDefIndex: 10785
 {
 	private const float check_radius = 2;
 	private const float check_forgiveness = 0,01;
@@ -605,7 +605,7 @@ public class BuildingProximity : PrefabAttribute // TypeDefIndex: 10786
 
 }
 
-private struct BuildingProximity.ProximityInfo // TypeDefIndex: 10787
+private struct BuildingProximity.ProximityInfo // TypeDefIndex: 10786
 {
 	public bool hit;
 	public bool connection;
@@ -614,14 +614,14 @@ private struct BuildingProximity.ProximityInfo // TypeDefIndex: 10787
 
 }
 
-public class BuildingBlockDecay : Decay // TypeDefIndex: 11276
+public class BuildingBlockDecay : Decay // TypeDefIndex: 11275
 {
 
 	public void .ctor() { }
 
 }
 
-public class BuildingGradeDecay : Decay // TypeDefIndex: 11277
+public class BuildingGradeDecay : Decay // TypeDefIndex: 11276
 {
 	public BuildingGrade.Enum decayGrade;
 
@@ -630,7 +630,7 @@ public class BuildingGradeDecay : Decay // TypeDefIndex: 11277
 
 }
 
-public abstract class BuildingManager // TypeDefIndex: 11579
+public abstract class BuildingManager // TypeDefIndex: 11578
 {
 	public static ClientBuildingManager client;
 	protected ListHashSet<DecayEntity> decayEntities;
@@ -655,7 +655,7 @@ public abstract class BuildingManager // TypeDefIndex: 11579
 
 }
 
-public class BuildingManager.Building // TypeDefIndex: 11580
+public class BuildingManager.Building // TypeDefIndex: 11579
 {
 	public uint ID;
 	public ListHashSet<BuildingPrivlidge> buildingPrivileges;
@@ -699,7 +699,7 @@ public class BuildingManager.Building // TypeDefIndex: 11580
 
 }
 
-public class BuildingGrade : ScriptableObject // TypeDefIndex: 12486
+public class BuildingGrade : ScriptableObject // TypeDefIndex: 12484
 {
 	public BuildingGrade.Enum type;
 	public float baseHealth;
@@ -713,7 +713,7 @@ public class BuildingGrade : ScriptableObject // TypeDefIndex: 12486
 
 }
 
-public enum BuildingGrade.Enum // TypeDefIndex: 12487
+public enum BuildingGrade.Enum // TypeDefIndex: 12485
 {
 	public int value__;
 	public const BuildingGrade.Enum None = -1;

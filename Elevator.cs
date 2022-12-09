@@ -257,7 +257,7 @@ public class ElevatorStatic : Elevator // TypeDefIndex: 10423
 
 }
 
-public class ElevatorIOEntity : IOEntity // TypeDefIndex: 11552
+public class ElevatorIOEntity : IOEntity // TypeDefIndex: 11551
 {
 	public int Consumption;
 

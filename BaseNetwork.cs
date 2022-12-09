@@ -120,7 +120,7 @@ public enum BaseNetwork.StatTypeLong // TypeDefIndex: 6858
 
 }
 
-public abstract class BaseNetworkable : BaseMonoBehaviour, IPrefabPostProcess, IEntity, NetworkHandler // TypeDefIndex: 11225
+public abstract class BaseNetworkable : BaseMonoBehaviour, IPrefabPostProcess, IEntity, NetworkHandler // TypeDefIndex: 11224
 {
 	[CompilerGeneratedAttribute]
 	private bool <JustCreated>k__BackingField;
@@ -269,7 +269,7 @@ public abstract class BaseNetworkable : BaseMonoBehaviour, IPrefabPostProcess, I
 
 }
 
-public struct BaseNetworkable.SaveInfo // TypeDefIndex: 11226
+public struct BaseNetworkable.SaveInfo // TypeDefIndex: 11225
 {
 	public Entity msg;
 	public bool forDisk;
@@ -280,14 +280,14 @@ public struct BaseNetworkable.SaveInfo // TypeDefIndex: 11226
 
 }
 
-public struct BaseNetworkable.LoadInfo // TypeDefIndex: 11227
+public struct BaseNetworkable.LoadInfo // TypeDefIndex: 11226
 {
 	public Entity msg;
 	public bool fromDisk;
 
 }
 
-public class BaseNetworkable.EntityRealmClient : BaseNetworkable.EntityRealm // TypeDefIndex: 11228
+public class BaseNetworkable.EntityRealmClient : BaseNetworkable.EntityRealm // TypeDefIndex: 11227
 {
 	protected override Manager visibilityManager { get; }
 
@@ -298,7 +298,7 @@ public class BaseNetworkable.EntityRealmClient : BaseNetworkable.EntityRealm // 
 
 }
 
-public abstract class BaseNetworkable.EntityRealm : IEnumerable<BaseNetworkable>, IEnumerable // TypeDefIndex: 11229
+public abstract class BaseNetworkable.EntityRealm : IEnumerable<BaseNetworkable>, IEnumerable // TypeDefIndex: 11228
 {
 	private ListDictionary<uint, BaseNetworkable> entityList;
 
@@ -334,7 +334,7 @@ public abstract class BaseNetworkable.EntityRealm : IEnumerable<BaseNetworkable>
 
 }
 
-public enum BaseNetworkable.DestroyMode // TypeDefIndex: 11230
+public enum BaseNetworkable.DestroyMode // TypeDefIndex: 11229
 {
 	public byte value__;
 	public const BaseNetworkable.DestroyMode None = 0;
@@ -342,7 +342,7 @@ public enum BaseNetworkable.DestroyMode // TypeDefIndex: 11230
 
 }
 
-public static class BaseNetworkableEx // TypeDefIndex: 11231
+public static class BaseNetworkableEx // TypeDefIndex: 11230
 {
 
 	[ExtensionAttribute]

@@ -1,4 +1,4 @@
-public class TriangleIdentifier : MonoBehaviour // TypeDefIndex: 11041
+public class TriangleIdentifier : MonoBehaviour // TypeDefIndex: 11040
 {
 	public int TriangleID;
 	public int SubmeshID;

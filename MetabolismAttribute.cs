@@ -1,4 +1,4 @@
-public class MetabolismAttribute // TypeDefIndex: 11316
+public class MetabolismAttribute // TypeDefIndex: 11315
 {
 	public float startMin;
 	public float startMax;
@@ -38,7 +38,7 @@ public class MetabolismAttribute // TypeDefIndex: 11316
 
 }
 
-public enum MetabolismAttribute.Type // TypeDefIndex: 11317
+public enum MetabolismAttribute.Type // TypeDefIndex: 11316
 {
 	public int value__;
 	public const MetabolismAttribute.Type Calories = 0;

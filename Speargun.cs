@@ -1,4 +1,4 @@
-public class Speargun : CrossbowWeapon // TypeDefIndex: 11223
+public class Speargun : CrossbowWeapon // TypeDefIndex: 11222
 {
 	public GameObject worldAmmoModel;
 

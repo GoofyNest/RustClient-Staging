@@ -1,4 +1,4 @@
-public class BaseCollision : MonoBehaviour, IClientComponent // TypeDefIndex: 11001
+public class BaseCollision : MonoBehaviour, IClientComponent // TypeDefIndex: 11000
 {
 	public BaseEntity Owner;
 	public Model model;

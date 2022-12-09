@@ -1,4 +1,4 @@
-public class BonePropertyAttribute : PropertyAttribute // TypeDefIndex: 11743
+public class BonePropertyAttribute : PropertyAttribute // TypeDefIndex: 11742
 {
 
 	public void .ctor() { }

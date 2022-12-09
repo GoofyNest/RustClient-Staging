@@ -14,7 +14,7 @@ public struct Option // TypeDefIndex: 7071
 
 }
 
-public struct Option // TypeDefIndex: 13489
+public struct Option // TypeDefIndex: 13487
 {
 	public string title;
 	public string desc;

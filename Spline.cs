@@ -1,4 +1,4 @@
-public sealed class Spline // TypeDefIndex: 13686
+public sealed class Spline // TypeDefIndex: 13684
 {
 	public const int k_Precision = 128;
 	public const float k_Step = 0,0078125;

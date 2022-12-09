@@ -1,4 +1,4 @@
-public struct LayerSelect // TypeDefIndex: 13243
+public struct LayerSelect // TypeDefIndex: 13241
 {
 	[SerializeField]
 	private int layer;

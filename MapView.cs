@@ -1,4 +1,4 @@
-public class MapView : FacepunchBehaviour // TypeDefIndex: 12741
+public class MapView : FacepunchBehaviour // TypeDefIndex: 12739
 {
 	public RawImage mapImage;
 	public Image cameraPositon;
@@ -131,14 +131,14 @@ public class MapView : FacepunchBehaviour // TypeDefIndex: 12741
 
 }
 
-private struct MapView.SleepingBagCluster // TypeDefIndex: 12742
+private struct MapView.SleepingBagCluster // TypeDefIndex: 12740
 {
 	public List<RespawnInformation.SpawnOptions> clusterMarkers;
 	public Vector3 centre;
 
 }
 
-private struct MapView.MapMarkerCluster // TypeDefIndex: 12743
+private struct MapView.MapMarkerCluster // TypeDefIndex: 12741
 {
 	public List<MapMarker> markers;
 	public Vector3 centre;

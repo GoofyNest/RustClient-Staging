@@ -1,4 +1,4 @@
-public class FrequencyConfig : UIDialog // TypeDefIndex: 11565
+public class FrequencyConfig : UIDialog // TypeDefIndex: 11564
 {
 	private IRFObject rfObject;
 	public InputField input;

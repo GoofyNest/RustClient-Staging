@@ -1,4 +1,4 @@
-public class MeshData // TypeDefIndex: 10903
+public class MeshData // TypeDefIndex: 10902
 {
 	public List<int> triangles;
 	public List<Vector3> vertices;

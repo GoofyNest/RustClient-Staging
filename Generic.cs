@@ -1,4 +1,4 @@
-public static class Generic // TypeDefIndex: 13863
+public static class Generic // TypeDefIndex: 13861
 {
 	private static Scene _batchingScene;
 

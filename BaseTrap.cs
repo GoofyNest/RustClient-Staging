@@ -169,7 +169,7 @@ public static class GunTrap.GunTrapFlags // TypeDefIndex: 10299
 
 }
 
-public class BaseTrap : DecayEntity // TypeDefIndex: 11436
+public class BaseTrap : DecayEntity // TypeDefIndex: 11435
 {
 
 	public override bool DisplayHealthInfo(BasePlayer player) { }
@@ -178,7 +178,7 @@ public class BaseTrap : DecayEntity // TypeDefIndex: 11436
 
 }
 
-public class BaseTrapTrigger : TriggerBase // TypeDefIndex: 11437
+public class BaseTrapTrigger : TriggerBase // TypeDefIndex: 11436
 {
 	public BaseTrap _trap;
 
@@ -187,14 +187,14 @@ public class BaseTrapTrigger : TriggerBase // TypeDefIndex: 11437
 
 }
 
-public class BearTrapTrigger : BaseTrapTrigger // TypeDefIndex: 11438
+public class BearTrapTrigger : BaseTrapTrigger // TypeDefIndex: 11437
 {
 
 	public void .ctor() { }
 
 }
 
-public class SurvivalFishTrap : WildlifeTrap // TypeDefIndex: 11439
+public class SurvivalFishTrap : WildlifeTrap // TypeDefIndex: 11438
 {
 
 	public override void TrappedEffect() { }
@@ -203,7 +203,7 @@ public class SurvivalFishTrap : WildlifeTrap // TypeDefIndex: 11439
 
 }
 
-public class TrappableWildlife : ScriptableObject // TypeDefIndex: 11440
+public class TrappableWildlife : ScriptableObject // TypeDefIndex: 11439
 {
 	public GameObjectRef worldObject;
 	public ItemDefinition inventoryObject;
@@ -219,7 +219,7 @@ public class TrappableWildlife : ScriptableObject // TypeDefIndex: 11440
 
 }
 
-public class TrappableWildlife.BaitType // TypeDefIndex: 11441
+public class TrappableWildlife.BaitType // TypeDefIndex: 11440
 {
 	public float successRate;
 	public ItemDefinition bait;
@@ -231,7 +231,7 @@ public class TrappableWildlife.BaitType // TypeDefIndex: 11441
 
 }
 
-public class WildlifeTrap : StorageContainer // TypeDefIndex: 11442
+public class WildlifeTrap : StorageContainer // TypeDefIndex: 11441
 {
 	public float tickRate;
 	public GameObjectRef trappedEffect;
@@ -256,13 +256,13 @@ public class WildlifeTrap : StorageContainer // TypeDefIndex: 11442
 
 }
 
-public static class WildlifeTrap.WildlifeTrapFlags // TypeDefIndex: 11443
+public static class WildlifeTrap.WildlifeTrapFlags // TypeDefIndex: 11442
 {
 	public const BaseEntity.Flags Occupied = 128;
 
 }
 
-public class WildlifeTrap.WildlifeWeight // TypeDefIndex: 11444
+public class WildlifeTrap.WildlifeWeight // TypeDefIndex: 11443
 {
 	public TrappableWildlife wildlife;
 	public int weight;
@@ -272,7 +272,7 @@ public class WildlifeTrap.WildlifeWeight // TypeDefIndex: 11444
 
 }
 
-public class Bootstrap : SingletonComponent<Bootstrap> // TypeDefIndex: 11573
+public class Bootstrap : SingletonComponent<Bootstrap> // TypeDefIndex: 11572
 {
 	internal static bool bootstrapInitRun;
 	public static bool isErrored;
@@ -344,7 +344,7 @@ public class Bootstrap : SingletonComponent<Bootstrap> // TypeDefIndex: 11573
 
 }
 
-private sealed class Bootstrap.<>c // TypeDefIndex: 11574
+private sealed class Bootstrap.<>c // TypeDefIndex: 11573
 {
 	public static readonly Bootstrap.<>c <>9;
 	public static Func<string, GameObject> <>9__13_0;
@@ -367,7 +367,7 @@ private sealed class Bootstrap.<>c // TypeDefIndex: 11574
 
 }
 
-private sealed class Bootstrap.<Start>d__18 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 11575
+private sealed class Bootstrap.<Start>d__18 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 11574
 {
 	private int <>1__state;
 	private object <>2__current;
@@ -405,7 +405,7 @@ private sealed class Bootstrap.<Start>d__18 : IEnumerator<object>, IEnumerator, 
 
 }
 
-private sealed class Bootstrap.<ClientStartup>d__28 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 11576
+private sealed class Bootstrap.<ClientStartup>d__28 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 11575
 {
 	private int <>1__state;
 	private object <>2__current;
@@ -442,7 +442,7 @@ private sealed class Bootstrap.<ClientStartup>d__28 : IEnumerator<object>, IEnum
 
 }
 
-private sealed class Bootstrap.<LoadingUpdate>d__33 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 11577
+private sealed class Bootstrap.<LoadingUpdate>d__33 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 11576
 {
 	private int <>1__state;
 	private object <>2__current;

@@ -1,4 +1,4 @@
-public class WaterSimulation // TypeDefIndex: 12392
+public class WaterSimulation // TypeDefIndex: 12390
 {
 	private const int MaxSolverResolution = 512;
 	private WaterSystem water;
@@ -115,7 +115,7 @@ public class WaterSimulation // TypeDefIndex: 12392
 
 }
 
-public struct WaterSimulation.Butterfly // TypeDefIndex: 12393
+public struct WaterSimulation.Butterfly // TypeDefIndex: 12391
 {
 	public int i;
 	public int j;

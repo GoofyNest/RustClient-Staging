@@ -1,4 +1,4 @@
-public class CableCurve // TypeDefIndex: 13552
+public class CableCurve // TypeDefIndex: 13550
 {
 	[SerializeField]
 	private Vector2 m_start;

@@ -1,4 +1,4 @@
-public class ViewmodelMountedAnchor : MonoBehaviour // TypeDefIndex: 13277
+public class ViewmodelMountedAnchor : MonoBehaviour // TypeDefIndex: 13275
 {
 	public ViewmodelIk IkController;
 

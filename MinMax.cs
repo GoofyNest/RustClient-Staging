@@ -1,4 +1,4 @@
-public class MinMax // TypeDefIndex: 13099
+public class MinMax // TypeDefIndex: 13097
 {
 	public float x;
 	public float y;

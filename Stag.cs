@@ -1,4 +1,4 @@
-public class Stag : BaseAnimalNPC // TypeDefIndex: 10679
+public class Stag : BaseAnimalNPC // TypeDefIndex: 10678
 {
 	[ServerVar]
 	public static float Population;

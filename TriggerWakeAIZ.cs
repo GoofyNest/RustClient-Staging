@@ -1,4 +1,4 @@
-public class TriggerWakeAIZ : TriggerBase, IServerComponent // TypeDefIndex: 11810
+public class TriggerWakeAIZ : TriggerBase, IServerComponent // TypeDefIndex: 11809
 {
 	public float SleepDelaySeconds;
 	public List<AIInformationZone> zones;

@@ -103,7 +103,7 @@ public class Decoder.Params : ICloneable // TypeDefIndex: 7407
 
 }
 
-public sealed class Decoder : IDisposable // TypeDefIndex: 13382
+public sealed class Decoder : IDisposable // TypeDefIndex: 13380
 {
 	private const string whiteSpace = " \t\n\r";
 	private const string wordBreak = " \t\n\r{}[],:\"";
@@ -145,7 +145,7 @@ public sealed class Decoder : IDisposable // TypeDefIndex: 13382
 
 }
 
-private enum Decoder.Token // TypeDefIndex: 13383
+private enum Decoder.Token // TypeDefIndex: 13381
 {
 	public int value__;
 	public const Decoder.Token None = 0;

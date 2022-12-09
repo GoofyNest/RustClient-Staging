@@ -1,4 +1,4 @@
-public class CustomPostEffectsResources : ScriptableObject // TypeDefIndex: 12009
+public class CustomPostEffectsResources : ScriptableObject // TypeDefIndex: 12007
 {
 	public Shader[] shaders;
 

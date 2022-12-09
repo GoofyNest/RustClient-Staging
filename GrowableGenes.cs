@@ -1,4 +1,4 @@
-public class GrowableGenes // TypeDefIndex: 11295
+public class GrowableGenes // TypeDefIndex: 11294
 {
 	public GrowableGene[] Genes;
 

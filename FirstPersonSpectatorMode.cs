@@ -1,4 +1,4 @@
-public static class FirstPersonSpectatorMode // TypeDefIndex: 10930
+public static class FirstPersonSpectatorMode // TypeDefIndex: 10929
 {
 	private static ViewModel createdViewmodel;
 	private static BaseViewModel createdViewmodelInstance;

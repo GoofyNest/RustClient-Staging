@@ -1,4 +1,4 @@
-public class SearchFilterInput : MonoBehaviour // TypeDefIndex: 10979
+public class SearchFilterInput : MonoBehaviour // TypeDefIndex: 10978
 {
 	public GameObject OpenRoot;
 	public GameObject ClosedRoot;

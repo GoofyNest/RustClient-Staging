@@ -1,4 +1,4 @@
-public class TimedExplosive : BaseEntity // TypeDefIndex: 11435
+public class TimedExplosive : BaseEntity // TypeDefIndex: 11434
 {
 	public float timerAmountMin;
 	public float timerAmountMax;

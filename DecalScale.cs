@@ -1,4 +1,4 @@
-public class DecalScale : DecalComponent // TypeDefIndex: 10920
+public class DecalScale : DecalComponent // TypeDefIndex: 10919
 {
 	[MinMaxAttribute]
 	public MinMax range;

@@ -1,4 +1,4 @@
-public class FavouriteRadioStation : MonoBehaviour // TypeDefIndex: 12690
+public class FavouriteRadioStation : MonoBehaviour // TypeDefIndex: 12688
 {
 	public RustText UrlText;
 	public GameObject XmasRoot;

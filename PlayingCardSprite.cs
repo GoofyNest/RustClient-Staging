@@ -1,4 +1,4 @@
-public class PlayingCardSprite : MonoBehaviour // TypeDefIndex: 12669
+public class PlayingCardSprite : MonoBehaviour // TypeDefIndex: 12667
 {
 	[SerializeField]
 	private Image image;

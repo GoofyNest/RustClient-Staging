@@ -1,4 +1,4 @@
-public class MLRSServerProjectile : ServerProjectile // TypeDefIndex: 11477
+public class MLRSServerProjectile : ServerProjectile // TypeDefIndex: 11476
 {
 
 	public void .ctor() { }

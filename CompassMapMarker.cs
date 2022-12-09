@@ -1,4 +1,4 @@
-public class CompassMapMarker : MonoBehaviour // TypeDefIndex: 12612
+public class CompassMapMarker : MonoBehaviour // TypeDefIndex: 12610
 {
 	public Image MarkerImage;
 	public GameObject LeaderRoot;

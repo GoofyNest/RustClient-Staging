@@ -1,4 +1,4 @@
-public class BaseNavigator : BaseMonoBehaviour // TypeDefIndex: 10682
+public class BaseNavigator : BaseMonoBehaviour // TypeDefIndex: 10681
 {
 	[ServerVar]
 	public static float maxStepUpDistance;
@@ -25,8 +25,6 @@ public class BaseNavigator : BaseMonoBehaviour // TypeDefIndex: 10682
 	public float Speed;
 	public float Acceleration;
 	public float TurnSpeed;
-	public BaseNavigator.NavigationSpeed MoveTowardsSpeed;
-	public bool FaceMoveTowardsTarget;
 	[HeaderAttribute]
 	public float SlowestSpeedFraction;
 	public float SlowSpeedFraction;
@@ -139,7 +137,7 @@ public class BaseNavigator : BaseMonoBehaviour // TypeDefIndex: 10682
 
 }
 
-public enum BaseNavigator.NavigationType // TypeDefIndex: 10683
+public enum BaseNavigator.NavigationType // TypeDefIndex: 10682
 {
 	public int value__;
 	public const BaseNavigator.NavigationType None = 0;
@@ -150,7 +148,7 @@ public enum BaseNavigator.NavigationType // TypeDefIndex: 10683
 
 }
 
-public enum BaseNavigator.NavigationSpeed // TypeDefIndex: 10684
+public enum BaseNavigator.NavigationSpeed // TypeDefIndex: 10683
 {
 	public int value__;
 	public const BaseNavigator.NavigationSpeed Slowest = 0;

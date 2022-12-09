@@ -1,4 +1,4 @@
-public class BlendShapeController : MonoBehaviour // TypeDefIndex: 10856
+public class BlendShapeController : MonoBehaviour // TypeDefIndex: 10855
 {
 	public SkinnedMeshRenderer TargetRenderer;
 	public BlendShapeController.BlendState[] States;
@@ -15,7 +15,7 @@ public class BlendShapeController : MonoBehaviour // TypeDefIndex: 10856
 
 }
 
-public enum BlendShapeController.BlendMode // TypeDefIndex: 10857
+public enum BlendShapeController.BlendMode // TypeDefIndex: 10856
 {
 	public int value__;
 	public const BlendShapeController.BlendMode Idle = 0;
@@ -24,7 +24,7 @@ public enum BlendShapeController.BlendMode // TypeDefIndex: 10857
 
 }
 
-public struct BlendShapeController.BlendState // TypeDefIndex: 10858
+public struct BlendShapeController.BlendState // TypeDefIndex: 10857
 {
 	[RangeAttribute]
 	public float[] States;

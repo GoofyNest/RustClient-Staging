@@ -1,4 +1,4 @@
-public class MeshColliderGroup : PooledList<MeshColliderInstance> // TypeDefIndex: 10898
+public class MeshColliderGroup : PooledList<MeshColliderInstance> // TypeDefIndex: 10897
 {
 
 	public void .ctor() { }

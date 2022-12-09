@@ -1,4 +1,4 @@
-public sealed class BoolParameter : ParameterOverride<bool> // TypeDefIndex: 13643
+public sealed class BoolParameter : ParameterOverride<bool> // TypeDefIndex: 13641
 {
 
 	public void .ctor() { }

@@ -1,4 +1,4 @@
-public class TerrainDistanceMap : TerrainMap<byte> // TypeDefIndex: 12166
+public class TerrainDistanceMap : TerrainMap<byte> // TypeDefIndex: 12164
 {
 	public Texture2D DistanceTexture;
 
@@ -21,7 +21,7 @@ public class TerrainDistanceMap : TerrainMap<byte> // TypeDefIndex: 12166
 
 }
 
-private sealed class TerrainDistanceMap.<>c__DisplayClass2_0 // TypeDefIndex: 12167
+private sealed class TerrainDistanceMap.<>c__DisplayClass2_0 // TypeDefIndex: 12165
 {
 	public Color32[] cols;
 	public TerrainDistanceMap <>4__this;

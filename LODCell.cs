@@ -1,4 +1,4 @@
-public class LODCell : Pool.IPooled // TypeDefIndex: 11685
+public class LODCell : Pool.IPooled // TypeDefIndex: 11684
 {
 	public Vector3 Position;
 	public float Size;
