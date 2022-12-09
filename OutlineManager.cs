@@ -1,4 +1,4 @@
-public class OutlineManager : MonoBehaviour, IClientComponent // TypeDefIndex: 11854
+public class OutlineManager : MonoBehaviour, IClientComponent // TypeDefIndex: 11855
 {
 	public static Material blurMat;
 	public List<OutlineObject> objectsToRender;

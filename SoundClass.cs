@@ -1,4 +1,4 @@
-public class SoundClass : ScriptableObject // TypeDefIndex: 10760
+public class SoundClass : ScriptableObject // TypeDefIndex: 10761
 {
 	[HeaderAttribute]
 	public AudioMixerGroup output;

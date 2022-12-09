@@ -24,7 +24,7 @@ public static class Global // TypeDefIndex: 6635
 
 }
 
-public class Global : ConsoleSystem // TypeDefIndex: 13739
+public class Global : ConsoleSystem // TypeDefIndex: 13741
 {
 	private static int _developer;
 	[ServerVar]
@@ -81,6 +81,10 @@ public class Global : ConsoleSystem // TypeDefIndex: 13739
 	[ClientVar]
 	public static bool richPresence;
 	private static float _consoleScale;
+	[ClientVar]
+	[ServerVar]
+	public static bool cinematicGingerbreadCorpses;
+	private static uint _gingerbreadMaterialID;
 
 	[ServerVar]
 	[ClientVar]
@@ -232,13 +236,15 @@ public class Global : ConsoleSystem // TypeDefIndex: 13739
 	[ClientVar]
 	public static void subscriptions(ConsoleSystem.Arg arg) { }
 
+	public static uint GingerbreadMaterialID() { }
+
 	public void .ctor() { }
 
 	private static void .cctor() { }
 
 }
 
-private sealed class Global.<>c // TypeDefIndex: 13740
+private sealed class Global.<>c // TypeDefIndex: 13742
 {
 	public static readonly Global.<>c <>9;
 	public static Func<KeyValuePair<Type, long>, long> <>9__49_0;

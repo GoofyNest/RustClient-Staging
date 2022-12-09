@@ -2166,7 +2166,7 @@ public class ModularCarOven : BaseOven // TypeDefIndex: 10334
 
 }
 
-public class VehicleVendor : NPCTalking // TypeDefIndex: 10585
+public class VehicleVendor : NPCTalking // TypeDefIndex: 10586
 {
 	public EntityRef spawnerRef;
 	public VehicleSpawner vehicleSpawner;
@@ -2184,7 +2184,7 @@ public class VehicleVendor : NPCTalking // TypeDefIndex: 10585
 
 }
 
-public class VehicleSpawner : BaseEntity // TypeDefIndex: 10586
+public class VehicleSpawner : BaseEntity // TypeDefIndex: 10587
 {
 	public float spawnNudgeRadius;
 	public float cleanupRadius;
@@ -2202,7 +2202,7 @@ public class VehicleSpawner : BaseEntity // TypeDefIndex: 10586
 
 }
 
-public class VehicleSpawner.SpawnPair // TypeDefIndex: 10587
+public class VehicleSpawner.SpawnPair // TypeDefIndex: 10588
 {
 	public string message;
 	public GameObjectRef prefabToSpawn;
@@ -2212,7 +2212,7 @@ public class VehicleSpawner.SpawnPair // TypeDefIndex: 10587
 
 }
 
-public class EngineAudioClip : MonoBehaviour, IClientComponent // TypeDefIndex: 10723
+public class EngineAudioClip : MonoBehaviour, IClientComponent // TypeDefIndex: 10724
 {
 	public AudioClip granularClip;
 	public AudioClip accelerationClip;
@@ -2263,7 +2263,7 @@ public class EngineAudioClip : MonoBehaviour, IClientComponent // TypeDefIndex: 
 
 }
 
-public class EngineAudioClip.EngineCycle // TypeDefIndex: 10724
+public class EngineAudioClip.EngineCycle // TypeDefIndex: 10725
 {
 	public int RPM;
 	public int startSample;
@@ -2276,7 +2276,7 @@ public class EngineAudioClip.EngineCycle // TypeDefIndex: 10724
 
 }
 
-public class EngineAudioClip.EngineCycleBucket // TypeDefIndex: 10725
+public class EngineAudioClip.EngineCycleBucket // TypeDefIndex: 10726
 {
 	public int RPM;
 	public List<EngineAudioClip.EngineCycle> cycles;
@@ -2293,7 +2293,7 @@ public class EngineAudioClip.EngineCycleBucket // TypeDefIndex: 10725
 
 }
 
-public class EngineAudioClip.Grain // TypeDefIndex: 10726
+public class EngineAudioClip.Grain // TypeDefIndex: 10727
 {
 	private float[] sourceData;
 	private int startSample;
@@ -2321,7 +2321,7 @@ public class EngineAudioClip.Grain // TypeDefIndex: 10726
 
 }
 
-public class BaseVehicleMountPoint : BaseMountable // TypeDefIndex: 11447
+public class BaseVehicleMountPoint : BaseMountable // TypeDefIndex: 11448
 {
 
 	public override bool DirectlyMountable() { }
@@ -2338,7 +2338,7 @@ public class BaseVehicleMountPoint : BaseMountable // TypeDefIndex: 11447
 
 }
 
-public class BaseVehicleSeat : BaseVehicleMountPoint // TypeDefIndex: 11448
+public class BaseVehicleSeat : BaseVehicleMountPoint // TypeDefIndex: 11449
 {
 	public float mountedAnimationSpeed;
 	public bool sendClientInputToVehicleParent;
@@ -2357,7 +2357,7 @@ public class BaseVehicleSeat : BaseVehicleMountPoint // TypeDefIndex: 11448
 
 }
 
-public class EngineAudioSet : ScriptableObject // TypeDefIndex: 11485
+public class EngineAudioSet : ScriptableObject // TypeDefIndex: 11486
 {
 	public BlendedEngineLoopDefinition[] engineAudioLoops;
 	public int priority;
@@ -2383,7 +2383,7 @@ public class EngineAudioSet : ScriptableObject // TypeDefIndex: 11485
 
 }
 
-public class ModularCarCentralLockingSwitch : VehicleModuleButtonComponent // TypeDefIndex: 11488
+public class ModularCarCentralLockingSwitch : VehicleModuleButtonComponent // TypeDefIndex: 11489
 {
 	public Transform centralLockingSwitch;
 	public Vector3 switchOffPos;
@@ -2398,7 +2398,7 @@ public class ModularCarCentralLockingSwitch : VehicleModuleButtonComponent // Ty
 
 }
 
-public class ModularCarChassisVisuals : VehicleChassisVisuals<ModularCar>, IClientComponent // TypeDefIndex: 11489
+public class ModularCarChassisVisuals : VehicleChassisVisuals<ModularCar>, IClientComponent // TypeDefIndex: 11490
 {
 	public Transform frontAxle;
 	public Transform rearAxle;
@@ -2423,7 +2423,7 @@ public class ModularCarChassisVisuals : VehicleChassisVisuals<ModularCar>, IClie
 
 }
 
-public class ModularCarChassisVisuals.Steering // TypeDefIndex: 11490
+public class ModularCarChassisVisuals.Steering // TypeDefIndex: 11491
 {
 	public Transform steerL;
 	public Transform steerR;
@@ -2436,7 +2436,7 @@ public class ModularCarChassisVisuals.Steering // TypeDefIndex: 11490
 
 }
 
-public class ModularCarChassisVisuals.LookAtTarget // TypeDefIndex: 11491
+public class ModularCarChassisVisuals.LookAtTarget // TypeDefIndex: 11492
 {
 	public Transform aim;
 	public Transform target;
@@ -2447,7 +2447,7 @@ public class ModularCarChassisVisuals.LookAtTarget // TypeDefIndex: 11491
 
 }
 
-public class ModularCarCodeLock // TypeDefIndex: 11493
+public class ModularCarCodeLock // TypeDefIndex: 11494
 {
 	private bool _clientHasALock;
 	private readonly bool isServer;
@@ -2487,7 +2487,7 @@ public class ModularCarCodeLock // TypeDefIndex: 11493
 
 }
 
-public enum ModularCarCodeLock.LockType // TypeDefIndex: 11494
+public enum ModularCarCodeLock.LockType // TypeDefIndex: 11495
 {
 	public int value__;
 	public const ModularCarCodeLock.LockType Door = 0;
@@ -2495,7 +2495,7 @@ public enum ModularCarCodeLock.LockType // TypeDefIndex: 11494
 
 }
 
-public class ModularCarCodeLockVisuals : VehicleModuleButtonComponent // TypeDefIndex: 11495
+public class ModularCarCodeLockVisuals : VehicleModuleButtonComponent // TypeDefIndex: 11496
 {
 	[SerializeField]
 	private GameObject lockedVisuals;
@@ -2519,14 +2519,14 @@ public class ModularCarCodeLockVisuals : VehicleModuleButtonComponent // TypeDef
 
 }
 
-public class VehicleLiftOccupantTrigger : TriggerBase // TypeDefIndex: 11496
+public class VehicleLiftOccupantTrigger : TriggerBase // TypeDefIndex: 11497
 {
 
 	public void .ctor() { }
 
 }
 
-public class ModularCarPresetConfig : ScriptableObject // TypeDefIndex: 11497
+public class ModularCarPresetConfig : ScriptableObject // TypeDefIndex: 11498
 {
 	public ItemModVehicleModule[] socketItemDefs;
 
@@ -2535,7 +2535,7 @@ public class ModularCarPresetConfig : ScriptableObject // TypeDefIndex: 11497
 
 }
 
-public class ModularCarSeat : MouseSteerableSeat // TypeDefIndex: 11498
+public class ModularCarSeat : MouseSteerableSeat // TypeDefIndex: 11499
 {
 	[SerializeField]
 	private Vector3 leftFootIKPos;
@@ -2577,7 +2577,7 @@ public class ModularCarSeat : MouseSteerableSeat // TypeDefIndex: 11498
 
 }
 
-public class ModularVehicleShopFront : ShopFront // TypeDefIndex: 11499
+public class ModularVehicleShopFront : ShopFront // TypeDefIndex: 11500
 {
 	[SerializeField]
 	private float maxUseDistance;
@@ -2593,7 +2593,7 @@ public class ModularVehicleShopFront : ShopFront // TypeDefIndex: 11499
 
 }
 
-public class CamperSeatConfig : MonoBehaviour // TypeDefIndex: 11500
+public class CamperSeatConfig : MonoBehaviour // TypeDefIndex: 11501
 {
 	public Transform[] SeatPositions;
 	public Transform StovePosition;
@@ -2604,7 +2604,7 @@ public class CamperSeatConfig : MonoBehaviour // TypeDefIndex: 11500
 
 }
 
-public abstract class VehicleModuleButtonComponent : MonoBehaviour // TypeDefIndex: 11501
+public abstract class VehicleModuleButtonComponent : MonoBehaviour // TypeDefIndex: 11502
 {
 	public string interactionColliderName;
 	public SoundDefinition pressSoundDef;
@@ -2618,7 +2618,7 @@ public abstract class VehicleModuleButtonComponent : MonoBehaviour // TypeDefInd
 
 }
 
-public class VehicleModuleEngine : VehicleModuleStorage // TypeDefIndex: 11502
+public class VehicleModuleEngine : VehicleModuleStorage // TypeDefIndex: 11503
 {
 	[SerializeField]
 	private VehicleModuleEngine.Engine engine;
@@ -2722,7 +2722,7 @@ public class VehicleModuleEngine : VehicleModuleStorage // TypeDefIndex: 11502
 
 }
 
-public class VehicleModuleEngine.Engine // TypeDefIndex: 11503
+public class VehicleModuleEngine.Engine // TypeDefIndex: 11504
 {
 	[HeaderAttribute]
 	public int engineKW;
@@ -2743,7 +2743,7 @@ public class VehicleModuleEngine.Engine // TypeDefIndex: 11503
 
 }
 
-public class VehicleLight : MonoBehaviour, IClientComponent // TypeDefIndex: 11505
+public class VehicleLight : MonoBehaviour, IClientComponent // TypeDefIndex: 11506
 {
 	public bool IsBrake;
 	public GameObject toggleObject;
@@ -2766,7 +2766,7 @@ public class VehicleLight : MonoBehaviour, IClientComponent // TypeDefIndex: 115
 
 }
 
-public class VehicleLight.LightRenderer // TypeDefIndex: 11506
+public class VehicleLight.LightRenderer // TypeDefIndex: 11507
 {
 	public Renderer renderer;
 	public int matIndex;
@@ -2776,7 +2776,7 @@ public class VehicleLight.LightRenderer // TypeDefIndex: 11506
 
 }
 
-public class EngineDamageOverTime // TypeDefIndex: 11513
+public class EngineDamageOverTime // TypeDefIndex: 11514
 {
 	private readonly List<EngineDamageOverTime.RecentDamage> recentDamage;
 	private readonly float maxSeconds;
@@ -2792,7 +2792,7 @@ public class EngineDamageOverTime // TypeDefIndex: 11513
 
 }
 
-private struct EngineDamageOverTime.RecentDamage // TypeDefIndex: 11514
+private struct EngineDamageOverTime.RecentDamage // TypeDefIndex: 11515
 {
 	public readonly float time;
 	public readonly float amount;
@@ -2802,7 +2802,7 @@ private struct EngineDamageOverTime.RecentDamage // TypeDefIndex: 11514
 
 }
 
-public abstract class VehicleChassisVisuals<T> : MonoBehaviour // TypeDefIndex: 11532
+public abstract class VehicleChassisVisuals<T> : MonoBehaviour // TypeDefIndex: 11533
 {
 	protected T owner;
 	[CompilerGeneratedAttribute]
@@ -2965,7 +2965,7 @@ public abstract class VehicleChassisVisuals<T> : MonoBehaviour // TypeDefIndex: 
 
 }
 
-public class VehicleChassisVisuals.ClientWheelData<T> // TypeDefIndex: 11534
+public class VehicleChassisVisuals.ClientWheelData<T> // TypeDefIndex: 11535
 {
 	public VisualCarWheel wheel;
 	public Vector3 vehicleLocalPos;
@@ -3002,7 +3002,7 @@ public class VehicleChassisVisuals.ClientWheelData<T> // TypeDefIndex: 11534
 
 }
 
-private struct VehicleChassisVisuals.<>c__DisplayClass17_0<T> // TypeDefIndex: 11536
+private struct VehicleChassisVisuals.<>c__DisplayClass17_0<T> // TypeDefIndex: 11537
 {
 	public Vector3 vehicleDown;
 	public float wheelRadius;
@@ -3010,7 +3010,7 @@ private struct VehicleChassisVisuals.<>c__DisplayClass17_0<T> // TypeDefIndex: 1
 
 }
 
-public class VehicleEngineController<TOwner> // TypeDefIndex: 11538
+public class VehicleEngineController<TOwner> // TypeDefIndex: 11539
 {
 	[CompilerGeneratedAttribute]
 	private EntityFuelSystem <FuelSystem>k__BackingField;
@@ -3105,7 +3105,7 @@ public class VehicleEngineController<TOwner> // TypeDefIndex: 11538
 
 }
 
-public enum VehicleEngineController.EngineState<TOwner> // TypeDefIndex: 11539
+public enum VehicleEngineController.EngineState<TOwner> // TypeDefIndex: 11540
 {
 	public int value__;
 	public const VehicleEngineController.EngineState<TOwner> Off = 0;
@@ -3114,14 +3114,14 @@ public enum VehicleEngineController.EngineState<TOwner> // TypeDefIndex: 11539
 
 }
 
-public class VehicleSpawnPoint : SpaceCheckingSpawnPoint // TypeDefIndex: 11770
+public class VehicleSpawnPoint : SpaceCheckingSpawnPoint // TypeDefIndex: 11771
 {
 
 	public void .ctor() { }
 
 }
 
-public class EngineItemInformationPanel : ItemInformationPanel // TypeDefIndex: 12790
+public class EngineItemInformationPanel : ItemInformationPanel // TypeDefIndex: 12792
 {
 	[SerializeField]
 	private Text tier;
@@ -3147,7 +3147,7 @@ public class EngineItemInformationPanel : ItemInformationPanel // TypeDefIndex: 
 
 }
 
-public class VehicleEditingItemIcon : MonoBehaviour, IInventoryChanged // TypeDefIndex: 12859
+public class VehicleEditingItemIcon : MonoBehaviour, IInventoryChanged // TypeDefIndex: 12861
 {
 	[SerializeField]
 	private Image foregroundImage;
@@ -3174,7 +3174,7 @@ public class VehicleEditingItemIcon : MonoBehaviour, IInventoryChanged // TypeDe
 
 }
 
-public class VehicleEditingPanel : LootPanel // TypeDefIndex: 12860
+public class VehicleEditingPanel : LootPanel // TypeDefIndex: 12862
 {
 	[SerializeField]
 	[RangeAttribute]
@@ -3324,7 +3324,7 @@ public class VehicleEditingPanel : LootPanel // TypeDefIndex: 12860
 
 }
 
-private class VehicleEditingPanel.CreateChassisEntry // TypeDefIndex: 12861
+private class VehicleEditingPanel.CreateChassisEntry // TypeDefIndex: 12863
 {
 	public byte garageChassisIndex;
 	public Button craftButton;
@@ -3338,14 +3338,14 @@ private class VehicleEditingPanel.CreateChassisEntry // TypeDefIndex: 12861
 
 }
 
-private struct VehicleEditingPanel.<>c__DisplayClass71_0 // TypeDefIndex: 12862
+private struct VehicleEditingPanel.<>c__DisplayClass71_0 // TypeDefIndex: 12864
 {
 	public VehicleEditingPanel <>4__this;
 	public string infoText;
 
 }
 
-public class VehicleModuleInformationPanel : ItemInformationPanel // TypeDefIndex: 12863
+public class VehicleModuleInformationPanel : ItemInformationPanel // TypeDefIndex: 12865
 {
 	public ItemStatValue socketsDisplay;
 	public ItemStatValue hpDisplay;
@@ -3359,14 +3359,14 @@ public class VehicleModuleInformationPanel : ItemInformationPanel // TypeDefInde
 
 }
 
-public class vehicle : ConsoleSystem // TypeDefIndex: 13785
+public class vehicle : ConsoleSystem // TypeDefIndex: 13787
 {
 
 	public void .ctor() { }
 
 }
 
-public static class EngineItemTypeEx // TypeDefIndex: 13926
+public static class EngineItemTypeEx // TypeDefIndex: 13928
 {
 
 	[ExtensionAttribute]
@@ -3380,7 +3380,7 @@ public static class EngineItemTypeEx // TypeDefIndex: 13926
 
 }
 
-public class EngineStorage : StorageContainer // TypeDefIndex: 13927
+public class EngineStorage : StorageContainer // TypeDefIndex: 13929
 {
 	[HeaderAttribute]
 	public Sprite engineIcon;
@@ -3448,7 +3448,7 @@ public class EngineStorage : StorageContainer // TypeDefIndex: 13927
 
 }
 
-public enum EngineStorage.EngineItemTypes // TypeDefIndex: 13928
+public enum EngineStorage.EngineItemTypes // TypeDefIndex: 13930
 {
 	public int value__;
 	public const EngineStorage.EngineItemTypes Crankshaft = 0;
@@ -3459,7 +3459,7 @@ public enum EngineStorage.EngineItemTypes // TypeDefIndex: 13928
 
 }
 
-public class ModularCarAudio : GroundVehicleAudio // TypeDefIndex: 13929
+public class ModularCarAudio : GroundVehicleAudio // TypeDefIndex: 13931
 {
 	public bool showDebug;
 	[HeaderAttribute]
@@ -3576,7 +3576,7 @@ public class ModularCarAudio : GroundVehicleAudio // TypeDefIndex: 13929
 
 }
 
-public class ModularVehicleSocket // TypeDefIndex: 13930
+public class ModularVehicleSocket // TypeDefIndex: 13932
 {
 	[SerializeField]
 	private Transform socketTransform;
@@ -3605,7 +3605,7 @@ public class ModularVehicleSocket // TypeDefIndex: 13930
 
 }
 
-public enum ModularVehicleSocket.SocketWheelType // TypeDefIndex: 13931
+public enum ModularVehicleSocket.SocketWheelType // TypeDefIndex: 13933
 {
 	public int value__;
 	public const ModularVehicleSocket.SocketWheelType NoWheel = 0;
@@ -3614,7 +3614,7 @@ public enum ModularVehicleSocket.SocketWheelType // TypeDefIndex: 13931
 
 }
 
-public enum ModularVehicleSocket.SocketLocationType // TypeDefIndex: 13932
+public enum ModularVehicleSocket.SocketLocationType // TypeDefIndex: 13934
 {
 	public int value__;
 	public const ModularVehicleSocket.SocketLocationType Middle = 0;
@@ -3623,7 +3623,7 @@ public enum ModularVehicleSocket.SocketLocationType // TypeDefIndex: 13932
 
 }
 
-public class VehicleModuleEngineItems : ScriptableObject // TypeDefIndex: 13933
+public class VehicleModuleEngineItems : ScriptableObject // TypeDefIndex: 13935
 {
 	[SerializeField]
 	private ItemModEngineItem[] engineItems;
@@ -3635,7 +3635,7 @@ public class VehicleModuleEngineItems : ScriptableObject // TypeDefIndex: 13933
 
 }
 
-public class VehicleModuleSlidingComponent // TypeDefIndex: 13934
+public class VehicleModuleSlidingComponent // TypeDefIndex: 13936
 {
 	public string interactionColliderName;
 	public BaseEntity.Flags flag_SliderOpen;
@@ -3661,7 +3661,7 @@ public class VehicleModuleSlidingComponent // TypeDefIndex: 13934
 
 }
 
-public class VehicleModuleSlidingComponent.SlidingPart // TypeDefIndex: 13935
+public class VehicleModuleSlidingComponent.SlidingPart // TypeDefIndex: 13937
 {
 	public Transform transform;
 	public Vector3 openPosition;

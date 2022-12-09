@@ -1,4 +1,4 @@
-public class MinMaxAttribute : PropertyAttribute // TypeDefIndex: 13098
+public class MinMaxAttribute : PropertyAttribute // TypeDefIndex: 13100
 {
 	public float min;
 	public float max;
@@ -8,7 +8,7 @@ public class MinMaxAttribute : PropertyAttribute // TypeDefIndex: 13098
 
 }
 
-public sealed class MinMaxAttribute : Attribute // TypeDefIndex: 13565
+public sealed class MinMaxAttribute : Attribute // TypeDefIndex: 13567
 {
 	public readonly float min;
 	public readonly float max;

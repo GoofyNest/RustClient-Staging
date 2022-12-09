@@ -3120,6 +3120,8 @@ public static class Approved // TypeDefIndex: 7740
 
 	private static void Add_2022() { }
 
+	private static void Add_December_08_2022() { }
+
 	private static void Add_December_01_2022() { }
 
 	private static void Add_November_24_2022() { }
@@ -3416,7 +3418,7 @@ public abstract class AppIOEntity : IOEntity // TypeDefIndex: 10024
 
 }
 
-public class ApplyTerrainAnchors : MonoBehaviour // TypeDefIndex: 12139
+public class ApplyTerrainAnchors : MonoBehaviour // TypeDefIndex: 12141
 {
 
 	protected void Awake() { }
@@ -3425,7 +3427,7 @@ public class ApplyTerrainAnchors : MonoBehaviour // TypeDefIndex: 12139
 
 }
 
-public class ApplyTerrainModifiers : MonoBehaviour // TypeDefIndex: 12341
+public class ApplyTerrainModifiers : MonoBehaviour // TypeDefIndex: 12343
 {
 
 	protected void Awake() { }
@@ -3434,7 +3436,7 @@ public class ApplyTerrainModifiers : MonoBehaviour // TypeDefIndex: 12341
 
 }
 
-public class ApplyTweakUIChanges : MonoBehaviour // TypeDefIndex: 12934
+public class ApplyTweakUIChanges : MonoBehaviour // TypeDefIndex: 12936
 {
 	public Button ApplyButton;
 	public TweakUIBase[] Options;
@@ -3452,7 +3454,7 @@ public class ApplyTweakUIChanges : MonoBehaviour // TypeDefIndex: 12934
 
 }
 
-public class App : ConsoleSystem // TypeDefIndex: 13695
+public class App : ConsoleSystem // TypeDefIndex: 13697
 {
 	[ServerVar]
 	public static string listenip;

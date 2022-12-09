@@ -92,7 +92,7 @@ public enum Bloom.BloomQuality // TypeDefIndex: 8178
 
 }
 
-public sealed class Bloom : PostProcessEffectSettings // TypeDefIndex: 13580
+public sealed class Bloom : PostProcessEffectSettings // TypeDefIndex: 13582
 {
 	[MinAttribute]
 	[TooltipAttribute]

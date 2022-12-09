@@ -1,4 +1,4 @@
-public class Meta : ConsoleSystem // TypeDefIndex: 11016
+public class Meta : ConsoleSystem // TypeDefIndex: 11017
 {
 
 	[ServerVar]

@@ -1,4 +1,4 @@
-public class WeakpointProperties : PrefabAttribute // TypeDefIndex: 10847
+public class WeakpointProperties : PrefabAttribute // TypeDefIndex: 10848
 {
 	public bool BlockWhenRoofAttached;
 

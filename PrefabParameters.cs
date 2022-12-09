@@ -1,4 +1,4 @@
-public class PrefabParameters : MonoBehaviour // TypeDefIndex: 11731
+public class PrefabParameters : MonoBehaviour // TypeDefIndex: 11732
 {
 	public PrefabPriority Priority;
 	public int Count;
