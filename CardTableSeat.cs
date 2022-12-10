@@ -1,4 +1,4 @@
-public class CardTableSeat : BaseChair // TypeDefIndex: 11333
+public class CardTableSeat : BaseChair // TypeDefIndex: 11334
 {
 	public Transform CardsMesh;
 	private CardTable table;

@@ -1,4 +1,4 @@
-public class DroppedItem : WorldItem // TypeDefIndex: 11542
+public class DroppedItem : WorldItem // TypeDefIndex: 11543
 {
 	[HeaderAttribute]
 	public GameObject itemModel;

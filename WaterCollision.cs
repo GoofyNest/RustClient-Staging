@@ -1,4 +1,4 @@
-public class WaterCollision : MonoBehaviour // TypeDefIndex: 12367
+public class WaterCollision : MonoBehaviour // TypeDefIndex: 12369
 {
 	private ListDictionary<Collider, List<Collider>> ignoredColliders;
 	private HashSet<Collider> waterColliders;

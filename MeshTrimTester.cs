@@ -1,4 +1,4 @@
-public class MeshTrimTester : MonoBehaviour // TypeDefIndex: 11031
+public class MeshTrimTester : MonoBehaviour // TypeDefIndex: 11032
 {
 	public MeshTrimSettings Settings;
 	public Mesh SourceMesh;

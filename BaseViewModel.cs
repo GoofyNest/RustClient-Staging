@@ -1,4 +1,4 @@
-public class BaseViewModel : MonoBehaviour // TypeDefIndex: 13248
+public class BaseViewModel : MonoBehaviour // TypeDefIndex: 13250
 {
 	public static bool HideViewmodel;
 	public static BaseViewModel GestureModel;

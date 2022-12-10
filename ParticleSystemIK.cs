@@ -1,4 +1,4 @@
-public class ParticleSystemIK : MonoBehaviour, IClientComponent // TypeDefIndex: 13131
+public class ParticleSystemIK : MonoBehaviour, IClientComponent // TypeDefIndex: 13133
 {
 	private ParticleSystem system;
 	private ParticleSystemIK.ParticleSystemIKJob job;
@@ -14,7 +14,7 @@ public class ParticleSystemIK : MonoBehaviour, IClientComponent // TypeDefIndex:
 
 }
 
-public struct ParticleSystemIK.ParticleSystemIKJob : IJobParticleSystem // TypeDefIndex: 13132
+public struct ParticleSystemIK.ParticleSystemIKJob : IJobParticleSystem // TypeDefIndex: 13134
 {
 	[ReadOnlyAttribute]
 	public Vector3 position;

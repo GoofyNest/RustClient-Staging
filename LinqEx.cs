@@ -1,4 +1,4 @@
-public static class LinqEx // TypeDefIndex: 13160
+public static class LinqEx // TypeDefIndex: 13162
 {
 
 	[ExtensionAttribute]

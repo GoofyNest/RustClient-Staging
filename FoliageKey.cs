@@ -1,4 +1,4 @@
-public struct FoliageKey : IEquatable<FoliageKey> // TypeDefIndex: 11629
+public struct FoliageKey : IEquatable<FoliageKey> // TypeDefIndex: 11630
 {
 	public Material material;
 

@@ -1274,7 +1274,7 @@ public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4844
 
 }
 
-public class Pool : ConsoleSystem // TypeDefIndex: 13768
+public class Pool : ConsoleSystem // TypeDefIndex: 13770
 {
 	[ServerVar]
 	[ClientVar]
@@ -1324,7 +1324,7 @@ public class Pool : ConsoleSystem // TypeDefIndex: 13768
 
 }
 
-private sealed class Pool.<>c // TypeDefIndex: 13769
+private sealed class Pool.<>c // TypeDefIndex: 13771
 {
 	public static readonly Pool.<>c <>9;
 	public static Func<KeyValuePair<Type, Pool.ICollection>, long> <>9__4_0;

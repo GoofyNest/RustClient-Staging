@@ -1,4 +1,4 @@
-public class CanvasLOD : LODComponent // TypeDefIndex: 11677
+public class CanvasLOD : LODComponent // TypeDefIndex: 11678
 {
 	public float Distance;
 	private Canvas canvas;

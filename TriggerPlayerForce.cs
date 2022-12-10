@@ -1,4 +1,4 @@
-public class TriggerPlayerForce : TriggerBase, IServerComponent // TypeDefIndex: 11800
+public class TriggerPlayerForce : TriggerBase, IServerComponent // TypeDefIndex: 11801
 {
 	public BoxCollider triggerCollider;
 	public float pushVelocity;

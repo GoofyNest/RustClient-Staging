@@ -1,4 +1,4 @@
-public class RiverInfo : MonoBehaviour // TypeDefIndex: 11745
+public class RiverInfo : MonoBehaviour // TypeDefIndex: 11746
 {
 
 	protected void Awake() { }

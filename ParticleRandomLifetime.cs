@@ -1,4 +1,4 @@
-public class ParticleRandomLifetime : MonoBehaviour // TypeDefIndex: 10955
+public class ParticleRandomLifetime : MonoBehaviour // TypeDefIndex: 10956
 {
 	public ParticleSystem mySystem;
 	public float minScale;

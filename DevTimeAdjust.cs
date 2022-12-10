@@ -1,4 +1,4 @@
-public class DevTimeAdjust : MonoBehaviour // TypeDefIndex: 11051
+public class DevTimeAdjust : MonoBehaviour // TypeDefIndex: 11052
 {
 
 	private void Start() { }

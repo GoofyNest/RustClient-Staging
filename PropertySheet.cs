@@ -1,4 +1,4 @@
-public sealed class PropertySheet // TypeDefIndex: 13678
+public sealed class PropertySheet // TypeDefIndex: 13680
 {
 	[CompilerGeneratedAttribute]
 	private MaterialPropertyBlock <properties>k__BackingField;

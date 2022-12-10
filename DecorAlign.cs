@@ -1,4 +1,4 @@
-public class DecorAlign : DecorComponent // TypeDefIndex: 12089
+public class DecorAlign : DecorComponent // TypeDefIndex: 12091
 {
 	public float NormalAlignment;
 	public float GradientAlignment;

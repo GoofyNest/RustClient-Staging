@@ -1,4 +1,4 @@
-public static class DecorComponentEx // TypeDefIndex: 12088
+public static class DecorComponentEx // TypeDefIndex: 12090
 {
 
 	[ExtensionAttribute]
