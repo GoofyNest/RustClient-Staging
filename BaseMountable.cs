@@ -111,6 +111,8 @@ public class BaseMountable : BaseCombatEntity // TypeDefIndex: 10051
 
 	public virtual bool IsInstrument() { }
 
+	public Vector3 GetDismountCheckStart(BasePlayer player) { }
+
 	public Vector3 GetMountedPosition() { }
 
 	public virtual void UpdatePlayerModel(BasePlayer player) { }
