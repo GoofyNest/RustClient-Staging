@@ -48,8 +48,8 @@ public sealed class Resources // TypeDefIndex: 3493
 	[NativeThrowsAttribute]
 	public static Object Load(string path, Type systemTypeInstance) { }
 
-	[NativeThrowsAttribute]
 	[FreeFunctionAttribute]
+	[NativeThrowsAttribute]
 	public static Object[] LoadAll(string path, Type systemTypeInstance) { }
 
 	public static T[] LoadAll<T>(string path) { }
