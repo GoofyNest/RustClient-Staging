@@ -509,6 +509,7 @@ public class Component : Object // TypeDefIndex: 3511
 	|-Component.GetComponentsInChildren<BlueprintCraftGridRow>
 	|-Component.GetComponentsInChildren<ContactsEntry>
 	|-Component.GetComponentsInChildren<DevControlsTab>
+	|-Component.GetComponentsInChildren<EntityFlag_Toggle>
 	|-Component.GetComponentsInChildren<HideIfScoped>
 	|-Component.GetComponentsInChildren<HitNumber>
 	|-Component.GetComponentsInChildren<ItemIcon>

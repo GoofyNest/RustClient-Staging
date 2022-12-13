@@ -840,6 +840,7 @@ public struct EntityRef<T> // TypeDefIndex: 11287
 	|
 	|-EntityRef<BaseEntity>.Get
 	|-EntityRef<BasePlayer>.Get
+	|-EntityRef<BasePortal>.Get
 	|-EntityRef<BaseVehicleSeat>.Get
 	|-EntityRef<FishingBobber>.Get
 	|-EntityRef<IOEntity>.Get

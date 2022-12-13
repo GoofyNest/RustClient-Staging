@@ -3,7 +3,6 @@ public class ProceduralDynamicDungeon : BaseEntity // TypeDefIndex: 10574
 	public int gridResolution;
 	public float gridSpacing;
 	public bool[] grid;
-	public List<ProceduralDungeonCell> cellPrefabs;
 	public List<GameObjectRef> cellPrefabReferences;
 	public List<ProceduralDungeonCell> spawnedCells;
 	public EnvironmentVolume envVolume;
@@ -19,6 +18,10 @@ public class ProceduralDynamicDungeon : BaseEntity // TypeDefIndex: 10574
 
 
 	public override void InitShared() { }
+
+	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
+
+	public BaseEntity GetExitPortal(bool serverSide) { }
 
 	public override void DestroyShared() { }
 
