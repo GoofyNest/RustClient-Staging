@@ -955,6 +955,7 @@ public enum BaseEntity.Flags // TypeDefIndex: 10223
 	public const BaseEntity.Flags Reserved9 = 131072;
 	public const BaseEntity.Flags Reserved10 = 262144;
 	public const BaseEntity.Flags Reserved11 = 524288;
+	public const BaseEntity.Flags InUse = 1048576;
 
 }
 

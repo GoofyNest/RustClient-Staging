@@ -776,6 +776,7 @@ public class BaseVehicle : BaseMountable // TypeDefIndex: 10074
 	public const BaseEntity.Flags Flag_Headlights = 2048;
 	public const BaseEntity.Flags Flag_Stationary = 32768;
 	public const BaseEntity.Flags Flag_SeatsFull = 524288;
+	protected const BaseEntity.Flags Flag_AnyMounted = 1048576;
 	private readonly List<BaseVehicle> childVehicles;
 
 	public override bool HasMenuOptions { get; }
@@ -826,13 +827,13 @@ public class BaseVehicle : BaseMountable // TypeDefIndex: 10074
 
 	public override float get_RealisticMass() { }
 
+	public override bool AnyMounted() { }
+
 	public override bool PlayerIsMounted(BasePlayer player) { }
 
 	protected virtual bool CanPushNow(BasePlayer pusher) { }
 
 	public bool HasMountPoints() { }
-
-	public override bool IsMounted() { }
 
 	public override bool CanBeLooted(BasePlayer player) { }
 
@@ -1213,6 +1214,7 @@ public class ModularCar : BaseModularVehicle, IVehicleLockUser, VehicleChassisVi
 	private VehicleChassisVisuals.ClientWheelData<ModularCar> <WheelDataRR>k__BackingField;
 	public TimeSince timeSinceLastUpdate;
 	public TimeSince timeSinceFailedStartAttempt;
+	public List<ModularCarCodeLockVisuals> allCodeLockVisuals;
 	private float clientSteerAngle;
 	private float clientDriveWheelVelocity;
 	private float clientDriveWheelSlip;
@@ -1911,6 +1913,8 @@ public class VehicleModuleSeating : BaseVehicleModule, IPrefabPreProcess // Type
 	[SerializeField]
 	private ProtectionProperties passengerProtection;
 	[SerializeField]
+	private ModularCarCodeLockVisuals codeLockVisuals;
+	[SerializeField]
 	private VehicleModuleSeating.Seating seating;
 	[SerializeField]
 	[HideInInspector]
@@ -1947,7 +1951,7 @@ public class VehicleModuleSeating : BaseVehicleModule, IPrefabPreProcess // Type
 
 	public override bool HasMenuOptions { get; }
 	public override bool HasSeating { get; }
-	protected ModularCar Car { get; set; }
+	public ModularCar Car { get; set; }
 	protected bool IsOnACar { get; }
 	protected bool IsOnAVehicleLockUser { get; }
 	public bool DoorsAreLockable { get; }
@@ -1962,7 +1966,7 @@ public class VehicleModuleSeating : BaseVehicleModule, IPrefabPreProcess // Type
 	public override bool get_HasSeating() { }
 
 	[CompilerGeneratedAttribute]
-	protected ModularCar get_Car() { }
+	public ModularCar get_Car() { }
 
 	[CompilerGeneratedAttribute]
 	private void set_Car(ModularCar value) { }
@@ -1974,6 +1978,8 @@ public class VehicleModuleSeating : BaseVehicleModule, IPrefabPreProcess // Type
 	public bool get_DoorsAreLockable() { }
 
 	public override void PreProcess(IPrefabProcessor preProcess, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
+
+	public override void ClientOnLoad() { }
 
 	public override void ClientVehicleTick() { }
 
@@ -2495,7 +2501,7 @@ public enum ModularCarCodeLock.LockType // TypeDefIndex: 11495
 
 }
 
-public class ModularCarCodeLockVisuals : VehicleModuleButtonComponent // TypeDefIndex: 11496
+public class ModularCarCodeLockVisuals : MonoBehaviour // TypeDefIndex: 11496
 {
 	[SerializeField]
 	private GameObject lockedVisuals;
@@ -2509,11 +2515,20 @@ public class ModularCarCodeLockVisuals : VehicleModuleButtonComponent // TypeDef
 	private GameObjectRef codelockEffectShock;
 	[SerializeField]
 	private float xOffset;
+	[SerializeField]
+	private ParticleSystemContainer keycodeDestroyableFX;
+	private bool shouldShowDestroyableFX;
 
+
+	protected void OnEnable() { }
 
 	public void DoFailEffect(BaseEntity ent) { }
 
-	public override void OnFlagChanged(BaseVehicleModule parentModule) { }
+	public void OnFlagChanged(ModularCar car) { }
+
+	public void SetLockDestroyFX(VehicleModuleSeating module) { }
+
+	private void SetLockDestroyFX(bool show) { }
 
 	public void .ctor() { }
 

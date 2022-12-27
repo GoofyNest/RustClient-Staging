@@ -67,7 +67,7 @@ public class BaseMountable : BaseCombatEntity // TypeDefIndex: 10051
 
 	public virtual Vector2 GetYawClamp() { }
 
-	public virtual bool IsMounted() { }
+	public virtual bool AnyMounted() { }
 
 	public virtual Vector3 EyePositionForPlayer(BasePlayer player, Quaternion lookRot) { }
 
