@@ -302,6 +302,8 @@ public class BaseProjectile : AttackEntity // TypeDefIndex: 10254
 	protected bool isCycling;
 	public bool aiming;
 	[HeaderAttribute]
+	public bool useEmptyAmmoState;
+	[HeaderAttribute]
 	public bool isBurstWeapon;
 	public bool canChangeFireModes;
 	public bool defaultOn;
@@ -321,6 +323,8 @@ public class BaseProjectile : AttackEntity // TypeDefIndex: 10254
 	private float sightAimConeOffset;
 	private float hipAimConeScale;
 	private float hipAimConeOffset;
+	private static int Param_Ammo_True;
+	private static int Param_Ammo_False;
 	protected bool isReloading;
 	private float swaySampleTime;
 	private float lastShotTime;
@@ -469,6 +473,8 @@ public class BaseProjectile : AttackEntity // TypeDefIndex: 10254
 
 	public void .ctor() { }
 
+	private static void .cctor() { }
+
 }
 
 public class BaseProjectile.Magazine // TypeDefIndex: 10255
@@ -511,50 +517,50 @@ public static class BaseProjectile.BaseProjectileFlags // TypeDefIndex: 10257
 private sealed class BaseProjectile.<>c // TypeDefIndex: 10258
 {
 	public static readonly BaseProjectile.<>c <>9;
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__72_0;
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__72_1;
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__72_2;
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__72_3;
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__72_4;
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__72_5;
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__72_6;
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__72_7;
 	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__73_0;
 	public static Func<ProjectileWeaponMod.Modifier, float> <>9__73_1;
 	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__73_2;
 	public static Func<ProjectileWeaponMod.Modifier, float> <>9__73_3;
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__73_4;
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__73_5;
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__73_6;
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__73_7;
 	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__74_0;
 	public static Func<ProjectileWeaponMod.Modifier, float> <>9__74_1;
 	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__74_2;
 	public static Func<ProjectileWeaponMod.Modifier, float> <>9__74_3;
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__74_4;
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__74_5;
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__74_6;
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__74_7;
-	public static Func<ProjectileWeaponMod, bool> <>9__75_0;
-	public static Func<ProjectileWeaponMod, bool> <>9__77_0;
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__85_0;
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__85_1;
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__85_2;
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__85_3;
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__85_4;
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__85_5;
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__85_6;
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__85_7;
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__89_0;
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__89_1;
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__89_2;
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__89_3;
-	public static Func<ProjectileWeaponMod, bool> <>9__112_0;
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__114_0;
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__114_1;
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__114_2;
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__114_3;
-	public static Func<ProjectileWeaponMod, bool> <>9__127_0;
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__129_0;
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__129_1;
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__129_2;
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__129_3;
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__75_0;
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__75_1;
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__75_2;
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__75_3;
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__75_4;
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__75_5;
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__75_6;
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__75_7;
+	public static Func<ProjectileWeaponMod, bool> <>9__76_0;
+	public static Func<ProjectileWeaponMod, bool> <>9__78_0;
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__88_0;
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__88_1;
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__88_2;
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__88_3;
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__88_4;
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__88_5;
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__88_6;
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__88_7;
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__92_0;
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__92_1;
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__92_2;
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__92_3;
+	public static Func<ProjectileWeaponMod, bool> <>9__115_0;
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__117_0;
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__117_1;
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__117_2;
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__117_3;
+	public static Func<ProjectileWeaponMod, bool> <>9__130_0;
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__132_0;
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__132_1;
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__132_2;
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__132_3;
 
 
 	private static void .cctor() { }
@@ -651,7 +657,7 @@ private sealed class BaseProjectile.<>c // TypeDefIndex: 10258
 
 }
 
-private sealed class BaseProjectile.<>c__DisplayClass97_0 // TypeDefIndex: 10259
+private sealed class BaseProjectile.<>c__DisplayClass100_0 // TypeDefIndex: 10259
 {
 	public BaseProjectile <>4__this;
 	public ItemDefinition ammoType;
