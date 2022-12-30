@@ -35,6 +35,7 @@ public class MapView : FacepunchBehaviour // TypeDefIndex: 12741
 	public static MapView ActiveView;
 	[CompilerGeneratedAttribute]
 	private bool <followingPlayer>k__BackingField;
+	public bool HideMarkers;
 	private Dictionary<MapMarker.ClusterType, List<MapMarker>> clusterDict;
 	private List<GameObject> markersToRetire;
 	private Dictionary<MapMarker, GameObject> markerLookup;
@@ -43,6 +44,7 @@ public class MapView : FacepunchBehaviour // TypeDefIndex: 12741
 	private bool isShowingUndergroundLayers;
 	private Nullable<MapLayer> undergroundLayerOverride;
 	private MapLayer visibleLayer;
+	private HashSet<uint> toRemove;
 	internal static MapEntity lastActiveMap;
 
 	public bool followingPlayer { get; set; }

@@ -6561,6 +6561,7 @@ public class UIDeathScreen : SingletonComponent<UIDeathScreen>, IUIScreen // Typ
 	protected GraphicRaycaster graphicRaycaster;
 	protected NeedsCursor needsCursor;
 	private bool visible;
+	private float lastTimeSinceDeath;
 	[CompilerGeneratedAttribute]
 	private RespawnInformation <currentRespawnInfo>k__BackingField;
 
