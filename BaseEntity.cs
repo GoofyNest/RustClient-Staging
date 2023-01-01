@@ -173,7 +173,7 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 
 	protected virtual bool HideMenuItems(BasePlayer player) { }
 
-	public virtual List<Option> GetMenuItems(BasePlayer player) { }
+	public virtual List<Option> GetMenuItems(BasePlayer player, bool fromParent = False) { }
 
 	public virtual void OnUse(BasePlayer player) { }
 
@@ -870,6 +870,7 @@ public class BaseEntity.Menu : Attribute // TypeDefIndex: 10216
 	public string OnStart;
 	public string OnProgress;
 	public bool LongUseOnly;
+	public bool PrioritizeIfNotWhitelisted;
 
 
 	public void .ctor() { }
