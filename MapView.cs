@@ -35,7 +35,6 @@ public class MapView : FacepunchBehaviour // TypeDefIndex: 12741
 	public static MapView ActiveView;
 	[CompilerGeneratedAttribute]
 	private bool <followingPlayer>k__BackingField;
-	public bool HideMarkers;
 	private Dictionary<MapMarker.ClusterType, List<MapMarker>> clusterDict;
 	private List<GameObject> markersToRetire;
 	private Dictionary<MapMarker, GameObject> markerLookup;
@@ -48,7 +47,7 @@ public class MapView : FacepunchBehaviour // TypeDefIndex: 12741
 	internal static MapEntity lastActiveMap;
 
 	public bool followingPlayer { get; set; }
-	private bool IsOpen { get; }
+	public bool IsOpen { get; }
 	public static float MarkerScale { get; }
 	private static BasePlayer LocalPlayerEntity { get; }
 
@@ -59,7 +58,7 @@ public class MapView : FacepunchBehaviour // TypeDefIndex: 12741
 	[CompilerGeneratedAttribute]
 	public void set_followingPlayer(bool value) { }
 
-	private bool get_IsOpen() { }
+	public bool get_IsOpen() { }
 
 	public static float get_MarkerScale() { }
 
