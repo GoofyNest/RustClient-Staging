@@ -1499,6 +1499,8 @@ public class ModularCarGarage : ContainerIOEntity // TypeDefIndex: 10141
 	private GameObjectRef changeLockCodeEffect;
 	[SerializeField]
 	private GameObjectRef repairEffect;
+	[SerializeField]
+	private TriggerBase playerTrigger;
 	public ModularCarGarage.ChassisBuildOption[] chassisBuildOptions;
 	public ItemAmount lockResourceCost;
 	[CompilerGeneratedAttribute]
@@ -1512,9 +1514,10 @@ public class ModularCarGarage : ContainerIOEntity // TypeDefIndex: 10141
 	private ModularCarGarage.VehicleLiftState vehicleLiftState;
 	private Sound liftLoopSound;
 	private Vector3 downPos;
-	public const BaseEntity.Flags DestroyingChassis = 16384;
+	public const BaseEntity.Flags Flag_DestroyingChassis = 16384;
 	public const float TimeToDestroyChassis = 10;
-	public const BaseEntity.Flags EnteringKeycode = 32768;
+	public const BaseEntity.Flags Flag_EnteringKeycode = 32768;
+	public const BaseEntity.Flags Flag_PlayerObstructing = 65536;
 
 	public override bool HasMenuOptions { get; }
 	public float TimeLeftToCancelChassisDestroy { get; }
@@ -1527,6 +1530,7 @@ public class ModularCarGarage : ContainerIOEntity // TypeDefIndex: 10141
 	private bool LiftIsDown { get; }
 	public bool IsDestroyingChassis { get; }
 	private bool IsEnteringKeycode { get; }
+	public bool PlayerObstructingLift { get; }
 
 
 	public override void GetMenuOptions(List<Option> list) { }
@@ -1616,6 +1620,8 @@ public class ModularCarGarage : ContainerIOEntity // TypeDefIndex: 10141
 	public bool get_IsDestroyingChassis() { }
 
 	private bool get_IsEnteringKeycode() { }
+
+	public bool get_PlayerObstructingLift() { }
 
 	public override void PreProcess(IPrefabProcessor process, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
@@ -3236,6 +3242,8 @@ public class VehicleEditingPanel : LootPanel // TypeDefIndex: 12862
 	[SerializeField]
 	private Translate.Phrase phraseBadOccupant;
 	[SerializeField]
+	private Translate.Phrase phrasePlayerObstructing;
+	[SerializeField]
 	private Translate.Phrase phraseNotDriveable;
 	[SerializeField]
 	private Translate.Phrase phraseNotRepairable;
@@ -3274,6 +3282,7 @@ public class VehicleEditingPanel : LootPanel // TypeDefIndex: 12862
 	private bool platformWasOccupied;
 	private bool hadEditableOccupant;
 	private bool hasDriveableOccupant;
+	private bool hasPlayerObstructing;
 	private ModularCarGarage.OccupantLock occupantLockState;
 
 	private Item CurSelectedItem { get; }
@@ -3335,7 +3344,7 @@ public class VehicleEditingPanel : LootPanel // TypeDefIndex: 12862
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute]
-	private bool <RefreshLockCreation>g__AddResourceInfo|71_0(string prefixText, ItemAmount ingredient, ref VehicleEditingPanel.<>c
+	private bool <RefreshLockCreation>g__AddResourceInfo|73_0(string prefixText, ItemAmount ingredient, ref VehicleEditingPanel.<>c
 
 }
 
@@ -3353,7 +3362,7 @@ private class VehicleEditingPanel.CreateChassisEntry // TypeDefIndex: 12863
 
 }
 
-private struct VehicleEditingPanel.<>c__DisplayClass71_0 // TypeDefIndex: 12864
+private struct VehicleEditingPanel.<>c__DisplayClass73_0 // TypeDefIndex: 12864
 {
 	public VehicleEditingPanel <>4__this;
 	public string infoText;
