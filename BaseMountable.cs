@@ -71,6 +71,8 @@ public class BaseMountable : BaseCombatEntity // TypeDefIndex: 10051
 
 	public virtual bool AnyMounted() { }
 
+	public bool IsMounted() { }
+
 	public virtual Vector3 EyePositionForPlayer(BasePlayer player, Quaternion lookRot) { }
 
 	public virtual Vector3 EyeCenterForPlayer(BasePlayer player, Quaternion lookRot) { }
