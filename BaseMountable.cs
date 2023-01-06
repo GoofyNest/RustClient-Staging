@@ -20,6 +20,7 @@ public class BaseMountable : BaseCombatEntity // TypeDefIndex: 10051
 	public bool disableMeshCullingForPlayers;
 	public bool allowHeadLook;
 	public bool ignoreVehicleParent;
+	public bool legacyDismount;
 	[FormerlySerializedAsAttribute]
 	public bool modifiesPlayerCollider;
 	public BasePlayer.CapsuleColliderInfo customPlayerCollider;
@@ -170,6 +171,9 @@ public class BaseMountable : BaseCombatEntity // TypeDefIndex: 10051
 	public void .ctor() { }
 
 	private static void .cctor() { }
+
+	[CompilerGeneratedAttribute]
+	private bool <ValidDismountPosition>g__HitOurself|70_0(RaycastHit hit) { }
 
 	[CompilerGeneratedAttribute]
 	private void <DoPlayerMovement>
