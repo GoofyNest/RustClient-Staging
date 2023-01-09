@@ -173,9 +173,6 @@ public class BaseMountable : BaseCombatEntity // TypeDefIndex: 10051
 	private static void .cctor() { }
 
 	[CompilerGeneratedAttribute]
-	private bool <ValidDismountPosition>g__HitOurself|70_0(RaycastHit hit) { }
-
-	[CompilerGeneratedAttribute]
 	private void <DoPlayerMovement>
 
 }
